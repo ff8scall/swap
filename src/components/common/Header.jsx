@@ -24,7 +24,7 @@ export default function Header() {
         <Link href="/" className="logo">
           <span className="brand-gradient">Swap</span>
           <span className="logo-dot">.</span>
-          <span className="logo-suffix">sia</span>
+          <span className="logo-suffix">lego-sia</span>
         </Link>
         <nav className="nav">
           <div className="header-search">
@@ -69,7 +69,7 @@ export default function Header() {
           border-bottom: 1px solid var(--glass-border);
           position: sticky;
           top: 0;
-          background: rgba(10, 10, 12, 0.8);
+          background: rgba(0, 0, 0, 0.8);
           backdrop-filter: blur(12px);
           z-index: 100;
         }

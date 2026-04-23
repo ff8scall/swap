@@ -110,7 +110,7 @@ export default function AboutPage() {
         .pillar-item {
           padding: 40px 28px; /* 패딩 축소 */
           transition: transform 0.3s ease;
-          background: rgba(255, 255, 255, 0.03);
+          background: rgba(255, 255, 255, 0.02);
         }
         .pillar-item:hover {
           transform: translateY(-8px);
@@ -139,7 +139,7 @@ export default function AboutPage() {
           gap: 40px;
           padding: 60px; /* 80px에서 60px로 축소 */
           align-items: center;
-          background: linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(245,158,11,0.05) 100%);
+          background: linear-gradient(135deg, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.01) 100%);
         }
         .mission-content h2 {
           font-size: 40px;

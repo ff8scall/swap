@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-inner">
         <div className="footer-brand">
-          <p className="footer-logo brand-gradient">Global Ingredient Swap</p>
+          <p className="footer-logo brand-gradient">Global Ingredient Swap | Lego-Sia</p>
           <p className="footer-tagline">{t('common.footer_tagline')}</p>
         </div>
 
@@ -30,7 +30,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom container">
-        <p>© 2026 Swap.sia - Part of the Lego-Sia Ecosystem. All rights reserved.</p>
+        <p>© 2026 Swap.lego-sia - Part of the Lego-Sia Ecosystem. All rights reserved.</p>
       </div>
       <style jsx>{`
         .footer {

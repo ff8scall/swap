@@ -31,9 +31,6 @@ export default function RootLayout({ children }) {
         <LanguageProvider>
           <div id="root-layout">
             {children}
-            <div className="disclaimer-global">
-              <p>* Disclaimer: Cooking results may vary. Always check for allergen information before swapping ingredients.</p>
-            </div>
           </div>
         </LanguageProvider>
       </body>
