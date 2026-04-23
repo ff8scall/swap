@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og';
 import ingredientsData from '@/lib/data/ingredients.json';
 
-export const runtime = 'edge';
+// Runtime setting removed for compatibility
 
 export async function GET(request) {
   try {

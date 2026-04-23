@@ -12,6 +12,7 @@ export default function HomePage() {
   const featuredIngredient = ingredientsData.ingredients[0]; // Gochujang
   const featuredSubstitute = featuredIngredient.substitutes[0];
 
+
   return (
     <main className="min-h-screen flex flex-col">
       <Header />
