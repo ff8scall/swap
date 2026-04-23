@@ -1,0 +1,53 @@
+{
+  "common": {
+    "explore": "Explore",
+    "science": "Science",
+    "signin": "Sign In",
+    "home": "Home",
+    "explore_title": "Explore Substitutes",
+    "explore_subtitle": "Browse our database of scientifically verified ingredient swaps.",
+    "substitutes_label": "Substitutes",
+    "search_placeholder": "Search ingredients or categories...",
+    "all_categories": "All",
+    "try_calculator": "Try the Calculator",
+    "feature_1_title": "Chemical Precision",
+    "feature_1_desc": "We analyze the pH, moisture, and fat content to ensure your bake never fails.",
+    "feature_2_title": "Global Bridging",
+    "feature_2_desc": "Specialized in K-Food and international ingredients for local supermarkets.",
+    "feature_3_title": "Verified Safe",
+    "feature_3_desc": "Every ratio is double-checked by our AI and verified by real chefs.",
+    "footer_tagline": "Making international cooking accessible to everyone.",
+    "disclaimer": "* Disclaimer: Cooking results may vary. Always check for allergen information before swapping ingredients."
+  },
+  "swap": {
+    "hero_title": "Don't stop cooking.",
+    "hero_subtitle": "Just Swap it.",
+    "hero_description": "The most accurate ingredient substitute database with chemical ratios and flavor correction guides. Scientifically proven, chef-verified.",
+    "explore_btn": "Explore Ingredients",
+    "how_it_works_btn": "How it Works",
+    "substitute_for": "Substitute for",
+    "allergy_warning": "Allergy Warning",
+    "primary_sub_desc": "The primary substitute",
+    "why_this_works": "Why This Works",
+    "chemical_impact": "Chemical Impact",
+    "if_you_need": "IF YOU NEED",
+    "swap_it_with": "SWAP IT WITH",
+    "pro_hack": "The Pro Hack",
+    "show_science": "Show Why This Works",
+    "ai_generated": "AI-Generated",
+    "hide_science": "Hide Details",
+    "hack_it_title": "Don't just swap it. Add a 'Chef's Kick'.",
+    "hack_it_desc": "Beyond simple ratios, here is the professional guide to elevate your dish.",
+    "chemical_impact": "Chemical Impact",
+    "why_this_works": "Why This Works",
+    "oops_insurance": "Oops! Insurance"
+  },
+  "units": {
+    "cup": "cup",
+    "tbsp": "tbsp",
+    "tsp": "tsp",
+    "g": "g",
+    "ml": "ml",
+    "of": "of"
+  }
+}

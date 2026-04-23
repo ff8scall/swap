@@ -1,0 +1,787 @@
+{
+  "ingredients": [
+    {
+      "id": "gochujang",
+      "name": { "en": "Gochujang", "ko": "고추장" },
+      "category": { "en": "K-Food", "ko": "K-푸드" },
+      "description": {
+        "en": "A savory, sweet, and spicy fermented condiment made from chili powder, glutinous rice, and fermented soybean powder.",
+        "ko": "고춧가루, 찹쌀, 메주가루를 발효시켜 만든 매콤달콤하고 감칠맛 나는 한국의 전통 장류입니다."
+      },
+      "substitutes": [
+        {
+          "id": "miso-chili-mix",
+          "name": { "en": "Miso + Chili Flakes + Sugar", "ko": "미소(또는 된장) + 고춧가루 + 설탕" },
+          "ratio": { "source": 1, "target_min": 1.2, "target_max": 1.5, "unit": "tbsp" },
+          "similarity_score": 92,
+          "umami_reproduction": 95,
+          "chemical_impact": {
+            "en": "Similar viscosity but lacks the unique fermented pungency of Korean red peppers. Miso is milder; Korean Doenjang is saltier.",
+            "ko": "비슷한 점성을 가지나 한국 고추 특유의 풍미는 다소 부족할 수 있습니다. 미소는 단맛이 강하고, 한국 된장은 훨씬 짜고 맛이 진합니다."
+          },
+          "compensation_action": {
+            "en": "Add 1/2 tsp of soy sauce for deeper umami. If using Korean Doenjang, reduce the amount by 20% to avoid oversaltiness.",
+            "ko": "감칠맛을 위해 간장 1/2작은술을 추가하세요. 한국 된장을 사용한다면 미소보다 훨씬 짜므로 양을 20% 정도 줄여서 사용하세요."
+          },
+          "allergen_warning": {
+            "en": "Contains Soy. Check miso paste for wheat/barley.",
+            "ko": "대두 포함. 미소 된장의 밀/보리 포함 여부를 확인하세요."
+          },
+          "why_it_works": {
+            "en": "Miso or Doenjang provides the fermented soybean base, while chili flakes and sugar replicate the heat and sweetness profile.",
+            "ko": "미소나 된장이 고추장의 베이스인 발효 대두 역할을 하며, 고춧가루와 설탕이 고추장의 매운맛과 단맛을 재현합니다."
+          },
+          "oops_insurance": {
+            "en": "If the sauce tastes too salty, balance with more sugar or honey.",
+            "ko": "소스가 너무 짜다면 설탕이나 꿀을 더해 밸런스를 맞추세요."
+          },
+          "tags": ["Vegan", "Gluten-Free (if GF Miso)"]
+        },
+        {
+          "id": "sriracha-soy-mix",
+          "name": { "en": "Sriracha + Soy Sauce + Sugar", "ko": "스리라차 + 간장 + 설탕" },
+          "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "tbsp" },
+          "similarity_score": 75,
+          "umami_reproduction": 70,
+          "chemical_impact": {
+            "en": "Much thinner and more vinegary than Gochujang. Lacks the deep fermented soy base.",
+            "ko": "고추장보다 훨씬 묽고 식초 향이 강합니다. 발효된 대두 특유의 깊은 맛은 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Best for stir-fries or dipping sauces. Add a little cornstarch slurry if you need thickness.",
+            "ko": "볶음 요리나 디핑 소스에 적합합니다. 걸쭉함이 필요하다면 전분물을 아주 살짝 섞으세요."
+          },
+          "why_it_works": {
+            "en": "Sriracha provides the chili heat and garlic notes, while soy sauce adds missing umami.",
+            "ko": "스리라차가 고추의 매운맛과 마늘 향을 제공하고, 간장이 부족한 감칠맛을 채워줍니다."
+          },
+          "tags": ["Quick Hack", "Spicy"]
+        }
+      ]
+    },
+    {
+      "id": "buttermilk",
+      "name": { "en": "Buttermilk", "ko": "버터밀크" },
+      "category": { "en": "Baking", "ko": "베이킹" },
+      "description": {
+        "en": "A fermented dairy drink, traditionally the liquid left behind after churning butter.",
+        "ko": "전통적으로 버터를 휘젓고 남은 액체로, 산미와 걸쭉함이 특징인 발효 유제품입니다."
+      },
+      "substitutes": [
+        {
+          "id": "milk-lemon-hack",
+          "name": { "en": "Milk + Lemon Juice/Vinegar", "ko": "우유 + 레몬즙/식초" },
+          "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "cup" },
+          "similarity_score": 98,
+          "umami_reproduction": 100,
+          "chemical_impact": {
+            "en": "The acid curdles the milk slightly, mimicking the pH level and thickness of buttermilk.",
+            "ko": "산성 성분이 우유를 살짝 응고시켜 버터밀크의 pH 농도와 질감을 거의 동일하게 재현합니다."
+          },
+          "compensation_action": {
+            "en": "Wait 5-10 minutes after mixing for the milk to curdle before adding to the batter.",
+            "ko": "섞은 후 우유가 응고될 때까지 5~10분 정도 기다린 뒤 반죽에 넣으세요."
+          },
+          "allergen_warning": {
+            "en": "Contains Dairy. For vegan, use soy milk.",
+            "ko": "유제품 포함. 비건의 경우 두유를 사용하세요."
+          },
+          "why_it_works": {
+            "en": "The chemical reaction between acid and milk proteins (casein) creates the necessary acidity for leavening.",
+            "ko": "산과 우유 단백질(카제인) 사이의 화학 반응이 팽창에 필요한 산도를 만들어냅니다."
+          },
+          "oops_insurance": {
+            "en": "If it doesn't curdle, your milk might be too cold. Warm it slightly.",
+            "ko": "우유가 응고되지 않는다면 온도가 너무 낮을 수 있습니다. 살짝 데워보세요."
+          },
+          "tags": ["Essential", "pH Fix"]
+        },
+        {
+          "id": "yogurt-milk-mix",
+          "name": { "en": "Plain Yogurt + Milk", "ko": "플레인 요거트 + 우유" },
+          "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "cup" },
+          "similarity_score": 95,
+          "umami_reproduction": 90,
+          "chemical_impact": {
+            "en": "Closer to the original thickness. Provides natural fermentation benefits.",
+            "ko": "원래의 버터밀크 점도에 더 가깝습니다. 자연 발효의 풍미를 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Mix 3/4 cup yogurt with 1/4 cup milk to get the perfect pourable consistency.",
+            "ko": "요거트 3/4컵과 우유 1/4컵을 섞어 부드럽게 흐르는 농도를 맞추세요."
+          },
+          "why_it_works": {
+            "en": "Yogurt is already acidified and fermented, making it a bio-similar substitute for buttermilk.",
+            "ko": "요거트는 이미 산성화되고 발효된 상태이므로 버터밀크와 생물학적으로 가장 유사한 대체제입니다."
+          },
+          "tags": ["Creamy", "Bio-Similar"]
+        }
+      ]
+    },
+    {
+      "id": "heavy-cream",
+      "name": { "en": "Heavy Cream", "ko": "헤비 크림" },
+      "category": { "en": "Baking", "ko": "베이킹" },
+      "description": {
+        "en": "High-fat cream containing 36–40% milk fat.",
+        "ko": "유지방 함량이 36~40%인 고지방 크림입니다."
+      },
+      "substitutes": [
+        {
+          "id": "milk-butter-mix",
+          "name": { "en": "Milk + Melted Butter", "ko": "우유 + 녹인 버터" },
+          "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "cup" },
+          "similarity_score": 95,
+          "umami_reproduction": 100,
+          "chemical_impact": {
+            "en": "Adding butter increases the fat content to match heavy cream, but it won't whip.",
+            "ko": "버터를 추가하여 유지방 함량을 맞추지만, 휘핑(거품 내기)은 되지 않습니다."
+          },
+          "compensation_action": {
+            "en": "Mix 3/4 cup milk with 1/4 cup melted butter. Best for cooking/baking, not whipping.",
+            "ko": "우유 3/4컵과 녹인 버터 1/4컵을 섞으세요. 요리나 베이킹용으로 적합하며 휘핑용은 아닙니다."
+          },
+          "why_it_works": {
+            "en": "Reconstitutes the emulsion of fat and liquid found in natural cream.",
+            "ko": "천연 크림에 들어있는 지방과 액체의 유화 상태를 재구성합니다."
+          },
+          "tags": ["Fat Content", "Emergency"]
+        },
+        {
+          "id": "coconut-milk-full-fat",
+          "name": { "en": "Full-fat Coconut Milk", "ko": "전지 코코넛 밀크" },
+          "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "cup" },
+          "similarity_score": 85,
+          "umami_reproduction": 80,
+          "chemical_impact": {
+            "en": "Excellent for whipping and richness, but adds a distinct coconut flavor.",
+            "ko": "휘핑이 가능하고 아주 진하지만, 코코넛 특유의 풍미가 요리에 배어듭니다."
+          },
+          "compensation_action": {
+            "en": "Chill the can overnight and use the thick cream on top for whipping. Use for curries or tropical desserts.",
+            "ko": "캔을 밤새 냉장 보관한 뒤 상단의 걸쭉한 크림만 떠서 휘핑하세요. 카레나 열대 과일 디저트에 적합합니다."
+          },
+          "why_it_works": {
+            "en": "Coconut milk has high saturated fat similar to dairy cream, allowing for stable aeration.",
+            "ko": "코코넛 밀크는 동물성 크림과 비슷한 높은 포화지방을 함유하고 있어 안정적인 공기 주입(거품)이 가능합니다."
+          },
+          "tags": ["Vegan", "Whippable"]
+        }
+      ]
+    },
+    {
+      "id": "egg-baking",
+      "name": { "en": "Egg (for Baking)", "ko": "계란 (베이킹용)" },
+      "category": { "en": "Baking", "ko": "베이킹" },
+      "description": {
+        "en": "A fundamental ingredient in baking that provides structure, leavening, and moisture.",
+        "ko": "베이킹에서 구조를 잡고, 팽창을 돕고, 수분을 공급하는 가장 핵심적인 재료입니다."
+      },
+      "substitutes": [
+        {
+          "id": "applesauce-egg",
+          "name": { "en": "Unsweetened Applesauce", "ko": "무설탕 사과 소스" },
+          "ratio": { "source": 1, "target_min": 0.25, "target_max": 0.25, "unit": "cup" },
+          "similarity_score": 80,
+          "umami_reproduction": 70,
+          "chemical_impact": {
+            "en": "Provides moisture but lacks the binding power of egg protein. Cookies will be softer.",
+            "ko": "수분은 충분하지만 계란 단백질의 결속력은 부족합니다. 쿠키가 더 부드러워집니다."
+          },
+          "compensation_action": {
+            "en": "Best for cakes and muffins. Add 1/2 tsp baking powder if the recipe needs extra lift.",
+            "ko": "케이크나 머핀에 가장 적합합니다. 반죽이 덜 부풀 것 같다면 베이킹 파우더 1/2작은술을 추가하세요."
+          },
+          "why_it_works": {
+            "en": "Pectin in apples acts as a mild binder and keeps baked goods moist.",
+            "ko": "사과의 펙틴 성분이 가벼운 결합제 역할을 하며 빵의 촉촉함을 유지해줍니다."
+          },
+          "tags": ["Vegan", "Moisture"]
+        },
+        {
+          "id": "flax-egg",
+          "name": { "en": "Flaxseed Meal + Water", "ko": "아마씨 가루 + 물" },
+          "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "tbsp" },
+          "similarity_score": 85,
+          "umami_reproduction": 75,
+          "chemical_impact": {
+            "en": "Excellent binder, adds a nutty flavor and dense texture.",
+            "ko": "결속력이 뛰어나며, 고소한 맛과 묵직한 질감을 더해줍니다."
+          },
+          "compensation_action": {
+            "en": "Mix 1 tbsp flaxseed meal with 3 tbsp water. Let sit for 5 mins until gelatinous.",
+            "ko": "아마씨 가루 1큰술과 물 3큰술을 섞으세요. 5분 정도 두어 젤리처럼 변하면 사용하세요."
+          },
+          "why_it_works": {
+            "en": "Mucilage in flaxseeds mimics the viscous properties of egg whites.",
+            "ko": "아마씨의 점액질 성분이 계란 흰자의 끈적한 성질을 재현합니다."
+          },
+          "tags": ["Vegan", "Binding"]
+        }
+      ]
+    },
+    {
+      "id": "mirin",
+      "name": { "en": "Mirin", "ko": "미림" },
+      "category": { "en": "Global", "ko": "글로벌" },
+      "description": {
+        "en": "An essential condiment in Japanese/Korean cooking, a type of rice wine similar to sake but with lower alcohol and higher sugar.",
+        "ko": "사케와 비슷하지만 알코올 함량은 낮고 당도는 높은, 한국/일본 요리의 필수 액체 조미료입니다."
+      },
+      "substitutes": [
+        {
+          "id": "vinegar-sugar-mix",
+          "name": { "en": "Rice Vinegar + Sugar", "ko": "쌀식초 + 설탕" },
+          "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "tbsp" },
+          "similarity_score": 85,
+          "umami_reproduction": 80,
+          "chemical_impact": {
+            "en": "Lacks the complex amino acids of fermented rice but provides the necessary acidity and sweetness.",
+            "ko": "발효된 쌀의 복합 아미노산은 부족하지만 필요한 산도와 단맛을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Use 1 tsp sugar for every 1 tbsp of rice vinegar. For gloss, add a drop of honey.",
+            "ko": "쌀식초 1큰술당 설탕 1작은술을 섞으세요. 광택을 내려면 꿀을 한 방울 추가하세요."
+          },
+          "allergen_warning": {
+            "en": "Check vinegar for gluten if sensitive.",
+            "ko": "민감한 경우 식초의 글루텐 포함 여부를 확인하세요."
+          },
+          "why_it_works": {
+            "en": "Rice vinegar mimics the rice-based acidity, and sugar compensates for the lack of residual sugar in plain vinegar.",
+            "ko": "쌀식초가 쌀 베이스의 산도를 재현하고 설탕이 부족한 당도를 보충합니다."
+          },
+          "oops_insurance": {
+            "en": "If too acidic, add a pinch of salt to round out the flavor.",
+            "ko": "너무 시다면 소금을 한 꼬집 넣어 맛을 부드럽게 하세요."
+          },
+          "tags": ["Glaze", "Alcohol-Free Option"]
+        }
+      ]
+    },
+    {
+      "id": "fish-sauce",
+      "name": { "en": "Fish Sauce", "ko": "피쉬소스" },
+      "category": { "en": "Global", "ko": "글로벌" },
+      "description": {
+        "en": "A salty, savory condiment made from fermented fish or krill.",
+        "ko": "생선이나 크릴을 발효시켜 만든 짭조름하고 감칠맛 나는 조미료입니다."
+      },
+      "substitutes": [
+        {
+          "id": "soy-sauce-hack",
+          "name": { "en": "Soy Sauce + Anchovy/Mushroom", "ko": "간장 + 멸치/버섯" },
+          "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "tsp" },
+          "similarity_score": 88,
+          "umami_reproduction": 90,
+          "chemical_impact": {
+            "en": "Soy sauce provides salt and umami, but lacks the specific fishy pungency.",
+            "ko": "간장이 짠맛과 감칠맛을 주지만, 특유의 비릿하고 톡 쏘는 풍미는 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Add a small amount of finely minced anchovy or a drop of Worcester sauce.",
+            "ko": "잘게 다진 멸치를 소량 넣거나 우스터 소스 한 방울을 추가하세요."
+          },
+          "allergen_warning": {
+            "en": "Contains Soy/Fish. For vegan, use mushroom-based soy sauce.",
+            "ko": "대두/생선 포함. 비건의 경우 버섯 간장을 사용하세요."
+          },
+          "why_it_works": {
+            "en": "Both sauces rely on high concentrations of glutamates for savory depth.",
+            "ko": "두 소스 모두 깊은 맛을 위해 고농도의 글루타메이트에 의존합니다."
+          },
+          "oops_insurance": {
+            "en": "If the color of the dish becomes too dark, dilute the soy sauce with a little water.",
+            "ko": "요리 색이 너무 어두워지면 간장을 물로 살짝 희석하세요."
+          },
+          "tags": ["Umami Bomb", "Savory"]
+        }
+      ]
+    },
+    {
+      "id": "doenjang",
+      "name": { "en": "Doenjang", "ko": "된장" },
+      "category": { "en": "K-Food", "ko": "K-푸드" },
+      "description": {
+        "en": "A thick, earthy Korean soybean paste made through long-term fermentation.",
+        "ko": "장기간 발효를 통해 만든 걸쭉하고 구수한 한국의 전통 대두 장류입니다."
+      },
+      "substitutes": [
+        {
+          "id": "miso-paste",
+          "name": { "en": "Miso Paste", "ko": "미소 된장" },
+          "ratio": { "source": 1, "target_min": 0.8, "target_max": 1.2, "unit": "tbsp" },
+          "similarity_score": 80,
+          "umami_reproduction": 75,
+          "chemical_impact": {
+            "en": "Miso is smoother and sweeter; Doenjang is chunkier and more pungent.",
+            "ko": "미소는 더 부드럽고 달콤한 반면, 된장은 더 입자가 크고 향이 강합니다."
+          },
+          "compensation_action": {
+            "en": "Increase the amount slightly and add a pinch of salt to mimic Doenjang's intensity.",
+            "ko": "된장의 강한 맛을 위해 양을 살짝 늘리고 소금을 한 꼬집 추가하세요."
+          },
+          "allergen_warning": {
+            "en": "Contains Soy.",
+            "ko": "대두 포함."
+          },
+          "why_it_works": {
+            "en": "Both are fermented soybean pastes sharing a similar protein-breakdown profile.",
+            "ko": "둘 다 발효된 대두 페이스트로 비슷한 단백질 분해 프로필을 공유합니다."
+          },
+          "oops_insurance": {
+            "en": "Don't boil Miso too long as it loses its delicate flavor unlike Doenjang.",
+            "ko": "된장과 달리 미소는 너무 오래 끓이면 섬세한 맛이 사라지니 주의하세요."
+          },
+          "tags": ["Fermented", "Earthy"]
+        }
+      ]
+    },
+    {
+      "id": "cornstarch",
+      "name": { "en": "Cornstarch", "ko": "옥수수 전분" },
+      "category": { "en": "Global", "ko": "글로벌" },
+      "description": {
+        "en": "A common thickening agent derived from corn.",
+        "ko": "옥수수에서 추출한 일반적인 걸쭉하게 만드는 재료(증점제)입니다."
+      },
+      "substitutes": [
+        {
+          "id": "all-purpose-flour",
+          "name": { "en": "All-Purpose Flour", "ko": "중력분 밀가루" },
+          "ratio": { "source": 1, "target_min": 2, "target_max": 2, "unit": "tbsp" },
+          "similarity_score": 75,
+          "umami_reproduction": 60,
+          "chemical_impact": {
+            "en": "Flour has less thickening power and can make sauces cloudy.",
+            "ko": "밀가루는 전분보다 응축력이 약하며 소스를 탁하게 만들 수 있습니다."
+          },
+          "compensation_action": {
+            "en": "Use twice the amount of flour and cook longer to remove the raw flour taste.",
+            "ko": "밀가루 양을 두 배로 늘리고, 밀가루 냄새를 없애기 위해 더 오래 끓이세요."
+          },
+          "allergen_warning": {
+            "en": "Contains Gluten.",
+            "ko": "글루텐 포함."
+          },
+          "why_it_works": {
+            "en": "Both rely on starch gelatinization to thicken liquids.",
+            "ko": "둘 다 액체를 걸쭉하게 만들기 위해 전분의 호화 현상을 이용합니다."
+          },
+          "oops_insurance": {
+            "en": "Mix flour with cold water first to create a 'slurry' and avoid lumps.",
+            "ko": "덩어리지지 않게 밀가루를 찬물에 먼저 풀어 '슬러리'를 만드세요."
+          },
+          "tags": ["Thickener", "Pantry Staple"]
+        }
+      ]
+    },
+    {
+      "id": "molasses",
+      "name": { "en": "Molasses", "ko": "당밀" },
+      "category": { "en": "Baking", "ko": "베이킹" },
+      "description": {
+        "en": "A thick, dark syrup byproduct of refining sugar cane or sugar beets.",
+        "ko": "사탕수수나 사탕무를 정제할 때 나오는 진하고 어두운 시럽 부산물입니다."
+      },
+      "substitutes": [
+        {
+          "id": "brown-sugar-hack",
+          "name": { "en": "Brown Sugar + Water", "ko": "황설탕 + 물" },
+          "ratio": { "source": 1, "target_min": 0.75, "target_max": 0.75, "unit": "cup" },
+          "similarity_score": 90,
+          "umami_reproduction": 85,
+          "chemical_impact": {
+            "en": "Brown sugar already contains some molasses, providing the color and flavor profile.",
+            "ko": "황설탕은 이미 약간의 당밀을 포함하고 있어 색상과 풍미가 비슷합니다."
+          },
+          "compensation_action": {
+            "en": "Mix 3/4 cup brown sugar with 1/4 cup water or honey.",
+            "ko": "황설탕 3/4컵과 물 또는 꿀 1/4컵을 섞으세요."
+          },
+          "why_it_works": {
+            "en": "Brown sugar is essentially white sugar with molasses added back in.",
+            "ko": "황설탕은 본질적으로 백설탕에 당밀을 다시 섞은 것입니다."
+          },
+          "tags": ["Sweetener", "Dark Syrup"]
+        }
+      ]
+    },
+    {
+      "id": "tahini",
+      "name": { "en": "Tahini", "ko": "타히니" },
+      "category": { "en": "Global", "ko": "글로벌" },
+      "description": {
+        "en": "A Middle Eastern paste made from toasted ground hulled sesame seeds.",
+        "ko": "볶은 참깨를 갈아 만든 중동의 페이스트입니다."
+      },
+      "substitutes": [
+        {
+          "id": "peanut-butter-sesame",
+          "name": { "en": "Peanut Butter + Sesame Oil", "ko": "땅콩 버터 + 참기름" },
+          "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "tbsp" },
+          "similarity_score": 82,
+          "umami_reproduction": 80,
+          "chemical_impact": {
+            "en": "Matches the creamy texture but adds a distinct peanut flavor.",
+            "ko": "크리미한 질감은 비슷하지만 땅콩 특유의 맛이 강해집니다."
+          },
+          "compensation_action": {
+            "en": "Add 1/2 tsp of toasted sesame oil for every tbsp of peanut butter to boost the sesame aroma.",
+            "ko": "참깨 향을 강화하기 위해 땅콩 버터 1큰술당 참기름 1/2작은술을 섞으세요."
+          },
+          "allergen_warning": {
+            "en": "Contains Peanuts/Sesame.",
+            "ko": "땅콩/참깨 포함."
+          },
+          "why_it_works": {
+            "en": "Both are oil-rich seed/nut butters with similar emulsifying properties.",
+            "ko": "둘 다 유지방이 풍부한 씨앗/견과류 버터로 비슷한 유화 특성을 가집니다."
+          },
+          "tags": ["Nutty", "Hummus Hack"]
+        }
+      ]
+    },
+    {
+      "id": "cilantro",
+      "name": { "en": "Cilantro (Coriander)", "ko": "고수" },
+      "category": { "en": "Global", "ko": "글로벌" },
+      "description": {
+        "en": "An aromatic herb commonly used in Mexican and Asian cuisines.",
+        "ko": "멕시코와 아시아 요리에 널리 쓰이는 향긋한 허브입니다."
+      },
+      "substitutes": [
+        {
+          "id": "parsley-lime-mix",
+          "name": { "en": "Parsley + Lime + Mint", "ko": "파슬리 + 라임 + 민트" },
+          "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "cup" },
+          "similarity_score": 70,
+          "umami_reproduction": 50,
+          "chemical_impact": {
+            "en": "Parsley provides the green look but lacks the soapy/citrusy profile of cilantro.",
+            "ko": "파슬리는 시각적으론 비슷하지만 고수 특유의 비누 향이나 시트러스 향은 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Add extra lime juice to provide the missing citrus brightness.",
+            "ko": "부족한 시트러스한 청량감을 위해 라임즙을 더 추가하세요."
+          },
+          "why_it_works": {
+            "en": "Replicates the visual and fresh 'green' notes of the dish.",
+            "ko": "요리의 시각적인 면과 신선한 '초록빛' 노트를 재현합니다."
+          },
+          "tags": ["Herb", "Freshness"]
+        }
+      ]
+    },
+    {
+      "id": "maple-syrup",
+      "name": { "en": "Maple Syrup", "ko": "메이플 시럽" },
+      "category": { "en": "Global", "ko": "글로벌" },
+      "description": {
+        "en": "A syrup made from the xylem sap of sugar maple trees.",
+        "ko": "설탕단풍나무의 수액으로 만든 시럽입니다."
+      },
+      "substitutes": [
+        {
+          "id": "honey-or-brown-sugar",
+          "name": { "en": "Honey or Brown Sugar Syrup", "ko": "꿀 또는 황설탕 시럽" },
+          "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "cup" },
+          "similarity_score": 88,
+          "umami_reproduction": 80,
+          "chemical_impact": {
+            "en": "Honey is thicker and sweeter; Brown sugar syrup mimics the caramel notes.",
+            "ko": "꿀은 더 걸쭉하고 달콤하며, 황설탕 시럽은 카라멜 향을 더 잘 재현합니다."
+          },
+          "compensation_action": {
+            "en": "If using honey, add a drop of vanilla extract for that woody maple aroma.",
+            "ko": "꿀을 사용할 경우 메이플 특유의 나무 향을 위해 바닐라 익스트랙 한 방울을 넣으세요."
+          },
+          "why_it_works": {
+            "en": "All are invert sugars with similar liquid-to-sugar ratios.",
+            "ko": "모두 액체 대 설탕 비율이 비슷한 전화당(invert sugar)입니다."
+          },
+          "tags": ["Sweetener", "Natural"]
+        }
+      ]
+    },
+    {
+      "id": "gochugaru",
+      "name": { "en": "Gochugaru", "ko": "고춧가루" },
+      "category": { "en": "K-Food", "ko": "K-푸드" },
+      "description": {
+        "en": "Korean red chili flakes with a unique smoky, sweet, and spicy profile.",
+        "ko": "훈제향, 단맛, 매운맛이 독특하게 어우러진 한국의 고춧가루입니다."
+      },
+      "substitutes": [
+        {
+          "id": "cayenne-paprika",
+          "name": { "en": "Cayenne + Smoked Paprika", "ko": "카옌 페퍼 + 훈제 파프리카" },
+          "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "tbsp" },
+          "similarity_score": 85,
+          "umami_reproduction": 80,
+          "chemical_impact": {
+            "en": "Cayenne provides the heat, while smoked paprika replicates the smoky undertone.",
+            "ko": "카옌 페퍼가 매운맛을 주고, 훈제 파프리카가 한국 고춧가루 특유의 훈연향을 재현합니다."
+          },
+          "compensation_action": {
+            "en": "Mix 1 part Cayenne with 3 parts Smoked Paprika to match the mild-to-medium heat.",
+            "ko": "매운 정도를 맞추기 위해 카옌 1 : 파프리카 3 비율로 섞으세요."
+          },
+          "why_it_works": {
+            "en": "Combines different pepper profiles to approximate the complex flavor of Korean peppers.",
+            "ko": "다양한 고추 프로필을 결합하여 한국 고추의 복합적인 맛에 근접하게 만듭니다."
+          },
+          "tags": ["Spicy", "Flavor Hack"]
+        }
+      ]
+    },
+    {
+      "id": "oyster-sauce",
+      "name": { "en": "Oyster Sauce", "ko": "굴소스" },
+      "category": { "en": "Global", "ko": "글로벌" },
+      "description": {
+        "en": "A thick, dark brown condiment made from oyster extracts, sugar, salt and water thickened with cornstarch.",
+        "ko": "굴 추출물, 설탕, 소금 등을 전분으로 걸쭉하게 만든 진한 갈색의 조미료입니다."
+      },
+      "substitutes": [
+        {
+          "id": "soy-sauce-sugar",
+          "name": { "en": "Soy Sauce + Sugar + Hoisin", "ko": "간장 + 설탕 + 해신장" },
+          "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "tbsp" },
+          "similarity_score": 88,
+          "umami_reproduction": 85,
+          "chemical_impact": {
+            "en": "Mimics the sweet-savory profile but lacks the specific oceanic depth of real oyster extract.",
+            "ko": "단짠의 조화는 비슷하지만 진짜 굴 추출물 특유의 깊은 바다 풍미는 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Add a drop of fish sauce or mushroom broth for more depth.",
+            "ko": "더 깊은 맛을 위해 피쉬소스 한 방울이나 버섯 육수를 추가하세요."
+          },
+          "why_it_works": {
+            "en": "Both rely on caramelized sugar and glutamates for their signature glaze and savory kick.",
+            "ko": "두 소스 모두 카라멜화된 설탕과 글루타메이트의 감칠맛과 광택을 이용합니다."
+          },
+          "tags": ["Glaze", "Stir-fry"]
+        }
+      ]
+    },
+    {
+      "id": "sour-cream",
+      "name": { "en": "Sour Cream", "ko": "사워크림" },
+      "category": { "en": "Global", "ko": "글로벌" },
+      "description": {
+        "en": "A dairy product obtained by fermenting regular cream with certain kinds of lactic acid bacteria.",
+        "ko": "일반 크림을 유산균으로 발효시켜 만든 유제품입니다."
+      },
+      "substitutes": [
+        {
+          "id": "greek-yogurt",
+          "name": { "en": "Greek Yogurt", "ko": "그릭 요거트" },
+          "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "cup" },
+          "similarity_score": 95,
+          "umami_reproduction": 90,
+          "chemical_impact": {
+            "en": "Very similar texture and acidity, but yogurt has less fat and more protein.",
+            "ko": "질감과 산미가 매우 비슷하지만, 요거트는 지방이 적고 단백질이 더 많습니다."
+          },
+          "compensation_action": {
+            "en": "For baking, it's a 1:1 swap. For dips, add a squeeze of lemon to boost the tang.",
+            "ko": "베이킹에서는 1:1로 바꾸면 되고, 딥 소스용으로는 레몬즙을 살짝 짜넣어 산미를 높이세요."
+          },
+          "why_it_works": {
+            "en": "Both are fermented dairy with a similar pH level, ensuring proper leavening in baking.",
+            "ko": "둘 다 pH 농도가 비슷한 발효 유제품으로 베이킹 시 적절한 팽창을 돕습니다."
+          },
+          "tags": ["Creamy", "Healthier Option"]
+        }
+      ]
+    },
+    {
+      "id": "baking-powder",
+      "name": { "en": "Baking Powder", "ko": "베이킹 파우더" },
+      "category": { "en": "Baking", "ko": "베이킹" },
+      "description": {
+        "en": "A dry chemical leavening agent consisting of a carbonate or bicarbonate and a weak acid.",
+        "ko": "탄산수소나트륨과 약산성 성분이 섞인 건식 화학 팽창제입니다."
+      },
+      "substitutes": [
+        {
+          "id": "baking-soda-acid",
+          "name": { "en": "Baking Soda + Cream of Tartar", "ko": "베이킹 소다 + 주석산" },
+          "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "tsp" },
+          "similarity_score": 100,
+          "umami_reproduction": 100,
+          "chemical_impact": {
+            "en": "Identical chemical reaction once moisture is added.",
+            "ko": "수분이 공급되면 베이킹 파우더와 동일한 화학 반응을 일으킵니다."
+          },
+          "compensation_action": {
+            "en": "Mix 1/4 tsp baking soda with 1/2 tsp cream of tartar for 1 tsp baking powder.",
+            "ko": "소다 1/4작은술과 주석산 1/2작은술을 섞으면 파우더 1작은술이 됩니다."
+          },
+          "why_it_works": {
+            "en": "Baking powder is essentially just premixed soda and acid; you are recreating the blend.",
+            "ko": "베이킹 파우더는 본질적으로 소다와 산을 미리 섞어둔 것이므로 이를 직접 재현하는 것입니다."
+          },
+          "tags": ["Leavening", "Chemistry"]
+        }
+      ]
+    },
+    {
+      "id": "cream-of-tartar",
+      "name": { "en": "Cream of Tartar", "ko": "주석산" },
+      "category": { "en": "Baking", "ko": "베이킹" },
+      "description": {
+        "en": "A byproduct of winemaking, used to stabilize egg whites and prevent sugar crystals.",
+        "ko": "와인 제조 부산물로, 달걀 흰자를 안정시키거나 설탕 결정을 방지하는 데 쓰입니다."
+      },
+      "substitutes": [
+        {
+          "id": "lemon-juice-vinegar",
+          "name": { "en": "Lemon Juice or White Vinegar", "ko": "레몬즙 또는 화이트 식초" },
+          "ratio": { "source": 1, "target_min": 2, "target_max": 2, "unit": "tsp" },
+          "similarity_score": 92,
+          "umami_reproduction": 80,
+          "chemical_impact": {
+            "en": "Provides the necessary acidity to strengthen egg white protein structures.",
+            "ko": "달걀 흰자의 단백질 구조를 강화하는 데 필요한 산도를 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Use 2 tsp of lemon juice for every 1 tsp of cream of tartar.",
+            "ko": "주석산 1작은술당 레몬즙 2작은술을 사용하세요."
+          },
+          "why_it_works": {
+            "en": "Both lower the pH of the mixture, allowing protein bonds to become more elastic.",
+            "ko": "둘 다 혼합물의 pH를 낮춰 단백질 결합을 더 탄력 있게 만듭니다."
+          },
+          "tags": ["Stabilizer", "Acid"]
+        }
+      ]
+    },
+    {
+      "id": "panko",
+      "name": { "en": "Panko Breadcrumbs", "ko": "빵가루 (판코)" },
+      "category": { "en": "Global", "ko": "글로벌" },
+      "description": {
+        "en": "Flaky, light breadcrumbs used in Asian cuisine for a crispy coating.",
+        "ko": "바삭한 튀김옷을 위해 아시아 요리에서 주로 쓰이는 가볍고 조각난 빵가루입니다."
+      },
+      "substitutes": [
+        {
+          "id": "crushed-crackers",
+          "name": { "en": "Crushed Crackers or Dry Toast", "ko": "부순 크래커 또는 마른 토스트" },
+          "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "cup" },
+          "similarity_score": 85,
+          "umami_reproduction": 70,
+          "chemical_impact": {
+            "en": "Matches the crunch but might be denser than the airy Panko flakes.",
+            "ko": "바삭함은 비슷하지만 공기층이 많은 판코보다는 질감이 더 빽빽할 수 있습니다."
+          },
+          "compensation_action": {
+            "en": "Pulse dry toast in a blender briefly; don't over-process to keep the texture flaky.",
+            "ko": "마른 토스트를 믹서기에 살짝만 돌리세요. 너무 갈면 바삭한 질감이 사라집니다."
+          },
+          "why_it_works": {
+            "en": "Both provide a dry, starchy surface that crisps up when fried or baked.",
+            "ko": "둘 다 튀기거나 구웠을 때 바삭해지는 건조한 전분 표면을 제공합니다."
+          },
+          "tags": ["Crispy", "Crunchy"]
+        }
+      ]
+    },
+    {
+      "id": "ricotta",
+      "name": { "en": "Ricotta Cheese", "ko": "리코타 치즈" },
+      "category": { "en": "Global", "ko": "글로벌" },
+      "description": {
+        "en": "An Italian whey cheese made from sheep, cow, goat, or Italian water buffalo milk whey left over from the production of other cheeses.",
+        "ko": "치즈 제조 후 남은 유청으로 만든 이탈리아식 치즈로 담백한 맛이 특징입니다."
+      },
+      "substitutes": [
+        {
+          "id": "cottage-cheese",
+          "name": { "en": "Cottage Cheese", "ko": "코티지 치즈" },
+          "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "cup" },
+          "similarity_score": 90,
+          "umami_reproduction": 95,
+          "chemical_impact": {
+            "en": "Similar moisture and mild flavor, but cottage cheese has larger curds.",
+            "ko": "수분감과 순한 맛은 비슷하지만, 코티지 치즈는 알갱이가 더 큽니다."
+          },
+          "compensation_action": {
+            "en": "Briefly blend cottage cheese or press through a sieve for a smoother Ricotta-like texture.",
+            "ko": "부드러운 리코타 질감을 위해 코티지 치즈를 살짝 블렌더에 갈거나 체에 거르세요."
+          },
+          "why_it_works": {
+            "en": "Both are fresh, unaged cheeses with high moisture and low acidity.",
+            "ko": "둘 다 수분은 많고 산도는 낮은 숙성되지 않은 신선한 치즈입니다."
+          },
+          "tags": ["Creamy", "Cheese Hack"]
+        }
+      ]
+    },
+    {
+      "id": "lemongrass",
+      "name": { "en": "Lemongrass", "ko": "레몬그라스" },
+      "category": { "en": "Global", "ko": "글로벌" },
+      "description": {
+        "en": "A stalky plant with a fresh, lemony aroma used in Southeast Asian cooking.",
+        "ko": "동남아 요리에 주로 쓰이는 신선한 레몬 향이 나는 줄기 식물입니다."
+      },
+      "substitutes": [
+        {
+          "id": "lemon-zest-ginger",
+          "name": { "en": "Lemon Zest + Ginger", "ko": "레몬 껍질 + 생강" },
+          "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "stalk" },
+          "similarity_score": 78,
+          "umami_reproduction": 60,
+          "chemical_impact": {
+            "en": "Lemon zest provides the citrus top notes, while ginger mimics the earthy, woody base.",
+            "ko": "레몬 껍질이 시트러스 향을 주고, 생강이 레몬그라스 특유의 흙내음과 나무 향 베이스를 재현합니다."
+          },
+          "compensation_action": {
+            "en": "Mix zest of 1/2 lemon with 1/2 tsp fresh ginger for each stalk required.",
+            "ko": "레몬그라스 1줄기당 레몬 1/2개의 껍질과 생강 1/2작은술을 섞으세요."
+          },
+          "why_it_works": {
+            "en": "Replicates the essential oils (citral) found in lemongrass.",
+            "ko": "레몬그라스에 들어있는 에센셜 오일(시트랄) 성분을 비슷하게 재현합니다."
+          },
+          "tags": ["Aromatic", "Citrusy"]
+        }
+      ]
+    },
+    {
+      "id": "shaoxing-wine",
+      "name": { "en": "Shaoxing Wine", "ko": "소흥주 (중국 요리용 술)" },
+      "category": { "en": "Global", "ko": "글로벌" },
+      "description": {
+        "en": "A traditional Chinese rice wine essential for stir-fries and braises.",
+        "ko": "볶음이나 찜 요리에 필수적인 중국의 전통 쌀술입니다."
+      },
+      "substitutes": [
+        {
+          "id": "dry-sherry",
+          "name": { "en": "Dry Sherry or Sake", "ko": "드라이 셰리 또는 사케" },
+          "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "tbsp" },
+          "similarity_score": 92,
+          "umami_reproduction": 85,
+          "chemical_impact": {
+            "en": "Dry sherry has a similar nutty, fermented profile and alcohol content.",
+            "ko": "드라이 셰리는 소흥주와 비슷한 견과류 향, 발효 풍미, 알코올 도수를 가지고 있습니다."
+          },
+          "compensation_action": {
+            "en": "If using sake, add a tiny pinch of brown sugar to match Shaoxing's depth.",
+            "ko": "사케를 쓴다면 소흥주의 깊은 맛을 위해 황설탕을 아주 조금 추가하세요."
+          },
+          "why_it_works": {
+            "en": "Both are fortified or fermented rice/grape liquids that deglaze pans and tenderize meat.",
+            "ko": "둘 다 팬의 풍미를 살리고 고기를 연하게 만드는 발효/주정 액체입니다."
+          },
+          "tags": ["Alcohol", "Deglaze"]
+        }
+      ]
+    }
+  ]
+}
