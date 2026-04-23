@@ -145,6 +145,10 @@
             "en": "Reconstitutes the emulsion of fat and liquid found in natural cream.",
             "ko": "천연 크림에 들어있는 지방과 액체의 유화 상태를 재구성합니다."
           },
+          "allergen_warning": {
+            "en": "Contains Dairy (Milk and Butter).",
+            "ko": "유제품 포함 (우유 및 버터)."
+          },
           "tags": ["Fat Content", "Emergency"]
         },
         {
@@ -164,6 +168,10 @@
           "why_it_works": {
             "en": "Coconut milk has high saturated fat similar to dairy cream, allowing for stable aeration.",
             "ko": "코코넛 밀크는 동물성 크림과 비슷한 높은 포화지방을 함유하고 있어 안정적인 공기 주입(거품)이 가능합니다."
+          },
+          "allergen_warning": {
+            "en": "Contains Coconut. Tree nut allergy caution.",
+            "ko": "코코넛 포함. 견과류 알러지 주의."
           },
           "tags": ["Vegan", "Whippable"]
         }

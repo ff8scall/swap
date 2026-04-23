@@ -9,6 +9,7 @@
     "substitutes_label": "대체 가능 재료",
     "search_placeholder": "재료 이름이나 카테고리를 검색해보세요...",
     "all_categories": "전체",
+    "no_allergen_info": "특이 알러지 정보가 등록되지 않았습니다.",
     "try_calculator": "실시간 대체 계산기",
     "feature_1_title": "정밀한 화학적 보정",
     "feature_1_desc": "pH, 수분, 지방 함량을 분석하여 베이킹 실패 확률을 제로로 만듭니다.",

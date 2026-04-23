@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import IngredientDetailView from '@/components/swap/IngredientDetailView';
 import ingredientsData from '@/lib/data/ingredients.json';
 import { notFound } from 'next/navigation';
@@ -17,19 +17,23 @@ export default async function IngredientDetailPage({ params }) {
     notFound();
   }
 
-  const bestSubstitute = ingredient.substitutes[0];
+  const bestSubstitute = ingredient.substitutes?.[0];
 
-  // Enhanced JSON-LD for Google Rich Snippets (Server Side)
+  // Defensive SEO JSON-LD generation
+  const safeEn = (obj, fallback = "") => obj?.en || fallback;
+  const safeSubName = (sub) => safeEn(sub?.name, "Substitute");
+  const safeCompAction = (sub) => safeEn(sub?.compensation_action, "");
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "HowTo",
-    "name": `How to Substitute ${ingredient.name.en}`,
-    "description": ingredient.description.en,
+    "name": `How to Substitute ${safeEn(ingredient.name, id)}`,
+    "description": safeEn(ingredient.description),
     "image": `https://swap.sia.com/og/${ingredient.id}.png`,
-    "step": ingredient.substitutes.map((sub, idx) => ({
+    "step": (ingredient.substitutes || []).map((sub, idx) => ({
       "@type": "HowToStep",
-      "name": `Option ${idx + 1}: ${sub.name.en}`,
-      "text": `Substitute with ${sub.name.en} at a ratio of ${sub.ratio.target_min}-${sub.ratio.target_max} ${sub.ratio.unit}. ${sub.compensation_action.en}`,
+      "name": `Option ${idx + 1}: ${safeSubName(sub)}`,
+      "text": `Substitute with ${safeSubName(sub)} at a ratio of ${sub.ratio?.target_min || 1}-${sub.ratio?.target_max || 1} ${sub.ratio?.unit || 'unit'}. ${safeCompAction(sub)}`,
       "url": `https://swap.sia.com/explore/${ingredient.id}`
     })),
     "totalTime": "PT1M"

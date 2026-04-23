@@ -72,7 +72,10 @@ export default function IngredientDetailView({ ingredient, bestSubstitute }) {
               <span className="alert-icon">⚠️</span>
               <div>
                 <strong>{t('swap.allergy_warning')}:</strong>
-                <p>{t('swap.primary_sub_desc')} ({bestSubstitute.name[lang]}) {bestSubstitute.allergen_warning[lang]}</p>
+                <p>
+                  {t('swap.primary_sub_desc')} ({bestSubstitute?.name?.[lang] || 'Option'}) 
+                  {bestSubstitute?.allergen_warning?.[lang] ? ` ${bestSubstitute.allergen_warning[lang]}` : ` ${t('common.no_allergen_info') || 'No specific allergen info available.'}`}
+                </p>
               </div>
               <div className="hero-actions-detail">
                 <button 
