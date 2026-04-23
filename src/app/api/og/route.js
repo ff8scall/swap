@@ -113,7 +113,7 @@ export async function GET(request) {
               alignItems: 'center',
               gap: '10px'
             }}>
-              <span style={{ color: '#475569', fontSize: '18px' }}>swap.sia.com</span>
+              <span style={{ color: '#475569', fontSize: '18px' }}>swap.lego-sia.com</span>
             </div>
           </div>
         </div>

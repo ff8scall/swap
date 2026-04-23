@@ -64,12 +64,12 @@ export default async function IngredientDetailPage({ params }) {
     "@type": "HowTo",
     "name": `How to Substitute ${safeEn(ingredient.name, id)}`,
     "description": safeEn(ingredient.description),
-    "image": `https://swap.sia.com/api/og?id=${ingredient.id}`,
+    "image": `https://swap.lego-sia.com/api/og?id=${ingredient.id}`,
     "step": (ingredient.substitutes || []).map((sub, idx) => ({
       "@type": "HowToStep",
       "name": `Option ${idx + 1}: ${safeSubName(sub)}`,
       "text": `Substitute with ${safeSubName(sub)} at a ratio of ${sub.ratio?.target_min || 1}-${sub.ratio?.target_max || 1} ${sub.ratio?.unit || 'unit'}. ${safeCompAction(sub)}`,
-      "url": `https://swap.sia.com/explore/${ingredient.id}`
+      "url": `https://swap.lego-sia.com/explore/${ingredient.id}`
     })),
     "totalTime": "PT1M"
   };

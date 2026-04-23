@@ -15,7 +15,7 @@ const outfit = Outfit({
 });
 
 export const metadata = {
-  metadataBase: new URL('https://swap.sia.com'),
+  metadataBase: new URL('https://swap.lego-sia.com'),
   title: 'Global Ingredient Swap | The Scientist in Your Kitchen',
   description: 'Scientifically accurate ingredient substitutes for global recipes. Baking, K-Food, and more.',
   keywords: 'cooking, baking, ingredient substitute, K-food, swap, recipe converter',

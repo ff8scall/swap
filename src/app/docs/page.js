@@ -81,7 +81,7 @@ export default function DocsPage() {
             </div>
             <div className="code-block">
               <pre>
-{`fetch('https://swap.sia.com/api/ingredients/gochujang')
+{`fetch('https://swap.lego-sia.com/api/ingredients/gochujang')
   .then(res => res.json())
   .then(data => console.log(data.substitutes[0].name.en));`}
               </pre>
