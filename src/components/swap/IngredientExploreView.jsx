@@ -5,12 +5,15 @@ import Footer from '@/components/common/Footer';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import useTranslation from '@/lib/i18n/useTranslation';
+import RequestModal from '@/components/swap/RequestModal';
+import { Plus } from 'lucide-react';
 
 export default function IngredientExploreView({ ingredients }) {
   const { t, lang } = useTranslation();
   const searchParams = useSearchParams();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   // Sync search query with URL parameter
   useEffect(() => {
@@ -34,6 +37,8 @@ export default function IngredientExploreView({ ingredients }) {
       const matchesSearch = 
         ing.name[lang].toLowerCase().includes(q) ||
         ing.name.en.toLowerCase().includes(q) ||
+        (ing.search_keywords?.[lang]?.some(s => s.toLowerCase().includes(q))) ||
+        (ing.search_keywords?.en?.some(s => s.toLowerCase().includes(q))) ||
         ing.category[lang].toLowerCase().includes(q) ||
         ing.description[lang].toLowerCase().includes(q) ||
         ing.substitutes.some(s => s.name[lang].toLowerCase().includes(q));
@@ -51,7 +56,13 @@ export default function IngredientExploreView({ ingredients }) {
       
       <div className="container explore-container">
         <header className="explore-header">
-          <h1 className="text-gradient explore-title">{t('common.explore_title')}</h1>
+          <div className="title-row">
+            <h1 className="text-gradient explore-title">{t('common.explore_title')}</h1>
+            <button className="btn btn-outline request-trigger" onClick={() => setIsModalOpen(true)}>
+              <Plus size={16} style={{ marginRight: '8px' }} />
+              {lang === 'ko' ? '재료 요청' : 'Request'}
+            </button>
+          </div>
           <p className="explore-subtitle">{t('common.explore_subtitle')}</p>
         </header>
 
@@ -86,12 +97,24 @@ export default function IngredientExploreView({ ingredients }) {
             filteredIngredients.map((ing) => (
               <Link href={`/explore/${ing.id}`} key={ing.id} className="ingredient-card glass-card">
                 <div className="card-top">
-                  <span className="category-badge">{ing.category[lang]}</span>
-                  <span className="substitute-dot"></span>
+                  <div className="badge-stack">
+                    <span className="category-badge">{ing.category[lang]}</span>
+                    {ing.difficulty && (
+                      <span className={`diff-badge diff-${ing.difficulty}`}>
+                        {ing.difficulty === 'easy' ? '★☆☆' : ing.difficulty === 'medium' ? '★★☆' : '★★★'}
+                      </span>
+                    )}
+                  </div>
+                  <span className="substitute-dot" style={{ background: ing.visual_identity?.primary_color, boxShadow: `0 0 10px ${ing.visual_identity?.primary_color}` }}></span>
                 </div>
                 
                 <div className="card-content">
                   <h3>{ing.name[lang]}</h3>
+                  <div className="dietary-mini-tags">
+                    {ing.dietary_tags?.slice(0, 2).map(tag => (
+                      <span key={tag} className="mini-tag">#{tag}</span>
+                    ))}
+                  </div>
                   <div className="desc-wrapper">
                     <p>{ing.description[lang]}</p>
                   </div>
@@ -120,9 +143,23 @@ export default function IngredientExploreView({ ingredients }) {
         </div>
       </div>
 
+      <RequestModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+
       <Footer />
 
       <style jsx>{`
+        .title-row {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-end;
+          margin-bottom: 16px;
+        }
+        .request-trigger {
+          padding: 8px 16px;
+          font-size: 14px;
+          border-radius: 100px;
+          margin-bottom: 8px;
+        }
         .explore-container {
           padding: 80px 24px 120px;
         }
@@ -255,12 +292,30 @@ export default function IngredientExploreView({ ingredients }) {
           letter-spacing: 0.1em;
         }
         
+        .badge-stack {
+          display: flex;
+          gap: 8px;
+          align-items: center;
+        }
+        
+        .diff-badge {
+          font-size: 9px;
+          font-weight: 800;
+          color: var(--text-muted);
+          background: rgba(255, 255, 255, 0.05);
+          padding: 2px 8px;
+          border-radius: 4px;
+          letter-spacing: 0.05em;
+        }
+        
+        .diff-easy { color: #10b981; }
+        .diff-medium { color: #f59e0b; }
+        .diff-hard { color: #ef4444; }
+
         .substitute-dot {
-          width: 6px;
-          height: 6px;
-          background: var(--brand-primary);
+          width: 8px;
+          height: 8px;
           border-radius: 50%;
-          box-shadow: 0 0 10px var(--brand-primary);
         }
         
         .card-content h3 {
@@ -270,6 +325,18 @@ export default function IngredientExploreView({ ingredients }) {
           font-weight: 600;
         }
         
+        .dietary-mini-tags {
+          display: flex;
+          gap: 6px;
+          margin-bottom: 12px;
+        }
+        
+        .mini-tag {
+          font-size: 11px;
+          color: var(--text-muted);
+          font-weight: 600;
+        }
+
         .desc-wrapper {
           height: 80px;
           overflow: hidden;

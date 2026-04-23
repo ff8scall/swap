@@ -17,3 +17,8 @@
 ## 🤖 AI 검증 파이프라인
 1. **2-Pass Verification**: LLM(DeepSeek-R1)이 1차 비율을 생성하고, 실제 셰프 데이터베이스와 화학적 물성(pH, 수분) 데이터를 대조하여 2차 검정
 2. **SEO Structured Data**: 검색 결과 상단 노출을 위해 `HowTo` 및 `Recipe` JSON-LD 스키마를 서버 사이드에서 자동 생성
+
+## 📊 데이터 플랫폼 및 명세 (Data Ecosystem)
+1. **범용 JSON 플랫폼**: 모든 재료 데이터를 `public/data/ingredients.json`으로 노출하여 외부 서비스(모바일 앱, API 등)에서 즉시 재활용 가능하도록 설계
+2. **명세서 기반 관리**: `INGREDIENTS_DATA_SPEC.md`를 통해 데이터 스키마를 표준화하고 필드별 과학적 정의(Chemical Impact, Compensation Action)를 명확히 함
+3. **확장성**: 신규 재료 추가 시 2-Pass AI 검증 파이프라인을 통해 정밀도 90% 이상의 고퀄리티 데이터만 유지
