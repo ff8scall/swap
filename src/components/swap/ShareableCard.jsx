@@ -41,8 +41,14 @@ export default function ShareableCard({ ingredient, substitute }) {
         <footer className="card-footer">
           <div className="pro-tip">
             <span className="tip-label">💡 {t('swap.pro_hack')}</span>
-            <p className="tip-text">{substitute.compensation_action[lang]}</p>
+            <p className="tip-text">{substitute?.compensation_action?.[lang] || ""}</p>
           </div>
+          {substitute?.oops_insurance && (
+            <div className="pro-tip" style={{ marginTop: '20px', borderLeftColor: '#10b981' }}>
+              <span className="tip-label" style={{ color: '#10b981' }}>🛡️ {t('swap.oops_insurance')}</span>
+              <p className="tip-text">{substitute.oops_insurance[lang]}</p>
+            </div>
+          )}
           <p className="domain">www.swap.lego-sia.com</p>
         </footer>
       </div>

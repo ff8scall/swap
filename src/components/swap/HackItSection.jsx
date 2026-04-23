@@ -20,10 +20,12 @@ export default function HackItSection({ substitute }) {
           <strong>{t('swap.pro_hack')}:</strong>
           <p>{substitute.compensation_action[lang]}</p>
         </div>
-        <div className="hack-item">
-          <strong>{t('swap.oops_insurance')}:</strong>
-          <p>{substitute.oops_insurance[lang]}</p>
-        </div>
+        {substitute?.oops_insurance && (
+          <div className="hack-item">
+            <strong>{t('swap.oops_insurance')}:</strong>
+            <p>{substitute.oops_insurance[lang]}</p>
+          </div>
+        )}
       </div>
 
 

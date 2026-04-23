@@ -90,10 +90,12 @@ export default function SwapCard({ ingredient, substitute }) {
         <div className="science-drawer">
           <h4>{t('swap.why_this_works')}</h4>
           <p>{substitute.why_it_works[lang]}</p>
-          <div className="oops-box">
-            <strong>{t('swap.oops_insurance')}:</strong>
-            <p>{substitute.oops_insurance[lang]}</p>
-          </div>
+          {substitute?.oops_insurance && (
+            <div className="oops-box">
+              <strong>{t('swap.oops_insurance')}:</strong>
+              <p>{substitute.oops_insurance[lang]}</p>
+            </div>
+          )}
         </div>
       )}
 
