@@ -36,13 +36,13 @@ export default function Footer() {
         .footer {
           background: var(--bg-secondary);
           border-top: 1px solid var(--glass-border);
-          padding: 64px 0 32px;
-          margin-top: 100px;
+          padding: 40px 0 24px;
+          margin-top: 60px;
         }
         .footer-inner {
           display: flex;
           justify-content: space-between;
-          margin-bottom: 64px;
+          margin-bottom: 32px;
         }
         .footer-logo {
           font-family: 'Outfit', sans-serif;
@@ -76,7 +76,7 @@ export default function Footer() {
           color: var(--brand-primary);
         }
         .footer-bottom {
-          padding-top: 32px;
+          padding-top: 20px;
           border-top: 1px solid var(--glass-border);
           text-align: center;
           color: var(--text-muted);
