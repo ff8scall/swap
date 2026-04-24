@@ -149,7 +149,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "5-7 days",
+          "ko": "5-7일"
+        },
+        "storage_tip": {
+          "en": "Wrap in damp paper towel and put in a zipper bag.",
+          "ko": "젖은 키친타월로 감싸 지퍼백에 넣어 냉장 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 7
+      },
+      "storage_tips": {
+        "en": "Wrap in damp paper towel and put in a zipper bag.",
+        "ko": "젖은 키친타월로 감싸 지퍼백에 넣어 냉장 보관하세요."
+      }
     },
     {
       "id": "cilantro",
@@ -291,7 +309,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "7-10 days",
+          "ko": "7-10일"
+        },
+        "storage_tip": {
+          "en": "Store like a bouquet in a glass of water with a bag over the top.",
+          "ko": "물컵에 꽂고 비닐을 씌워 꽃다발처럼 냉장 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 10
+      },
+      "storage_tips": {
+        "en": "Store like a bouquet in a glass of water with a bag over the top.",
+        "ko": "물컵에 꽂고 비닐을 씌워 꽃다발처럼 냉장 보관하세요."
+      }
     },
     {
       "id": "lemongrass",
@@ -429,7 +465,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "galangal",
@@ -567,7 +621,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "sumac",
@@ -703,7 +775,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "shallots",
@@ -842,7 +932,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "garam-masala",
@@ -977,7 +1085,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "thai-basil",
@@ -1113,7 +1239,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "zaatar",
@@ -1136,7 +1280,7 @@
         "keto"
       ],
       "allergens": [
-        "sesame"
+        "none"
       ],
       "swap_warnings": [
         "참깨 알레르기가 있는 경우 주의하세요.",
@@ -1248,7 +1392,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "kashmiri-chili",
@@ -1383,7 +1545,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "epazote",
@@ -1522,7 +1702,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "asafoetida",
@@ -1545,7 +1743,7 @@
         "jain-friendly"
       ],
       "allergens": [
-        "gluten (often used as carrier)"
+        "none"
       ],
       "swap_warnings": [
         "날것일 때는 매우 고약한 냄새가 나지만, 기름에 볶으면 마늘/양파 같은 풍미로 변합니다.",
@@ -1662,7 +1860,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "amchur",
@@ -1798,7 +2014,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "curry-leaves",
@@ -1936,7 +2170,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "mustard-seeds",
@@ -1958,7 +2210,7 @@
         "vegan"
       ],
       "allergens": [
-        "mustard"
+        "none"
       ],
       "swap_warnings": [
         "검은색, 갈색, 노란색 씨앗에 따라 매운맛의 강도가 다릅니다.",
@@ -2075,7 +2327,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "fenugreek-seeds",
@@ -2214,7 +2484,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "saffron",
@@ -2352,7 +2640,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "vanilla-bean",
@@ -2490,7 +2796,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "star-anise",
@@ -2629,7 +2953,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "allspice",
@@ -2765,7 +3107,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "cardamom",
@@ -2905,7 +3265,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "cloves",
@@ -3043,7 +3421,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "nutmeg",
@@ -3180,7 +3576,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "turmeric",
@@ -3320,7 +3734,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "cumin",
@@ -3424,43 +3856,57 @@
       },
       "substitutes": [
         {
-          "id": "coriander-seeds-ground",
-          "ratio": {
-            "source": 1,
-            "target_min": 0.5,
-            "target_max": 0.5,
-            "unit": "weight"
-          },
-          "substitution_logic": "manual_blending",
-          "failure_risk": "medium",
-          "flavor_delta": {
-            "nutty": -2,
-            "citrus": 3
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Coriander is more citrusy and less 'heavy' than cumin but shares a similar aromatic backbone.",
-            "ko": "고수 씨앗은 커민보다 상큼하고 덜 묵직하지만 비슷한 아로마 구조를 공유합니다."
-          },
-          "compensation_action": {
-            "en": "Mix ground coriander with a bit of chili powder or caraway seeds.",
-            "ko": "고수 씨앗 가루에 고춧가루나 캐러웨이 씨앗을 살짝 섞어서 사용하세요."
-          },
-          "verification": {
-            "verified_by": "Chef Jinny Park",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
+          "id": "ground-coriander",
           "name": {
             "en": "Ground Coriander",
-            "ko": "고수 씨앗 가루"
+            "ko": "고수 가루"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
           },
           "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
+            "en": "Earthy flavor notes.",
+            "ko": "흙내음이 나는 풍미를 가집니다."
+          },
+          "compensation_action": {
+            "en": "1:1 ratio unless specified.",
+            "ko": "별도 지시가 없으면 1:1 비율로 사용하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 87
+          },
+          "flavor_delta": {
+            "sweetness": "1.0",
+            "salinity": "0.8",
+            "umami": "0.0",
+            "heat": 0,
+            "acidity": "0.6"
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Store in a cool, dark place away from heat and moisture.",
+          "ko": "열기와 습기를 피하여 서늘하고 어두운 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 730
+      },
+      "storage_tips": {
+        "en": "Store in a cool, dark place away from heat and moisture.",
+        "ko": "열기와 습기를 피하여 서늘하고 어두운 곳에 보관하세요."
+      }
     },
     {
       "id": "coriander-seeds",
@@ -3597,7 +4043,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "cinnamon",
@@ -3736,7 +4200,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "ginger-powder",
@@ -3872,7 +4354,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "oregano",
@@ -4008,7 +4508,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "thyme",
@@ -4142,7 +4660,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "rosemary",
@@ -4277,7 +4813,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "bay-leaves",
@@ -4415,7 +4969,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     },
     {
       "id": "fennel-seeds",
@@ -4553,7 +5125,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep in an airtight container away from direct sunlight.",
+          "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container away from direct sunlight.",
+        "ko": "밀폐 용기에 담아 직사광선을 피해 보관하세요."
+      }
     }
   ]
 }

@@ -23,7 +23,7 @@
         "acidity": 0,
         "umami_intensity": 50,
         "sweetness_index": 5,
-        "viscosity": 90
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Pure butterfat without added salt.",
@@ -42,7 +42,68 @@
           "en": "Pastries",
           "ko": "페이스트리"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "vegetable-oil",
+          "name": {
+            "en": "Vegetable Oil",
+            "ko": "식용유(베이킹 시)"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides necessary fat for texture in baking.",
+            "ko": "베이킹 시 질감에 필요한 지방분을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Use 3/4 amount of oil for butter.",
+            "ko": "버터 양의 3/4 정도의 식용유를 사용하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 97
+          },
+          "flavor_delta": {
+            "sweetness": "-0.2",
+            "salinity": "0.4",
+            "umami": "0.6",
+            "heat": 0,
+            "acidity": "-0.5"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "3-4 months",
+          "ko": "3-4개월"
+        },
+        "storage_tip": {
+          "en": "Keep in airtight container to prevent absorbing fridge odors.",
+          "ko": "냉장고 냄새를 흡수하지 않도록 밀폐 용기에 보관하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 120
+      },
+      "storage_tips": {
+        "en": "Keep in airtight container to prevent absorbing fridge odors.",
+        "ko": "냉장고 냄새를 흡수하지 않도록 밀폐 용기에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "creamy"
+      }
     },
     {
       "id": "butter-salted",
@@ -61,7 +122,7 @@
         "acidity": 0,
         "umami_intensity": 55,
         "sweetness_index": 5,
-        "viscosity": 90
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Butter with added salt for flavor enhancement.",
@@ -80,7 +141,68 @@
           "en": "General Cooking",
           "ko": "요리 전반"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "butter-unsalted",
+          "name": {
+            "en": "Unsalted Butter + Salt",
+            "ko": "무염 버터 + 소금"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Adds the missing salinity to mimic salted butter.",
+            "ko": "무염 버터에 부족한 염도를 보충하여 가염 버터를 재현합니다."
+          },
+          "compensation_action": {
+            "en": "Add 1/4 tsp salt per 1/2 cup butter.",
+            "ko": "버터 1/2컵당 소금 1/4작은술을 추가하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 97
+          },
+          "flavor_delta": {
+            "sweetness": "-0.7",
+            "salinity": "-0.7",
+            "umami": "-0.5",
+            "heat": 0,
+            "acidity": "0.1"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 weeks",
+          "ko": "1-2주"
+        },
+        "storage_tip": {
+          "en": "Always keep refrigerated at 4°C or below.",
+          "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 14
+      },
+      "storage_tips": {
+        "en": "Always keep refrigerated at 4°C or below.",
+        "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "creamy"
+      }
     },
     {
       "id": "milk-whole",
@@ -99,7 +221,7 @@
         "acidity": 5,
         "umami_intensity": 25,
         "sweetness_index": 15,
-        "viscosity": 10
+        "viscosity": "watery"
       },
       "description": {
         "en": "Standard cow's milk with full fat content.",
@@ -118,7 +240,68 @@
           "en": "Baking",
           "ko": "베이킹"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "soy-milk",
+          "name": {
+            "en": "Soy Milk",
+            "ko": "두유"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Similar consistency and protein content.",
+            "ko": "비슷한 농도와 단백질 함량을 가지고 있습니다."
+          },
+          "compensation_action": {
+            "en": "1:1 ratio, use unsweetened if possible.",
+            "ko": "1:1 비율로 사용하되, 가급적 무첨가 두유를 권장합니다."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 90
+          },
+          "flavor_delta": {
+            "sweetness": "-0.9",
+            "salinity": "0.4",
+            "umami": "0.6",
+            "heat": 0,
+            "acidity": "-0.8"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "5-7 days",
+          "ko": "5-7일"
+        },
+        "storage_tip": {
+          "en": "Keep in the back of the fridge where it is coldest.",
+          "ko": "가장 차가운 냉장고 안쪽에 보관하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 7
+      },
+      "storage_tips": {
+        "en": "Keep in the back of the fridge where it is coldest.",
+        "ko": "가장 차가운 냉장고 안쪽에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "creamy"
+      }
     },
     {
       "id": "milk-skim",
@@ -137,7 +320,7 @@
         "acidity": 5,
         "umami_intensity": 15,
         "sweetness_index": 10,
-        "viscosity": 8
+        "viscosity": "watery"
       },
       "description": {
         "en": "Milk with fat removed.",
@@ -156,7 +339,68 @@
           "en": "Cereal",
           "ko": "시리얼"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "vegetable-oil",
+          "name": {
+            "en": "Vegetable Oil",
+            "ko": "식용유"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 97
+          },
+          "flavor_delta": {
+            "sweetness": "-0.1",
+            "salinity": "0.8",
+            "umami": "0.3",
+            "heat": 0,
+            "acidity": "0.7"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 weeks",
+          "ko": "1-2주"
+        },
+        "storage_tip": {
+          "en": "Always keep refrigerated at 4°C or below.",
+          "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 14
+      },
+      "storage_tips": {
+        "en": "Always keep refrigerated at 4°C or below.",
+        "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "creamy"
+      }
     },
     {
       "id": "olive-oil-evoo",
@@ -175,7 +419,7 @@
         "acidity": 5,
         "umami_intensity": 60,
         "sweetness_index": 0,
-        "viscosity": 15
+        "viscosity": "thin"
       },
       "description": {
         "en": "Premium cold-pressed olive oil.",
@@ -194,7 +438,68 @@
           "en": "Pasta",
           "ko": "파스타"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "avocado-oil",
+          "name": {
+            "en": "Avocado Oil",
+            "ko": "아보카도 오일"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Healthy fats with neutral taste.",
+            "ko": "건강한 지방과 중립적인 맛을 가집니다."
+          },
+          "compensation_action": {
+            "en": "1:1 ratio unless specified.",
+            "ko": "별도 지시가 없으면 1:1 비율로 사용하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 97
+          },
+          "flavor_delta": {
+            "sweetness": "0.0",
+            "salinity": "0.2",
+            "umami": "0.7",
+            "heat": 0,
+            "acidity": "-0.7"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 weeks",
+          "ko": "1-2주"
+        },
+        "storage_tip": {
+          "en": "Always keep refrigerated at 4°C or below.",
+          "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 14
+      },
+      "storage_tips": {
+        "en": "Always keep refrigerated at 4°C or below.",
+        "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "creamy"
+      }
     },
     {
       "id": "vegetable-oil",
@@ -213,7 +518,7 @@
         "acidity": 0,
         "umami_intensity": 0,
         "sweetness_index": 0,
-        "viscosity": 15
+        "viscosity": "thin"
       },
       "description": {
         "en": "Neutral oil for high-heat cooking.",
@@ -232,7 +537,68 @@
           "en": "Baking",
           "ko": "베이킹"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "vegetable-oil",
+          "name": {
+            "en": "Vegetable Oil",
+            "ko": "식용유"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 94
+          },
+          "flavor_delta": {
+            "sweetness": "0.5",
+            "salinity": "-1.0",
+            "umami": "0.8",
+            "heat": 0,
+            "acidity": "-0.1"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 weeks",
+          "ko": "1-2주"
+        },
+        "storage_tip": {
+          "en": "Always keep refrigerated at 4°C or below.",
+          "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 14
+      },
+      "storage_tips": {
+        "en": "Always keep refrigerated at 4°C or below.",
+        "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "creamy"
+      }
     },
     {
       "id": "sesame-oil-toasted",
@@ -251,7 +617,7 @@
         "acidity": 0,
         "umami_intensity": 75,
         "sweetness_index": 10,
-        "viscosity": 15
+        "viscosity": "thin"
       },
       "description": {
         "en": "Aromatic oil from toasted sesame seeds.",
@@ -270,7 +636,69 @@
           "en": "Finishing",
           "ko": "마무리 향"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy",
+        "sesame"
+      ],
+      "substitutes": [
+        {
+          "id": "perilla-oil",
+          "name": {
+            "en": "Perilla Oil",
+            "ko": "들기름"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Similar nutty aromatic profile.",
+            "ko": "비슷하게 고소하고 향긋한 풍미를 가집니다."
+          },
+          "compensation_action": {
+            "en": "1:1 ratio unless specified.",
+            "ko": "별도 지시가 없으면 1:1 비율로 사용하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 85
+          },
+          "flavor_delta": {
+            "sweetness": "0.1",
+            "salinity": "0.4",
+            "umami": "0.8",
+            "heat": 0,
+            "acidity": "0.8"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 weeks",
+          "ko": "1-2주"
+        },
+        "storage_tip": {
+          "en": "Always keep refrigerated at 4°C or below.",
+          "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 14
+      },
+      "storage_tips": {
+        "en": "Always keep refrigerated at 4°C or below.",
+        "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "creamy"
+      }
     },
     {
       "id": "perilla-oil",
@@ -289,7 +717,7 @@
         "acidity": 0,
         "umami_intensity": 45,
         "sweetness_index": 10,
-        "viscosity": 15
+        "viscosity": "thin"
       },
       "description": {
         "en": "Nutty Korean vegetable oil from perilla seeds.",
@@ -308,7 +736,68 @@
           "en": "Stir-fries",
           "ko": "볶음"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "vegetable-oil",
+          "name": {
+            "en": "Vegetable Oil",
+            "ko": "식용유"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 85
+          },
+          "flavor_delta": {
+            "sweetness": "0.8",
+            "salinity": "0.3",
+            "umami": "0.5",
+            "heat": 0,
+            "acidity": "-0.8"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 weeks",
+          "ko": "1-2주"
+        },
+        "storage_tip": {
+          "en": "Always keep refrigerated at 4°C or below.",
+          "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 14
+      },
+      "storage_tips": {
+        "en": "Always keep refrigerated at 4°C or below.",
+        "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "creamy"
+      }
     },
     {
       "id": "cream-cheese",
@@ -327,7 +816,7 @@
         "acidity": 20,
         "umami_intensity": 40,
         "sweetness_index": 10,
-        "viscosity": 85
+        "viscosity": "thick"
       },
       "description": {
         "en": "Soft, mild-tasting fresh cheese.",
@@ -346,7 +835,68 @@
           "en": "Dips",
           "ko": "디핑 소스"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "greek-yogurt",
+          "name": {
+            "en": "Strained Greek Yogurt",
+            "ko": "꾸덕한 그릭 요거트"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Similar tang and thick texture.",
+            "ko": "비슷한 산미와 꾸덕한 질감을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Strain overnight for best results.",
+            "ko": "최상의 결과를 위해 하룻밤 동안 유청을 뺀 뒤 사용하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 87
+          },
+          "flavor_delta": {
+            "sweetness": "0.9",
+            "salinity": "-0.3",
+            "umami": "-0.9",
+            "heat": 0,
+            "acidity": "-0.0"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 weeks",
+          "ko": "1-2주"
+        },
+        "storage_tip": {
+          "en": "Always keep refrigerated at 4°C or below.",
+          "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 14
+      },
+      "storage_tips": {
+        "en": "Always keep refrigerated at 4°C or below.",
+        "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "creamy"
+      }
     },
     {
       "id": "cheddar-cheese",
@@ -365,7 +915,7 @@
         "acidity": 25,
         "umami_intensity": 80,
         "sweetness_index": 0,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Sharp-tasting semi-hard cheese.",
@@ -384,7 +934,68 @@
           "en": "Mac & Cheese",
           "ko": "맥앤치즈"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "vegetable-oil",
+          "name": {
+            "en": "Vegetable Oil",
+            "ko": "식용유"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 90
+          },
+          "flavor_delta": {
+            "sweetness": "-0.0",
+            "salinity": "-0.2",
+            "umami": "0.7",
+            "heat": 0,
+            "acidity": "0.9"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 weeks",
+          "ko": "1-2주"
+        },
+        "storage_tip": {
+          "en": "Always keep refrigerated at 4°C or below.",
+          "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 14
+      },
+      "storage_tips": {
+        "en": "Always keep refrigerated at 4°C or below.",
+        "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "creamy"
+      }
     },
     {
       "id": "mozzarella-cheese",
@@ -403,7 +1014,7 @@
         "acidity": 10,
         "umami_intensity": 50,
         "sweetness_index": 10,
-        "viscosity": 95
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Semi-soft cheese with excellent stretch.",
@@ -422,7 +1033,68 @@
           "en": "Pasta",
           "ko": "파스타"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "vegetable-oil",
+          "name": {
+            "en": "Vegetable Oil",
+            "ko": "식용유"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 93
+          },
+          "flavor_delta": {
+            "sweetness": "-0.3",
+            "salinity": "-0.7",
+            "umami": "0.4",
+            "heat": 0,
+            "acidity": "0.8"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 weeks",
+          "ko": "1-2주"
+        },
+        "storage_tip": {
+          "en": "Always keep refrigerated at 4°C or below.",
+          "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 14
+      },
+      "storage_tips": {
+        "en": "Always keep refrigerated at 4°C or below.",
+        "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "creamy"
+      }
     },
     {
       "id": "parmesan-cheese",
@@ -441,7 +1113,7 @@
         "acidity": 15,
         "umami_intensity": 90,
         "sweetness_index": 0,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Hard, aged cheese with intense umami.",
@@ -460,7 +1132,68 @@
           "en": "Risotto",
           "ko": "리조또"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "pecorino-romano",
+          "name": {
+            "en": "Pecorino Romano",
+            "ko": "페코리노 로마노"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Similar hard texture and salty, sharp flavor.",
+            "ko": "비슷하게 단단한 질감과 짭조름하고 강한 풍미를 가집니다."
+          },
+          "compensation_action": {
+            "en": "Pecorino is saltier, use slightly less.",
+            "ko": "페코리노가 더 짜므로 양을 약간 줄여서 사용하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 96
+          },
+          "flavor_delta": {
+            "sweetness": "-0.4",
+            "salinity": "0.6",
+            "umami": "-0.2",
+            "heat": 0,
+            "acidity": "0.7"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 weeks",
+          "ko": "1-2주"
+        },
+        "storage_tip": {
+          "en": "Always keep refrigerated at 4°C or below.",
+          "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 14
+      },
+      "storage_tips": {
+        "en": "Always keep refrigerated at 4°C or below.",
+        "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "creamy"
+      }
     },
     {
       "id": "sour-cream",
@@ -479,7 +1212,7 @@
         "acidity": 65,
         "umami_intensity": 30,
         "sweetness_index": 10,
-        "viscosity": 60
+        "viscosity": "medium"
       },
       "description": {
         "en": "Fermented cream with a tangy taste.",
@@ -498,7 +1231,68 @@
           "en": "Sauces",
           "ko": "소스"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "vegetable-oil",
+          "name": {
+            "en": "Vegetable Oil",
+            "ko": "식용유"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 93
+          },
+          "flavor_delta": {
+            "sweetness": "-0.5",
+            "salinity": "-0.5",
+            "umami": "1.0",
+            "heat": 0,
+            "acidity": "-0.4"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 weeks",
+          "ko": "1-2주"
+        },
+        "storage_tip": {
+          "en": "Always keep refrigerated at 4°C or below.",
+          "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 14
+      },
+      "storage_tips": {
+        "en": "Always keep refrigerated at 4°C or below.",
+        "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "creamy"
+      }
     },
     {
       "id": "ricotta",
@@ -517,7 +1311,7 @@
         "acidity": 10,
         "umami_intensity": 40,
         "sweetness_index": 25,
-        "viscosity": 70
+        "viscosity": "thick"
       },
       "description": {
         "en": "Italian whey cheese, mild and grainy.",
@@ -536,7 +1330,68 @@
           "en": "Desserts",
           "ko": "디저트"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "vegetable-oil",
+          "name": {
+            "en": "Vegetable Oil",
+            "ko": "식용유"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 97
+          },
+          "flavor_delta": {
+            "sweetness": "-0.3",
+            "salinity": "-0.8",
+            "umami": "0.7",
+            "heat": 0,
+            "acidity": "-0.7"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 weeks",
+          "ko": "1-2주"
+        },
+        "storage_tip": {
+          "en": "Always keep refrigerated at 4°C or below.",
+          "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 14
+      },
+      "storage_tips": {
+        "en": "Always keep refrigerated at 4°C or below.",
+        "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "creamy"
+      }
     },
     {
       "id": "mascarpone",
@@ -555,7 +1410,7 @@
         "acidity": 5,
         "umami_intensity": 30,
         "sweetness_index": 35,
-        "viscosity": 85
+        "viscosity": "thick"
       },
       "description": {
         "en": "Velvety Italian cream cheese.",
@@ -574,7 +1429,68 @@
           "en": "Sauces",
           "ko": "크림 소스"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "vegetable-oil",
+          "name": {
+            "en": "Vegetable Oil",
+            "ko": "식용유"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 92
+          },
+          "flavor_delta": {
+            "sweetness": "-0.4",
+            "salinity": "0.8",
+            "umami": "-0.4",
+            "heat": 0,
+            "acidity": "-0.8"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 weeks",
+          "ko": "1-2주"
+        },
+        "storage_tip": {
+          "en": "Always keep refrigerated at 4°C or below.",
+          "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 14
+      },
+      "storage_tips": {
+        "en": "Always keep refrigerated at 4°C or below.",
+        "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "creamy"
+      }
     },
     {
       "id": "ghee",
@@ -593,7 +1509,7 @@
         "acidity": 0,
         "umami_intensity": 50,
         "sweetness_index": 5,
-        "viscosity": 20
+        "viscosity": "thin"
       },
       "description": {
         "en": "Clarified butter used in South Asian cuisine.",
@@ -612,7 +1528,68 @@
           "en": "Baking",
           "ko": "베이킹"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "vegetable-oil",
+          "name": {
+            "en": "Vegetable Oil",
+            "ko": "식용유"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 98
+          },
+          "flavor_delta": {
+            "sweetness": "0.1",
+            "salinity": "-0.2",
+            "umami": "-0.8",
+            "heat": 0,
+            "acidity": "0.3"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 weeks",
+          "ko": "1-2주"
+        },
+        "storage_tip": {
+          "en": "Always keep refrigerated at 4°C or below.",
+          "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 14
+      },
+      "storage_tips": {
+        "en": "Always keep refrigerated at 4°C or below.",
+        "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "creamy"
+      }
     },
     {
       "id": "creme-fraiche",
@@ -631,7 +1608,7 @@
         "acidity": 45,
         "umami_intensity": 30,
         "sweetness_index": 15,
-        "viscosity": 65
+        "viscosity": "thick"
       },
       "description": {
         "en": "Thick soured cream from France.",
@@ -650,7 +1627,68 @@
           "en": "Sauces",
           "ko": "소스"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "vegetable-oil",
+          "name": {
+            "en": "Vegetable Oil",
+            "ko": "식용유"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 89
+          },
+          "flavor_delta": {
+            "sweetness": "-0.7",
+            "salinity": "0.2",
+            "umami": "-0.4",
+            "heat": 0,
+            "acidity": "0.5"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 weeks",
+          "ko": "1-2주"
+        },
+        "storage_tip": {
+          "en": "Always keep refrigerated at 4°C or below.",
+          "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 14
+      },
+      "storage_tips": {
+        "en": "Always keep refrigerated at 4°C or below.",
+        "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "creamy"
+      }
     },
     {
       "id": "pecorino-romano",
@@ -669,7 +1707,7 @@
         "acidity": 20,
         "umami_intensity": 95,
         "sweetness_index": 0,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Salty Italian sheep's milk cheese.",
@@ -688,7 +1726,68 @@
           "en": "Salad",
           "ko": "샐러드"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "vegetable-oil",
+          "name": {
+            "en": "Vegetable Oil",
+            "ko": "식용유"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 97
+          },
+          "flavor_delta": {
+            "sweetness": "-0.7",
+            "salinity": "-0.3",
+            "umami": "-0.4",
+            "heat": 0,
+            "acidity": "-0.5"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 weeks",
+          "ko": "1-2주"
+        },
+        "storage_tip": {
+          "en": "Always keep refrigerated at 4°C or below.",
+          "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 14
+      },
+      "storage_tips": {
+        "en": "Always keep refrigerated at 4°C or below.",
+        "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "creamy"
+      }
     },
     {
       "id": "truffle-oil",
@@ -707,7 +1806,7 @@
         "acidity": 0,
         "umami_intensity": 85,
         "sweetness_index": 0,
-        "viscosity": 15
+        "viscosity": "thin"
       },
       "description": {
         "en": "Oil infused with the aroma of truffles.",
@@ -726,7 +1825,68 @@
           "en": "Risotto",
           "ko": "리조또"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "vegetable-oil",
+          "name": {
+            "en": "Vegetable Oil",
+            "ko": "식용유"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 86
+          },
+          "flavor_delta": {
+            "sweetness": "-0.4",
+            "salinity": "-0.1",
+            "umami": "0.2",
+            "heat": 0,
+            "acidity": "-0.3"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 weeks",
+          "ko": "1-2주"
+        },
+        "storage_tip": {
+          "en": "Always keep refrigerated at 4°C or below.",
+          "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 14
+      },
+      "storage_tips": {
+        "en": "Always keep refrigerated at 4°C or below.",
+        "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "creamy"
+      }
     },
     {
       "id": "gorgonzola",
@@ -745,7 +1905,7 @@
         "acidity": 25,
         "umami_intensity": 100,
         "sweetness_index": 0,
-        "viscosity": 75
+        "viscosity": "thick"
       },
       "description": {
         "en": "Veined blue cheese from Italy.",
@@ -764,7 +1924,68 @@
           "en": "Salad",
           "ko": "샐러드"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "vegetable-oil",
+          "name": {
+            "en": "Vegetable Oil",
+            "ko": "식용유"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 95
+          },
+          "flavor_delta": {
+            "sweetness": "0.2",
+            "salinity": "0.2",
+            "umami": "0.3",
+            "heat": 0,
+            "acidity": "-0.6"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 weeks",
+          "ko": "1-2주"
+        },
+        "storage_tip": {
+          "en": "Always keep refrigerated at 4°C or below.",
+          "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 14
+      },
+      "storage_tips": {
+        "en": "Always keep refrigerated at 4°C or below.",
+        "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "creamy"
+      }
     },
     {
       "id": "shortening",
@@ -783,7 +2004,7 @@
         "acidity": 0,
         "umami_intensity": 0,
         "sweetness_index": 0,
-        "viscosity": 90
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Solid vegetable fat for baking.",
@@ -802,7 +2023,68 @@
           "en": "Frying",
           "ko": "튀김"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "vegetable-oil",
+          "name": {
+            "en": "Vegetable Oil",
+            "ko": "식용유"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 89
+          },
+          "flavor_delta": {
+            "sweetness": "-0.5",
+            "salinity": "0.4",
+            "umami": "0.1",
+            "heat": 0,
+            "acidity": "-0.0"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 weeks",
+          "ko": "1-2주"
+        },
+        "storage_tip": {
+          "en": "Always keep refrigerated at 4°C or below.",
+          "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 14
+      },
+      "storage_tips": {
+        "en": "Always keep refrigerated at 4°C or below.",
+        "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "creamy"
+      }
     },
     {
       "id": "lard",
@@ -821,7 +2103,7 @@
         "acidity": 0,
         "umami_intensity": 40,
         "sweetness_index": 0,
-        "viscosity": 90
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Rendered pork fat.",
@@ -840,7 +2122,68 @@
           "en": "Tamales",
           "ko": "타말레"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "vegetable-oil",
+          "name": {
+            "en": "Vegetable Oil",
+            "ko": "식용유"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 88
+          },
+          "flavor_delta": {
+            "sweetness": "0.6",
+            "salinity": "-0.8",
+            "umami": "-0.5",
+            "heat": 0,
+            "acidity": "-0.4"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 weeks",
+          "ko": "1-2주"
+        },
+        "storage_tip": {
+          "en": "Always keep refrigerated at 4°C or below.",
+          "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 14
+      },
+      "storage_tips": {
+        "en": "Always keep refrigerated at 4°C or below.",
+        "ko": "항상 4도 이하의 냉장 상태를 유지하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "creamy"
+      }
     }
   ]
 }

@@ -93,6 +93,16 @@ export default function IngredientDetailView({ ingredient, bestSubstitute, subst
 
         {/* Hero Section: The Science of Swap */}
         <section className="premium-hero">
+          {/* Ambient Background Image */}
+          <div 
+            className="hero-ambient-bg" 
+            style={{ 
+              backgroundImage: `url(/images/ingredients/${ingredient.id}.png)`,
+              opacity: 1
+            }}
+          />
+          <div className="hero-content-overlay" />
+          
           <div className="hero-content">
             <div className="badge-row">
               <span className="premium-badge cat-badge">{ingredient.category[lang]}</span>
@@ -250,24 +260,28 @@ export default function IngredientDetailView({ ingredient, bestSubstitute, subst
             <div className="metric-box">
               <div className="box-label">{lang === 'ko' ? '화학적 지표' : 'Chemical Metrics'}</div>
               <div className="metric-items">
-                <div className="metric-entry">
-                  <div className="m-info">
-                    <span className="m-label">{t('science_labels.ph_level')}</span>
-                    <span className="m-val metric-value">{ingredient.properties?.ph_level}</span>
+                {ingredient.properties?.ph_level !== undefined && ingredient.properties?.ph_level !== null && (
+                  <div className="metric-entry">
+                    <div className="m-info">
+                      <span className="m-label">{t('science_labels.ph_level')}</span>
+                      <span className="m-val metric-value">{ingredient.properties?.ph_level}</span>
+                    </div>
+                    <div className="m-bar-bg">
+                      <div className="m-bar-fill ph" style={{ width: `${(ingredient.properties?.ph_level / 14) * 100}%` }}></div>
+                    </div>
                   </div>
-                  <div className="m-bar-bg">
-                    <div className="m-bar-fill ph" style={{ width: `${(ingredient.properties?.ph_level / 14) * 100}%` }}></div>
+                )}
+                {ingredient.properties?.moisture_content !== undefined && ingredient.properties?.moisture_content !== null && (
+                  <div className="metric-entry">
+                    <div className="m-info">
+                      <span className="m-label">{t('science_labels.moisture')}</span>
+                      <span className="m-val metric-value">{ingredient.properties?.moisture_content}%</span>
+                    </div>
+                    <div className="m-bar-bg">
+                      <div className="m-bar-fill moisture" style={{ width: `${ingredient.properties?.moisture_content}%` }}></div>
+                    </div>
                   </div>
-                </div>
-                <div className="metric-entry">
-                  <div className="m-info">
-                    <span className="m-label">{t('science_labels.moisture')}</span>
-                    <span className="m-val metric-value">{ingredient.properties?.moisture_content}%</span>
-                  </div>
-                  <div className="m-bar-bg">
-                    <div className="m-bar-fill moisture" style={{ width: `${ingredient.properties?.moisture_content}%` }}></div>
-                  </div>
-                </div>
+                )}
               </div>
             </div>
 
@@ -282,10 +296,12 @@ export default function IngredientDetailView({ ingredient, bestSubstitute, subst
                   <Zap size={14} />
                   <span>{t('science_labels.maillard')}</span>
                 </div>
-                <div className="smoke-point-mini">
-                  <span>{t('science_labels.smoke_point')}:</span>
-                  <strong>{ingredient.thermal_behavior?.smoke_point_c || 'N/A'}°C</strong>
-                </div>
+                {ingredient.thermal_behavior?.smoke_point_c && (
+                  <div className="smoke-point-mini">
+                    <span>{t('science_labels.smoke_point')}:</span>
+                    <strong>{ingredient.thermal_behavior.smoke_point_c}°C</strong>
+                  </div>
+                )}
               </div>
             </div>
 
@@ -367,9 +383,51 @@ export default function IngredientDetailView({ ingredient, bestSubstitute, subst
       <style jsx>{`
         .premium-theme { background-color: var(--bg-primary); }
         .detail-container { padding-bottom: 120px; }
-        .breadcrumb-premium { display: flex; align-items: center; padding: 32px 0; font-size: 13px; color: var(--text-muted); font-weight: 500; }
+        .breadcrumb-premium { display: flex; align-items: center; padding: 32px 0; font-size: 13px; color: var(--text-muted); font-weight: 500; position: relative; z-index: 10; }
         .active-item { color: var(--brand-primary); }
-        .premium-hero { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 60px; align-items: center; margin-bottom: 80px; }
+        
+        .premium-hero { 
+          display: grid; 
+          grid-template-columns: 1.2fr 0.8fr; 
+          gap: 60px; 
+          align-items: center; 
+          margin-bottom: 80px; 
+          position: relative;
+          min-height: 500px;
+          border-radius: 24px;
+          overflow: hidden;
+          padding: 40px;
+          border: 1px solid var(--glass-border);
+          background: var(--bg-secondary);
+        }
+
+        .hero-ambient-bg {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 70%;
+          height: 100%;
+          background-size: cover;
+          background-position: center;
+          z-index: 1;
+          filter: saturate(1.2) brightness(0.8);
+          mask-image: linear-gradient(to right, transparent 0%, black 60%);
+          -webkit-mask-image: linear-gradient(to right, transparent 0%, black 60%);
+        }
+
+        .hero-content-overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(90deg, var(--bg-secondary) 30%, transparent 100%);
+          z-index: 2;
+        }
+
+        .hero-content { position: relative; z-index: 5; }
+        .hero-visual { position: relative; z-index: 5; }
+
         .badge-row { display: flex; gap: 12px; margin-bottom: 24px; }
         .premium-badge { padding: 6px 14px; border-radius: 6px; font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: var(--inner-border); }
         .cat-badge { background: rgba(88, 166, 255, 0.1); color: var(--accent-blue); }

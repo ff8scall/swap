@@ -23,7 +23,7 @@
         "acidity": 60,
         "umami_intensity": 30,
         "sweetness_index": 10,
-        "viscosity": 30
+        "viscosity": "thin"
       },
       "description": {
         "en": "Fermented dairy milk with a tangy flavor.",
@@ -42,7 +42,65 @@
           "en": "Biscuits",
           "ko": "비스킷"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "milk-lemon-acid",
+          "name": {
+            "en": "Milk + Acid (Lemon/Vinegar)",
+            "ko": "우유 + 산성분 (레몬즙/식초)"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "why_it_works": {
+            "en": "Acid curdles the milk slightly, mimicking the texture and acidity of real buttermilk.",
+            "ko": "산성 성분이 우유를 살짝 응고시켜 실제 버터밀크의 질감과 산도를 완벽하게 재현합니다."
+          },
+          "compensation_action": {
+            "en": "Mix 1 cup milk with 1 tbsp lemon juice, let sit for 5-10 mins.",
+            "ko": "우유 1컵에 레몬즙 1큰술을 섞고 5~10분 정도 그대로 두었다가 사용하세요."
+          },
+          "flavor_delta": {
+            "acidity": 1,
+            "viscosity": 2
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 85
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "heavy-cream",
@@ -61,7 +119,7 @@
         "acidity": 5,
         "umami_intensity": 35,
         "sweetness_index": 20,
-        "viscosity": 45
+        "viscosity": "medium"
       },
       "description": {
         "en": "Rich cream with a high fat content.",
@@ -80,7 +138,68 @@
           "en": "Soups",
           "ko": "수프"
         }
-      ]
+      ],
+      "difficulty": "easy",
+      "allergens": [
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "milk-butter-mix",
+          "name": {
+            "en": "Milk + Melted Butter",
+            "ko": "우유 + 녹인 버터"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "why_it_works": {
+            "en": "Butter provides the missing fat content to standard milk to mimic heavy cream's richness.",
+            "ko": "버터가 일반 우유에 부족한 지방 함량을 보충하여 헤비 크림의 풍미와 농도를 재현합니다."
+          },
+          "compensation_action": {
+            "en": "Whisk 3/4 cup milk with 1/4 cup melted unsalted butter.",
+            "ko": "우유 3/4컵과 녹인 무염 버터 1/4컵을 잘 섞어서 사용하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 87
+          },
+          "flavor_delta": {
+            "sweetness": "-0.4",
+            "salinity": "-0.4",
+            "umami": "0.3",
+            "heat": 0,
+            "acidity": "1.0"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "egg-baking",
@@ -99,7 +218,7 @@
         "acidity": 5,
         "umami_intensity": 45,
         "sweetness_index": 5,
-        "viscosity": 40
+        "viscosity": "medium"
       },
       "description": {
         "en": "Whole egg used for structure and richness.",
@@ -118,7 +237,68 @@
           "en": "Cooking",
           "ko": "요리 전반"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "gluten"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 95
+          },
+          "flavor_delta": {
+            "sweetness": "0.5",
+            "salinity": "0.7",
+            "umami": "-0.9",
+            "heat": 0,
+            "acidity": "0.7"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "cornstarch",
@@ -137,7 +317,7 @@
         "acidity": 0,
         "umami_intensity": 0,
         "sweetness_index": 5,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Fine corn flour used as a thickening agent.",
@@ -156,7 +336,68 @@
           "en": "Baking",
           "ko": "베이킹"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "gluten"
+      ],
+      "substitutes": [
+        {
+          "id": "potato-starch",
+          "name": {
+            "en": "Potato Starch",
+            "ko": "감자 전분"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "High thickening power and clear finish.",
+            "ko": "강한 점성과 투명한 마무리를 제공합니다."
+          },
+          "compensation_action": {
+            "en": "1:1 ratio unless specified.",
+            "ko": "별도 지시가 없으면 1:1 비율로 사용하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 98
+          },
+          "flavor_delta": {
+            "sweetness": "-0.2",
+            "salinity": "0.3",
+            "umami": "0.5",
+            "heat": 0,
+            "acidity": "-0.2"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "baking-powder",
@@ -175,7 +416,7 @@
         "acidity": 10,
         "umami_intensity": 0,
         "sweetness_index": 0,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Leavening agent that releases CO2.",
@@ -194,7 +435,68 @@
           "en": "Muffins",
           "ko": "머핀"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "gluten"
+      ],
+      "substitutes": [
+        {
+          "id": "baking-soda-acid",
+          "name": {
+            "en": "Baking Soda + Cream of Tartar",
+            "ko": "베이킹 소다 + 크림 오브 타르타르"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Creates the same leavening reaction.",
+            "ko": "동일한 팽창 반응을 만들어냅니다."
+          },
+          "compensation_action": {
+            "en": "1:1 ratio unless specified.",
+            "ko": "별도 지시가 없으면 1:1 비율로 사용하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 94
+          },
+          "flavor_delta": {
+            "sweetness": "-0.6",
+            "salinity": "0.9",
+            "umami": "-1.0",
+            "heat": 0,
+            "acidity": "0.5"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "cream-of-tartar",
@@ -213,7 +515,7 @@
         "acidity": 95,
         "umami_intensity": 0,
         "sweetness_index": 0,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Acidic powder used to stabilize egg whites.",
@@ -232,7 +534,69 @@
           "en": "Syrup",
           "ko": "시럽"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "gluten",
+        "dairy"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 88
+          },
+          "flavor_delta": {
+            "sweetness": "-0.8",
+            "salinity": "-0.6",
+            "umami": "-0.5",
+            "heat": 0,
+            "acidity": "0.2"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "xanthan-gum",
@@ -251,7 +615,7 @@
         "acidity": 0,
         "umami_intensity": 0,
         "sweetness_index": 0,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Thickener and stabilizer used in food.",
@@ -270,7 +634,68 @@
           "en": "Sauces",
           "ko": "소스"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "gluten"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 89
+          },
+          "flavor_delta": {
+            "sweetness": "-0.7",
+            "salinity": "0.2",
+            "umami": "-0.3",
+            "heat": 0,
+            "acidity": "-0.2"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "arrowroot-powder",
@@ -289,7 +714,7 @@
         "acidity": 0,
         "umami_intensity": 0,
         "sweetness_index": 5,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Nutrient-dense starch from tropical tubers.",
@@ -308,7 +733,68 @@
           "en": "Baking",
           "ko": "베이킹"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "gluten"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 97
+          },
+          "flavor_delta": {
+            "sweetness": "-0.5",
+            "salinity": "0.6",
+            "umami": "0.4",
+            "heat": 0,
+            "acidity": "-0.6"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "gelatin",
@@ -327,7 +813,7 @@
         "acidity": 0,
         "umami_intensity": 10,
         "sweetness_index": 5,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Colorless, flavorless food ingredient derived from collagen.",
@@ -346,7 +832,68 @@
           "en": "Marshmallows",
           "ko": "마시멜로"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "gluten"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 87
+          },
+          "flavor_delta": {
+            "sweetness": "-0.6",
+            "salinity": "-0.9",
+            "umami": "0.5",
+            "heat": 0,
+            "acidity": "-0.4"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "agar-agar",
@@ -365,7 +912,7 @@
         "acidity": 0,
         "umami_intensity": 5,
         "sweetness_index": 0,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Jelly-like substance derived from red algae.",
@@ -384,7 +931,68 @@
           "en": "Vegan Food",
           "ko": "비건 푸드"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "gluten"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 87
+          },
+          "flavor_delta": {
+            "sweetness": "0.8",
+            "salinity": "-1.0",
+            "umami": "-0.7",
+            "heat": 0,
+            "acidity": "0.7"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "almond-flour",
@@ -403,7 +1011,7 @@
         "acidity": 0,
         "umami_intensity": 25,
         "sweetness_index": 15,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Finely ground almonds, gluten-free.",
@@ -422,7 +1030,69 @@
           "en": "Coating",
           "ko": "코팅"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "gluten",
+        "nuts"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 97
+          },
+          "flavor_delta": {
+            "sweetness": "-0.6",
+            "salinity": "0.2",
+            "umami": "-0.9",
+            "heat": 0,
+            "acidity": "0.2"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "bread-flour",
@@ -441,7 +1111,7 @@
         "acidity": 0,
         "umami_intensity": 10,
         "sweetness_index": 10,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "High-protein flour for chewy textures.",
@@ -460,7 +1130,68 @@
           "en": "Yeasted Bread",
           "ko": "발효 빵"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "gluten"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 89
+          },
+          "flavor_delta": {
+            "sweetness": "0.1",
+            "salinity": "0.7",
+            "umami": "0.4",
+            "heat": 0,
+            "acidity": "-0.1"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "cake-flour",
@@ -479,7 +1210,7 @@
         "acidity": 0,
         "umami_intensity": 5,
         "sweetness_index": 15,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Low-protein flour for tender textures.",
@@ -498,7 +1229,68 @@
           "en": "Biscuits",
           "ko": "비스킷"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "gluten"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 93
+          },
+          "flavor_delta": {
+            "sweetness": "0.4",
+            "salinity": "-0.2",
+            "umami": "0.8",
+            "heat": 0,
+            "acidity": "-0.7"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "glutinous-rice-flour",
@@ -517,7 +1309,7 @@
         "acidity": 0,
         "umami_intensity": 10,
         "sweetness_index": 20,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Sticky flour from short-grain rice.",
@@ -536,7 +1328,68 @@
           "en": "Dumplings",
           "ko": "만두피"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "gluten"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 96
+          },
+          "flavor_delta": {
+            "sweetness": "-0.1",
+            "salinity": "-0.9",
+            "umami": "0.1",
+            "heat": 0,
+            "acidity": "-0.0"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "potato-starch",
@@ -555,7 +1408,7 @@
         "acidity": 0,
         "umami_intensity": 5,
         "sweetness_index": 5,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Starch extracted from potatoes.",
@@ -574,7 +1427,68 @@
           "en": "Sauces",
           "ko": "소스"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "gluten"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 89
+          },
+          "flavor_delta": {
+            "sweetness": "1.0",
+            "salinity": "-0.2",
+            "umami": "-0.3",
+            "heat": 0,
+            "acidity": "0.3"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "self-rising-flour",
@@ -593,7 +1507,7 @@
         "acidity": 5,
         "umami_intensity": 10,
         "sweetness_index": 10,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Flour with salt and leavening mixed in.",
@@ -612,7 +1526,68 @@
           "en": "Pancakes",
           "ko": "팬케이크"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "gluten"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 93
+          },
+          "flavor_delta": {
+            "sweetness": "-0.5",
+            "salinity": "0.6",
+            "umami": "0.6",
+            "heat": 0,
+            "acidity": "0.4"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "tapioca-starch",
@@ -631,7 +1606,7 @@
         "acidity": 0,
         "umami_intensity": 5,
         "sweetness_index": 15,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Starch from cassava roots.",
@@ -650,7 +1625,68 @@
           "en": "Pudding",
           "ko": "푸딩"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "gluten"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 94
+          },
+          "flavor_delta": {
+            "sweetness": "0.2",
+            "salinity": "-0.3",
+            "umami": "-0.3",
+            "heat": 0,
+            "acidity": "-0.1"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "yeast-dry",
@@ -669,7 +1705,7 @@
         "acidity": 10,
         "umami_intensity": 55,
         "sweetness_index": 5,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Leavening agent for bread baking.",
@@ -688,7 +1724,68 @@
           "en": "Dough",
           "ko": "발효 반죽"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "gluten"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 92
+          },
+          "flavor_delta": {
+            "sweetness": "0.1",
+            "salinity": "-1.0",
+            "umami": "-0.5",
+            "heat": 0,
+            "acidity": "-0.0"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     }
   ]
 }

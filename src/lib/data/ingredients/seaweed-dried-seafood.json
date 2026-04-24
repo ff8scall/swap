@@ -23,7 +23,7 @@
         "acidity": 5,
         "umami_intensity": 90,
         "sweetness_index": 20,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Dried edible seaweed sheets, essential for sushi.",
@@ -42,7 +42,68 @@
           "en": "Snacks",
           "ko": "스낵"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 85
+          },
+          "flavor_delta": {
+            "sweetness": "-0.8",
+            "salinity": "0.9",
+            "umami": "-1.0",
+            "heat": 0,
+            "acidity": "-0.7"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "kombu",
@@ -61,7 +122,7 @@
         "acidity": 5,
         "umami_intensity": 100,
         "sweetness_index": 10,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Dried kelp, the primary source of umami in dashi.",
@@ -80,7 +141,68 @@
           "en": "Rice",
           "ko": "밥"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 95
+          },
+          "flavor_delta": {
+            "sweetness": "0.4",
+            "salinity": "0.2",
+            "umami": "-0.6",
+            "heat": 0,
+            "acidity": "0.4"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "bonito-flakes",
@@ -99,7 +221,7 @@
         "acidity": 5,
         "umami_intensity": 100,
         "sweetness_index": 5,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Smoked and fermented skipjack tuna shavings.",
@@ -118,7 +240,68 @@
           "en": "Topping",
           "ko": "타코야키"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 85
+          },
+          "flavor_delta": {
+            "sweetness": "0.1",
+            "salinity": "-0.3",
+            "umami": "0.9",
+            "heat": 0,
+            "acidity": "0.3"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "dried-anchovies",
@@ -137,7 +320,7 @@
         "acidity": 5,
         "umami_intensity": 95,
         "sweetness_index": 5,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Small dried fish used for deep-flavored Korean broths.",
@@ -156,7 +339,68 @@
           "en": "Snacks",
           "ko": "스낵"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 94
+          },
+          "flavor_delta": {
+            "sweetness": "1.0",
+            "salinity": "0.8",
+            "umami": "-0.9",
+            "heat": 0,
+            "acidity": "-0.6"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "dried-pollack",
@@ -175,7 +419,7 @@
         "acidity": 5,
         "umami_intensity": 85,
         "sweetness_index": 10,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Dried Alaskan pollack, often used in restorative soups.",
@@ -194,7 +438,68 @@
           "en": "Grilled",
           "ko": "구이"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 98
+          },
+          "flavor_delta": {
+            "sweetness": "-0.6",
+            "salinity": "-0.7",
+            "umami": "-0.7",
+            "heat": 0,
+            "acidity": "-0.9"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     }
   ]
 }

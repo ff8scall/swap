@@ -145,7 +145,10 @@
       "solid": "고체",
       "paste": "페이스트",
       "powder": "가루",
-      "fat": "유지(지방)"
+      "fat": "유지(지방)",
+      "semi-solid": "반고체",
+      "gas": "기체",
+      "dried": "건조 상태"
     },
     "mouthfeel": {
       "creamy": "부드러운",
@@ -190,7 +193,18 @@
       "greasy-rich": "풍부한 기름기",
       "slimy": "미끌거리는",
       "smooth-slippery": "매끄럽고 미끈한",
-      "firm-brittle": "단단하고 잘 부서지는"
+      "firm-brittle": "단단하고 잘 부서지는",
+      "fuzzy": "보풀거리는",
+      "leafy": "잎사귀의",
+      "fuzzy-leafy": "잔털이 있는 잎사귀",
+      "powdery": "가루 같은",
+      "gritty": "모래 같은",
+      "rubbery": "고무 같은",
+      "spongy": "스펀지 같은",
+      "pasty": "죽 같은",
+      "gel-like": "젤리 같은",
+      "liquid-thin": "묽은 액체",
+      "liquid-thick": "진한 액체"
     }
   },
   "dietary": {

@@ -112,43 +112,56 @@
       "substitutes": [
         {
           "id": "miso-chili-mix",
-          "ratio": {
-            "source": 1,
-            "target_min": 1.2,
-            "target_max": 1.5,
-            "unit": "tbsp"
-          },
-          "substitution_logic": "manual_blending",
-          "failure_risk": "low",
-          "flavor_delta": {
-            "spiciness": -2,
-            "umami": 1,
-            "sweetness": -1
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Similar viscosity but lacks the unique fermented pungency of Korean red peppers. Miso is milder; Korean Doenjang is saltier.",
-            "ko": "비슷한 점성을 가지나 한국 고추 특유의 풍미는 다소 부족할 수 있습니다. 미소는 단맛이 강하고, 한국 된장은 훨씬 짜고 맛이 진합니다."
-          },
-          "compensation_action": {
-            "en": "Add 1/2 tsp of soy sauce for deeper umami. If using Korean Doenjang, reduce the amount by 20% to avoid oversaltiness.",
-            "ko": "감칠맛을 위해 간장 1/2작은술을 추가하세요. 한국 된장을 사용한다면 미소보다 훨씬 짜므로 양을 20% 정도 줄여서 사용하세요."
-          },
-          "verification": {
-            "verified_by": "Chef Jinny Park",
-            "date": "2026-04-24",
-            "confidence_score": 92
-          },
           "name": {
-            "en": "Miso-Chili Mix",
+            "en": "Miso + Chili Mix",
             "ko": "미소-고추 믹스"
           },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
           "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
+            "en": "Mimics the fermented sweetness and heat.",
+            "ko": "발효된 단맛과 매운맛을 재현합니다."
+          },
+          "compensation_action": {
+            "en": "1:1 ratio unless specified.",
+            "ko": "별도 지시가 없으면 1:1 비율로 사용하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 95
+          },
+          "flavor_delta": {
+            "sweetness": "0.9",
+            "salinity": "-0.8",
+            "umami": "0.2",
+            "heat": 0,
+            "acidity": "-0.6"
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1-2 years",
+          "ko": "1-2년"
+        },
+        "storage_tip": {
+          "en": "Keep refrigerated after opening. Surface should be kept flat.",
+          "ko": "개봉 후 냉장 보관하세요. 표면을 평평하게 눌러 공기 접촉을 최소화하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Keep refrigerated after opening. Surface should be kept flat.",
+        "ko": "개봉 후 냉장 보관하세요. 표면을 평평하게 눌러 공기 접촉을 최소화하세요."
+      }
     },
     {
       "id": "mirin",
@@ -288,7 +301,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6-12 months",
+          "ko": "6-12개월"
+        },
+        "storage_tip": {
+          "en": "Wipe the rim before closing to prevent contamination.",
+          "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Wipe the rim before closing to prevent contamination.",
+        "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+      }
     },
     {
       "id": "fish-sauce",
@@ -433,7 +464,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6-12 months",
+          "ko": "6-12개월"
+        },
+        "storage_tip": {
+          "en": "Wipe the rim before closing to prevent contamination.",
+          "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Wipe the rim before closing to prevent contamination.",
+        "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+      }
     },
     {
       "id": "doenjang",
@@ -575,7 +624,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6-12 months",
+          "ko": "6-12개월"
+        },
+        "storage_tip": {
+          "en": "Wipe the rim before closing to prevent contamination.",
+          "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Wipe the rim before closing to prevent contamination.",
+        "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+      }
     },
     {
       "id": "tahini",
@@ -717,7 +784,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6-12 months",
+          "ko": "6-12개월"
+        },
+        "storage_tip": {
+          "en": "Wipe the rim before closing to prevent contamination.",
+          "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Wipe the rim before closing to prevent contamination.",
+        "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+      }
     },
     {
       "id": "oyster-sauce",
@@ -854,7 +939,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6-12 months",
+          "ko": "6-12개월"
+        },
+        "storage_tip": {
+          "en": "Wipe the rim before closing to prevent contamination.",
+          "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Wipe the rim before closing to prevent contamination.",
+        "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+      }
     },
     {
       "id": "shaoxing-wine",
@@ -989,7 +1092,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6-12 months",
+          "ko": "6-12개월"
+        },
+        "storage_tip": {
+          "en": "Wipe the rim before closing to prevent contamination.",
+          "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Wipe the rim before closing to prevent contamination.",
+        "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+      }
     },
     {
       "id": "tamarind-paste",
@@ -1130,7 +1251,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6-12 months",
+          "ko": "6-12개월"
+        },
+        "storage_tip": {
+          "en": "Wipe the rim before closing to prevent contamination.",
+          "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Wipe the rim before closing to prevent contamination.",
+        "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+      }
     },
     {
       "id": "sriracha",
@@ -1268,7 +1407,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6-12 months",
+          "ko": "6-12개월"
+        },
+        "storage_tip": {
+          "en": "Wipe the rim before closing to prevent contamination.",
+          "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Wipe the rim before closing to prevent contamination.",
+        "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+      }
     },
     {
       "id": "hoisin-sauce",
@@ -1408,7 +1565,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6-12 months",
+          "ko": "6-12개월"
+        },
+        "storage_tip": {
+          "en": "Wipe the rim before closing to prevent contamination.",
+          "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Wipe the rim before closing to prevent contamination.",
+        "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+      }
     },
     {
       "id": "worcestershire-sauce",
@@ -1546,7 +1721,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6-12 months",
+          "ko": "6-12개월"
+        },
+        "storage_tip": {
+          "en": "Wipe the rim before closing to prevent contamination.",
+          "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Wipe the rim before closing to prevent contamination.",
+        "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+      }
     },
     {
       "id": "rice-wine-vinegar",
@@ -1684,7 +1877,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6-12 months",
+          "ko": "6-12개월"
+        },
+        "storage_tip": {
+          "en": "Wipe the rim before closing to prevent contamination.",
+          "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Wipe the rim before closing to prevent contamination.",
+        "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+      }
     },
     {
       "id": "harissa-paste",
@@ -1825,7 +2036,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6-12 months",
+          "ko": "6-12개월"
+        },
+        "storage_tip": {
+          "en": "Wipe the rim before closing to prevent contamination.",
+          "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Wipe the rim before closing to prevent contamination.",
+        "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+      }
     },
     {
       "id": "anchovy-paste",
@@ -1963,7 +2192,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6-12 months",
+          "ko": "6-12개월"
+        },
+        "storage_tip": {
+          "en": "Wipe the rim before closing to prevent contamination.",
+          "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Wipe the rim before closing to prevent contamination.",
+        "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+      }
     },
     {
       "id": "yuzu-kosho",
@@ -2100,7 +2347,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6-12 months",
+          "ko": "6-12개월"
+        },
+        "storage_tip": {
+          "en": "Wipe the rim before closing to prevent contamination.",
+          "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Wipe the rim before closing to prevent contamination.",
+        "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+      }
     },
     {
       "id": "kecap-manis",
@@ -2240,7 +2505,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6-12 months",
+          "ko": "6-12개월"
+        },
+        "storage_tip": {
+          "en": "Wipe the rim before closing to prevent contamination.",
+          "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Wipe the rim before closing to prevent contamination.",
+        "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+      }
     },
     {
       "id": "chili-crisp",
@@ -2377,7 +2660,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6-12 months",
+          "ko": "6-12개월"
+        },
+        "storage_tip": {
+          "en": "Wipe the rim before closing to prevent contamination.",
+          "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Wipe the rim before closing to prevent contamination.",
+        "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+      }
     },
     {
       "id": "liquid-smoke",
@@ -2512,7 +2813,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6-12 months",
+          "ko": "6-12개월"
+        },
+        "storage_tip": {
+          "en": "Wipe the rim before closing to prevent contamination.",
+          "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Wipe the rim before closing to prevent contamination.",
+        "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+      }
     },
     {
       "id": "coconut-aminos",
@@ -2651,7 +2970,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6-12 months",
+          "ko": "6-12개월"
+        },
+        "storage_tip": {
+          "en": "Wipe the rim before closing to prevent contamination.",
+          "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Wipe the rim before closing to prevent contamination.",
+        "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+      }
     },
     {
       "id": "doubanjiang",
@@ -2790,7 +3127,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6-12 months",
+          "ko": "6-12개월"
+        },
+        "storage_tip": {
+          "en": "Wipe the rim before closing to prevent contamination.",
+          "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Wipe the rim before closing to prevent contamination.",
+        "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+      }
     },
     {
       "id": "rice-vinegar",
@@ -2928,7 +3283,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6-12 months",
+          "ko": "6-12개월"
+        },
+        "storage_tip": {
+          "en": "Wipe the rim before closing to prevent contamination.",
+          "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Wipe the rim before closing to prevent contamination.",
+        "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+      }
     },
     {
       "id": "guk-ganjang",
@@ -3068,7 +3441,25 @@
             "ko": "화학적 유사성."
           }
         }
-      ]
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6-12 months",
+          "ko": "6-12개월"
+        },
+        "storage_tip": {
+          "en": "Wipe the rim before closing to prevent contamination.",
+          "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Wipe the rim before closing to prevent contamination.",
+        "ko": "오염 방지를 위해 뚜껑을 닫기 전 입구를 깨끗이 닦으세요."
+      }
     }
   ]
 }

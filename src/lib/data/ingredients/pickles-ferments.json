@@ -23,7 +23,7 @@
         "acidity": 55,
         "umami_intensity": 85,
         "sweetness_index": 20,
-        "viscosity": 30
+        "viscosity": "thin"
       },
       "description": {
         "en": "Traditional Korean fermented cabbage with chili, garlic, and ginger.",
@@ -42,7 +42,68 @@
           "en": "Side Dish",
           "ko": "반찬"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "sauerkraut-chili",
+          "name": {
+            "en": "Sauerkraut + Chili",
+            "ko": "사워크라우트 + 고춧가루"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar fermentation tang and spice.",
+            "ko": "비슷한 발효된 산미와 매운맛을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust for salt levels accordingly.",
+            "ko": "염도 차이에 따라 양을 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 94
+          },
+          "flavor_delta": {
+            "sweetness": "-0.2",
+            "salinity": "-0.2",
+            "umami": "0.1",
+            "heat": 0,
+            "acidity": "-0.6"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6 months+",
+          "ko": "6개월 이상"
+        },
+        "storage_tip": {
+          "en": "Ensure ingredients are submerged in brine/sauce.",
+          "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Ensure ingredients are submerged in brine/sauce.",
+        "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "kimchi-radish",
@@ -61,7 +122,7 @@
         "acidity": 50,
         "umami_intensity": 75,
         "sweetness_index": 25,
-        "viscosity": 25
+        "viscosity": "thin"
       },
       "description": {
         "en": "Cubed radish kimchi with a crunchy texture and sweet-spicy profile.",
@@ -80,7 +141,68 @@
           "en": "Noodle Topping",
           "ko": "국수 고명"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 88
+          },
+          "flavor_delta": {
+            "sweetness": "0.2",
+            "salinity": "0.7",
+            "umami": "0.4",
+            "heat": 0,
+            "acidity": "0.5"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6 months+",
+          "ko": "6개월 이상"
+        },
+        "storage_tip": {
+          "en": "Ensure ingredients are submerged in brine/sauce.",
+          "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Ensure ingredients are submerged in brine/sauce.",
+        "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "sauerkraut",
@@ -99,7 +221,7 @@
         "acidity": 80,
         "umami_intensity": 35,
         "sweetness_index": 5,
-        "viscosity": 20
+        "viscosity": "thin"
       },
       "description": {
         "en": "Finely cut raw cabbage fermented by various lactic acid bacteria.",
@@ -118,7 +240,68 @@
           "en": "Sides",
           "ko": "사이드"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "kimchi-white",
+          "name": {
+            "en": "White Kimchi (Baek-kimchi)",
+            "ko": "백김치"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Lactic acid fermentation with similar crunch.",
+            "ko": "비슷한 아삭함과 유산균 발효 풍미를 가집니다."
+          },
+          "compensation_action": {
+            "en": "Adjust for salt levels accordingly.",
+            "ko": "염도 차이에 따라 양을 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 94
+          },
+          "flavor_delta": {
+            "sweetness": "-0.4",
+            "salinity": "-0.3",
+            "umami": "0.4",
+            "heat": 0,
+            "acidity": "-0.0"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6 months+",
+          "ko": "6개월 이상"
+        },
+        "storage_tip": {
+          "en": "Ensure ingredients are submerged in brine/sauce.",
+          "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Ensure ingredients are submerged in brine/sauce.",
+        "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "pickles-dill",
@@ -137,7 +320,7 @@
         "acidity": 75,
         "umami_intensity": 20,
         "sweetness_index": 5,
-        "viscosity": 15
+        "viscosity": "thin"
       },
       "description": {
         "en": "Cucumbers pickled in brine or vinegar with dill and garlic.",
@@ -156,7 +339,68 @@
           "en": "Snacks",
           "ko": "스낵"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 92
+          },
+          "flavor_delta": {
+            "sweetness": "-0.7",
+            "salinity": "0.0",
+            "umami": "1.0",
+            "heat": 0,
+            "acidity": "-0.1"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6 months+",
+          "ko": "6개월 이상"
+        },
+        "storage_tip": {
+          "en": "Ensure ingredients are submerged in brine/sauce.",
+          "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Ensure ingredients are submerged in brine/sauce.",
+        "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "pickled-ginger",
@@ -175,7 +419,7 @@
         "acidity": 65,
         "umami_intensity": 15,
         "sweetness_index": 45,
-        "viscosity": 10
+        "viscosity": "watery"
       },
       "description": {
         "en": "Thinly sliced ginger pickled in sugar and vinegar, often served with sushi.",
@@ -194,7 +438,68 @@
           "en": "Palate Cleanser",
           "ko": "입가심"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 89
+          },
+          "flavor_delta": {
+            "sweetness": "-0.6",
+            "salinity": "0.6",
+            "umami": "0.8",
+            "heat": 0,
+            "acidity": "-0.9"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6 months+",
+          "ko": "6개월 이상"
+        },
+        "storage_tip": {
+          "en": "Ensure ingredients are submerged in brine/sauce.",
+          "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Ensure ingredients are submerged in brine/sauce.",
+        "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "miso-white",
@@ -213,7 +518,7 @@
         "acidity": 15,
         "umami_intensity": 85,
         "sweetness_index": 35,
-        "viscosity": 80
+        "viscosity": "thick"
       },
       "description": {
         "en": "Mild, slightly sweet fermented soybean paste with a short aging period.",
@@ -232,7 +537,68 @@
           "en": "Marinade",
           "ko": "마리네이드"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "soy"
+      ],
+      "substitutes": [
+        {
+          "id": "doenjang-mild",
+          "name": {
+            "en": "Mild Korean Soybean Paste",
+            "ko": "연한 된장"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Fermented soybean base with similar umami.",
+            "ko": "비슷한 감칠맛을 가진 발효 대두 베이스입니다."
+          },
+          "compensation_action": {
+            "en": "Adjust for salt levels accordingly.",
+            "ko": "염도 차이에 따라 양을 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 86
+          },
+          "flavor_delta": {
+            "sweetness": "-1.0",
+            "salinity": "0.3",
+            "umami": "-0.8",
+            "heat": 0,
+            "acidity": "-0.6"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6 months+",
+          "ko": "6개월 이상"
+        },
+        "storage_tip": {
+          "en": "Ensure ingredients are submerged in brine/sauce.",
+          "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Ensure ingredients are submerged in brine/sauce.",
+        "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "miso-red",
@@ -251,7 +617,7 @@
         "acidity": 20,
         "umami_intensity": 95,
         "sweetness_index": 15,
-        "viscosity": 85
+        "viscosity": "thick"
       },
       "description": {
         "en": "Robust, salty fermented soybean paste with a long aging period.",
@@ -270,7 +636,68 @@
           "en": "Braised Meat",
           "ko": "고기 조림"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "soy"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 90
+          },
+          "flavor_delta": {
+            "sweetness": "0.9",
+            "salinity": "0.3",
+            "umami": "0.6",
+            "heat": 0,
+            "acidity": "-0.4"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6 months+",
+          "ko": "6개월 이상"
+        },
+        "storage_tip": {
+          "en": "Ensure ingredients are submerged in brine/sauce.",
+          "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Ensure ingredients are submerged in brine/sauce.",
+        "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "fenugreek-leaves",
@@ -289,7 +716,7 @@
         "acidity": 5,
         "umami_intensity": 40,
         "sweetness_index": 5,
-        "viscosity": 5
+        "viscosity": "watery"
       },
       "description": {
         "en": "Bitter, nutty leaves with a maple-like aroma.",
@@ -308,7 +735,68 @@
           "en": "Veg",
           "ko": "채소 요리"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 87
+          },
+          "flavor_delta": {
+            "sweetness": "-0.1",
+            "salinity": "0.1",
+            "umami": "0.4",
+            "heat": 0,
+            "acidity": "-0.1"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6 months+",
+          "ko": "6개월 이상"
+        },
+        "storage_tip": {
+          "en": "Ensure ingredients are submerged in brine/sauce.",
+          "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Ensure ingredients are submerged in brine/sauce.",
+        "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "preserved-lemon",
@@ -327,7 +815,7 @@
         "acidity": 90,
         "umami_intensity": 30,
         "sweetness_index": 5,
-        "viscosity": 40
+        "viscosity": "medium"
       },
       "description": {
         "en": "Lemons pickled in salt and juice, essential for Moroccan cuisine.",
@@ -346,7 +834,68 @@
           "en": "Fish",
           "ko": "생선 요리"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "lemon-zest-extra-salt",
+          "name": {
+            "en": "Lemon Zest + Salt",
+            "ko": "레몬 제스트 + 소금"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Quickly mimics the concentrated salty citrus flavor.",
+            "ko": "농축된 짭조름한 시트러스 풍미를 빠르게 재현합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust for salt levels accordingly.",
+            "ko": "염도 차이에 따라 양을 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 88
+          },
+          "flavor_delta": {
+            "sweetness": "-0.8",
+            "salinity": "0.6",
+            "umami": "-0.7",
+            "heat": 0,
+            "acidity": "0.4"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6 months+",
+          "ko": "6개월 이상"
+        },
+        "storage_tip": {
+          "en": "Ensure ingredients are submerged in brine/sauce.",
+          "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Ensure ingredients are submerged in brine/sauce.",
+        "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "koji",
@@ -365,7 +914,7 @@
         "acidity": 10,
         "umami_intensity": 50,
         "sweetness_index": 30,
-        "viscosity": 20
+        "viscosity": "thin"
       },
       "description": {
         "en": "Rice or barley inoculated with fermentation culture.",
@@ -384,7 +933,68 @@
           "en": "Brewing",
           "ko": "술 제조"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 96
+          },
+          "flavor_delta": {
+            "sweetness": "0.5",
+            "salinity": "-0.2",
+            "umami": "0.2",
+            "heat": 0,
+            "acidity": "0.3"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6 months+",
+          "ko": "6개월 이상"
+        },
+        "storage_tip": {
+          "en": "Ensure ingredients are submerged in brine/sauce.",
+          "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Ensure ingredients are submerged in brine/sauce.",
+        "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "umeboshi",
@@ -403,7 +1013,7 @@
         "acidity": 95,
         "umami_intensity": 40,
         "sweetness_index": 5,
-        "viscosity": 50
+        "viscosity": "medium"
       },
       "description": {
         "en": "Extremely salty and sour pickled plums from Japan.",
@@ -422,7 +1032,68 @@
           "en": "Dressing",
           "ko": "드레싱"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 95
+          },
+          "flavor_delta": {
+            "sweetness": "0.9",
+            "salinity": "0.3",
+            "umami": "0.2",
+            "heat": 0,
+            "acidity": "-0.4"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6 months+",
+          "ko": "6개월 이상"
+        },
+        "storage_tip": {
+          "en": "Ensure ingredients are submerged in brine/sauce.",
+          "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Ensure ingredients are submerged in brine/sauce.",
+        "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "saeu-jeot",
@@ -441,7 +1112,7 @@
         "acidity": 10,
         "umami_intensity": 100,
         "sweetness_index": 5,
-        "viscosity": 60
+        "viscosity": "medium"
       },
       "description": {
         "en": "Brined tiny shrimp, key for kimchi fermentation.",
@@ -460,7 +1131,68 @@
           "en": "Steamed Eggs",
           "ko": "계란찜"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "crustaceans"
+      ],
+      "substitutes": [
+        {
+          "id": "fish-sauce",
+          "name": {
+            "en": "Fish Sauce",
+            "ko": "피쉬소스"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides intense salinity and deep umami.",
+            "ko": "강렬한 염도와 깊은 감칠맛을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust for salt levels accordingly.",
+            "ko": "염도 차이에 따라 양을 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 88
+          },
+          "flavor_delta": {
+            "sweetness": "0.9",
+            "salinity": "-0.1",
+            "umami": "-0.5",
+            "heat": 0,
+            "acidity": "0.8"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6 months+",
+          "ko": "6개월 이상"
+        },
+        "storage_tip": {
+          "en": "Ensure ingredients are submerged in brine/sauce.",
+          "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+        },
+        "optimal_temperature": "1-4°C"
+      },
+      "shelf_life": {
+        "opened_days": 180
+      },
+      "storage_tips": {
+        "en": "Ensure ingredients are submerged in brine/sauce.",
+        "ko": "재료가 항상 국물에 잠겨 있도록 관리하세요."
+      },
+      "texture_profile": {
+        "state": "liquid",
+        "mouthfeel": "standard"
+      }
     }
   ]
 }

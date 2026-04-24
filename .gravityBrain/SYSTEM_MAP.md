@@ -1,36 +1,76 @@
-# 🗺️ SYSTEM_MAP: Global Ingredient Swap
+# 🗺️ SYSTEM MAP: Global Ingredient Swap
 
-## 🧪 대체 비율 알고리즘 (Finalized)
-1. **Variable Ratio Logic**: `Target = Source * [Min_Ratio ~ Max_Ratio]`
-2. **Multi-Unit Conversion**: Metric(g, ml) <-> Imperial(cup, oz) 정밀 변환
-3. **Flavor Correction**: 대체 시 발생하는 수분/당도/산도 변화에 따른 보정 가이드 생성 (0-100 표준 풍미 지표 기반)
+## 1. 프로젝트 개요
+- **목적**: 전 세계 식재료의 대체재 정보를 제공하고, 과학적 풍미 지표를 기반으로 요리 보정 가이드를 제시하는 프리미엄 미식 플랫폼.
+- **핵심 가치**: 데이터 무결성(i18n), 프리미엄 UX/UI, 시각적 풍미 분석.
 
-## 🤖 AI 데이터 생성 및 SEO 파이프라인
-- **Step 1**: 재료 및 조리법별 대체 후보군 추출 (DeepSeek-R1)
-- **Step 2**: 화학적 유사성 및 셰프 데이터 기반 2단계 검증 (2-Pass Verification)
-- **Step 3**: SEO 최적화 JSON-LD (HowTo/Recipe) 자동 생성 및 서버 사이드 이식
-- **Step 4**: SNS 바이럴용 인포그래픽 이미지 실시간 생성 (ShareableCard)
-- **Step 5**: **[NEW]** 네이버/빙 사이트 인증 및 `sitemap.xml`, `rss.xml` 자동 생성 파이프라인 구축
+## 2. 기술 스택 (Tech Stack)
+- **Frontend**: Next.js 16.2.4 (App Router), React 19.2.4
+- **Styling**: Tailwind CSS (UI/UX), Framer Motion (Animations)
+- **Visualization**: Recharts (Radar Chart for Flavor Profile)
+- **Data Management**: JSON-based Flat File System (140 Ingredients)
+- **Automation**: Node.js scripts for i18n validation and batch updates
+- **Deployment**: Vercel (Production)
 
-## 🧩 시스템 구조 (Phase 16 - 프로덕션 릴리즈)
-- **[View Layer - SSG]**: Home, Ingredient Detail, Explore (140종 정적 페이지 생성)
-- **[Global Navigation]**: Header Search Bar (미니멀리즘 UI - 로그인/퀴즈 비활성화)
-- **[Client Logic - CSR]**: 
-    ├── components/
-    │   ├── common/             # 공통 UI (Header, Footer, LanguageSwitcher)
-    │   └── swap/               # 스왑 핵심 UI (SwapCard, FlavorRadarChart, ActionPlan)
-    ├── lib/
-    ├── scripts/                # 데이터 자동화 및 크롤링 관리 스크립트
-    - **Swap Widget**: 실시간 비율 계산 및 데이터 누락 시 방어 렌더링 적용
-    - **Explore Filter**: Fuzzy Search 기반 다국어 재료 탐색 및 카테고리 필터링
-    - **Sharing Engine**: 인포그래픽 실시간 스캔 및 이미지(PNG) 다운로드
-- **[Data]**: Verified Ingredient Dataset (140 High-Fidelity Items)
-    - **Structure**: Split into 8 category-based JSON files in `src/lib/data/ingredients/`
-    - **Entry Point**: `src/lib/data/ingredients/index.js` (Aggregates all fragments)
-    - **Defensive Design**: 데이터 누락 시에도 시스템 중단 없는 옵셔널 체이닝 아키텍처
+## 3. 디렉토리 구조 (Directory Structure)
+```text
+/
+├── .gravityBrain/          # 에이전트 장기 기억 및 작업 일지 (Source of Truth)
+├── scripts/                # 데이터 자동화 및 자산 파이프라인
+│   ├── validate-data.js    # 다국어 누락 및 플레이스홀더 검증
+│   ├── generate-images.js  # NVIDIA NIM 기반 이미지 생성 엔진
+│   ├── generate-thumbnails.js # Sharp 기반 원형 썸네일 생성
+│   ├── master-polish.js    # 0% 일치 해결 및 풍미 데이터 보정
+│   └── humanize-texture.js # 물리적 질감 한글화 엔진
+├── src/
+│   ├── app/                # 라우팅 및 SEO 설정 (Sitemap, RSS)
+│   │   ├── explore/        # 식재료 탐색 및 상세 페이지
+│   │   └── api/            # 이미지 생성 및 기타 서버리스 기능
+│   ├── components/
+│   │   ├── common/         # 공통 UI (Header, Footer, LanguageSwitcher)
+│   │   └── swap/           # 핵심 비즈니스 UI (SwapCard, RadarChart, DetailView)
+│   ├── lib/
+│   │   ├── data/           # 140종 식재료 JSON 데이터셋
+│   │   ├── i18n/           # 시스템 UI 다국어 (en, ko)
+│   │   └── utils/          # 풍미 보정 및 계산 로직
+│   └── hooks/              # 다국어 및 URL 상태 관리 커스텀 훅
+├── public/                 # 정적 에셋 (Icons, Images)
+│   ├── images/ingredients/ # AI 생성 원본 식재료 이미지 (140종)
+│   └── images/thumbnails/  # 최적화된 원형 썸네일 (WebP)
+└── package.json            # 의존성 및 데이터 검증 명령어 등록
+```
 
-## 🎨 디자인 시스템
-- **Theme**: Premium Dark (Glassmorphism, Slate-950 Base + Amber-500 Point)
-- **Grid System**: 40px Dot Grid Background (Science/Lab Identity)
-- **Typography**: Outfit (Logo), Inter (Content)
-- **Layout**: Centered Brand Footer & Clean Header (No clutter)
+## 4. 시스템 아키텍처 및 데이터 흐름 (Visualization)
+```mermaid
+graph TD
+    subgraph DataLayer ["Data Layer (JSON)"]
+        D1[Ingredients Data 140ea]
+        D2[I18n Resources]
+    end
+
+    subgraph LogicLayer ["Logic & Hooks"]
+        L1[useLanguage - i18n Switch]
+        L2[Substitution Logic - Ratio Calc]
+        L3[Data Validation - scripts]
+    end
+
+    subgraph UILayer ["UI Components (Premium UX)"]
+        U1[Header/Explore - Navigation]
+        U2[DetailView - Hero Section]
+        U3[FlavorRadarChart - Visualization]
+        U4[ActionPlan - Step-by-step Guide]
+    end
+
+    D1 -->|Hydrate| U2
+    D1 -->|Analyze| U3
+    D2 -->|Switch| L1
+    L1 -->|Translate| UILayer
+    U2 -->|Select| L2
+    L2 -->|Update| U4
+    L3 -->|Verify| D1
+```
+
+## 5. 핵심 모듈 관계
+- **IngredientDetailView**: 페이지의 컨트롤러 역할을 하며, `best_use_cases` 및 `FlavorRadarChart`를 조합하여 프리미엄 UX를 완성합니다.
+- **scripts/validate-data**: 데이터의 질을 보장하는 Safety Net 역할을 수행하며, 배포 전 데이터 무결성을 최종 점검합니다.
+- **FlavorRadarChart**: `Recharts`를 사용하여 원본과 대체재의 풍미 오버레이 시각화를 담당합니다.

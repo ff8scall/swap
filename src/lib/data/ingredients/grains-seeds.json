@@ -23,7 +23,7 @@
         "acidity": 0,
         "umami_intensity": 20,
         "sweetness_index": 10,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Protein-rich seed used as a grain substitute.",
@@ -42,7 +42,68 @@
           "en": "Sides",
           "ko": "사이드"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "couscous",
+          "name": {
+            "en": "Couscous",
+            "ko": "쿠스쿠스"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Similar small grain-like texture and neutral flavor.",
+            "ko": "비슷하게 작은 알갱이 질감과 중립적인 맛을 가집니다."
+          },
+          "compensation_action": {
+            "en": "Adjust cooking time based on texture.",
+            "ko": "질감에 따라 조리 시간을 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 98
+          },
+          "flavor_delta": {
+            "sweetness": "0.5",
+            "salinity": "-0.0",
+            "umami": "-0.9",
+            "heat": 0,
+            "acidity": "-0.8"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1 year",
+          "ko": "1년"
+        },
+        "storage_tip": {
+          "en": "Store in a cool, dry place. Flour is best in airtight containers.",
+          "ko": "서늘하고 건조한 곳에 두세요. 가루류는 밀폐 용기가 필수입니다."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Store in a cool, dry place. Flour is best in airtight containers.",
+        "ko": "서늘하고 건조한 곳에 두세요. 가루류는 밀폐 용기가 필수입니다."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "masa-harina",
@@ -61,7 +122,7 @@
         "acidity": 5,
         "umami_intensity": 30,
         "sweetness_index": 15,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Nixtamalized corn flour for tortillas.",
@@ -80,7 +141,68 @@
           "en": "Sauces",
           "ko": "소스"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "cornmeal-fine",
+          "name": {
+            "en": "Fine Cornmeal + Flour",
+            "ko": "고운 콘밀 + 밀가루"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Mimics the corn flavor and starchiness.",
+            "ko": "옥수수의 풍미와 전분기를 재현합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust cooking time based on texture.",
+            "ko": "질감에 따라 조리 시간을 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 95
+          },
+          "flavor_delta": {
+            "sweetness": "-1.0",
+            "salinity": "0.5",
+            "umami": "0.4",
+            "heat": 0,
+            "acidity": "0.2"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1 year",
+          "ko": "1년"
+        },
+        "storage_tip": {
+          "en": "Store in a cool, dry place. Flour is best in airtight containers.",
+          "ko": "서늘하고 건조한 곳에 두세요. 가루류는 밀폐 용기가 필수입니다."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Store in a cool, dry place. Flour is best in airtight containers.",
+        "ko": "서늘하고 건조한 곳에 두세요. 가루류는 밀폐 용기가 필수입니다."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "tteok",
@@ -99,7 +221,7 @@
         "acidity": 5,
         "umami_intensity": 25,
         "sweetness_index": 15,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Chewy, elastic solid made from steamed rice flour.",
@@ -118,7 +240,68 @@
           "en": "Skewers",
           "ko": "꼬치"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "gnocchi",
+          "name": {
+            "en": "Potato Gnocchi",
+            "ko": "감자 뇨끼"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides a similar chewy, elastic mouthfeel.",
+            "ko": "비슷하게 쫄깃하고 탄성 있는 식감을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust cooking time based on texture.",
+            "ko": "질감에 따라 조리 시간을 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 90
+          },
+          "flavor_delta": {
+            "sweetness": "-0.6",
+            "salinity": "0.2",
+            "umami": "-0.5",
+            "heat": 0,
+            "acidity": "-0.8"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1 year",
+          "ko": "1년"
+        },
+        "storage_tip": {
+          "en": "Store in a cool, dry place. Flour is best in airtight containers.",
+          "ko": "서늘하고 건조한 곳에 두세요. 가루류는 밀폐 용기가 필수입니다."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Store in a cool, dry place. Flour is best in airtight containers.",
+        "ko": "서늘하고 건조한 곳에 두세요. 가루류는 밀폐 용기가 필수입니다."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "chia-seeds",
@@ -137,7 +320,7 @@
         "acidity": 0,
         "umami_intensity": 10,
         "sweetness_index": 5,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Tiny seeds that swell in liquid, rich in omega-3.",
@@ -156,7 +339,68 @@
           "en": "Baking",
           "ko": "베이킹"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "flax-seeds-ground",
+          "name": {
+            "en": "Ground Flax Seeds",
+            "ko": "분쇄 아마씨"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Similar mucilaginous properties when soaked.",
+            "ko": "물에 불렸을 때 비슷한 점성(겔화) 성질을 가집니다."
+          },
+          "compensation_action": {
+            "en": "Adjust cooking time based on texture.",
+            "ko": "질감에 따라 조리 시간을 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 98
+          },
+          "flavor_delta": {
+            "sweetness": "-0.7",
+            "salinity": "-1.0",
+            "umami": "1.0",
+            "heat": 0,
+            "acidity": "-0.5"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1 year",
+          "ko": "1년"
+        },
+        "storage_tip": {
+          "en": "Store in a cool, dry place. Flour is best in airtight containers.",
+          "ko": "서늘하고 건조한 곳에 두세요. 가루류는 밀폐 용기가 필수입니다."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Store in a cool, dry place. Flour is best in airtight containers.",
+        "ko": "서늘하고 건조한 곳에 두세요. 가루류는 밀폐 용기가 필수입니다."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "flax-seeds",
@@ -175,7 +419,7 @@
         "acidity": 0,
         "umami_intensity": 15,
         "sweetness_index": 10,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Nutty seeds high in fiber and healthy fats.",
@@ -194,7 +438,68 @@
           "en": "Cereal",
           "ko": "시리얼"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 89
+          },
+          "flavor_delta": {
+            "sweetness": "0.6",
+            "salinity": "-0.0",
+            "umami": "-0.3",
+            "heat": 0,
+            "acidity": "-0.2"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1 year",
+          "ko": "1년"
+        },
+        "storage_tip": {
+          "en": "Store in a cool, dry place. Flour is best in airtight containers.",
+          "ko": "서늘하고 건조한 곳에 두세요. 가루류는 밀폐 용기가 필수입니다."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Store in a cool, dry place. Flour is best in airtight containers.",
+        "ko": "서늘하고 건조한 곳에 두세요. 가루류는 밀폐 용기가 필수입니다."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "rice-white",
@@ -213,7 +518,7 @@
         "acidity": 0,
         "umami_intensity": 15,
         "sweetness_index": 20,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Polished short-grain or long-grain rice, a staple food.",
@@ -232,7 +537,68 @@
           "en": "Risotto",
           "ko": "리조또"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "cauliflower-rice",
+          "name": {
+            "en": "Cauliflower Rice (Low-carb)",
+            "ko": "콜리플라워 라이스"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Visual and functional substitute for rice dishes.",
+            "ko": "밥 요리의 시각적, 기능적 대안입니다."
+          },
+          "compensation_action": {
+            "en": "Adjust cooking time based on texture.",
+            "ko": "질감에 따라 조리 시간을 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 95
+          },
+          "flavor_delta": {
+            "sweetness": "-0.8",
+            "salinity": "-0.1",
+            "umami": "1.0",
+            "heat": 0,
+            "acidity": "0.4"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1 year",
+          "ko": "1년"
+        },
+        "storage_tip": {
+          "en": "Store in a cool, dry place. Flour is best in airtight containers.",
+          "ko": "서늘하고 건조한 곳에 두세요. 가루류는 밀폐 용기가 필수입니다."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Store in a cool, dry place. Flour is best in airtight containers.",
+        "ko": "서늘하고 건조한 곳에 두세요. 가루류는 밀폐 용기가 필수입니다."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "rice-brown",
@@ -251,7 +617,7 @@
         "acidity": 0,
         "umami_intensity": 25,
         "sweetness_index": 15,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Whole grain rice with the bran layer intact.",
@@ -270,7 +636,68 @@
           "en": "Bowls",
           "ko": "볼"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "barley",
+          "name": {
+            "en": "Barley",
+            "ko": "보리"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Similar chewy texture and nutty, earthy flavor.",
+            "ko": "비슷하게 톡톡 터지는 식감과 구수한 풍미를 가집니다."
+          },
+          "compensation_action": {
+            "en": "Adjust cooking time based on texture.",
+            "ko": "질감에 따라 조리 시간을 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 88
+          },
+          "flavor_delta": {
+            "sweetness": "-0.7",
+            "salinity": "0.6",
+            "umami": "-0.7",
+            "heat": 0,
+            "acidity": "-0.3"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "1 year",
+          "ko": "1년"
+        },
+        "storage_tip": {
+          "en": "Store in a cool, dry place. Flour is best in airtight containers.",
+          "ko": "서늘하고 건조한 곳에 두세요. 가루류는 밀폐 용기가 필수입니다."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Store in a cool, dry place. Flour is best in airtight containers.",
+        "ko": "서늘하고 건조한 곳에 두세요. 가루류는 밀폐 용기가 필수입니다."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     }
   ]
 }

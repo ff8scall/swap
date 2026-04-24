@@ -87,7 +87,19 @@ export default function IngredientExploreView({ ingredients }) {
             <Link href={`/explore/${ing.id}`} key={ing.id} className="ingredient-card-link">
               <article className="ingredient-card glass-card">
                 <div className="card-top">
-                  <div className="icon-badge">{ing.icon || '🧂'}</div>
+                  <div className="icon-badge">
+                    <img 
+                      src={`/images/thumbnails/${ing.id}.webp`} 
+                      alt="" 
+                      className="thumb-img"
+                      loading="lazy"
+                      onError={(e) => {
+                        e.target.style.display = 'none';
+                        if (e.target.nextSibling) e.target.nextSibling.style.display = 'block';
+                      }}
+                    />
+                    <span className="emoji-fallback" style={{ display: 'none' }}>{ing.icon || '🧂'}</span>
+                  </div>
                   <div className="name-meta">
                     <h3>{ing.name?.[lang] || ing.id}</h3>
                     <span className="category-label">{ing.category?.[lang] || ''}</span>
@@ -233,15 +245,32 @@ export default function IngredientExploreView({ ingredients }) {
           margin-bottom: 24px;
         }
         .icon-badge {
-          width: 56px;
-          height: 56px;
-          background: rgba(255, 255, 255, 0.05);
-          border-radius: 14px;
+          width: 60px;
+          height: 60px;
+          background: rgba(255, 255, 255, 0.03);
+          border-radius: 50%;
           display: flex;
           align-items: center;
           justify-content: center;
-          font-size: 28px;
+          font-size: 24px;
           border: 1px solid var(--glass-border);
+          overflow: hidden;
+          flex-shrink: 0;
+          transition: all 0.4s ease;
+          box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+        }
+        .thumb-img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.5s ease;
+        }
+        .ingredient-card:hover .icon-badge {
+          border-color: var(--brand-primary);
+          transform: rotate(-5deg);
+        }
+        .ingredient-card:hover .thumb-img {
+          transform: scale(1.15);
         }
         .name-meta h3 {
           font-size: 20px;

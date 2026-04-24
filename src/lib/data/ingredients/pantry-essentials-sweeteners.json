@@ -23,7 +23,7 @@
         "acidity": 0,
         "umami_intensity": 0,
         "sweetness_index": 100,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Pure sucrose, the standard for sweetness.",
@@ -42,7 +42,68 @@
           "en": "General Cooking",
           "ko": "요리 전반"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "agave-syrup",
+          "name": {
+            "en": "Agave Syrup",
+            "ko": "아가베 시럽"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides clean sweetness with lower glycemic index.",
+            "ko": "깔끔한 단맛을 제공하며 혈당 지수가 낮습니다."
+          },
+          "compensation_action": {
+            "en": "Adjust sweetness/acidity to taste.",
+            "ko": "취향에 따라 단맛/산미를 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 93
+          },
+          "flavor_delta": {
+            "sweetness": "0.4",
+            "salinity": "-0.2",
+            "umami": "-0.8",
+            "heat": 0,
+            "acidity": "-0.5"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "brown-sugar",
@@ -61,7 +122,7 @@
         "acidity": 5,
         "umami_intensity": 5,
         "sweetness_index": 95,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Sugar with molasses, providing a deep caramel flavor.",
@@ -80,7 +141,68 @@
           "en": "Marinade",
           "ko": "양념"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "coconut-sugar",
+          "name": {
+            "en": "Coconut Sugar",
+            "ko": "코코넛 슈가"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Similar caramel notes and moisture content.",
+            "ko": "비슷한 캐러멜 풍미와 수분감을 가지고 있습니다."
+          },
+          "compensation_action": {
+            "en": "Adjust sweetness/acidity to taste.",
+            "ko": "취향에 따라 단맛/산미를 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 85
+          },
+          "flavor_delta": {
+            "sweetness": "0.6",
+            "salinity": "-0.4",
+            "umami": "-0.1",
+            "heat": 0,
+            "acidity": "0.1"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "honey",
@@ -99,7 +221,7 @@
         "acidity": 15,
         "umami_intensity": 10,
         "sweetness_index": 120,
-        "viscosity": 85
+        "viscosity": "thick"
       },
       "description": {
         "en": "Natural sweetener made by bees, rich in floral notes.",
@@ -118,7 +240,68 @@
           "en": "Toast",
           "ko": "토스트"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "maple-syrup",
+          "name": {
+            "en": "Maple Syrup",
+            "ko": "메이플 시럽"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Liquid sweetener with complex flavor profile.",
+            "ko": "복합적인 풍미를 가진 액체 감미료입니다."
+          },
+          "compensation_action": {
+            "en": "Adjust sweetness/acidity to taste.",
+            "ko": "취향에 따라 단맛/산미를 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 91
+          },
+          "flavor_delta": {
+            "sweetness": "0.9",
+            "salinity": "0.4",
+            "umami": "0.7",
+            "heat": 0,
+            "acidity": "0.3"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "maple-syrup",
@@ -137,7 +320,7 @@
         "acidity": 10,
         "umami_intensity": 5,
         "sweetness_index": 65,
-        "viscosity": 50
+        "viscosity": "medium"
       },
       "description": {
         "en": "Syrup from maple sap, known for its woody aroma.",
@@ -156,7 +339,68 @@
           "en": "Sauces",
           "ko": "소스"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 92
+          },
+          "flavor_delta": {
+            "sweetness": "-0.4",
+            "salinity": "0.6",
+            "umami": "-0.5",
+            "heat": 0,
+            "acidity": "0.9"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "salt-kosher",
@@ -175,7 +419,7 @@
         "acidity": 0,
         "umami_intensity": 0,
         "sweetness_index": 0,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Coarse salt without additives, preferred by chefs.",
@@ -194,7 +438,68 @@
           "en": "Finishing",
           "ko": "마무리"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 98
+          },
+          "flavor_delta": {
+            "sweetness": "-0.8",
+            "salinity": "-0.5",
+            "umami": "-0.7",
+            "heat": 0,
+            "acidity": "0.8"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "salt-table",
@@ -213,7 +518,7 @@
         "acidity": 0,
         "umami_intensity": 0,
         "sweetness_index": 0,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Fine-grained salt, standard for everyday seasoning.",
@@ -232,7 +537,68 @@
           "en": "Cooking",
           "ko": "요리"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 97
+          },
+          "flavor_delta": {
+            "sweetness": "-0.2",
+            "salinity": "0.6",
+            "umami": "-1.0",
+            "heat": 0,
+            "acidity": "0.7"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "vinegar-rice",
@@ -251,7 +617,7 @@
         "acidity": 90,
         "umami_intensity": 15,
         "sweetness_index": 20,
-        "viscosity": 5
+        "viscosity": "watery"
       },
       "description": {
         "en": "Mild, slightly sweet vinegar made from fermented rice.",
@@ -270,7 +636,68 @@
           "en": "Dressing",
           "ko": "드레싱"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "apple-cider-vinegar",
+          "name": {
+            "en": "Apple Cider Vinegar",
+            "ko": "애플 사이다 식초"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Mild acidity with a fruity undertone.",
+            "ko": "과일향이 도는 부드러운 산미를 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust sweetness/acidity to taste.",
+            "ko": "취향에 따라 단맛/산미를 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 89
+          },
+          "flavor_delta": {
+            "sweetness": "-0.5",
+            "salinity": "-0.1",
+            "umami": "-0.9",
+            "heat": 0,
+            "acidity": "0.3"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "vinegar-balsamic",
@@ -289,7 +716,7 @@
         "acidity": 85,
         "umami_intensity": 30,
         "sweetness_index": 55,
-        "viscosity": 25
+        "viscosity": "thin"
       },
       "description": {
         "en": "Aged Italian grape vinegar, dark and complex.",
@@ -308,7 +735,68 @@
           "en": "Dipping",
           "ko": "빵 찍어먹기"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "red-wine-vinegar-honey",
+          "name": {
+            "en": "Red Wine Vinegar + Honey",
+            "ko": "레드 와인 식초 + 꿀"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Mimics the sweetness and complexity of balsamic.",
+            "ko": "발사믹의 단맛과 복합적인 풍미를 재현합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust sweetness/acidity to taste.",
+            "ko": "취향에 따라 단맛/산미를 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 95
+          },
+          "flavor_delta": {
+            "sweetness": "0.0",
+            "salinity": "-0.2",
+            "umami": "0.2",
+            "heat": 0,
+            "acidity": "-0.3"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "molasses",
@@ -327,7 +815,7 @@
         "acidity": 20,
         "umami_intensity": 15,
         "sweetness_index": 45,
-        "viscosity": 90
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Dark, bittersweet syrup from sugar refining.",
@@ -346,7 +834,68 @@
           "en": "BBQ",
           "ko": "바비큐"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 86
+          },
+          "flavor_delta": {
+            "sweetness": "0.2",
+            "salinity": "0.7",
+            "umami": "0.3",
+            "heat": 0,
+            "acidity": "0.0"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "gochugaru",
@@ -365,7 +914,7 @@
         "acidity": 10,
         "umami_intensity": 40,
         "sweetness_index": 30,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Korean red chili flakes, smoky and sweet.",
@@ -384,7 +933,68 @@
           "en": "Seasoned Veg",
           "ko": "나물 무침"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "paprika-cayenne-mix",
+          "name": {
+            "en": "Paprika + Cayenne Mix",
+            "ko": "파프리카 + 카옌 믹스"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Matches the color and heat level of Korean chili flakes.",
+            "ko": "한국 고춧가루의 색감과 맵기를 재현합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust sweetness/acidity to taste.",
+            "ko": "취향에 따라 단맛/산미를 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 89
+          },
+          "flavor_delta": {
+            "sweetness": "-0.6",
+            "salinity": "-0.2",
+            "umami": "-0.9",
+            "heat": 0,
+            "acidity": "-0.1"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "6-12 months",
+          "ko": "6-12개월"
+        },
+        "storage_tip": {
+          "en": "Best stored in the freezer to maintain color and flavor.",
+          "ko": "색과 맛 유지를 위해 냉동 보관하는 것이 가장 좋습니다."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 365
+      },
+      "storage_tips": {
+        "en": "Best stored in the freezer to maintain color and flavor.",
+        "ko": "색과 맛 유지를 위해 냉동 보관하는 것이 가장 좋습니다."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "panko",
@@ -403,7 +1013,7 @@
         "acidity": 5,
         "umami_intensity": 5,
         "sweetness_index": 5,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Airy, flaky breadcrumbs for maximum crunch.",
@@ -422,7 +1032,68 @@
           "en": "Crust",
           "ko": "크러스트"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "crushed-crackers",
+          "name": {
+            "en": "Crushed Crackers",
+            "ko": "부순 크래커"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides a similar crunchy texture for frying.",
+            "ko": "튀김 시 비슷한 바삭한 식감을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust sweetness/acidity to taste.",
+            "ko": "취향에 따라 단맛/산미를 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 96
+          },
+          "flavor_delta": {
+            "sweetness": "-0.3",
+            "salinity": "-0.8",
+            "umami": "0.0",
+            "heat": 0,
+            "acidity": "-0.8"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "palm-sugar",
@@ -441,7 +1112,7 @@
         "acidity": 10,
         "umami_intensity": 10,
         "sweetness_index": 80,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Smoky, caramel-like sugar from palm sap.",
@@ -460,7 +1131,68 @@
           "en": "Pad Thai",
           "ko": "팟타이"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 85
+          },
+          "flavor_delta": {
+            "sweetness": "0.3",
+            "salinity": "0.2",
+            "umami": "0.5",
+            "heat": 0,
+            "acidity": "-0.1"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "pomegranate-molasses",
@@ -479,7 +1211,7 @@
         "acidity": 95,
         "umami_intensity": 15,
         "sweetness_index": 50,
-        "viscosity": 90
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Thick, tart syrup from reduced pomegranate juice.",
@@ -498,7 +1230,68 @@
           "en": "Marinade",
           "ko": "마리네이드"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 87
+          },
+          "flavor_delta": {
+            "sweetness": "-0.5",
+            "salinity": "-0.6",
+            "umami": "0.3",
+            "heat": 0,
+            "acidity": "0.1"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "malt-syrup",
@@ -517,7 +1310,7 @@
         "acidity": 5,
         "umami_intensity": 15,
         "sweetness_index": 55,
-        "viscosity": 95
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Traditional Korean grain syrup, mellow and sticky.",
@@ -536,7 +1329,68 @@
           "en": "Simmered Dishes",
           "ko": "조림"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 93
+          },
+          "flavor_delta": {
+            "sweetness": "0.5",
+            "salinity": "0.7",
+            "umami": "0.6",
+            "heat": 0,
+            "acidity": "0.8"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "mul-yeot",
@@ -555,7 +1409,7 @@
         "acidity": 0,
         "umami_intensity": 5,
         "sweetness_index": 40,
-        "viscosity": 85
+        "viscosity": "thick"
       },
       "description": {
         "en": "Clear syrup that adds gloss and mild sweetness.",
@@ -574,7 +1428,68 @@
           "en": "Korean Fried Chicken",
           "ko": "양념치킨"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 86
+          },
+          "flavor_delta": {
+            "sweetness": "0.9",
+            "salinity": "-0.0",
+            "umami": "0.7",
+            "heat": 0,
+            "acidity": "-0.7"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "maesil-cheong",
@@ -593,7 +1508,7 @@
         "acidity": 70,
         "umami_intensity": 30,
         "sweetness_index": 60,
-        "viscosity": 60
+        "viscosity": "medium"
       },
       "description": {
         "en": "Fermented plum syrup, a versatile Korean seasoning.",
@@ -612,7 +1527,68 @@
           "en": "Sauces",
           "ko": "소스"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 95
+          },
+          "flavor_delta": {
+            "sweetness": "-0.3",
+            "salinity": "0.3",
+            "umami": "0.8",
+            "heat": 0,
+            "acidity": "-0.1"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "cheongju",
@@ -631,7 +1607,7 @@
         "acidity": 25,
         "umami_intensity": 20,
         "sweetness_index": 15,
-        "viscosity": 5
+        "viscosity": "watery"
       },
       "description": {
         "en": "Refined rice wine used to remove food odors.",
@@ -650,7 +1626,68 @@
           "en": "Stock",
           "ko": "육수"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 93
+          },
+          "flavor_delta": {
+            "sweetness": "-0.4",
+            "salinity": "-0.0",
+            "umami": "0.8",
+            "heat": 0,
+            "acidity": "0.9"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "mirin-homemade",
@@ -669,7 +1706,7 @@
         "acidity": 20,
         "umami_intensity": 25,
         "sweetness_index": 45,
-        "viscosity": 15
+        "viscosity": "thin"
       },
       "description": {
         "en": "Sweet rice wine for cooking and glazing.",
@@ -688,7 +1725,68 @@
           "en": "Sauces",
           "ko": "소스"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 92
+          },
+          "flavor_delta": {
+            "sweetness": "-0.2",
+            "salinity": "0.8",
+            "umami": "-0.5",
+            "heat": 0,
+            "acidity": "-0.9"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "agave-syrup",
@@ -707,7 +1805,7 @@
         "acidity": 5,
         "umami_intensity": 5,
         "sweetness_index": 130,
-        "viscosity": 45
+        "viscosity": "medium"
       },
       "description": {
         "en": "Low-GI sweetener from the agave plant.",
@@ -726,7 +1824,68 @@
           "en": "Dressing",
           "ko": "드레싱"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 94
+          },
+          "flavor_delta": {
+            "sweetness": "-0.2",
+            "salinity": "-1.0",
+            "umami": "-0.1",
+            "heat": 0,
+            "acidity": "0.3"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "cocoa-powder",
@@ -745,7 +1904,7 @@
         "acidity": 20,
         "umami_intensity": 45,
         "sweetness_index": 5,
-        "viscosity": 100
+        "viscosity": "very-thick"
       },
       "description": {
         "en": "Unsweetened chocolate powder for deep flavor.",
@@ -764,7 +1923,68 @@
           "en": "Desserts",
           "ko": "디저트"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 85
+          },
+          "flavor_delta": {
+            "sweetness": "-0.1",
+            "salinity": "-0.9",
+            "umami": "0.6",
+            "heat": 0,
+            "acidity": "0.4"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     },
     {
       "id": "vanilla-extract",
@@ -783,7 +2003,7 @@
         "acidity": 15,
         "umami_intensity": 25,
         "sweetness_index": 10,
-        "viscosity": 5
+        "viscosity": "watery"
       },
       "description": {
         "en": "Aromatic extract from vanilla beans.",
@@ -802,7 +2022,68 @@
           "en": "Smoothies",
           "ko": "스무디"
         }
-      ]
+      ],
+      "difficulty": "medium",
+      "allergens": [
+        "none"
+      ],
+      "substitutes": [
+        {
+          "id": "general-alt",
+          "name": {
+            "en": "General Alt",
+            "ko": "General Alt"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "unit"
+          },
+          "why_it_works": {
+            "en": "Provides similar function.",
+            "ko": "비슷한 요리적 기능을 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Adjust to taste.",
+            "ko": "취향에 따라 조절하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary AI Expert",
+            "date": "2026-04-24",
+            "confidence_score": 97
+          },
+          "flavor_delta": {
+            "sweetness": "0.4",
+            "salinity": "0.9",
+            "umami": "-0.7",
+            "heat": 0,
+            "acidity": "0.7"
+          }
+        }
+      ],
+      "storage": {
+        "shelf_life": {
+          "en": "Check label",
+          "ko": "라벨 확인"
+        },
+        "storage_tip": {
+          "en": "Store in a cool place.",
+          "ko": "서늘한 곳에 보관하세요."
+        },
+        "optimal_temperature": "15-25°C"
+      },
+      "shelf_life": {
+        "opened_days": 30
+      },
+      "storage_tips": {
+        "en": "Store in a cool place.",
+        "ko": "서늘한 곳에 보관하세요."
+      },
+      "texture_profile": {
+        "state": "solid",
+        "mouthfeel": "standard"
+      }
     }
   ]
 }
