@@ -18,6 +18,24 @@ import {
 export default function IngredientDetailView({ ingredient, bestSubstitute, substituteFullInfo }) {
   const { t, lang } = useTranslation();
   const [isGenerating, setIsGenerating] = React.useState(false);
+  const [copied, setCopied] = React.useState(false);
+
+  // 1. Recently Viewed Tracking
+  React.useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const history = JSON.parse(localStorage.getItem('ingredient_history') || '[]');
+    const newHistory = [ingredient.id, ...history.filter(id => id !== ingredient.id)].slice(0, 8);
+    localStorage.setItem('ingredient_history', JSON.stringify(newHistory));
+  }, [ingredient.id]);
+
+  // 2. Advanced Sharing (Copy Summary)
+  const copySummary = () => {
+    const summary = `🍳 ${ingredient.name[lang]} 대체 가이드\n\n✅ 최적의 대체재: ${displaySubName} (${bestSubstitute?.ratio?.source}:${bestSubstitute?.ratio?.target_min} 비율)\n💡 셰프의 킥: ${bestSubstitute?.compensation_action?.[lang] || '없음'}\n\n상세 정보 보기: ${window.location.href}`;
+    navigator.clipboard.writeText(summary);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
 
   // Derive substitute properties from flavor_delta if full info is missing
   const substituteProperties = useMemo(() => {
@@ -243,7 +261,14 @@ export default function IngredientDetailView({ ingredient, bestSubstitute, subst
             >
               {isGenerating ? t('science_labels.processing') : `📥 ${t('science_labels.download_guide')}`}
             </button>
+            <button 
+              className={`btn btn-secondary copy-summary-btn ${copied ? 'copied' : ''}`}
+              onClick={copySummary}
+            >
+              {copied ? '✅ Copied!' : '🔗 Copy Summary & Link'}
+            </button>
           </div>
+
         </section>
 
         {/* --- V2.1 Premium Science Engine --- */}
