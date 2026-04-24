@@ -1,0 +1,53 @@
+{
+  "id": "self-rising-flour",
+  "name": { "en": "Self-Rising Flour", "ko": "셀프 라이징 플라워" },
+  "icon": "☁️",
+  "category": { "en": "Baking & Thickeners", "ko": "베이킹 및 증점제" },
+  "visual_identity": { "primary_color": "#FDFEFE", "texture": "Aerated Leavened Powder" },
+  "difficulty": "easy",
+  "dietary_tags": ["vegetarian"],
+  "allergens": ["gluten", "wheat"],
+  "swap_warnings": ["이미 팽창제(베이킹파우더)와 소금이 섞여 있습니다. 추가로 넣지 않도록 주의하세요."],
+  "measurement_type": "weight",
+  "best_use_cases": ["biscuits", "muffins", "quick-breads", "pancakes"],
+  "avoid_use_cases": ["yeast-breads", "pizza-dough"],
+  "properties": {
+    "ph_level": 7.0,
+    "moisture_content": 12.0,
+    "sweetness_index": 0,
+    "viscosity": "solid",
+    "umami_intensity": 1
+  },
+  "thermal_behavior": {
+    "smoke_point_c": null,
+    "melting_point_c": null,
+    "caramelization": false,
+    "maillard_reaction": true
+  },
+  "functional_properties": ["leavening-agent", "structural-agent"],
+  "texture_profile": { "state": "powder", "elasticity": "low", "mouthfeel": "light" },
+  "regional_alias": { "us": ["Self-rising flour"], "uk": ["Self-raising flour"] },
+  "regional_availability": { "common_in": ["US", "UK", "Australia"], "rare_in": ["Korea", "Asia"] },
+  "cuisine_origin": ["western"],
+  "preparation_forms": ["powder"],
+  "scientific_name": "N/A",
+  "schema_org_type": "Product",
+  "substitutes": [
+    {
+      "id": "all-purpose-flour-plus-leavening",
+      "ratio": { "source": 100, "target_min": 98, "target_max": 98, "unit": "g" },
+      "substitution_logic": "manual",
+      "failure_risk": "low",
+      "flavor_delta": { "lift": 0, "salt": 0 },
+      "chemical_impact": {
+        "en": "Combining AP flour with baking powder and salt creates an identical functional profile.",
+        "ko": "중력분에 베이킹파우더와 소금을 배합하면 기능적으로 완벽하게 동일한 결과물을 얻을 수 있습니다."
+      },
+      "compensation_action": {
+        "en": "For 1 cup (120g) of self-rising flour, mix 1 cup (120g) of AP flour with 1.5 tsp baking powder and 1/4 tsp salt. Whisk thoroughly.",
+        "ko": "셀프 라이징 플라워 1컵(120g)당 중력분 1컵에 베이킹파우더 1.5작은술, 소금 1/4작은술을 넣고 잘 섞으세요."
+      },
+      "verification": { "verified_by": "The Kitchn / King Arthur Baking", "date": "2026-04-24", "confidence_score": 100 }
+    }
+  ]
+}

@@ -1,0 +1,874 @@
+{
+  "meta": {
+    "category_en": "Pantry Essentials & Sweeteners",
+    "category_ko": "기본 식재료 및 감미료",
+    "count": 7,
+    "generated_at": "2026-04-24T01:31:42.970Z"
+  },
+  "ingredients": [
+    {
+      "id": "molasses",
+      "name": {
+        "en": "Molasses",
+        "ko": "당밀"
+      },
+      "category": {
+        "en": "Pantry Essentials & Sweeteners",
+        "ko": "기본 식재료 및 감미료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "A byproduct of sugar production, it was the primary sweetener in the US until the late 19th century.",
+        "ko": "설탕 제조 과정의 부산물로, 19세기 후반까지 미국에서 가장 주된 감미료로 사용되었습니다."
+      },
+      "flavor_profile": {
+        "en": "Deeply dark, smoky, and bittersweet with a thick syrupy texture.",
+        "ko": "매우 어둡고 스모키하며, 씁쓸하면서도 달콤한 맛이 어우러진 걸쭉한 시럽 질감입니다."
+      },
+      "storage_tips": {
+        "en": "Store at room temperature. Do not refrigerate as it becomes impossible to pour.",
+        "ko": "실온에 보관하세요. 냉장 보관하면 너무 굳어버려 따르기가 거의 불가능해집니다."
+      },
+      "common_pairings": {
+        "en": [
+          "ginger",
+          "cinnamon",
+          "cloves",
+          "brown-sugar"
+        ],
+        "ko": [
+          "ginger",
+          "cinnamon",
+          "cloves",
+          "brown-sugar"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Molasses"
+        ],
+        "ko": [
+          "당밀"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "What is Blackstrap molasses?",
+            "ko": "블랙스트랩(Blackstrap) 당밀이 뭔가요?"
+          },
+          "answer": {
+            "en": "It is the result of the third boiling, the darkest and least sweet type, rich in iron.",
+            "ko": "세 번 끓여서 만든 가장 어둡고 덜 달며, 철분이 풍부한 종류의 당밀입니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "A thick, dark syrup byproduct of refining sugar cane or sugar beets.",
+        "ko": "사탕수수나 사탕무를 정제할 때 나오는 진하고 어두운 시럽 부산물입니다."
+      },
+      "substitutes": [
+        {
+          "id": "brown-sugar-hack",
+          "name": {
+            "en": "Brown Sugar + Water",
+            "ko": "황설탕 + 물"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 0.75,
+            "target_max": 0.75,
+            "unit": "cup"
+          },
+          "similarity_score": 90,
+          "umami_reproduction": 85,
+          "chemical_impact": {
+            "en": "Brown sugar already contains some molasses, providing the color and flavor profile.",
+            "ko": "황설탕은 이미 약간의 당밀을 포함하고 있어 색상과 풍미가 비슷합니다."
+          },
+          "compensation_action": {
+            "en": "Mix 3/4 cup brown sugar with 1/4 cup water or honey.",
+            "ko": "황설탕 3/4컵과 물 또는 꿀 1/4컵을 섞으세요."
+          },
+          "why_it_works": {
+            "en": "Brown sugar is essentially white sugar with molasses added back in.",
+            "ko": "황설탕은 본질적으로 백설탕에 당밀을 다시 섞은 것입니다."
+          },
+          "tags": [
+            "Sweetener",
+            "Dark Syrup"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "maple-syrup",
+      "name": {
+        "en": "Maple Syrup",
+        "ko": "메이플 시럽"
+      },
+      "category": {
+        "en": "Pantry Essentials & Sweeteners",
+        "ko": "기본 식재료 및 감미료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "First collected and used by the Indigenous peoples of North America, it takes 40 gallons of sap to make just 1 gallon of syrup.",
+        "ko": "북미 원주민들이 처음 채취하여 사용하기 시작했으며, 시럽 1갤런을 만드는 데 40갤런의 수액이 필요한 귀한 재료입니다."
+      },
+      "storage_tips": {
+        "en": "Unopened can stay in pantry; once opened, must be refrigerated to prevent mold growth.",
+        "ko": "개봉 전에는 실온 보관이 가능하나, 개봉 후에는 곰팡이 방지를 위해 반드시 냉장 보관해야 합니다."
+      },
+      "common_pairings": {
+        "en": [
+          "pancakes",
+          "bacon",
+          "walnuts",
+          "oatmeal",
+          "sweet-potatoes"
+        ],
+        "ko": [
+          "pancakes",
+          "bacon",
+          "walnuts",
+          "oatmeal",
+          "sweet-potatoes"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Maple Syrup"
+        ],
+        "ko": [
+          "메이플 시럽"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "What do the grades mean?",
+            "ko": "등급(Grade)은 무엇을 의미하나요?"
+          },
+          "answer": {
+            "en": "Grade A Light is harvested early and mild; Grade A Dark is harvested later and has a stronger maple flavor.",
+            "ko": "Grade A Light는 초기에 채취하여 맛이 순하고, Dark는 나중에 채취하여 더 강한 메이플 풍미를 가집니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "A syrup made from the xylem sap of sugar maple trees.",
+        "ko": "설탕단풍나무의 수액으로 만든 시럽입니다."
+      },
+      "substitutes": [
+        {
+          "id": "honey-or-brown-sugar",
+          "name": {
+            "en": "Honey or Brown Sugar Syrup",
+            "ko": "꿀 또는 황설탕 시럽"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "similarity_score": 88,
+          "umami_reproduction": 80,
+          "chemical_impact": {
+            "en": "Honey is thicker and sweeter; Brown sugar syrup mimics the caramel notes.",
+            "ko": "꿀은 더 걸쭉하고 달콤하며, 황설탕 시럽은 카라멜 향을 더 잘 재현합니다."
+          },
+          "compensation_action": {
+            "en": "If using honey, add a drop of vanilla extract for that woody maple aroma.",
+            "ko": "꿀을 사용할 경우 메이플 특유의 나무 향을 위해 바닐라 익스트랙 한 방울을 넣으세요."
+          },
+          "why_it_works": {
+            "en": "All are invert sugars with similar liquid-to-sugar ratios.",
+            "ko": "모두 액체 대 설탕 비율이 비슷한 전화당(invert sugar)입니다."
+          },
+          "tags": [
+            "Sweetener",
+            "Natural"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "gochugaru",
+      "name": {
+        "en": "Gochugaru",
+        "ko": "고춧가루"
+      },
+      "category": {
+        "en": "Pantry Essentials & Sweeteners",
+        "ko": "기본 식재료 및 감미료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "A unique sun-dried chili flake developed in Korea after the 16th century, essential for kimchi and stews.",
+        "ko": "16세기 이후 한국에서 독자적으로 발전한 태양초 고춧가루로, 김치와 찌개의 핵심 풍미를 책임집니다."
+      },
+      "storage_tips": {
+        "en": "Keep in the freezer to prevent color fading and oxidation. Light and heat are its enemies.",
+        "ko": "색이 변하고 산화되는 것을 막으려면 냉동 보관하세요. 빛과 열이 최대의 적입니다."
+      },
+      "common_pairings": {
+        "en": [
+          "garlic",
+          "fish-sauce",
+          "ginger",
+          "soy-sauce",
+          "scallions"
+        ],
+        "ko": [
+          "garlic",
+          "fish-sauce",
+          "ginger",
+          "soy-sauce",
+          "scallions"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Gochugaru"
+        ],
+        "ko": [
+          "고춧가루"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "What's the difference between coarse and fine?",
+            "ko": "굵은 것과 고운 것의 차이는?"
+          },
+          "answer": {
+            "en": "Coarse is for kimchi and general cooking; fine is for gochujang and clean-looking sauce bases.",
+            "ko": "굵은 고춧가루는 김치나 일반 요리용이고, 고운 고춧가루는 고추장이나 깔끔한 색감을 내는 소스 베이스용입니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "Korean red chili flakes with a unique smoky, sweet, and spicy profile.",
+        "ko": "훈제향, 단맛, 매운맛이 독특하게 어우러진 한국의 고춧가루입니다."
+      },
+      "substitutes": [
+        {
+          "id": "cayenne-paprika",
+          "name": {
+            "en": "Cayenne + Smoked Paprika",
+            "ko": "카옌 페퍼 + 훈제 파프리카"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tbsp"
+          },
+          "similarity_score": 85,
+          "umami_reproduction": 80,
+          "chemical_impact": {
+            "en": "Cayenne provides the heat, while smoked paprika replicates the smoky undertone.",
+            "ko": "카옌 페퍼가 매운맛을 주고, 훈제 파프리카가 한국 고춧가루 특유의 훈연향을 재현합니다."
+          },
+          "compensation_action": {
+            "en": "Mix 1 part Cayenne with 3 parts Smoked Paprika to match the mild-to-medium heat.",
+            "ko": "매운 정도를 맞추기 위해 카옌 1 : 파프리카 3 비율로 섞으세요."
+          },
+          "why_it_works": {
+            "en": "Combines different pepper profiles to approximate the complex flavor of Korean peppers.",
+            "ko": "다양한 고추 프로필을 결합하여 한국 고추의 복합적인 맛에 근접하게 만듭니다."
+          },
+          "tags": [
+            "Spicy",
+            "Flavor Hack"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "panko",
+      "name": {
+        "en": "Panko Breadcrumbs",
+        "ko": "빵가루 (판코)"
+      },
+      "category": {
+        "en": "Pantry Essentials & Sweeteners",
+        "ko": "기본 식재료 및 감미료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Panko Breadcrumbs"
+        ],
+        "ko": [
+          "빵가루 (판코)"
+        ]
+      },
+      "description": {
+        "en": "Flaky, light breadcrumbs used in Asian cuisine for a crispy coating.",
+        "ko": "바삭한 튀김옷을 위해 아시아 요리에서 주로 쓰이는 가볍고 조각난 빵가루입니다."
+      },
+      "substitutes": [
+        {
+          "id": "crushed-crackers",
+          "name": {
+            "en": "Crushed Crackers or Dry Toast",
+            "ko": "부순 크래커 또는 마른 토스트"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "similarity_score": 85,
+          "umami_reproduction": 70,
+          "chemical_impact": {
+            "en": "Matches the crunch but might be denser than the airy Panko flakes.",
+            "ko": "바삭함은 비슷하지만 공기층이 많은 판코보다는 질감이 더 빽빽할 수 있습니다."
+          },
+          "compensation_action": {
+            "en": "Pulse dry toast in a blender briefly; don't over-process to keep the texture flaky.",
+            "ko": "마른 토스트를 믹서기에 살짝만 돌리세요. 너무 갈면 바삭한 질감이 사라집니다."
+          },
+          "why_it_works": {
+            "en": "Both provide a dry, starchy surface that crisps up when fried or baked.",
+            "ko": "둘 다 튀기거나 구웠을 때 바삭해지는 건조한 전분 표면을 제공합니다."
+          },
+          "tags": [
+            "Crispy",
+            "Crunchy"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "palm-sugar",
+      "name": {
+        "en": "Palm Sugar",
+        "ko": "팜 슈가"
+      },
+      "category": {
+        "en": "Pantry Essentials & Sweeteners",
+        "ko": "기본 식재료 및 감미료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Made from the sap of various palm trees, it has been used in Asia for centuries as a natural sweetener.",
+        "ko": "다양한 종려나무의 수액으로 만들며, 수세기 동안 아시아에서 천연 감미료로 사용되어 왔습니다."
+      },
+      "storage_tips": {
+        "en": "Store in a cool dry place. If it hardens, grate it or microwave for a few seconds.",
+        "ko": "서늘하고 건조한 곳에 보관하세요. 딱딱해지면 강판에 갈거나 전자레인지에 몇 초간 돌리세요."
+      },
+      "search_keywords": {
+        "en": [
+          "Palm Sugar",
+          "Coconut sugar",
+          "Jaggery",
+          "종려당"
+        ],
+        "ko": [
+          "팜 슈가",
+          "Coconut sugar",
+          "Jaggery",
+          "종려당"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Is it healthier than white sugar?",
+            "ko": "백설탕보다 건강에 좋은가요?"
+          },
+          "answer": {
+            "en": "It has a lower glycemic index and contains some minerals, but it is still sugar and should be used in moderation.",
+            "ko": "혈당 지수(GI)가 더 낮고 미네랄이 포함되어 있지만, 여전히 당분이므로 적절히 섭취해야 합니다."
+          }
+        }
+      ],
+      "dish_tips": {
+        "en": "Som Tum (Papaya Salad): Essential for the earthy sweetness that balances fish sauce and lime.",
+        "ko": "솜탐: 피쉬소스의 짠맛과 라임의 신맛 사이에서 중심을 잡아주는 흙내음 섞인 단맛을 위해 필수입니다."
+      },
+      "description": {
+        "en": "A sweetener derived from the sap of palm trees, known for its smoky, caramel-like flavor.",
+        "ko": "종려나무 수액으로 만든 감미료로, 훈연향과 캐러멜 같은 풍미가 특징입니다."
+      },
+      "substitutes": [
+        {
+          "id": "brown-sugar-maple",
+          "name": {
+            "en": "Dark Brown Sugar + Maple Syrup",
+            "ko": "흑설탕 + 메이플 시럽"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tbsp"
+          },
+          "similarity_score": 92,
+          "umami_reproduction": 50,
+          "chemical_impact": {
+            "en": "Brown sugar provides the molasses depth, while maple syrup mimics the complex floral notes.",
+            "ko": "흑설탕은 당밀의 깊은 맛을, 메이플 시럽은 팜 슈가의 복합적인 꽃향기를 재현합니다."
+          },
+          "compensation_action": {
+            "en": "Use dark brown sugar 1:1. Add a teaspoon of maple syrup for every 1/4 cup of sugar.",
+            "ko": "흑설탕을 1:1로 쓰되, 설탕 1/4컵당 메이플 시럽 1작은술을 추가하세요."
+          },
+          "why_it_works": {
+            "en": "Matches the moisture content and the caramelization profile of unrefined palm sugar.",
+            "ko": "비정제 팜 슈가의 수분 함량과 캐러멜화 프로필을 유사하게 맞춥니다."
+          },
+          "tags": [
+            "Sweet",
+            "Unrefined"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "pomegranate-molasses",
+      "name": {
+        "en": "Pomegranate Molasses",
+        "ko": "석류 당밀"
+      },
+      "category": {
+        "en": "Pantry Essentials & Sweeteners",
+        "ko": "기본 식재료 및 감미료"
+      },
+      "visual_identity": {
+        "primary_color": "#67032F",
+        "texture": "Syrup"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "volume",
+      "nutrition_highlights": {
+        "en": [
+          "Vitamin C"
+        ],
+        "ko": [
+          "비타민 C"
+        ]
+      },
+      "origin_and_history": {
+        "en": "A thick syrup made by reducing pomegranate juice, essential in Persian and Levantine cooking.",
+        "ko": "석류 주스를 졸여 만든 걸쭉한 시럽으로, 페르시아와 레반트 지역 요리의 필수 재료입니다."
+      },
+      "flavor_profile": {
+        "en": "Intensely tart, sweet, and fruity with a deep syrupy depth.",
+        "ko": "강렬한 산미와 단맛, 그리고 과일 특유의 풍미가 어우러진 깊은 시럽 맛입니다."
+      },
+      "storage_tips": {
+        "en": "Pantry stable. If it's pure reduction (no sugar added), it lasts almost indefinitely.",
+        "ko": "실온 보관이 가능합니다. 설탕이 첨가되지 않은 순수 농축액이라면 거의 영구적으로 보관 가능합니다."
+      },
+      "common_pairings": {
+        "en": [
+          "lamb",
+          "walnuts",
+          "eggplant",
+          "olive-oil",
+          "mint"
+        ],
+        "ko": [
+          "lamb",
+          "walnuts",
+          "eggplant",
+          "olive-oil",
+          "mint"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Pomegranate Molasses"
+        ],
+        "ko": [
+          "석류 당밀"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Is it the same as grenadine?",
+            "ko": "그레나딘 시럽과 같은 건가요?"
+          },
+          "answer": {
+            "en": "No, grenadine is mostly sugar and red coloring; pomegranate molasses is a concentrated tart reduction.",
+            "ko": "아니요, 그레나딘은 주로 설탕과 색소로 만든 것이고, 석류 당밀은 실제 석류를 농축한 새콤한 소스입니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "A thick, tart reduction of pomegranate juice used as a condiment.",
+        "ko": "석류 주스를 졸여 만든 새콤한 맛의 걸쭉한 조미용 시럽입니다."
+      },
+      "substitutes": [
+        {
+          "id": "balsamic-reduction-honey",
+          "name": {
+            "en": "Balsamic Glaze + Honey",
+            "ko": "발사믹 글레이즈 + 꿀"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tbsp"
+          },
+          "similarity_score": 90,
+          "umami_reproduction": 85,
+          "chemical_impact": {
+            "en": "Matches the syrupy texture and sweet-tart balance but lacks the specific pomegranate fruitiness.",
+            "ko": "시럽 질감과 새콤달콤한 균형은 비슷하지만 석류 특유의 과일 향은 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Use 1 tbsp balsamic reduction and a drop of honey/lemon.",
+            "ko": "발사믹 글레이즈 1큰술에 꿀이나 레몬즙을 한 방울 추가하세요."
+          },
+          "why_it_works": {
+            "en": "Both rely on concentrated sugars and organic acids for their complex, syrupy profile.",
+            "ko": "둘 다 복합적인 시럽 맛을 위해 농축된 당분과 유기산에 의존합니다."
+          },
+          "tags": [
+            "Middle Eastern Swap",
+            "Tart"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "malt-syrup",
+      "name": {
+        "en": "Malt Syrup (Jo-cheong)",
+        "ko": "조청 (Malt Syrup)"
+      },
+      "category": {
+        "en": "Pantry Essentials & Sweeteners",
+        "ko": "기본 식재료 및 감미료"
+      },
+      "visual_identity": {
+        "primary_color": "#B87333",
+        "texture": "High Viscosity"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Natural Sugars"
+        ],
+        "ko": [
+          "천연 당분"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Traditional Korean grain syrup made from malted barley and rice, used before refined sugar became common.",
+        "ko": "엿기름과 쌀로 만든 한국 전통 곡물 시럽으로, 정제 설탕이 흔해지기 전부터 사용되어 왔습니다."
+      },
+      "flavor_profile": {
+        "en": "Deeply mellow sweetness with a distinct grain aroma and high viscosity.",
+        "ko": "깊고 은은한 단맛과 특유의 곡물 향, 그리고 매우 끈적한 점성이 특징입니다."
+      },
+      "storage_tips": {
+        "en": "Store at room temperature. Refrigeration makes it too hard to use.",
+        "ko": "실온에 보관하세요. 냉장고에 넣으면 너무 딱딱해져 사용하기 어렵습니다."
+      },
+      "common_pairings": {
+        "en": [
+          "rice-cakes",
+          "ginger",
+          "sesame-seeds",
+          "soy-sauce",
+          "gochujang"
+        ],
+        "ko": [
+          "rice-cakes",
+          "ginger",
+          "sesame-seeds",
+          "soy-sauce",
+          "gochujang"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Malt Syrup (Jo-cheong)"
+        ],
+        "ko": [
+          "조청 (Malt Syrup)"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Is it the same as corn syrup?",
+            "ko": "물엿과 같은 건가요?"
+          },
+          "answer": {
+            "en": "No, Jo-cheong is richer and has a deeper color and grain flavor, whereas corn syrup is neutral.",
+            "ko": "아니요, 조청은 물엿보다 훨씬 진하고 곡물 향이 강하지만, 물엿은 투명하고 맛이 중립적입니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "A traditional Korean thick syrup made from grains and malt.",
+        "ko": "곡물과 엿기름으로 만든 한국 전통의 진하고 끈적한 시럽입니다."
+      },
+      "substitutes": [
+        {
+          "id": "honey-sub-jocheong",
+          "name": {
+            "en": "Honey",
+            "ko": "꿀"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tbsp"
+          },
+          "similarity_score": 85,
+          "umami_reproduction": 80,
+          "chemical_impact": {
+            "en": "Similar viscosity and natural sweetness but adds floral honey notes.",
+            "ko": "비슷한 점성과 천연의 단맛을 주지만, 꿀 특유의 꽃향기가 요리에 배어듭니다."
+          },
+          "compensation_action": {
+            "en": "Use 1:1. For a closer match, mix honey with a little corn syrup for neutral gloss.",
+            "ko": "1:1 비율로 사용하세요. 더 비슷하게 하려면 꿀에 물엿을 살짝 섞어 광택을 조절하세요."
+          },
+          "why_it_works": {
+            "en": "Both are natural invert sugars with high density and satisfying mouthfeel.",
+            "ko": "둘 다 밀도가 높고 식감이 만족스러운 천연 전화당(invert sugar)입니다."
+          },
+          "tags": [
+            "Natural Swap",
+            "Glossy"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    }
+  ]
+}

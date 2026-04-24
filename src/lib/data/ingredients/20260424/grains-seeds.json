@@ -1,0 +1,271 @@
+{
+  "meta": {
+    "category_en": "Grains & Seeds",
+    "category_ko": "곡물 및 씨앗류",
+    "count": 2,
+    "generated_at": "2026-04-24T01:31:42.974Z"
+  },
+  "ingredients": [
+    {
+      "id": "quinoa",
+      "name": {
+        "en": "Quinoa",
+        "ko": "퀴노아"
+      },
+      "category": {
+        "en": "Grains & Seeds",
+        "ko": "곡물 및 씨앗류"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "A 'pseudocereal' native to the Andes, known as the 'mother of all grains' by the Incas.",
+        "ko": "안데스 산맥이 원산지인 '의사곡물'로, 잉카인들에게 '모든 곡물의 어머니'로 불렸습니다."
+      },
+      "flavor_profile": {
+        "en": "Nutty and slightly earthy with a unique crunchy-pop texture when cooked.",
+        "ko": "견과류 같은 고소함과 흙내음이 있으며, 조리 시 톡톡 터지는 독특한 식감이 특징입니다."
+      },
+      "storage_tips": {
+        "en": "Store in a cool, dry place. Rinsing is essential to remove bitter saponins before cooking.",
+        "ko": "서늘하고 건조한 곳에 보관하세요. 조리 전 쓴맛을 내는 사포닌을 제거하기 위해 씻는 과정이 필수입니다."
+      },
+      "search_keywords": {
+        "en": [
+          "Quinoa",
+          "Supergrain",
+          "Incan grain",
+          "슈퍼푸드 곡물"
+        ],
+        "ko": [
+          "퀴노아",
+          "Supergrain",
+          "Incan grain",
+          "슈퍼푸드 곡물"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Is it a grain or a seed?",
+            "ko": "곡물인가요, 씨앗인가요?"
+          },
+          "answer": {
+            "en": "Technically it is a seed, but it is prepared and eaten like a grain, hence 'pseudocereal'.",
+            "ko": "기술적으로는 씨앗이지만, 곡물처럼 조리하고 먹기 때문에 '의사곡물'이라고 부릅니다."
+          }
+        }
+      ],
+      "dish_tips": {
+        "en": "Salads: Toast dry quinoa for 2 mins before boiling for extra nuttiness. Breakfast: Use as a protein-rich porridge.",
+        "ko": "샐러드: 더 고소한 맛을 위해 끓이기 전 2분간 마른 팬에 볶으세요. 아침 식사: 단백질이 풍부한 죽처럼 활용하세요."
+      },
+      "description": {
+        "en": "A highly nutritious seed used as a grain, known for its complete protein content.",
+        "ko": "완전 단백질을 포함한 영양가 높은 씨앗으로, 곡물처럼 사용됩니다."
+      },
+      "substitutes": [
+        {
+          "id": "millet-couscous",
+          "name": {
+            "en": "Millet or Couscous",
+            "ko": "기장 또는 쿠스쿠스"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "similarity_score": 88,
+          "umami_reproduction": 40,
+          "chemical_impact": {
+            "en": "Millet is gluten-free and has a similar size/pop; couscous is wheat-based and softer.",
+            "ko": "기장은 글루텐 프리이며 크기와 터지는 식감이 비슷합니다. 쿠스쿠스는 밀 베이스라 더 부드럽습니다."
+          },
+          "compensation_action": {
+            "en": "Use 1:1 ratio. For millet, toast before boiling. For couscous, use slightly less water.",
+            "ko": "1:1 비율로 사용하세요. 기장은 끓이기 전 볶아주고, 쿠스쿠스는 물을 약간 적게 잡으세요."
+          },
+          "why_it_works": {
+            "en": "Matches the small-grain mouthfeel and neutral flavor base of quinoa.",
+            "ko": "퀴노아의 작은 알갱이 식감과 중립적인 맛 베이스를 유사하게 맞춥니다."
+          },
+          "tags": [
+            "Grain",
+            "Superfood"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "masa-harina",
+      "name": {
+        "en": "Masa Harina",
+        "ko": "마사 하리나"
+      },
+      "category": {
+        "en": "Grains & Seeds",
+        "ko": "곡물 및 씨앗류"
+      },
+      "visual_identity": {
+        "primary_color": "#F5DEB3",
+        "texture": "Fine Flour"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegan",
+        "gluten-free"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Fiber",
+          "Calcium"
+        ],
+        "ko": [
+          "식이섬유",
+          "칼슘"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Corn dough (masa) that has been nixtamalized with lime water and dried, used in Mexican cuisine for 3,500 years.",
+        "ko": "석회수에 담가 처리(닉스타말화)한 뒤 말린 옥수수 가루로, 3,500년 동안 멕시코 요리의 근간이 되었습니다."
+      },
+      "flavor_profile": {
+        "en": "Distinctive lime-alkaline aroma and a deep, toasted corn flavor.",
+        "ko": "특유의 알칼리성 석회 향과 깊고 고소한 옥수수 맛이 특징입니다."
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight container in the pantry. Flour can absorb moisture easily.",
+        "ko": "밀폐 용기에 담아 보관하세요. 가루류는 습기를 쉽게 흡수합니다."
+      },
+      "common_pairings": {
+        "en": [
+          "water",
+          "lard",
+          "salt",
+          "beans",
+          "salsa"
+        ],
+        "ko": [
+          "water",
+          "lard",
+          "salt",
+          "beans",
+          "salsa"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Masa Harina"
+        ],
+        "ko": [
+          "마사 하리나"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Is it the same as cornmeal?",
+            "ko": "콘밀과 같은 건가요?"
+          },
+          "answer": {
+            "en": "No, Masa Harina is nixtamalized; standard cornmeal won't hold together as dough.",
+            "ko": "아니요, 마사 하리나는 닉스타말 과정을 거쳤기 때문에 반죽이 뭉쳐지지만 일반 콘밀은 뭉쳐지지 않습니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "Dough flour made from nixtamalized corn, used for tortillas and tamales.",
+        "ko": "닉스타말화한 옥수수로 만든 가루로, 또띠아와 타말레의 주재료입니다."
+      },
+      "substitutes": [
+        {
+          "id": "corn-tortilla-crumb",
+          "name": {
+            "en": "Crushed Corn Tortillas",
+            "ko": "부순 옥수수 또띠아"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "similarity_score": 80,
+          "umami_reproduction": 100,
+          "chemical_impact": {
+            "en": "Provides the exact flavor but requires processing back into a fine meal.",
+            "ko": "맛은 정확히 똑같지만, 다시 고운 가루 형태로 갈아내는 과정이 필요합니다."
+          },
+          "compensation_action": {
+            "en": "Dry and grind store-bought corn tortillas into a fine powder.",
+            "ko": "시판 옥수수 또띠아를 말려 고운 가루로 갈아서 사용하세요."
+          },
+          "why_it_works": {
+            "en": "Tortillas are the final product of Masa Harina, so they contain the necessary nixtamalized corn profile.",
+            "ko": "또띠아는 마사 하리나의 최종 완성품이므로 필요한 닉스타말 옥수수 풍미를 모두 담고 있습니다."
+          },
+          "tags": [
+            "Authentic Flavor",
+            "Emergency"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    }
+  ]
+}

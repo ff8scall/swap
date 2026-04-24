@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import IngredientExploreView from '@/components/swap/IngredientExploreView';
-import ingredientsData from '@/lib/data/ingredients.json';
+import ingredientsData from '@/lib/data/ingredients';
 
 export const metadata = {
   title: 'Explore Ingredient Substitutes | Swap.sia',

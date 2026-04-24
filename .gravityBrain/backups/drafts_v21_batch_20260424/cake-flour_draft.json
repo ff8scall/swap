@@ -1,0 +1,53 @@
+{
+  "id": "cake-flour",
+  "name": { "en": "Cake Flour", "ko": "박력분" },
+  "icon": "🍰",
+  "category": { "en": "Baking & Thickeners", "ko": "베이킹 및 증점제" },
+  "visual_identity": { "primary_color": "#FDFEFE", "texture": "Fine Soft Powder" },
+  "difficulty": "medium",
+  "dietary_tags": ["vegetarian"],
+  "allergens": ["gluten", "wheat"],
+  "swap_warnings": ["단백질 함량이 낮아 글루텐 형성이 적습니다. 쫄깃한 식감이 필요한 요리(빵 등)에는 부적합합니다."],
+  "measurement_type": "weight",
+  "best_use_cases": ["cakes", "delicate-pastries", "cookies", "tempura-batter"],
+  "avoid_use_cases": ["bread-making", "pizza-dough"],
+  "properties": {
+    "ph_level": 5.5,
+    "moisture_content": 12.0,
+    "sweetness_index": 0,
+    "viscosity": "solid",
+    "umami_intensity": 1
+  },
+  "thermal_behavior": {
+    "smoke_point_c": null,
+    "melting_point_c": null,
+    "caramelization": false,
+    "maillard_reaction": true
+  },
+  "functional_properties": ["structural-agent", "thickener", "tenderizer"],
+  "texture_profile": { "state": "powder", "elasticity": "low", "mouthfeel": "fine" },
+  "regional_alias": { "us": ["Cake flour"], "uk": ["Soft flour"] },
+  "regional_availability": { "common_in": ["Global"], "rare_in": ["none"] },
+  "cuisine_origin": ["western"],
+  "preparation_forms": ["powder"],
+  "scientific_name": "Triticum aestivum (Low protein)",
+  "schema_org_type": "Product",
+  "substitutes": [
+    {
+      "id": "all-purpose-flour-plus-starch",
+      "ratio": { "source": 100, "target_min": 85, "target_max": 85, "unit": "g" },
+      "substitution_logic": "manual",
+      "failure_risk": "low",
+      "flavor_delta": { "texture": -1 },
+      "chemical_impact": {
+        "en": "Adding cornstarch to AP flour reduces the overall protein percentage and inhibits gluten development.",
+        "ko": "중력분에 전분을 섞으면 전체 단백질 함량이 낮아지고 글루텐 형성이 억제되어 박력분과 유사한 성질을 띱니다."
+      },
+      "compensation_action": {
+        "en": "For every 1 cup (120g) of cake flour, use 1 cup (120g) of AP flour minus 2 tbsp (15g), and replace it with 2 tbsp (15g) of cornstarch. Sift twice.",
+        "ko": "박력분 1컵(120g)당 중력분 1컵에서 2큰술(15g)을 빼고, 그 자리를 전분 2큰술(15g)로 채운 뒤 두 번 체를 치세요."
+      },
+      "verification": { "verified_by": "King Arthur Baking / America's Test Kitchen", "date": "2026-04-24", "confidence_score": 95 }
+    }
+  ]
+}

@@ -104,6 +104,9 @@ export default function IngredientExploreView({ ingredients }) {
                         {ing.difficulty === 'easy' ? '★☆☆' : ing.difficulty === 'medium' ? '★★☆' : '★★★'}
                       </span>
                     )}
+                    {ing.allergens && ing.allergens.length > 0 && ing.allergens[0] !== 'none' && (
+                      <span className="allergen-badge">⚠️ {t(`allergens.${ing.allergens[0]}`) || ing.allergens[0]}</span>
+                    )}
                   </div>
                   <span className="substitute-dot" style={{ background: ing.visual_identity?.primary_color, boxShadow: `0 0 10px ${ing.visual_identity?.primary_color}` }}></span>
                 </div>
@@ -113,6 +116,9 @@ export default function IngredientExploreView({ ingredients }) {
                   <div className="dietary-mini-tags">
                     {ing.dietary_tags?.slice(0, 2).map(tag => (
                       <span key={tag} className="mini-tag">#{tag}</span>
+                    ))}
+                    {ing.culinary_roles?.slice(0, 1).map(role => (
+                      <span key={role} className="role-mini-tag">@{t(`roles.${role}`) || role}</span>
                     ))}
                   </div>
                   <div className="desc-wrapper">
@@ -312,6 +318,16 @@ export default function IngredientExploreView({ ingredients }) {
         .diff-medium { color: #f59e0b; }
         .diff-hard { color: #ef4444; }
 
+        .allergen-badge {
+          font-size: 9px;
+          font-weight: 800;
+          color: #fff;
+          background: #ef4444;
+          padding: 2px 8px;
+          border-radius: 4px;
+          letter-spacing: 0.05em;
+        }
+
         .substitute-dot {
           width: 8px;
           height: 8px;
@@ -334,6 +350,13 @@ export default function IngredientExploreView({ ingredients }) {
         .mini-tag {
           font-size: 11px;
           color: var(--text-muted);
+          font-weight: 600;
+        }
+        
+        .role-mini-tag {
+          font-size: 11px;
+          color: var(--brand-primary);
+          opacity: 0.8;
           font-weight: 600;
         }
 

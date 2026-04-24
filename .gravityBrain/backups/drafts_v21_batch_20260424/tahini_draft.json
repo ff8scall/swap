@@ -1,0 +1,53 @@
+{
+  "id": "tahini",
+  "name": { "en": "Tahini", "ko": "타히니" },
+  "icon": "🥜",
+  "category": { "en": "Pantry Essentials & Sweeteners", "ko": "기본 식재료 및 감미료" },
+  "visual_identity": { "primary_color": "#D5D8DC", "texture": "Creamy Oily Paste" },
+  "difficulty": "easy",
+  "dietary_tags": ["vegan", "gluten-free", "keto"],
+  "allergens": ["sesame"],
+  "swap_warnings": ["참깨 알레르기 유발 물질입니다. 사용 전 층분리된 기름을 잘 섞어주세요."],
+  "measurement_type": "weight",
+  "best_use_cases": ["hummus", "dressings", "halva", "baking"],
+  "avoid_use_cases": ["deep-frying"],
+  "properties": {
+    "ph_level": 6.5,
+    "moisture_content": 1.0,
+    "sweetness_index": 5,
+    "viscosity": "thick",
+    "umami_intensity": 6
+  },
+  "thermal_behavior": {
+    "smoke_point_c": 175,
+    "melting_point_c": null,
+    "caramelization": false,
+    "maillard_reaction": true
+  },
+  "functional_properties": ["fat-source", "emulsifier", "thickener"],
+  "texture_profile": { "state": "paste", "elasticity": "none", "mouthfeel": "creamy" },
+  "regional_alias": { "us": ["Sesame paste"], "ar": ["Tahina"] },
+  "regional_availability": { "common_in": ["Middle East", "Mediterranean"], "rare_in": ["Asia (Rural)"] },
+  "cuisine_origin": ["middle-eastern"],
+  "preparation_forms": ["paste"],
+  "scientific_name": "Sesamum indicum paste",
+  "schema_org_type": "Product",
+  "substitutes": [
+    {
+      "id": "peanut-butter",
+      "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "volume" },
+      "substitution_logic": "linear_scaling",
+      "failure_risk": "low",
+      "flavor_delta": { "sweet": 2, "nutty": 3, "bitter": -2 },
+      "chemical_impact": {
+        "en": "Peanut butter is sweeter and has a much stronger peanut flavor compared to the earthy bitterness of tahini.",
+        "ko": "땅콩버터는 타히니의 흙내 나는 쌉쌀함에 비해 더 달고 견과류 맛이 훨씬 강합니다."
+      },
+      "compensation_action": {
+        "en": "Use unsweetened peanut butter and add a drop of lemon juice to mimic tahini's bitterness/acid profile.",
+        "ko": "무가당 땅콩버터를 사용하고, 타히니의 쌉쌀한 산미를 재현하기 위해 레몬즙을 한 방울 추가하세요."
+      },
+      "verification": { "verified_by": "Chef Jinny Park", "date": "2026-04-24", "confidence_score": 85 }
+    }
+  ]
+}

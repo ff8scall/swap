@@ -1,0 +1,189 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Ingredient",
+  "description": "Global Ingredient Swap Data Specification V2.1",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "고유 식별자 (kebab-case)"
+    },
+    "name": {
+      "type": "object",
+      "properties": {
+        "en": { "type": "string" },
+        "ko": { "type": "string" }
+      },
+      "required": ["en", "ko"]
+    },
+    "icon": {
+      "type": "string",
+      "description": "UI 아이콘 식별자 (이모지 또는 커스텀 클래스)"
+    },
+    "category": {
+      "type": "object",
+      "properties": {
+        "en": { "type": "string" },
+        "ko": { "type": "string" }
+      },
+      "required": ["en", "ko"]
+    },
+    "visual_identity": {
+      "type": "object",
+      "properties": {
+        "primary_color": { "type": "string", "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$" },
+        "texture": { "type": "string" }
+      },
+      "required": ["primary_color", "texture"]
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["easy", "medium", "hard"]
+    },
+    "dietary_tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "allergens": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "swap_warnings": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "measurement_type": {
+      "type": "string",
+      "enum": ["weight", "volume", "unit"]
+    },
+    "best_use_cases": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "avoid_use_cases": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "properties": {
+      "type": "object",
+      "properties": {
+        "ph_level": { "type": "number", "minimum": 0, "maximum": 14 },
+        "moisture_content": { "type": "number", "minimum": 0, "maximum": 100 },
+        "sweetness_index": { "type": "number", "minimum": 0 },
+        "viscosity": { "type": "string", "enum": ["watery", "thin", "thick", "very-thick", "very-thick-syrup", "thick-syrup", "thin-syrup", "thick-paste", "thick-creamy", "thick-sticky", "very-thick-sticky", "thick-granular", "thick-chunky", "chunky-oil", "low", "low-medium", "medium", "medium-high-syrup", "watery-syrup", "pasty", "solid"] },
+        "umami_intensity": { "type": "number", "minimum": 0, "maximum": 10 }
+      }
+    },
+    "thermal_behavior": {
+      "type": "object",
+      "properties": {
+        "smoke_point_c": { "type": ["number", "null"] },
+        "melting_point_c": { "type": ["number", "null"] },
+        "caramelization": { "type": "boolean" },
+        "maillard_reaction": { "type": "boolean" }
+      }
+    },
+    "functional_properties": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "texture_profile": {
+      "type": "object",
+      "properties": {
+        "state": { "type": "string", "enum": ["liquid", "thick-liquid", "liquid-solid-mix", "solid", "paste", "powder"] },
+        "elasticity": { "type": "string", "enum": ["high", "medium", "low", "none"] },
+        "mouthfeel": { "type": "string" }
+      }
+    },
+    "regional_alias": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "type": "string" }
+      }
+    },
+    "regional_availability": {
+      "type": "object",
+      "properties": {
+        "common_in": { "type": "array", "items": { "type": "string" } },
+        "rare_in": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "cuisine_origin": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "preparation_forms": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "scientific_name": {
+      "type": ["string", "null"]
+    },
+    "schema_org_type": {
+      "type": "string"
+    },
+    "substitutes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "ratio": {
+            "type": "object",
+            "properties": {
+              "source": { "type": "number" },
+              "target_min": { "type": "number" },
+              "target_max": { "type": "number" },
+              "unit": { "type": "string" }
+            },
+            "required": ["source", "target_min", "target_max", "unit"]
+          },
+          "substitution_logic": {
+            "type": "string",
+            "enum": ["linear_scaling", "threshold", "manual", "manual_blending", "manual_scaling"]
+          },
+          "failure_risk": {
+            "type": "string",
+            "enum": ["low", "medium", "high"]
+          },
+          "flavor_delta": {
+            "type": "object",
+            "additionalProperties": { "type": "number" }
+          },
+          "texture_impact": { "type": "string" },
+          "chemical_impact": {
+            "type": "object",
+            "properties": {
+              "en": { "type": "string" },
+              "ko": { "type": "string" }
+            }
+          },
+          "compensation_action": {
+            "type": "object",
+            "properties": {
+              "en": { "type": "string" },
+              "ko": { "type": "string" }
+            }
+          },
+          "verification": {
+            "type": "object",
+            "properties": {
+              "verified_by": { "type": "string" },
+              "date": { "type": "string" },
+              "confidence_score": { "type": "number", "minimum": 0, "maximum": 100 },
+              "lab_note": { "type": "string" }
+            }
+          }
+        },
+        "required": ["id", "ratio", "substitution_logic", "failure_risk"]
+      }
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "category",
+    "measurement_type"
+  ]
+}

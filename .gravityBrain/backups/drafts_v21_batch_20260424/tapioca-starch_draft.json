@@ -1,0 +1,53 @@
+{
+  "id": "tapioca-starch",
+  "name": { "en": "Tapioca Starch", "ko": "타피오카 전분" },
+  "icon": "⚪",
+  "category": { "en": "Baking & Thickeners", "ko": "베이킹 및 증점제" },
+  "visual_identity": { "primary_color": "#FDFEFE", "texture": "Squeaky Fine Powder" },
+  "difficulty": "easy",
+  "dietary_tags": ["vegan", "gluten-free"],
+  "allergens": ["none"],
+  "swap_warnings": ["낮은 온도에서 빠르게 걸쭉해지며, 냉동 안정성이 뛰어납니다."],
+  "measurement_type": "weight",
+  "best_use_cases": ["pie-fillings", "puddings", "gluten-free-baking", "boba-pearls"],
+  "avoid_use_cases": ["long-simmered-stews (can break down)"],
+  "properties": {
+    "ph_level": 6.0,
+    "moisture_content": 13.0,
+    "sweetness_index": 0,
+    "viscosity": "thick",
+    "umami_intensity": 1
+  },
+  "thermal_behavior": {
+    "smoke_point_c": null,
+    "melting_point_c": null,
+    "caramelization": false,
+    "maillard_reaction": false
+  },
+  "functional_properties": ["thickener", "binder", "gloss-agent"],
+  "texture_profile": { "state": "powder", "elasticity": "high", "mouthfeel": "smooth" },
+  "regional_alias": { "us": ["Tapioca flour", "Manioc starch"], "ko": ["카사바 전분"] },
+  "regional_availability": { "common_in": ["Global"], "rare_in": ["none"] },
+  "cuisine_origin": ["brazilian", "asian"],
+  "preparation_forms": ["powder"],
+  "scientific_name": "Manihot esculenta",
+  "schema_org_type": "Product",
+  "substitutes": [
+    {
+      "id": "cornstarch",
+      "ratio": { "source": 2, "target_min": 1, "target_max": 1, "unit": "tbsp" },
+      "substitution_logic": "linear_scaling",
+      "failure_risk": "medium",
+      "flavor_delta": { "gloss": -3, "opacity": 3 },
+      "chemical_impact": {
+        "en": "Cornstarch creates an opaque finish and is less stable in the freezer compared to tapioca.",
+        "ko": "옥수수 전분은 불투명한 마감을 만들며, 타피오카에 비해 냉동 보관 시 안정성이 떨어집니다."
+      },
+      "compensation_action": {
+        "en": "Use half the amount of cornstarch compared to tapioca. Do not freeze if using cornstarch.",
+        "ko": "타피오카의 절반 양만 사용하세요. 옥수수 전분 사용 시 요리를 냉동하지 마세요."
+      },
+      "verification": { "verified_by": "Chef Jinny Park", "date": "2026-04-24", "confidence_score": 85 }
+    }
+  ]
+}

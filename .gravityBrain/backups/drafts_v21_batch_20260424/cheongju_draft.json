@@ -1,0 +1,69 @@
+{
+  "id": "cheongju",
+  "name": { "en": "Cheongju", "ko": "청주" },
+  "icon": "🍶",
+  "category": { "en": "Pantry Essentials & Sweeteners", "ko": "기본 식재료 및 감미료" },
+  "visual_identity": { "primary_color": "#FDFEFE", "texture": "Clear Water-like Liquid" },
+  "difficulty": "easy",
+  "dietary_tags": ["vegan", "gluten-free"],
+  "allergens": ["none"],
+  "swap_warnings": ["알코올 함량이 있으므로 조리 시 알코올을 날려 보내는 과정이 필요할 수 있습니다."],
+  "measurement_type": "volume",
+  "best_use_cases": ["removing-odor", "marinades", "stews"],
+  "avoid_use_cases": ["alcohol-free diets"],
+  "properties": {
+    "ph_level": 4.2,
+    "moisture_content": 85.0,
+    "sweetness_index": 10,
+    "viscosity": "watery",
+    "umami_intensity": 4
+  },
+  "thermal_behavior": {
+    "smoke_point_c": 78,
+    "melting_point_c": -10,
+    "caramelization": false,
+    "maillard_reaction": false
+  },
+  "functional_properties": ["odor-remover", "tenderizer", "flavor-enhancer"],
+  "texture_profile": { "state": "liquid", "elasticity": "none", "mouthfeel": "watery" },
+  "regional_alias": { "us": ["Korean rice wine", "Clear rice wine"], "jp": ["Sake (similar)"] },
+  "regional_availability": { "common_in": ["Korea"], "rare_in": ["Global"] },
+  "cuisine_origin": ["korean"],
+  "preparation_forms": ["liquid"],
+  "scientific_name": "N/A",
+  "schema_org_type": "Product",
+  "substitutes": [
+    {
+      "id": "sake",
+      "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "volume" },
+      "substitution_logic": "linear_scaling",
+      "failure_risk": "low",
+      "flavor_delta": { "umami": 1, "dryness": 1 },
+      "chemical_impact": {
+        "en": "Sake is the closest substitute with similar alcohol content and clear rice profile.",
+        "ko": "사케는 알코올 도수와 맑은 쌀 기반 풍미가 가장 유사한 대체제입니다."
+      },
+      "compensation_action": {
+        "en": "Use in a 1:1 ratio. No compensation needed for most dishes.",
+        "ko": "1:1 비율로 사용하세요. 대부분의 요리에서 별도의 보정이 필요 없습니다."
+      },
+      "verification": { "verified_by": "Chef Jinny Park", "date": "2026-04-24", "confidence_score": 98 }
+    },
+    {
+      "id": "dry-white-wine",
+      "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "volume" },
+      "substitution_logic": "linear_scaling",
+      "failure_risk": "medium",
+      "flavor_delta": { "acid": 2, "fruity": 2, "umami": -2 },
+      "chemical_impact": {
+        "en": "White wine is more acidic and fruity, which may clash with some traditional Korean flavors.",
+        "ko": "화이트 와인은 더 산도가 높고 과일향이 강해 일부 전통 한식의 풍미와 충돌할 수 있습니다."
+      },
+      "compensation_action": {
+        "en": "Add a pinch of sugar to counteract the acidity of the white wine.",
+        "ko": "와인의 산미를 중화하기 위해 설탕을 아주 약간 추가하세요."
+      },
+      "verification": { "verified_by": "Chef Jinny Park", "date": "2026-04-24", "confidence_score": 75 }
+    }
+  ]
+}

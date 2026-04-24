@@ -1,0 +1,1364 @@
+{
+  "meta": {
+    "category_en": "Baking & Thickeners",
+    "category_ko": "베이킹 및 증점제",
+    "count": 10,
+    "generated_at": "2026-04-24T01:31:42.971Z"
+  },
+  "ingredients": [
+    {
+      "id": "buttermilk",
+      "name": {
+        "en": "Buttermilk",
+        "ko": "버터밀크"
+      },
+      "category": {
+        "en": "Baking & Thickeners",
+        "ko": "베이킹 및 증점제"
+      },
+      "visual_identity": {
+        "primary_color": "#F5F5DC",
+        "texture": "Creamy Liquid"
+      },
+      "difficulty": "easy",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "volume",
+      "nutrition_highlights": {
+        "en": [
+          "Probiotics"
+        ],
+        "ko": [
+          "유산균"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Originally the liquid left behind after churning butter, modern buttermilk is industrially cultured.",
+        "ko": "원래 버터를 휘젓고 남은 액체였으나, 현대의 버터밀크는 탈지유에 유산균을 넣어 인공적으로 발효시켜 만듭니다."
+      },
+      "flavor_profile": {
+        "en": "Tangy, acidic, and slightly thicker than regular milk.",
+        "ko": "톡 쏘는 산미가 있으며 일반 우유보다 약간 더 걸쭉한 질감을 가집니다."
+      },
+      "storage_tips": {
+        "en": "Must be refrigerated. Can be frozen for up to 3 months for baking use.",
+        "ko": "반드시 냉장 보관해야 하며, 베이킹용으로 사용할 경우 최대 3개월까지 냉동 보관이 가능합니다."
+      },
+      "common_pairings": {
+        "en": [
+          "flour",
+          "baking-soda",
+          "chicken",
+          "pancakes"
+        ],
+        "ko": [
+          "밀가루",
+          "베이킹 소다",
+          "치킨",
+          "팬케이크"
+        ]
+      },
+      "representative_dishes": {
+        "en": [
+          "Fluffy Pancakes",
+          "Southern Biscuits",
+          "Buttermilk Fried Chicken"
+        ],
+        "ko": [
+          "폭신한 팬케이크",
+          "서던 비스킷",
+          "버터밀크 프라이드 치킨"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Sour milk",
+          "Cultured milk",
+          "Cultured Milk",
+          "Sour Milk",
+          "버터밀크"
+        ],
+        "ko": [
+          "버터밀크",
+          "발효우유",
+          "Cultured Milk",
+          "Sour Milk",
+          "버터밀크"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Can I drink it straight?",
+            "ko": "그냥 마셔도 되나요?"
+          },
+          "answer": {
+            "en": "Yes, it is a probiotic drink similar to thin yogurt, though usually used for cooking.",
+            "ko": "네, 묽은 요거트와 비슷한 프로바이오틱 음료입니다. 다만 주로 요리나 베이킹에 쓰입니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "A fermented dairy drink, traditionally the liquid left behind after churning butter.",
+        "ko": "전통적으로 버터를 휘젓고 남은 액체로, 산미와 걸쭉함이 특징인 발효 유제품입니다."
+      },
+      "substitutes": [
+        {
+          "id": "milk-lemon-hack",
+          "name": {
+            "en": "Milk + Lemon Juice/Vinegar",
+            "ko": "우유 + 레몬즙/식초"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "similarity_score": 98,
+          "umami_reproduction": 100,
+          "chemical_impact": {
+            "en": "The acid curdles the milk slightly, mimicking the pH level and thickness of buttermilk.",
+            "ko": "산성 성분이 우유를 살짝 응고시켜 버터밀크의 pH 농도와 질감을 거의 동일하게 재현합니다."
+          },
+          "compensation_action": {
+            "en": "Wait 5-10 minutes after mixing for the milk to curdle before adding to the batter.",
+            "ko": "섞은 후 우유가 응고될 때까지 5~10분 정도 기다린 뒤 반죽에 넣으세요."
+          },
+          "allergen_warning": {
+            "en": "Contains Dairy. For vegan, use soy milk.",
+            "ko": "유제품 포함. 비건의 경우 두유를 사용하세요."
+          },
+          "why_it_works": {
+            "en": "The chemical reaction between acid and milk proteins (casein) creates the necessary acidity for leavening.",
+            "ko": "산과 우유 단백질(카제인) 사이의 화학 반응이 팽창에 필요한 산도를 만들어냅니다."
+          },
+          "oops_insurance": {
+            "en": "If it doesn't curdle, your milk might be too cold. Warm it slightly.",
+            "ko": "우유가 응고되지 않는다면 온도가 너무 낮을 수 있습니다. 살짝 데워보세요."
+          },
+          "tags": [
+            "Essential",
+            "pH Fix"
+          ]
+        },
+        {
+          "id": "yogurt-milk-mix",
+          "name": {
+            "en": "Plain Yogurt + Milk",
+            "ko": "플레인 요거트 + 우유"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "similarity_score": 95,
+          "umami_reproduction": 90,
+          "chemical_impact": {
+            "en": "Closer to the original thickness. Provides natural fermentation benefits.",
+            "ko": "원래의 버터밀크 점도에 더 가깝습니다. 자연 발효의 풍미를 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Mix 3/4 cup yogurt with 1/4 cup milk to get the perfect pourable consistency.",
+            "ko": "요거트 3/4컵과 우유 1/4컵을 섞어 부드럽게 흐르는 농도를 맞추세요."
+          },
+          "why_it_works": {
+            "en": "Yogurt is already acidified and fermented, making it a bio-similar substitute for buttermilk.",
+            "ko": "요거트는 이미 산성화되고 발효된 상태이므로 버터밀크와 생물학적으로 가장 유사한 대체제입니다."
+          },
+          "tags": [
+            "Creamy",
+            "Bio-Similar"
+          ]
+        }
+      ],
+      "allergens": [
+        "dairy"
+      ],
+      "shelf_life": {
+        "unopened_days": 14,
+        "opened_days": 7
+      },
+      "culinary_roles": [
+        "acidifier",
+        "tenderizer",
+        "leavening-agent"
+      ],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "heavy-cream",
+      "name": {
+        "en": "Heavy Cream",
+        "ko": "헤비 크림"
+      },
+      "category": {
+        "en": "Baking & Thickeners",
+        "ko": "베이킹 및 증점제"
+      },
+      "visual_identity": {
+        "primary_color": "#FFFDD0",
+        "texture": "Rich Liquid"
+      },
+      "difficulty": "easy",
+      "dietary_tags": [
+        "vegetarian",
+        "keto"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "volume",
+      "nutrition_highlights": {
+        "en": [
+          "Vitamin A",
+          "Calcium"
+        ],
+        "ko": [
+          "비타민 A",
+          "칼슘"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Traditionally collected as the layer of fat that rises to the top of fresh milk before homogenization.",
+        "ko": "균질화하기 전 신선한 우유의 윗부분에 떠오르는 지방층을 전통적으로 채취하여 만든 크림입니다."
+      },
+      "flavor_profile": {
+        "en": "Rich, velvety, and sweet with a high dairy fat content (36-40%).",
+        "ko": "유지방 함량이 36~40%로 매우 높으며, 풍부하고 부드러운 질감과 은은한 단맛이 특징입니다."
+      },
+      "storage_tips": {
+        "en": "Store in the coldest part of the fridge. Do not freeze if you intend to whip it later.",
+        "ko": "냉장고에서 가장 차가운 안쪽에 보관하세요. 나중에 휘핑할 계획이라면 냉동 보관은 피해야 합니다."
+      },
+      "common_pairings": {
+        "en": [
+          "strawberries",
+          "chocolate",
+          "vanilla",
+          "coffee",
+          "pasta"
+        ],
+        "ko": [
+          "strawberries",
+          "chocolate",
+          "vanilla",
+          "coffee",
+          "pasta"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Whipping cream",
+          "Double cream"
+        ],
+        "ko": [
+          "생크림",
+          "휘핑크림"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Is heavy cream the same as double cream?",
+            "ko": "헤비 크림과 더블 크림은 같은 건가요?"
+          },
+          "answer": {
+            "en": "Double cream (UK) has even higher fat (48%) than US heavy cream (36-40%).",
+            "ko": "영국의 더블 크림은 유지방이 48%로, 미국의 헤비 크림(36-40%)보다 훨씬 진합니다."
+          }
+        }
+      ],
+      "dish_tips": {
+        "en": "Carbonara: Never use milk + butter for authentic style, but it works for creamy sauces. Ganache: Coconut milk works great for vegan ganache.",
+        "ko": "까르보나라: 정통 방식에는 맞지 않지만, 크림 파스타 소스에는 우유+버터 조합도 훌륭합니다. 가나슈: 비건 가나슈를 만들 때 코코넛 밀크가 최고의 대안입니다."
+      },
+      "description": {
+        "en": "High-fat cream containing 36–40% milk fat.",
+        "ko": "유지방 함량이 36~40%인 고지방 크림입니다."
+      },
+      "substitutes": [
+        {
+          "id": "milk-butter-mix",
+          "name": {
+            "en": "Milk + Melted Butter",
+            "ko": "우유 + 녹인 버터"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "similarity_score": 95,
+          "umami_reproduction": 100,
+          "chemical_impact": {
+            "en": "Adding butter increases the fat content to match heavy cream, but it won't whip.",
+            "ko": "버터를 추가하여 유지방 함량을 맞추지만, 휘핑(거품 내기)은 되지 않습니다."
+          },
+          "compensation_action": {
+            "en": "Mix 3/4 cup milk with 1/4 cup melted butter. Best for cooking/baking, not whipping.",
+            "ko": "우유 3/4컵과 녹인 버터 1/4컵을 섞으세요. 요리나 베이킹용으로 적합하며 휘핑용은 아닙니다."
+          },
+          "why_it_works": {
+            "en": "Reconstitutes the emulsion of fat and liquid found in natural cream.",
+            "ko": "천연 크림에 들어있는 지방과 액체의 유화 상태를 재구성합니다."
+          },
+          "allergen_warning": {
+            "en": "Contains Dairy (Milk and Butter).",
+            "ko": "유제품 포함 (우유 및 버터)."
+          },
+          "tags": [
+            "Fat Content",
+            "Emergency"
+          ]
+        },
+        {
+          "id": "coconut-milk-full-fat",
+          "name": {
+            "en": "Full-fat Coconut Milk",
+            "ko": "전지 코코넛 밀크"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "similarity_score": 85,
+          "umami_reproduction": 80,
+          "chemical_impact": {
+            "en": "Excellent for whipping and richness, but adds a distinct coconut flavor.",
+            "ko": "휘핑이 가능하고 아주 진하지만, 코코넛 특유의 풍미가 요리에 배어듭니다."
+          },
+          "compensation_action": {
+            "en": "Chill the can overnight and use the thick cream on top for whipping. Use for curries or tropical desserts.",
+            "ko": "캔을 밤새 냉장 보관한 뒤 상단의 걸쭉한 크림만 떠서 휘핑하세요. 카레나 열대 과일 디저트에 적합합니다."
+          },
+          "why_it_works": {
+            "en": "Coconut milk has high saturated fat similar to dairy cream, allowing for stable aeration.",
+            "ko": "코코넛 밀크는 동물성 크림과 비슷한 높은 포화지방을 함유하고 있어 안정적인 공기 주입(거품)이 가능합니다."
+          },
+          "allergen_warning": {
+            "en": "Contains Coconut. Tree nut allergy caution.",
+            "ko": "코코넛 포함. 견과류 알러지 주의."
+          },
+          "tags": [
+            "Vegan",
+            "Whippable"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "egg-baking",
+      "name": {
+        "en": "Egg (for Baking)",
+        "ko": "계란 (베이킹용)"
+      },
+      "category": {
+        "en": "Baking & Thickeners",
+        "ko": "베이킹 및 증점제"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Eggs have been used as binders and leaveners in baking since ancient Egyptian and Roman times.",
+        "ko": "계란은 고대 이집트와 로마 시대부터 베이킹에서 결합제와 팽창제로 사용되어 온 핵심 재료입니다."
+      },
+      "storage_tips": {
+        "en": "Keep in the original carton to prevent odor absorption. Use within 3-5 weeks.",
+        "ko": "냄새 흡수를 막기 위해 원래 달걀 용기에 담아 보관하세요. 3~5주 이내에 드시는 것이 좋습니다."
+      },
+      "common_pairings": {
+        "en": [
+          "flour",
+          "sugar",
+          "butter",
+          "milk",
+          "vanilla"
+        ],
+        "ko": [
+          "flour",
+          "sugar",
+          "butter",
+          "milk",
+          "vanilla"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Egg (for Baking)"
+        ],
+        "ko": [
+          "계란 (베이킹용)"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Can I use cold eggs for baking?",
+            "ko": "차가운 계란을 바로 베이킹에 써도 되나요?"
+          },
+          "answer": {
+            "en": "Room temperature eggs emulsify better with fat, leading to a smoother batter and better rise.",
+            "ko": "실온 상태의 계란이 지방과 더 잘 유화되어, 반죽이 매끄러워지고 더 잘 부풀어 오릅니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "A fundamental ingredient in baking that provides structure, leavening, and moisture.",
+        "ko": "베이킹에서 구조를 잡고, 팽창을 돕고, 수분을 공급하는 가장 핵심적인 재료입니다."
+      },
+      "substitutes": [
+        {
+          "id": "applesauce-egg",
+          "name": {
+            "en": "Unsweetened Applesauce",
+            "ko": "무설탕 사과 소스"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 0.25,
+            "target_max": 0.25,
+            "unit": "cup"
+          },
+          "similarity_score": 80,
+          "umami_reproduction": 70,
+          "chemical_impact": {
+            "en": "Provides moisture but lacks the binding power of egg protein. Cookies will be softer.",
+            "ko": "수분은 충분하지만 계란 단백질의 결속력은 부족합니다. 쿠키가 더 부드러워집니다."
+          },
+          "compensation_action": {
+            "en": "Best for cakes and muffins. Add 1/2 tsp baking powder if the recipe needs extra lift.",
+            "ko": "케이크나 머핀에 가장 적합합니다. 반죽이 덜 부풀 것 같다면 베이킹 파우더 1/2작은술을 추가하세요."
+          },
+          "why_it_works": {
+            "en": "Pectin in apples acts as a mild binder and keeps baked goods moist.",
+            "ko": "사과의 펙틴 성분이 가벼운 결합제 역할을 하며 빵의 촉촉함을 유지해줍니다."
+          },
+          "tags": [
+            "Vegan",
+            "Moisture"
+          ]
+        },
+        {
+          "id": "flax-egg",
+          "name": {
+            "en": "Flaxseed Meal + Water",
+            "ko": "아마씨 가루 + 물"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tbsp"
+          },
+          "similarity_score": 85,
+          "umami_reproduction": 75,
+          "chemical_impact": {
+            "en": "Excellent binder, adds a nutty flavor and dense texture.",
+            "ko": "결속력이 뛰어나며, 고소한 맛과 묵직한 질감을 더해줍니다."
+          },
+          "compensation_action": {
+            "en": "Mix 1 tbsp flaxseed meal with 3 tbsp water. Let sit for 5 mins until gelatinous.",
+            "ko": "아마씨 가루 1큰술과 물 3큰술을 섞으세요. 5분 정도 두어 젤리처럼 변하면 사용하세요."
+          },
+          "why_it_works": {
+            "en": "Mucilage in flaxseeds mimics the viscous properties of egg whites.",
+            "ko": "아마씨의 점액질 성분이 계란 흰자의 끈적한 성질을 재현합니다."
+          },
+          "tags": [
+            "Vegan",
+            "Binding"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "cornstarch",
+      "name": {
+        "en": "Cornstarch",
+        "ko": "옥수수 전분"
+      },
+      "category": {
+        "en": "Baking & Thickeners",
+        "ko": "베이킹 및 증점제"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Invented in 1840 in New Jersey, it revolutionized both laundry and food industries as a thickening agent.",
+        "ko": "1840년 뉴저지에서 발명되었으며, 증점제로서 세탁과 식품 산업 모두에 혁신을 일으킨 재료입니다."
+      },
+      "storage_tips": {
+        "en": "Keep dry and airtight. Moisture will cause clumping and spoilage.",
+        "ko": "건조하게 밀폐하여 보관하세요. 습기는 덩어리짐과 부패의 원인이 됩니다."
+      },
+      "common_pairings": {
+        "en": [
+          "water",
+          "flour",
+          "sugar",
+          "fruit-juices"
+        ],
+        "ko": [
+          "water",
+          "flour",
+          "sugar",
+          "fruit-juices"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Cornstarch"
+        ],
+        "ko": [
+          "옥수수 전분"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Can I eat it raw?",
+            "ko": "익히지 않고 그냥 먹어도 되나요?"
+          },
+          "answer": {
+            "en": "No, it must be cooked to thicken properly and to be digestible.",
+            "ko": "아니요, 제대로 농도를 내고 소화가 잘 되게 하려면 반드시 가열 조리해야 합니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "A common thickening agent derived from corn.",
+        "ko": "옥수수에서 추출한 일반적인 걸쭉하게 만드는 재료(증점제)입니다."
+      },
+      "substitutes": [
+        {
+          "id": "all-purpose-flour",
+          "name": {
+            "en": "All-Purpose Flour",
+            "ko": "중력분 밀가루"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 2,
+            "target_max": 2,
+            "unit": "tbsp"
+          },
+          "similarity_score": 75,
+          "umami_reproduction": 60,
+          "chemical_impact": {
+            "en": "Flour has less thickening power and can make sauces cloudy.",
+            "ko": "밀가루는 전분보다 응축력이 약하며 소스를 탁하게 만들 수 있습니다."
+          },
+          "compensation_action": {
+            "en": "Use twice the amount of flour and cook longer to remove the raw flour taste.",
+            "ko": "밀가루 양을 두 배로 늘리고, 밀가루 냄새를 없애기 위해 더 오래 끓이세요."
+          },
+          "allergen_warning": {
+            "en": "Contains Gluten.",
+            "ko": "글루텐 포함."
+          },
+          "why_it_works": {
+            "en": "Both rely on starch gelatinization to thicken liquids.",
+            "ko": "둘 다 액체를 걸쭉하게 만들기 위해 전분의 호화 현상을 이용합니다."
+          },
+          "oops_insurance": {
+            "en": "Mix flour with cold water first to create a 'slurry' and avoid lumps.",
+            "ko": "덩어리지지 않게 밀가루를 찬물에 먼저 풀어 '슬러리'를 만드세요."
+          },
+          "tags": [
+            "Thickener",
+            "Pantry Staple"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "baking-powder",
+      "name": {
+        "en": "Baking Powder",
+        "ko": "베이킹 파우더"
+      },
+      "category": {
+        "en": "Baking & Thickeners",
+        "ko": "베이킹 및 증점제"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Baking Powder"
+        ],
+        "ko": [
+          "베이킹 파우더"
+        ]
+      },
+      "description": {
+        "en": "A dry chemical leavening agent consisting of a carbonate or bicarbonate and a weak acid.",
+        "ko": "탄산수소나트륨과 약산성 성분이 섞인 건식 화학 팽창제입니다."
+      },
+      "substitutes": [
+        {
+          "id": "baking-soda-acid",
+          "name": {
+            "en": "Baking Soda + Cream of Tartar",
+            "ko": "베이킹 소다 + 주석산"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tsp"
+          },
+          "similarity_score": 100,
+          "umami_reproduction": 100,
+          "chemical_impact": {
+            "en": "Identical chemical reaction once moisture is added.",
+            "ko": "수분이 공급되면 베이킹 파우더와 동일한 화학 반응을 일으킵니다."
+          },
+          "compensation_action": {
+            "en": "Mix 1/4 tsp baking soda with 1/2 tsp cream of tartar for 1 tsp baking powder.",
+            "ko": "소다 1/4작은술과 주석산 1/2작은술을 섞으면 파우더 1작은술이 됩니다."
+          },
+          "why_it_works": {
+            "en": "Baking powder is essentially just premixed soda and acid; you are recreating the blend.",
+            "ko": "베이킹 파우더는 본질적으로 소다와 산을 미리 섞어둔 것이므로 이를 직접 재현하는 것입니다."
+          },
+          "tags": [
+            "Leavening",
+            "Chemistry"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "cream-of-tartar",
+      "name": {
+        "en": "Cream of Tartar",
+        "ko": "주석산"
+      },
+      "category": {
+        "en": "Baking & Thickeners",
+        "ko": "베이킹 및 증점제"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Cream of Tartar"
+        ],
+        "ko": [
+          "주석산"
+        ]
+      },
+      "description": {
+        "en": "A byproduct of winemaking, used to stabilize egg whites and prevent sugar crystals.",
+        "ko": "와인 제조 부산물로, 달걀 흰자를 안정시키거나 설탕 결정을 방지하는 데 쓰입니다."
+      },
+      "substitutes": [
+        {
+          "id": "lemon-juice-vinegar",
+          "name": {
+            "en": "Lemon Juice or White Vinegar",
+            "ko": "레몬즙 또는 화이트 식초"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 2,
+            "target_max": 2,
+            "unit": "tsp"
+          },
+          "similarity_score": 92,
+          "umami_reproduction": 80,
+          "chemical_impact": {
+            "en": "Provides the necessary acidity to strengthen egg white protein structures.",
+            "ko": "달걀 흰자의 단백질 구조를 강화하는 데 필요한 산도를 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Use 2 tsp of lemon juice for every 1 tsp of cream of tartar.",
+            "ko": "주석산 1작은술당 레몬즙 2작은술을 사용하세요."
+          },
+          "why_it_works": {
+            "en": "Both lower the pH of the mixture, allowing protein bonds to become more elastic.",
+            "ko": "둘 다 혼합물의 pH를 낮춰 단백질 결합을 더 탄력 있게 만듭니다."
+          },
+          "tags": [
+            "Stabilizer",
+            "Acid"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "xanthan-gum",
+      "name": {
+        "en": "Xanthan Gum",
+        "ko": "잔탄검"
+      },
+      "category": {
+        "en": "Baking & Thickeners",
+        "ko": "베이킹 및 증점제"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "A polysaccharide produced through fermentation by the bacterium Xanthomonas campestris.",
+        "ko": "잔토모나스 캄페스트리스라는 박테리아에 의해 발효되어 생성되는 다당류입니다."
+      },
+      "storage_tips": {
+        "en": "Keep in a cool, dry place. Very moisture-sensitive; ensure the container is airtight.",
+        "ko": "서늘하고 건조한 곳에 보관하세요. 습기에 매우 민감하므로 용기를 완전히 밀폐해야 합니다."
+      },
+      "search_keywords": {
+        "en": [
+          "Xanthan Gum",
+          "Thickener",
+          "Stabilizer",
+          "점증제"
+        ],
+        "ko": [
+          "잔탄검",
+          "Thickener",
+          "Stabilizer",
+          "점증제"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Is it safe?",
+            "ko": "먹어도 안전한가요?"
+          },
+          "answer": {
+            "en": "Yes, it is a common food additive used for decades, though it may cause digestive issues in large amounts.",
+            "ko": "네, 수십 년간 사용되어 온 일반적인 식품 첨가물입니다. 다만 한꺼번에 너무 많이 섭취하면 소화 불편을 유발할 수 있습니다."
+          }
+        }
+      ],
+      "dish_tips": {
+        "en": "Gluten-free Bread: Essential for elasticity. Sauces: Use a tiny pinch to keep oil and water emulsified.",
+        "ko": "글루텐 프리 빵: 탄력을 위해 필수적입니다. 소스: 기름과 물이 분리되지 않도록 아주 소량만 사용하세요."
+      },
+      "description": {
+        "en": "A common food additive that acts as a powerful thickener and stabilizer.",
+        "ko": "강력한 점증제 및 안정제 역할을 하는 일반적인 식품 첨가물입니다."
+      },
+      "substitutes": [
+        {
+          "id": "guar-gum-sub",
+          "name": {
+            "en": "Guar Gum",
+            "ko": "구아검"
+          },
+          "ratio": {
+            "source": 2,
+            "target_min": 3,
+            "target_max": 3,
+            "unit": "part"
+          },
+          "similarity_score": 90,
+          "umami_reproduction": 0,
+          "chemical_impact": {
+            "en": "Guar gum is better for cold foods but may not provide the same heat stability as xanthan.",
+            "ko": "구아검은 찬 음식에 더 적합하며, 잔탄검만큼의 열 안정성은 없을 수 있습니다."
+          },
+          "compensation_action": {
+            "en": "Use 3 parts guar gum for every 2 parts xanthan gum called for in the recipe.",
+            "ko": "레시피에서 요구하는 잔탄검 2부분당 구아검 3부분을 사용하세요."
+          },
+          "why_it_works": {
+            "en": "Both are long-chain polysaccharides that create high viscosity at low concentrations.",
+            "ko": "둘 다 낮은 농도에서도 높은 점성을 만들어내는 장쇄 다당류입니다."
+          },
+          "tags": [
+            "Thickener",
+            "Gluten-free"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "arrowroot-powder",
+      "name": {
+        "en": "Arrowroot Powder",
+        "ko": "애로우루트 가루"
+      },
+      "category": {
+        "en": "Baking & Thickeners",
+        "ko": "베이킹 및 증점제"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Extracted from the rhizomes of tropical plants, used for centuries by indigenous people of the Americas.",
+        "ko": "열대 식물의 뿌리줄기에서 추출하며, 아메리카 원주민들이 수세기 동안 사용해 왔습니다."
+      },
+      "storage_tips": {
+        "en": "Store in an airtight container. Lasts up to a year if kept dry.",
+        "ko": "밀폐 용기에 보관하세요. 건조하게 유지하면 최대 1년까지 보관이 가능합니다."
+      },
+      "search_keywords": {
+        "en": [
+          "Arrowroot Powder",
+          "Arrowroot starch",
+          "Thickener",
+          "칡가루 대체"
+        ],
+        "ko": [
+          "애로우루트 가루",
+          "Arrowroot starch",
+          "Thickener",
+          "칡가루 대체"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Is it better than cornstarch?",
+            "ko": "옥수수 전분보다 좋은가요?"
+          },
+          "answer": {
+            "en": "It provides a glossier finish and holds up better in acidic sauces, though it doesn't reheat well.",
+            "ko": "더 윤기 나는 마무리를 제공하고 산성 소스에서 더 잘 버티지만, 다시 가열할 때는 점도가 떨어질 수 있습니다."
+          }
+        }
+      ],
+      "dish_tips": {
+        "en": "Fruit Glazes: Perfect for clear, shiny toppings. Acidic Sauces: Won't break down like cornstarch.",
+        "ko": "과일 글레이즈: 투명하고 윤기 나는 토핑에 완벽합니다. 산성 소스: 옥수수 전분처럼 점도가 깨지지 않습니다."
+      },
+      "description": {
+        "en": "A clear, flavorless starch used as a thickener, especially in acidic recipes.",
+        "ko": "산성 레시피에서 점증제로 사용되는 투명하고 맛이 없는 전분입니다."
+      },
+      "substitutes": [
+        {
+          "id": "cornstarch-sub",
+          "name": {
+            "en": "Cornstarch",
+            "ko": "옥수수 전분"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "part"
+          },
+          "similarity_score": 95,
+          "umami_reproduction": 0,
+          "chemical_impact": {
+            "en": "Cornstarch creates a more opaque, matte finish compared to arrowroot's gloss.",
+            "ko": "옥수수 전분은 애로우루트의 광택에 비해 더 불투명하고 무광택인 마무리를 만듭니다."
+          },
+          "compensation_action": {
+            "en": "Use 1:1 ratio. Mix with cold water first to create a slurry before adding to hot liquid.",
+            "ko": "1:1 비율로 사용하세요. 뜨거운 액체에 넣기 전에 먼저 찬물과 섞어 슬러리(전분물)를 만드세요."
+          },
+          "why_it_works": {
+            "en": "Both rely on starch gelatinization to trap water and increase viscosity.",
+            "ko": "둘 다 물을 가두고 점성을 높이기 위해 전분의 호화(gelatinization) 현상을 이용합니다."
+          },
+          "tags": [
+            "Thickener",
+            "Glossy"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "gelatin",
+      "name": {
+        "en": "Gelatin",
+        "ko": "젤라틴"
+      },
+      "category": {
+        "en": "Baking & Thickeners",
+        "ko": "베이킹 및 증점제"
+      },
+      "visual_identity": {
+        "primary_color": "#F5F5DC",
+        "texture": "Transparent"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "low-carb"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Collagen"
+        ],
+        "ko": [
+          "콜라겐"
+        ]
+      },
+      "origin_and_history": {
+        "en": "A protein derived from animal collagen, used for centuries to set jellies and strengthen mousses.",
+        "ko": "동물성 콜라겐에서 추출한 단백질로, 젤리를 굳히고 무스의 구조를 잡는 데 오랫동안 사용되어 왔습니다."
+      },
+      "storage_tips": {
+        "en": "Keep dry and airtight. Powdered gelatin lasts up to 3 years in a cool pantry.",
+        "ko": "건조하고 밀폐된 곳에 보관하세요. 분말형은 서늘한 곳에서 3년까지 보관 가능합니다."
+      },
+      "common_pairings": {
+        "en": [
+          "fruit-juice",
+          "cream",
+          "sugar",
+          "yogurt",
+          "wine"
+        ],
+        "ko": [
+          "fruit-juice",
+          "cream",
+          "sugar",
+          "yogurt",
+          "wine"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Gelatin"
+        ],
+        "ko": [
+          "젤라틴"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Sheet vs. Powder?",
+            "ko": "판(Sheet) vs 가루(Powder)?"
+          },
+          "answer": {
+            "en": "Sheets result in a clearer, smoother set; powder is more convenient for home use.",
+            "ko": "판 젤라틴은 더 투명하고 매끄럽게 굳으며, 가루는 가정에서 사용하기 더 간편합니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "An odorless, colorless protein used as a thickening and gelling agent.",
+        "ko": "냄새와 색이 없는 단백질로, 증점제 및 겔화제로 쓰입니다."
+      },
+      "substitutes": [
+        {
+          "id": "agar-agar-gelatin",
+          "name": {
+            "en": "Agar Agar",
+            "ko": "한천 (우뭇가사리)"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 0.3,
+            "target_max": 0.5,
+            "unit": "tsp"
+          },
+          "similarity_score": 85,
+          "umami_reproduction": 20,
+          "chemical_impact": {
+            "en": "Sets much firmer and stays solid at room temperature unlike gelatin.",
+            "ko": "젤라틴보다 훨씬 단단하게 굳으며, 실온에서도 녹지 않고 고체 상태를 유지합니다."
+          },
+          "compensation_action": {
+            "en": "Use much less. 1 tsp agar equals about 1 tbsp gelatin. Boil to activate.",
+            "ko": "양을 훨씬 적게 쓰세요. 한천 1작은술은 젤라틴 1큰술과 비슷합니다. 끓여야 활성화됩니다."
+          },
+          "why_it_works": {
+            "en": "Both are long-chain polymers that trap water to create a gel structure.",
+            "ko": "둘 다 물을 가둬 젤 구조를 만드는 장쇄 폴리머입니다."
+          },
+          "tags": [
+            "Vegan",
+            "High-Stability"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "agar-agar",
+      "name": {
+        "en": "Agar Agar",
+        "ko": "한천 (우뭇가사리)"
+      },
+      "category": {
+        "en": "Baking & Thickeners",
+        "ko": "베이킹 및 증점제"
+      },
+      "visual_identity": {
+        "primary_color": "#F0F8FF",
+        "texture": "Powder/Flakes"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Fiber"
+        ],
+        "ko": [
+          "식이섬유"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Discovered in 17th-century Japan (known as Kanten), it's a vegan gelling agent derived from red algae.",
+        "ko": "17세기 일본에서 발견되었으며(한천), 홍조류에서 추출한 비건 겔화제입니다."
+      },
+      "flavor_profile": {
+        "en": "Completely neutral and odorless, allowing the primary flavors to dominate.",
+        "ko": "완전히 중립적이고 냄새가 없어 주재료의 맛을 방해하지 않습니다."
+      },
+      "storage_tips": {
+        "en": "Keep in a cool, dry place. It's highly shelf-stable for many years.",
+        "ko": "서늘하고 건조한 곳에 보관하세요. 수년 동안 보관이 가능할 정도로 안정적입니다."
+      },
+      "common_pairings": {
+        "en": [
+          "fruit-puree",
+          "coconut-milk",
+          "soy-milk",
+          "sugar",
+          "matcha"
+        ],
+        "ko": [
+          "fruit-puree",
+          "coconut-milk",
+          "soy-milk",
+          "sugar",
+          "matcha"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Agar Agar"
+        ],
+        "ko": [
+          "한천 (우뭇가사리)"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Does it need to boil?",
+            "ko": "꼭 끓여야 하나요?"
+          },
+          "answer": {
+            "en": "Yes, agar must be brought to a full boil for about 1-2 minutes to activate its gelling power.",
+            "ko": "네, 겔화 기능을 활성화하려면 반드시 1~2분 정도 완전히 팔팔 끓여야 합니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "A plant-based gelling agent derived from seaweed, commonly used in Asian desserts.",
+        "ko": "해조류에서 추출한 식물성 겔화제로, 아시아 디저트에 널리 쓰입니다."
+      },
+      "substitutes": [
+        {
+          "id": "gelatin-sub-agar",
+          "name": {
+            "en": "Gelatin",
+            "ko": "젤라틴"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 3,
+            "target_max": 3,
+            "unit": "tsp"
+          },
+          "similarity_score": 85,
+          "umami_reproduction": 20,
+          "chemical_impact": {
+            "en": "Melts at body temperature, giving a 'melt-in-mouth' feel that agar lacks.",
+            "ko": "체온에서 녹기 때문에 한천에는 없는 '입안에서 녹는' 식감을 줍니다."
+          },
+          "compensation_action": {
+            "en": "Use 3 times the amount of gelatin compared to agar. Do not boil gelatin; just bloom and melt.",
+            "ko": "한천 양의 3배에 달하는 젤라틴을 사용하세요. 젤라틴은 끓이지 말고 불려서 녹여야 합니다."
+          },
+          "why_it_works": {
+            "en": "Both create a matrix that traps liquid into a semi-solid state.",
+            "ko": "둘 다 액체를 반고체 상태로 가두는 그물망 구조를 형성합니다."
+          },
+          "tags": [
+            "Non-Vegan",
+            "Better Mouthfeel"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    }
+  ]
+}

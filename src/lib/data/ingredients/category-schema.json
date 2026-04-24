@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "category_en": { "type": "string" },
+        "category_ko": { "type": "string" },
+        "count": { "type": "number" },
+        "generated_at": { "type": "string" }
+      },
+      "required": ["category_en", "category_ko", "count"]
+    },
+    "ingredients": {
+      "type": "array",
+      "items": { "$ref": "schema.json" }
+    }
+  },
+  "required": ["meta", "ingredients"]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "tteok",
+  "name": { "en": "Korean Rice Cake", "ko": "떡" },
+  "icon": "🍡",
+  "category": { "en": "Grains & Seeds", "ko": "곡물 및 씨앗류" },
+  "visual_identity": { "primary_color": "#FDFEFE", "texture": "Chewy Elastic Solid" },
+  "difficulty": "hard",
+  "dietary_tags": ["vegan", "gluten-free (usually)"],
+  "allergens": ["none"],
+  "swap_warnings": ["조리 시간에 따라 식감이 급격히 변하므로 주의하세요.", "밀가루 떡(mil-tteok)과 쌀떡(ssal-tteok)의 수분 흡수율이 다릅니다."],
+  "measurement_type": "weight",
+  "best_use_cases": ["tteokbokki", "soups", "desserts"],
+  "avoid_use_cases": ["raw-consumption"],
+  "properties": {
+    "ph_level": 6.5,
+    "moisture_content": 45.0,
+    "sweetness_index": 5,
+    "viscosity": "solid",
+    "umami_intensity": 2
+  },
+  "thermal_behavior": {
+    "smoke_point_c": null,
+    "melting_point_c": null,
+    "caramelization": false,
+    "maillard_reaction": false
+  },
+  "functional_properties": ["carbohydrate-base", "thickener (when dissolved)"],
+  "texture_profile": { "state": "solid", "elasticity": "high", "mouthfeel": "chewy" },
+  "regional_alias": { "us": ["Korean rice cake", "Tteok"], "jp": ["トック"] },
+  "regional_availability": { "common_in": ["Korea", "China", "Japan"], "rare_in": ["West"] },
+  "cuisine_origin": ["korean"],
+  "preparation_forms": ["fresh", "frozen", "dried"],
+  "scientific_name": "N/A",
+  "schema_org_type": "Product",
+  "substitutes": [
+    {
+      "id": "gnocchi",
+      "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "weight" },
+      "substitution_logic": "linear_scaling",
+      "failure_risk": "high",
+      "flavor_delta": { "potato": 3, "chewiness": -5 },
+      "chemical_impact": {
+        "en": "Gnocchi is much softer and less chewy. It may break apart in long-simmered stews like tteokbokki.",
+        "ko": "뇨끼는 훨씬 부드럽고 쫄깃함이 부족합니다. 떡볶이처럼 오래 졸이는 요리에서는 퍼질 수 있습니다."
+      },
+      "compensation_action": {
+        "en": "Add gnocchi at the very end of cooking to maintain shape.",
+        "ko": "식감을 유지하기 위해 조리 가장 마지막 단계에 넣으세요."
+      },
+      "verification": { "verified_by": "Chef Jinny Park", "date": "2026-04-24", "confidence_score": 60 }
+    }
+  ]
+}

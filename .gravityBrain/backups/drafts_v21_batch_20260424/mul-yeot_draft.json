@@ -1,0 +1,69 @@
+{
+  "id": "mul-yeot",
+  "name": { "en": "Corn Syrup (Mul-yeot)", "ko": "물엿" },
+  "icon": "🍯",
+  "category": { "en": "Pantry Essentials & Sweeteners", "ko": "기본 식재료 및 감미료" },
+  "visual_identity": { "primary_color": "#F4D03F", "texture": "Glossy Liquid" },
+  "difficulty": "easy",
+  "dietary_tags": ["vegan", "gluten-free"],
+  "allergens": ["none"],
+  "swap_warnings": ["고온에서 쉽게 탈 수 있으니 주의하세요.", "설탕보다 당도가 낮으므로 양 조절이 필요합니다."],
+  "measurement_type": "weight",
+  "best_use_cases": ["glazes", "stir-fries", "braising"],
+  "avoid_use_cases": ["deep-frying (as a coating)"],
+  "properties": {
+    "ph_level": 4.5,
+    "moisture_content": 20.0,
+    "sweetness_index": 60,
+    "viscosity": "thick",
+    "umami_intensity": 1
+  },
+  "thermal_behavior": {
+    "smoke_point_c": null,
+    "melting_point_c": null,
+    "caramelization": true,
+    "maillard_reaction": false
+  },
+  "functional_properties": ["sweetener", "thickener", "humectant", "glazing-agent"],
+  "texture_profile": { "state": "liquid", "elasticity": "none", "mouthfeel": "smooth" },
+  "regional_alias": { "us": ["Korean corn syrup", "malt syrup"] },
+  "regional_availability": { "common_in": ["Korea"], "rare_in": ["Europe", "US"] },
+  "cuisine_origin": ["korean"],
+  "preparation_forms": ["liquid"],
+  "scientific_name": "N/A",
+  "schema_org_type": "NutritionInformation",
+  "substitutes": [
+    {
+      "id": "honey",
+      "ratio": { "source": 1, "target_min": 0.8, "target_max": 0.8, "unit": "tbsp" },
+      "substitution_logic": "linear_scaling",
+      "failure_risk": "low",
+      "flavor_delta": { "sweetness": 2, "floral": 3 },
+      "chemical_impact": {
+        "en": "Honey is sweeter and has a distinct floral flavor that may alter the dish.",
+        "ko": "꿀은 물엿보다 달고 특유의 향이 있어 요리의 맛을 변화시킬 수 있습니다."
+      },
+      "compensation_action": {
+        "en": "Use 20% less than the required mul-yeot and be aware of the honey aroma.",
+        "ko": "물엿보다 20% 적은 양을 사용하고, 꿀 향이 요리에 미치는 영향을 고려하세요."
+      },
+      "verification": { "verified_by": "Chef Jinny Park", "date": "2026-04-24", "confidence_score": 90 }
+    },
+    {
+      "id": "maple-syrup",
+      "ratio": { "source": 1, "target_min": 0.9, "target_max": 0.9, "unit": "tbsp" },
+      "substitution_logic": "linear_scaling",
+      "failure_risk": "medium",
+      "flavor_delta": { "sweetness": 1, "smoky": 2 },
+      "chemical_impact": {
+        "en": "Lower viscosity than mul-yeot, which may result in a thinner sauce.",
+        "ko": "물엿보다 점도가 낮아 소스가 묽어질 수 있습니다."
+      },
+      "compensation_action": {
+        "en": "Simmer longer to thicken the sauce if using maple syrup.",
+        "ko": "메이플 시럽 사용 시 소스를 더 오래 졸여 점도를 조절하세요."
+      },
+      "verification": { "verified_by": "Chef Jinny Park", "date": "2026-04-24", "confidence_score": 85 }
+    }
+  ]
+}

@@ -8,7 +8,11 @@ import HackItSection from '@/components/swap/HackItSection';
 import ShareableCard from '@/components/swap/ShareableCard';
 import useTranslation from '@/lib/i18n/useTranslation';
 import Script from 'next/script';
-import { History, Thermometer, Box, HelpCircle, Heart, ChevronDown, Activity, Zap, Utensils } from 'lucide-react';
+import { 
+  History, Thermometer, Box, HelpCircle, Heart, ChevronDown, 
+  Activity, Zap, Utensils, Clock, ShieldAlert, ChefHat, Info,
+  FlaskConical, Droplets, Flame, Wind, Scaling, Layers, Waves
+} from 'lucide-react';
 
 export default function IngredientDetailView({ ingredient, bestSubstitute }) {
   const { t, lang } = useTranslation();
@@ -94,7 +98,13 @@ export default function IngredientDetailView({ ingredient, bestSubstitute }) {
               <span className="alert-icon">⚠️</span>
               <div>
                 <strong>{t('swap.allergy_warning')}:</strong>
-                <p>
+                <p className="allergen-list">
+                  {lang === 'ko' ? '본 재료 포함 알레르기: ' : 'Ingredient Allergens: '}
+                  {ingredient.allergens && ingredient.allergens.length > 0 && ingredient.allergens[0] !== 'none' 
+                    ? ingredient.allergens.map(a => t(`allergens.${a}`) || a).join(', ') 
+                    : (lang === 'ko' ? '없음' : 'None')}
+                </p>
+                <p className="substitute-allergen">
                   {t('swap.primary_sub_desc')} ({bestSubstitute?.name?.[lang] || 'Option'}) 
                   {bestSubstitute?.allergen_warning?.[lang] ? ` ${bestSubstitute.allergen_warning[lang]}` : ` ${t('common.no_allergen_info') || 'No specific allergen info available.'}`}
                 </p>
@@ -141,6 +151,133 @@ export default function IngredientDetailView({ ingredient, bestSubstitute }) {
           </div>
         </section>
 
+        {/* --- V2.1 Culinary Science Section --- */}
+        <section className="culinary-science-section glass-card">
+          <div className="section-header">
+            <div className="icon-badge">
+              <FlaskConical size={20} />
+            </div>
+            <h2 className="brand-gradient">{lang === 'ko' ? '요리 과학 엔진' : 'Culinary Science Engine'}</h2>
+            <span className="version-tag">V2.1 PRO</span>
+          </div>
+
+          <div className="science-grid">
+            {/* Core Properties */}
+            <div className="science-card">
+              <h3>{lang === 'ko' ? '화학적 속성' : 'Chemical Properties'}</h3>
+              <div className="property-list">
+                {ingredient.properties?.ph_level !== undefined && (
+                  <div className="ph-meter-wrapper">
+                    <div className="label-row">
+                      <span>pH Level</span>
+                      <span className="ph-value">{ingredient.properties.ph_level}</span>
+                    </div>
+                    <div className="ph-scale">
+                      <div 
+                        className="ph-indicator" 
+                        style={{ left: `${(ingredient.properties.ph_level / 14) * 100}%` }}
+                      ></div>
+                      <div className="ph-gradient"></div>
+                    </div>
+                    <div className="ph-labels">
+                      <span>{lang === 'ko' ? '산성' : 'Acidic'}</span>
+                      <span>{lang === 'ko' ? '중성' : 'Neutral'}</span>
+                      <span>{lang === 'ko' ? '알칼리' : 'Alkaline'}</span>
+                    </div>
+                  </div>
+                )}
+                
+                <div className="prop-grid">
+                  <div className="prop-item">
+                    <Droplets size={16} />
+                    <div className="prop-info">
+                      <span className="prop-label">{lang === 'ko' ? '수분 함량' : 'Moisture'}</span>
+                      <span className="prop-val">{ingredient.properties?.moisture_content}%</span>
+                    </div>
+                  </div>
+                  <div className="prop-item">
+                    <Waves size={16} />
+                    <div className="prop-info">
+                      <span className="prop-label">{lang === 'ko' ? '점도' : 'Viscosity'}</span>
+                      <span className="prop-val">{t(`science.viscosity.${ingredient.properties?.viscosity}`) || ingredient.properties?.viscosity}</span>
+                    </div>
+                  </div>
+                  <div className="prop-item">
+                    <Zap size={16} />
+                    <div className="prop-info">
+                      <span className="prop-label">{lang === 'ko' ? '감칠맛 강도' : 'Umami'}</span>
+                      <span className="prop-val">{ingredient.properties?.umami_intensity}/10</span>
+                    </div>
+                  </div>
+                  <div className="prop-item">
+                    <Scaling size={16} />
+                    <div className="prop-info">
+                      <span className="prop-label">{lang === 'ko' ? '당도 지수' : 'Sweetness'}</span>
+                      <span className="prop-val">{ingredient.properties?.sweetness_index}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Thermal Behavior */}
+            <div className="science-card">
+              <h3>{lang === 'ko' ? '열 반응성' : 'Thermal Behavior'}</h3>
+              <div className="thermal-list">
+                <div className="thermal-item">
+                  <Flame size={18} className={ingredient.thermal_behavior?.smoke_point_c ? 'active-thermal' : 'inactive-thermal'} />
+                  <div className="thermal-info">
+                    <span className="thermal-label">{lang === 'ko' ? '발연점' : 'Smoke Point'}</span>
+                    <span className="thermal-val">{ingredient.thermal_behavior?.smoke_point_c ? `${ingredient.thermal_behavior.smoke_point_c}°C` : 'N/A'}</span>
+                  </div>
+                </div>
+                <div className="thermal-item">
+                  <Wind size={18} className={ingredient.thermal_behavior?.melting_point_c ? 'active-thermal' : 'inactive-thermal'} />
+                  <div className="thermal-info">
+                    <span className="thermal-label">{lang === 'ko' ? '녹는점' : 'Melting Point'}</span>
+                    <span className="thermal-val">{ingredient.thermal_behavior?.melting_point_c ? `${ingredient.thermal_behavior.melting_point_c}°C` : 'N/A'}</span>
+                  </div>
+                </div>
+                <div className="reaction-tags">
+                  <span className={`reaction-tag ${ingredient.thermal_behavior?.caramelization ? 'enabled' : 'disabled'}`}>
+                    {lang === 'ko' ? '캐러멜라이징' : 'Caramelization'}
+                  </span>
+                  <span className={`reaction-tag ${ingredient.thermal_behavior?.maillard_reaction ? 'enabled' : 'disabled'}`}>
+                    {lang === 'ko' ? '마이야르 반응' : 'Maillard'}
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* Functional & Texture */}
+            <div className="science-card">
+              <h3>{lang === 'ko' ? '기능 및 질감' : 'Function & Texture'}</h3>
+              <div className="func-section">
+                <div className="func-group">
+                  <Layers size={16} />
+                  <span>{lang === 'ko' ? '조리 시 역할:' : 'Key Functions:'}</span>
+                </div>
+                <div className="func-tags">
+                  {ingredient.functional_properties?.map(prop => (
+                    <span key={prop} className="func-tag">{t(`roles.${prop}`) || prop}</span>
+                  ))}
+                </div>
+                
+                <div className="texture-box">
+                  <div className="texture-item">
+                    <span>{lang === 'ko' ? '상태:' : 'State:'}</span>
+                    <strong>{t(`science.state.${ingredient.texture_profile?.state}`) || ingredient.texture_profile?.state}</strong>
+                  </div>
+                  <div className="texture-item">
+                    <span>{lang === 'ko' ? '질감:' : 'Mouthfeel:'}</span>
+                    <strong>{t(`science.mouthfeel.${ingredient.texture_profile?.mouthfeel}`) || ingredient.texture_profile?.mouthfeel}</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* --- SEO & Knowledge Hub Section --- */}
         <section className="knowledge-hub">
           <div className="hub-grid">
@@ -161,6 +298,18 @@ export default function IngredientDetailView({ ingredient, bestSubstitute }) {
                   <h3>{lang === 'ko' ? '보관 가이드' : 'Storage Guide'}</h3>
                 </div>
                 <p>{ingredient.storage_tips[lang]}</p>
+                {ingredient.shelf_life && (ingredient.shelf_life.unopened_days || ingredient.shelf_life.opened_days) && (
+                  <div className="shelf-life-info">
+                    <div className="shelf-item">
+                      <Clock size={14} />
+                      <span>{lang === 'ko' ? '미개봉:' : 'Unopened:'} {ingredient.shelf_life.unopened_days || '-'} {lang === 'ko' ? '일' : 'days'}</span>
+                    </div>
+                    <div className="shelf-item">
+                      <Clock size={14} />
+                      <span>{lang === 'ko' ? '개봉 후:' : 'Opened:'} {ingredient.shelf_life.opened_days || '-'} {lang === 'ko' ? '일' : 'days'}</span>
+                    </div>
+                  </div>
+                )}
               </div>
             )}
 
@@ -200,8 +349,40 @@ export default function IngredientDetailView({ ingredient, bestSubstitute }) {
                   <h3>{lang === 'ko' ? '환상의 조합' : 'Perfect Pairings'}</h3>
                 </div>
                 <div className="pairing-tags">
-                  {ingredient.common_pairings.map((p, i) => (
+                  {(Array.isArray(ingredient.common_pairings) 
+                    ? ingredient.common_pairings 
+                    : ingredient.common_pairings[lang] || []).map((p, i) => (
                     <span key={i} className="pairing-tag">{p}</span>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {ingredient.representative_dishes && (Array.isArray(ingredient.representative_dishes) ? ingredient.representative_dishes : ingredient.representative_dishes[lang])?.length > 0 && (
+              <div className="hub-card glass-card">
+                <div className="hub-header">
+                  <Utensils className="brand-primary" size={24} />
+                  <h3>{lang === 'ko' ? '대표 활용 요리' : 'Representative Dishes'}</h3>
+                </div>
+                <div className="dish-tags">
+                  {(Array.isArray(ingredient.representative_dishes) 
+                    ? ingredient.representative_dishes 
+                    : ingredient.representative_dishes[lang] || []).map((d, i) => (
+                    <span key={i} className="dish-tag">{d}</span>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {ingredient.culinary_roles && ingredient.culinary_roles.length > 0 && (
+              <div className="hub-card glass-card">
+                <div className="hub-header">
+                  <ChefHat className="theme-icon" size={24} />
+                  <h3>{lang === 'ko' ? '조리 역할' : 'Culinary Roles'}</h3>
+                </div>
+                <div className="role-tags">
+                  {(Array.isArray(ingredient.culinary_roles) ? ingredient.culinary_roles : []).map((role, i) => (
+                    <span key={i} className="role-tag">#{t(`roles.${role}`) || role}</span>
                   ))}
                 </div>
               </div>
@@ -227,6 +408,15 @@ export default function IngredientDetailView({ ingredient, bestSubstitute }) {
                   </details>
                 ))}
               </div>
+            </div>
+          )}
+          {ingredient.metadata && (
+            <div className="data-metadata">
+              <Info size={12} />
+              <span>
+                {lang === 'ko' ? '마지막 업데이트:' : 'Last updated:'} {new Date(ingredient.metadata.last_updated).toLocaleDateString()} 
+                {ingredient.metadata.data_source && ` | Source: ${ingredient.metadata.data_source}`}
+              </span>
             </div>
           )}
         </section>
@@ -343,9 +533,54 @@ export default function IngredientDetailView({ ingredient, bestSubstitute }) {
           color: var(--brand-danger);
           font-size: 14px;
         }
-        .allergen-alert p {
+        .allergen-list {
           font-size: 14px;
+          color: var(--brand-danger);
+          font-weight: 600;
+          margin-top: 4px;
+        }
+        .substitute-allergen {
+          font-size: 13px;
           color: var(--text-secondary);
+          margin-top: 4px;
+        }
+        .shelf-life-info {
+          display: flex;
+          gap: 16px;
+          margin-top: 16px;
+          padding-top: 16px;
+          border-top: 1px solid var(--glass-border);
+        }
+        .shelf-item {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          font-size: 13px;
+          color: var(--text-primary);
+          font-weight: 500;
+        }
+        .shelf-item :global(svg) {
+          color: var(--ingredient-theme);
+        }
+        .role-tags {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8px;
+        }
+        .role-tag {
+          font-size: 14px;
+          color: var(--ingredient-theme);
+          font-weight: 600;
+        }
+        .data-metadata {
+          margin-top: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 6px;
+          font-size: 11px;
+          color: var(--text-muted);
+          opacity: 0.7;
         }
         .dish-tips-section {
           margin-top: 40px;
@@ -474,6 +709,21 @@ export default function IngredientDetailView({ ingredient, bestSubstitute }) {
           color: var(--text-primary);
         }
         
+        .dish-tags {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8px;
+        }
+        .dish-tag {
+          padding: 6px 12px;
+          background: var(--ingredient-theme-soft);
+          border: 1px solid var(--ingredient-theme);
+          border-radius: 8px;
+          font-size: 13px;
+          color: var(--text-primary);
+          font-weight: 500;
+        }
+        
         /* FAQ Styles */
         .faq-section {
           padding: 40px;
@@ -521,6 +771,205 @@ export default function IngredientDetailView({ ingredient, bestSubstitute }) {
           }
           .faq-section {
             padding: 24px;
+          }
+        }
+
+        /* V2.1 Science Section Styles */
+        .culinary-science-section {
+          margin-top: 40px;
+          padding: 40px;
+          border: 1px solid var(--brand-primary);
+          background: linear-gradient(to bottom right, rgba(245, 158, 11, 0.05), transparent);
+        }
+        .section-header {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          margin-bottom: 32px;
+        }
+        .icon-badge {
+          background: var(--brand-primary);
+          color: #000;
+          padding: 10px;
+          border-radius: 12px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .version-tag {
+          font-size: 10px;
+          font-weight: 800;
+          background: #fff;
+          color: #000;
+          padding: 2px 6px;
+          border-radius: 4px;
+          margin-left: auto;
+        }
+        .science-grid {
+          display: grid;
+          grid-template-columns: 1.2fr 1fr 1fr;
+          gap: 32px;
+        }
+        .science-card h3 {
+          font-size: 14px;
+          color: var(--text-muted);
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+          margin-bottom: 20px;
+        }
+        .ph-meter-wrapper {
+          margin-bottom: 24px;
+        }
+        .label-row {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 8px;
+          font-size: 14px;
+        }
+        .ph-value {
+          font-weight: 700;
+          color: var(--brand-primary);
+        }
+        .ph-scale {
+          height: 8px;
+          background: #eee;
+          border-radius: 100px;
+          position: relative;
+          margin-bottom: 6px;
+          overflow: visible;
+        }
+        .ph-gradient {
+          position: absolute;
+          inset: 0;
+          border-radius: 100px;
+          background: linear-gradient(to right, #ff0000, #ff8000, #ffff00, #00ff00, #00ffff, #0000ff, #8000ff);
+          opacity: 0.8;
+        }
+        .ph-indicator {
+          position: absolute;
+          top: -4px;
+          width: 4px;
+          height: 16px;
+          background: #fff;
+          border: 2px solid #000;
+          border-radius: 2px;
+          z-index: 2;
+          transform: translateX(-50%);
+          box-shadow: 0 0 10px rgba(255,255,255,0.5);
+        }
+        .ph-labels {
+          display: flex;
+          justify-content: space-between;
+          font-size: 10px;
+          color: var(--text-muted);
+        }
+        .prop-grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 16px;
+        }
+        .prop-item {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+        .prop-item :global(svg) {
+          color: var(--brand-primary);
+          opacity: 0.7;
+        }
+        .prop-info {
+          display: flex;
+          flex-direction: column;
+        }
+        .prop-label {
+          font-size: 11px;
+          color: var(--text-muted);
+        }
+        .prop-val {
+          font-size: 14px;
+          font-weight: 600;
+        }
+        .thermal-list {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+        }
+        .thermal-item {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+        }
+        .active-thermal { color: var(--brand-primary); }
+        .inactive-thermal { color: var(--text-muted); opacity: 0.3; }
+        .thermal-info {
+          display: flex;
+          flex-direction: column;
+        }
+        .thermal-label { font-size: 12px; color: var(--text-muted); }
+        .thermal-val { font-size: 15px; font-weight: 600; }
+        .reaction-tags {
+          display: flex;
+          gap: 8px;
+          margin-top: 8px;
+        }
+        .reaction-tag {
+          font-size: 11px;
+          padding: 4px 8px;
+          border-radius: 4px;
+          border: 1px solid;
+        }
+        .reaction-tag.enabled {
+          background: rgba(16, 185, 129, 0.1);
+          border-color: var(--brand-success);
+          color: var(--brand-success);
+        }
+        .reaction-tag.disabled {
+          background: rgba(255, 255, 255, 0.03);
+          border-color: var(--glass-border);
+          color: var(--text-muted);
+          opacity: 0.5;
+        }
+        .func-group {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          font-size: 13px;
+          margin-bottom: 12px;
+          color: var(--text-muted);
+        }
+        .func-tags {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 6px;
+          margin-bottom: 20px;
+        }
+        .func-tag {
+          font-size: 11px;
+          padding: 2px 8px;
+          background: var(--bg-accent);
+          border-radius: 4px;
+          color: var(--brand-primary);
+        }
+        .texture-box {
+          background: rgba(255, 255, 255, 0.03);
+          border-radius: 8px;
+          padding: 12px;
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+        }
+        .texture-item {
+          display: flex;
+          justify-content: space-between;
+          font-size: 13px;
+        }
+        .texture-item span { color: var(--text-muted); }
+        .texture-item strong { color: var(--text-primary); }
+
+        @media (max-width: 1024px) {
+          .science-grid {
+            grid-template-columns: 1fr;
+            gap: 40px;
           }
         }
       `}</style>

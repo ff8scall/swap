@@ -1,0 +1,160 @@
+{
+  "id": "gochujang",
+  "name": {
+    "en": "Gochujang",
+    "ko": "고추장"
+  },
+  "icon": "🌶️",
+  "category": {
+    "en": "Fermented Paste",
+    "ko": "발효 페이스트"
+  },
+  "visual_identity": {
+    "primary_color": "#D9381E",
+    "texture": "viscous paste"
+  },
+  "difficulty": "medium",
+  "dietary_tags": [
+    "vegetarian",
+    "vegan",
+    "contains-wheat"
+  ],
+  "allergens": [
+    "soy",
+    "sesame",
+    "wheat"
+  ],
+  "swap_warnings": [
+    "high-sodium",
+    "fermentation-time-sensitive"
+  ],
+  "measurement_type": "weight",
+  "best_use_cases": [
+    "bibimbap",
+    "stew-base",
+    "marinade"
+  ],
+  "avoid_use_cases": [
+    "raw-salad",
+    "high-heat-frying"
+  ],
+  "properties": {
+    "ph_level": 4.8,
+    "moisture_content": 65,
+    "sweetness_index": 3.5,
+    "viscosity": "thick",
+    "umami_intensity": 8.5
+  },
+  "thermal_behavior": {
+    "smoke_point_c": null,
+    "melting_point_c": null,
+    "caramelization": true,
+    "maillard_reaction": true
+  },
+  "functional_properties": [
+    "umami-booster",
+    "coloring-agent",
+    "preservative"
+  ],
+  "texture_profile": {
+    "state": "paste",
+    "elasticity": "low",
+    "mouthfeel": "gritty-smooth"
+  },
+  "regional_alias": {
+    "korea": [
+      "고추장",
+      "고추장"
+    ],
+    "china": [
+      "doubanjiang"
+    ],
+    "vietnam": [
+      "nuoc-mam-chili"
+    ]
+  },
+  "regional_availability": {
+    "common_in": [
+      "korea",
+      "japan",
+      "vietnam"
+    ],
+    "rare_in": [
+      "europe",
+      "north-america"
+    ]
+  },
+  "cuisine_origin": [
+    "korean"
+  ],
+  "preparation_forms": [
+    "paste",
+    "liquid-diluted"
+  ],
+  "scientific_name": null,
+  "schema_org_type": "FoodProduct",
+  "substitutes": [
+    {
+      "id": "miso-paste",
+      "ratio": {
+        "source": 1,
+        "target_min": 1.2,
+        "target_max": 1.5,
+        "unit": "g"
+      },
+      "substitution_logic": "linear_scaling",
+      "failure_risk": "medium",
+      "flavor_delta": {
+        "salt": 1.2,
+        "sweetness": -0.5,
+        "fermentation": 0.8
+      },
+      "texture_impact": "slightly thinner",
+      "chemical_impact": {
+        "en": "Miso contains less sugar than gochujang, requiring added sweetener. Fermentation profile differs (koji vs red pepper).",
+        "ko": "미소는 설탕 함량이 낮아 추가 단맛이 필요하며, 발효 프로파일 (코지 대 고추) 이 다릅니다."
+      },
+      "compensation_action": {
+        "en": "Add honey or sugar to balance sweetness. Reduce salt in other ingredients.",
+        "ko": "설탕이나 꿀을 추가하여 단맛을 보정하고, 다른 재료의 소금 양을 줄여야 합니다."
+      },
+      "verification": {
+        "verified_by": "Culinary Lab Seoul",
+        "date": "2023-10-15",
+        "confidence_score": 85,
+        "lab_note": "Taste panel consensus."
+      }
+    },
+    {
+      "id": "gochugaru-mix",
+      "ratio": {
+        "source": 1,
+        "target_min": 0.8,
+        "target_max": 1,
+        "unit": "g"
+      },
+      "substitution_logic": "manual",
+      "failure_risk": "high",
+      "flavor_delta": {
+        "salt": 0.5,
+        "sweetness": 0,
+        "fermentation": 0
+      },
+      "texture_impact": "dryer, requires liquid",
+      "chemical_impact": {
+        "en": "Lacks fermentation depth. Requires longer marination to develop flavor.",
+        "ko": "발효 깊이가 부족하여 장시간 숙성 필요."
+      },
+      "compensation_action": {
+        "en": "Add fermented soy sauce for depth and liquid for texture.",
+        "ko": "깊이를 위해 간장 발효액 추가."
+      },
+      "verification": {
+        "verified_by": "Culinary Lab Seoul",
+        "date": "2023-10-15",
+        "confidence_score": 70,
+        "lab_note": "Requires additional liquid."
+      }
+    }
+  ]
+}

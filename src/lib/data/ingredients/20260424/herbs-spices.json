@@ -1,0 +1,2786 @@
+{
+  "meta": {
+    "category_en": "Herbs & Spices",
+    "category_ko": "허브 및 향신료",
+    "count": 22,
+    "generated_at": "2026-04-24T01:31:42.970Z"
+  },
+  "ingredients": [
+    {
+      "id": "cilantro",
+      "name": {
+        "en": "Cilantro (Coriander)",
+        "ko": "고수"
+      },
+      "category": {
+        "en": "Herbs & Spices",
+        "ko": "허브 및 향신료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Native to southern Europe and northern Africa, it is one of the most widely consumed herbs globally, essential in Mexican and SE Asian cooking.",
+        "ko": "남부 유럽과 북부 아프리카가 원산지로, 전 세계적으로 가장 널리 소비되는 허브 중 하나이며 멕시코와 동남아 요리에 필수적입니다."
+      },
+      "flavor_profile": {
+        "en": "Bright, citrusy, and fresh, though 10-20% of the population perceives it as soapy due to genetic traits.",
+        "ko": "밝고 상큼한 시트러스 향이 나지만, 유전적 특성에 따라 인구의 10~20%는 비누 맛으로 느끼기도 합니다."
+      },
+      "storage_tips": {
+        "en": "Treat like flowers: trim stems and place in a glass of water, covering loosely with a plastic bag in the fridge.",
+        "ko": "꽃처럼 다루세요. 줄기 끝을 자르고 물컵에 꽂은 뒤 비닐봉지를 씌워 냉장 보관하면 오래 유지됩니다."
+      },
+      "common_pairings": {
+        "en": [
+          "lime",
+          "chili",
+          "onion",
+          "avocado",
+          "cumin"
+        ],
+        "ko": [
+          "lime",
+          "chili",
+          "onion",
+          "avocado",
+          "cumin"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Cilantro (Coriander)"
+        ],
+        "ko": [
+          "고수"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Why does it taste like soap to me?",
+            "ko": "왜 저한테는 비누 맛이 나나요?"
+          },
+          "answer": {
+            "en": "It's genetic! Some people have a variation in olfactory receptor genes that makes them sensitive to aldehydes in cilantro.",
+            "ko": "유전 때문입니다! 특정 후각 수용체 유전자가 변이된 사람들은 고수의 알데하이드 성분을 비누 향으로 민감하게 받아들입니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "An aromatic herb commonly used in Mexican and Asian cuisines.",
+        "ko": "멕시코와 아시아 요리에 널리 쓰이는 향긋한 허브입니다."
+      },
+      "substitutes": [
+        {
+          "id": "parsley-lime-mix",
+          "name": {
+            "en": "Parsley + Lime + Mint",
+            "ko": "파슬리 + 라임 + 민트"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "similarity_score": 70,
+          "umami_reproduction": 50,
+          "chemical_impact": {
+            "en": "Parsley provides the green look but lacks the soapy/citrusy profile of cilantro.",
+            "ko": "파슬리는 시각적으론 비슷하지만 고수 특유의 비누 향이나 시트러스 향은 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Add extra lime juice to provide the missing citrus brightness.",
+            "ko": "부족한 시트러스한 청량감을 위해 라임즙을 더 추가하세요."
+          },
+          "why_it_works": {
+            "en": "Replicates the visual and fresh 'green' notes of the dish.",
+            "ko": "요리의 시각적인 면과 신선한 '초록빛' 노트를 재현합니다."
+          },
+          "tags": [
+            "Herb",
+            "Freshness"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "lemongrass",
+      "name": {
+        "en": "Lemongrass",
+        "ko": "레몬그라스"
+      },
+      "category": {
+        "en": "Herbs & Spices",
+        "ko": "허브 및 향신료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Lemongrass"
+        ],
+        "ko": [
+          "레몬그라스"
+        ]
+      },
+      "description": {
+        "en": "A stalky plant with a fresh, lemony aroma used in Southeast Asian cooking.",
+        "ko": "동남아 요리에 주로 쓰이는 신선한 레몬 향이 나는 줄기 식물입니다."
+      },
+      "substitutes": [
+        {
+          "id": "lemon-zest-ginger",
+          "name": {
+            "en": "Lemon Zest + Ginger",
+            "ko": "레몬 껍질 + 생강"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "stalk"
+          },
+          "similarity_score": 78,
+          "umami_reproduction": 60,
+          "chemical_impact": {
+            "en": "Lemon zest provides the citrus top notes, while ginger mimics the earthy, woody base.",
+            "ko": "레몬 껍질이 시트러스 향을 주고, 생강이 레몬그라스 특유의 흙내음과 나무 향 베이스를 재현합니다."
+          },
+          "compensation_action": {
+            "en": "Mix zest of 1/2 lemon with 1/2 tsp fresh ginger for each stalk required.",
+            "ko": "레몬그라스 1줄기당 레몬 1/2개의 껍질과 생강 1/2작은술을 섞으세요."
+          },
+          "why_it_works": {
+            "en": "Replicates the essential oils (citral) found in lemongrass.",
+            "ko": "레몬그라스에 들어있는 에센셜 오일(시트랄) 성분을 비슷하게 재현합니다."
+          },
+          "tags": [
+            "Aromatic",
+            "Citrusy"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "galangal",
+      "name": {
+        "en": "Galangal",
+        "ko": "갈랑갈"
+      },
+      "category": {
+        "en": "Herbs & Spices",
+        "ko": "허브 및 향신료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Galangal"
+        ],
+        "ko": [
+          "갈랑갈"
+        ]
+      },
+      "dish_tips": {
+        "en": "Tom Yum Soup: Use ginger and a bit of lemon zest to mimic the piney, citrusy aroma of galangal.",
+        "ko": "똠얌꿍: 갈랑갈 특유의 솔향과 시트러스 향을 재현하려면 생강과 레몬 껍질을 함께 사용하세요."
+      },
+      "description": {
+        "en": "A rhizome related to ginger but with a much sharper, citrusy, and piney flavor.",
+        "ko": "생강과 비슷하게 생겼지만 훨씬 날카로운 맛과 시트러스, 솔향이 강한 뿌리 식물입니다."
+      },
+      "substitutes": [
+        {
+          "id": "ginger-lemon-mix",
+          "name": {
+            "en": "Ginger + Lemon Zest",
+            "ko": "생강 + 레몬 껍질"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tbsp"
+          },
+          "similarity_score": 75,
+          "umami_reproduction": 60,
+          "chemical_impact": {
+            "en": "Ginger provides the heat but lacks galangal's woody, floral notes.",
+            "ko": "생강은 매운맛을 주지만 갈랑갈 특유의 나무 향과 꽃향은 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Use young ginger if possible. Add fresh lemon zest to mimic the bright citrus notes.",
+            "ko": "가능하면 어린 생강을 사용하세요. 상큼한 시트러스 향을 위해 신선한 레몬 껍질을 추가하세요."
+          },
+          "why_it_works": {
+            "en": "Ginger and galangal share similar aromatic terpenes, providing a compatible flavor base.",
+            "ko": "생강과 갈랑갈은 비슷한 방향성 테르펜을 공유하여 호환 가능한 풍미 베이스를 제공합니다."
+          },
+          "tags": [
+            "Aromatic",
+            "Spicy"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "sumac",
+      "name": {
+        "en": "Sumac",
+        "ko": "수맥 (수막)"
+      },
+      "category": {
+        "en": "Herbs & Spices",
+        "ko": "허브 및 향신료"
+      },
+      "visual_identity": {
+        "primary_color": "#800020",
+        "texture": "Coarse Powder"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Vitamin C"
+        ],
+        "ko": [
+          "비타민 C"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Sumac"
+        ],
+        "ko": [
+          "수맥 (수막)"
+        ]
+      },
+      "dish_tips": {
+        "en": "Salads/Kebabs: Use lemon zest and a pinch of salt to provide the bright, dry acidity sumac is known for.",
+        "ko": "샐러드/케밥: 수맥의 특징인 밝고 건조한 산미를 위해 레몬 껍질과 소금 한 꼬집을 사용하세요."
+      },
+      "description": {
+        "en": "A tangy, purple-red spice derived from ground berries, widely used in Middle Eastern cooking.",
+        "ko": "중동 요리에 널리 쓰이는, 열매를 갈아 만든 새콤하고 자줏빛이 도는 향신료입니다."
+      },
+      "substitutes": [
+        {
+          "id": "lemon-zest-salt",
+          "name": {
+            "en": "Lemon Zest + Salt",
+            "ko": "레몬 껍질 + 소금"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tsp"
+          },
+          "similarity_score": 88,
+          "umami_reproduction": 50,
+          "chemical_impact": {
+            "en": "Lemon zest provides the citric acid pop without adding extra liquid to the dish.",
+            "ko": "레몬 껍질은 요리에 액체를 추가하지 않으면서도 시트러스한 산미를 터뜨려줍니다."
+          },
+          "compensation_action": {
+            "en": "Mix the zest of one lemon with 1/2 tsp of fine sea salt.",
+            "ko": "레몬 한 개의 껍질과 고운 바다 소금 1/2작은술을 섞어서 사용하세요."
+          },
+          "why_it_works": {
+            "en": "Replicates the dry, astringent acidity that defines sumac's profile.",
+            "ko": "수맥의 프로필을 결정짓는 건조하고 톡 쏘는 산미를 재현합니다."
+          },
+          "tags": [
+            "Acidic",
+            "Dry"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "shallots",
+      "name": {
+        "en": "Shallots",
+        "ko": "샬롯"
+      },
+      "category": {
+        "en": "Herbs & Spices",
+        "ko": "허브 및 향신료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Shallots"
+        ],
+        "ko": [
+          "샬롯"
+        ]
+      },
+      "dish_tips": {
+        "en": "French Sauces: Use the white part of a yellow onion mixed with a tiny bit of garlic to mimic shallot's complexity.",
+        "ko": "프랑스식 소스: 샬롯의 복합적인 맛을 내려면 양파의 흰 부분과 마늘을 아주 조금 섞어서 사용하세요."
+      },
+      "description": {
+        "en": "A small bulb related to the onion but with a milder, sweeter, and more complex flavor.",
+        "ko": "양파와 비슷하지만 크기가 작고 훨씬 순하며 단맛과 복합적인 풍미가 강한 채소입니다."
+      },
+      "substitutes": [
+        {
+          "id": "onion-garlic-mix",
+          "name": {
+            "en": "Yellow Onion + Garlic",
+            "ko": "양파 + 마늘"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tbsp"
+          },
+          "similarity_score": 85,
+          "umami_reproduction": 80,
+          "chemical_impact": {
+            "en": "Onions are sharper and have more sulfur compounds. Garlic adds the missing complexity.",
+            "ko": "양파는 맛이 더 날카롭고 황 화합물이 더 많습니다. 마늘이 샬롯의 복합적인 맛을 보충해줍니다."
+          },
+          "compensation_action": {
+            "en": "Use minced yellow onion and add 1/2 clove of garlic for every shallot required.",
+            "ko": "잘게 다진 양파를 쓰고, 샬롯 1개당 마늘 1/2쪽을 추가해서 사용하세요."
+          },
+          "why_it_works": {
+            "en": "Replicates the mild alliaceous profile common to the Allium family.",
+            "ko": "파속(Allium) 식물 특유의 순한 마늘/양파 풍미를 재현합니다."
+          },
+          "tags": [
+            "Aromatic",
+            "Savory"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "garam-masala",
+      "name": {
+        "en": "Garam Masala",
+        "ko": "가람 마살라"
+      },
+      "category": {
+        "en": "Herbs & Spices",
+        "ko": "허브 및 향신료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "A cornerstone of North Indian cuisine, 'Garam' means warm and 'Masala' means spice mix.",
+        "ko": "북인도 요리의 핵심으로, '가람'은 따뜻함을, '마살라'는 향신료 혼합물을 의미합니다."
+      },
+      "flavor_profile": {
+        "en": "Warm, pungent, and earthy with notes of cinnamon, cloves, and cardamom.",
+        "ko": "시나몬, 정향, 카다멈의 향이 어우러진 따뜻하고 톡 쏘는 흙내음의 풍미입니다."
+      },
+      "storage_tips": {
+        "en": "Store in an airtight container in a dark place. Use within 3 months for peak aroma.",
+        "ko": "밀폐 용기에 담아 어두운 곳에 보관하세요. 가장 좋은 향을 위해 3개월 이내에 사용하십시오."
+      },
+      "common_pairings": {
+        "en": [
+          "lentils",
+          "chicken-curry",
+          "lamb",
+          "potatoes"
+        ],
+        "ko": [
+          "lentils",
+          "chicken-curry",
+          "lamb",
+          "potatoes"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Garam Masala",
+          "Indian spice mix",
+          "Warm spices",
+          "인도 향신료"
+        ],
+        "ko": [
+          "가람 마살라",
+          "Indian spice mix",
+          "Warm spices",
+          "인도 향신료"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Is it the same as curry powder?",
+            "ko": "카레 가루와 똑같은 건가요?"
+          },
+          "answer": {
+            "en": "No, curry powder usually contains turmeric and is yellow; garam masala is warmer and contains no turmeric.",
+            "ko": "아니요, 카레 가루는 보통 강황이 들어있어 노란색을 띠지만, 가람 마살라는 더 따뜻한 향 중심이며 강황이 들어가지 않습니다."
+          }
+        }
+      ],
+      "dish_tips": {
+        "en": "Curries: Add at the very end of cooking to preserve the volatile aromatic oils.",
+        "ko": "카레: 휘발성 향기 성분을 보존하기 위해 요리의 가장 마지막 단계에 넣으세요."
+      },
+      "description": {
+        "en": "A blend of ground spices used extensively in Indian cuisine.",
+        "ko": "인도 요리에서 광범위하게 사용되는 갈아 만든 향신료 혼합물입니다."
+      },
+      "substitutes": [
+        {
+          "id": "cumin-coriander-mix",
+          "name": {
+            "en": "Cumin + Coriander + Warm Spices",
+            "ko": "큐민 + 고수 가루 + 따뜻한 향신료"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tsp"
+          },
+          "similarity_score": 85,
+          "umami_reproduction": 60,
+          "chemical_impact": {
+            "en": "Cumin provides the earthy base, while cinnamon and cloves add the 'Garam' (warm) notes.",
+            "ko": "큐민이 흙내음 베이스를 제공하고, 시나몬과 정향이 '가람(따뜻함)' 노트를 더해줍니다."
+          },
+          "compensation_action": {
+            "en": "Mix 1 part cumin with 1/2 part coriander and a pinch each of ground cinnamon and cloves.",
+            "ko": "큐민 1, 고수 가루 0.5 비율에 시나몬과 정향 가루를 한 꼬집씩 섞어서 사용하세요."
+          },
+          "why_it_works": {
+            "en": "Combines the primary aromatic compounds (cinnamaldehyde and eugenol) found in the original blend.",
+            "ko": "원본 혼합물에 들어있는 주요 방향성 화합물(신남알데하이드, 유제놀)을 결합하여 재현합니다."
+          },
+          "tags": [
+            "Aromatic",
+            "Warm"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "thai-basil",
+      "name": {
+        "en": "Thai Basil",
+        "ko": "타이 바질"
+      },
+      "category": {
+        "en": "Herbs & Spices",
+        "ko": "허브 및 향신료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Native to Southeast Asia, it is distinct for its purple stems and stable flavor under high heat.",
+        "ko": "동남아시아가 원산지로, 보라색 줄기와 고온 요리에서도 유지되는 강한 향이 특징입니다."
+      },
+      "flavor_profile": {
+        "en": "Peppery with a strong anise or licorice-like aroma.",
+        "ko": "팔각(애니스)이나 감초 같은 강한 향과 함께 매콤한 뒷맛이 있습니다."
+      },
+      "storage_tips": {
+        "en": "Store upright in a glass of water at room temperature. Do not refrigerate as leaves will blacken.",
+        "ko": "실온에서 물이 담긴 컵에 세워서 보관하세요. 냉장 보관하면 잎이 검게 변하므로 피해야 합니다."
+      },
+      "common_pairings": {
+        "en": [
+          "coconut-milk",
+          "green-curry",
+          "pork",
+          "chilies"
+        ],
+        "ko": [
+          "coconut-milk",
+          "green-curry",
+          "pork",
+          "chilies"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Thai Basil",
+          "Horapha",
+          "Licorice basil",
+          "동남아 바질"
+        ],
+        "ko": [
+          "타이 바질",
+          "Horapha",
+          "Licorice basil",
+          "동남아 바질"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Can I use Italian basil instead?",
+            "ko": "이탈리안 바질로 바꿔도 되나요?"
+          },
+          "answer": {
+            "en": "Yes, but add a pinch of mint or star anise to replicate Thai basil's licorice notes.",
+            "ko": "네, 하지만 타이 바질 특유의 향을 내려면 민트나 팔각을 한 꼬집 추가하는 것이 좋습니다."
+          }
+        }
+      ],
+      "dish_tips": {
+        "en": "Green Curry: Tear leaves by hand just before serving for maximum aroma.",
+        "ko": "그린 카레: 최고의 향을 위해 서빙 직전에 손으로 잎을 찢어서 넣으세요."
+      },
+      "description": {
+        "en": "A variety of basil with a sturdy leaf and distinct licorice aroma.",
+        "ko": "튼튼한 잎과 독특한 감초 향을 지닌 바질의 한 종류입니다."
+      },
+      "substitutes": [
+        {
+          "id": "basil-mint-anise",
+          "name": {
+            "en": "Italian Basil + Mint + Star Anise",
+            "ko": "이탈리안 바질 + 민트 + 팔각"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "similarity_score": 80,
+          "umami_reproduction": 50,
+          "chemical_impact": {
+            "en": "Italian basil provides the base, but lacks the estragole and anethole compounds of Thai basil.",
+            "ko": "이탈리안 바질이 베이스를 제공하지만, 타이 바질의 핵심 성분인 에스트라골과 아네톨은 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Mix Italian basil with 10% fresh mint and a tiny pinch of ground star anise.",
+            "ko": "이탈리안 바질에 신선한 민트 10%와 곱게 간 팔각 한 꼬집을 섞어서 사용하세요."
+          },
+          "why_it_works": {
+            "en": "Star anise provides the necessary anethole to mimic the signature licorice scent.",
+            "ko": "팔각에 들어있는 아네톨 성분이 타이 바질 특유의 감초 향을 재현해줍니다."
+          },
+          "tags": [
+            "Aromatic",
+            "Fresh Herb"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "zaatar",
+      "name": {
+        "en": "Za'atar",
+        "ko": "자타르"
+      },
+      "category": {
+        "en": "Herbs & Spices",
+        "ko": "허브 및 향신료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "A legendary blend of herbs, sesame, and sumac that has been a staple in Levantine cuisine for centuries.",
+        "ko": "허브, 참깨, 수맥이 섞인 전설적인 블렌드로, 수세기 동안 중동 요리의 중심이 되어온 향신료입니다."
+      },
+      "flavor_profile": {
+        "en": "Herbal, nutty, and tangy with a satisfying crunch from sesame seeds.",
+        "ko": "허브향과 고소한 맛, 상큼함이 어우러지며 참깨의 바삭한 식감이 특징입니다."
+      },
+      "storage_tips": {
+        "en": "Keep in a cool, dry place. The oil in sesame seeds can go rancid if exposed to heat.",
+        "ko": "서늘하고 건조한 곳에 두세요. 참깨의 기름 성분 때문에 열에 노출되면 변질될 수 있습니다."
+      },
+      "common_pairings": {
+        "en": [
+          "olive-oil",
+          "pita-bread",
+          "labneh",
+          "hummus",
+          "chicken"
+        ],
+        "ko": [
+          "olive-oil",
+          "pita-bread",
+          "labneh",
+          "hummus",
+          "chicken"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Za'atar"
+        ],
+        "ko": [
+          "자타르"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "What's in it?",
+            "ko": "무엇이 들어있나요?"
+          },
+          "answer": {
+            "en": "Typically dried thyme, oregano, marjoram, sumac, and toasted sesame seeds.",
+            "ko": "주로 말린 타임, 오레가노, 마조람, 수맥, 볶은 참깨가 혼합되어 있습니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "A Middle Eastern spice blend of herbs, sesame seeds, and sumac.",
+        "ko": "허브, 참깨, 수맥 등을 섞어 만든 중동의 복합 향신료입니다."
+      },
+      "substitutes": [
+        {
+          "id": "thyme-sesame-mix",
+          "name": {
+            "en": "Thyme + Sesame + Lemon Juice",
+            "ko": "타임 + 참깨 + 레몬즙"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tbsp"
+          },
+          "similarity_score": 90,
+          "umami_reproduction": 50,
+          "chemical_impact": {
+            "en": "Matches the herbal and nutty profile closely if lemon provides the missing sumac tartness.",
+            "ko": "레몬이 수맥의 산미를 대신해준다면 허브향과 고소한 풍미를 거의 완벽히 재현합니다."
+          },
+          "compensation_action": {
+            "en": "Mix 1 tbsp dried thyme, 1 tbsp toasted sesame, and a squeeze of lemon.",
+            "ko": "말린 타임 1큰술, 볶은 참깨 1큰술에 레몬즙을 살짝 섞으세요."
+          },
+          "why_it_works": {
+            "en": "Reconstructs the primary flavor pillars of the original blend.",
+            "ko": "오리지널 블렌드의 핵심 맛 요소를 재구성합니다."
+          },
+          "tags": [
+            "Homemade Blend",
+            "Aromatic"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "kashmiri-chili",
+      "name": {
+        "en": "Kashmiri Chili Powder",
+        "ko": "카슈미르 고춧가루"
+      },
+      "category": {
+        "en": "Herbs & Spices",
+        "ko": "허브 및 향신료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Grown in the Kashmir region, it's prized for its deep red color and mild, smoky flavor.",
+        "ko": "인도 카슈미르 지방에서 생산되며, 진한 붉은색과 부드러운 훈연향으로 사랑받는 재료입니다."
+      },
+      "flavor_profile": {
+        "en": "Very mild heat with a vibrant, stained-red hue and subtle fruitiness.",
+        "ko": "매운맛은 아주 약하지만, 선명하고 붉은 색감과 은은한 과일 향이 특징입니다."
+      },
+      "storage_tips": {
+        "en": "Store in a cool dark place to preserve its stunning red color.",
+        "ko": "아름다운 붉은색을 보존하려면 서늘하고 어두운 곳에 보관하세요."
+      },
+      "common_pairings": {
+        "en": [
+          "tandoori-chicken",
+          "curry",
+          "yogurt",
+          "garlic",
+          "ginger"
+        ],
+        "ko": [
+          "tandoori-chicken",
+          "curry",
+          "yogurt",
+          "garlic",
+          "ginger"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Kashmiri Chili Powder"
+        ],
+        "ko": [
+          "카슈미르 고춧가루"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "How spicy is it?",
+            "ko": "얼마나 매운가요?"
+          },
+          "answer": {
+            "en": "It's much milder than standard chili powder, measuring about 1,000-2,000 Scoville units.",
+            "ko": "일반 고춧가루보다 훨씬 순하며, 약 1,000~2,000 스코빌 지수 정도입니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "An Indian chili powder known for its vibrant red color and mild heat.",
+        "ko": "선명한 붉은색과 부드러운 매운맛이 특징인 인도의 고춧가루입니다."
+      },
+      "substitutes": [
+        {
+          "id": "paprika-cayenne-mix",
+          "name": {
+            "en": "Paprika + Pinch of Cayenne",
+            "ko": "파프리카 + 카옌 페퍼 한 꼬집"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tsp"
+          },
+          "similarity_score": 92,
+          "umami_reproduction": 80,
+          "chemical_impact": {
+            "en": "Paprika provides the color, and Cayenne adds the missing subtle heat.",
+            "ko": "파프리카가 색감을 내주고, 카옌 페퍼가 부족한 아주 약간의 매운맛을 보충합니다."
+          },
+          "compensation_action": {
+            "en": "Mix 3 parts Paprika with 1 part mild chili powder.",
+            "ko": "파프리카 3 : 순한 고춧가루 1 비율로 섞으세요."
+          },
+          "why_it_works": {
+            "en": "Balances the aesthetic (red color) with the mild sensory experience.",
+            "ko": "시각적인 빨간 색감과 부드러운 맛의 밸런스를 맞춥니다."
+          },
+          "tags": [
+            "Color Fix",
+            "Mild"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "epazote",
+      "name": {
+        "en": "Epazote",
+        "ko": "에파조테"
+      },
+      "category": {
+        "en": "Herbs & Spices",
+        "ko": "허브 및 향신료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Used by the Aztecs for culinary and medicinal purposes, it's famous for reducing gas when cooking beans.",
+        "ko": "아즈텍인들이 요리와 약용으로 사용했으며, 콩 요리 시 가스 발생을 줄여주는 것으로 유명합니다."
+      },
+      "flavor_profile": {
+        "en": "Strong, pungent, and resinous with notes of citrus, mint, and oregano.",
+        "ko": "강렬하고 톡 쏘는 향이 나며 시트러스, 민트, 오레가노가 섞인 듯한 독특한 풍미입니다."
+      },
+      "storage_tips": {
+        "en": "Wrap fresh sprigs in a damp paper towel in the fridge. Dried version lasts 1 year.",
+        "ko": "신선한 줄기는 젖은 키친타월에 싸서 냉장 보관하세요. 말린 것은 1년 정도 보관 가능합니다."
+      },
+      "common_pairings": {
+        "en": [
+          "black-beans",
+          "corn",
+          "quesadillas",
+          "salsa"
+        ],
+        "ko": [
+          "black-beans",
+          "corn",
+          "quesadillas",
+          "salsa"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Epazote"
+        ],
+        "ko": [
+          "에파조테"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Why use it with beans?",
+            "ko": "왜 콩 요리에 사용하나요?"
+          },
+          "answer": {
+            "en": "It contains compounds that break down complex sugars in beans, aiding digestion.",
+            "ko": "콩의 복합당을 분해하는 성분이 들어있어 소화를 돕기 때문입니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "A pungent Mexican herb traditionally used for seasoning black beans.",
+        "ko": "검은콩 요리에 주로 쓰이는 강한 향의 멕시코 허브입니다."
+      },
+      "substitutes": [
+        {
+          "id": "oregano-savory-mix",
+          "name": {
+            "en": "Oregano + Cilantro + Mint",
+            "ko": "오레가노 + 고수 + 민트"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tsp"
+          },
+          "similarity_score": 75,
+          "umami_reproduction": 30,
+          "chemical_impact": {
+            "en": "Captures the herbal complexity but lacks the specific resinous 'kerosene' bite of epazote.",
+            "ko": "허브의 복합적인 향은 잡을 수 있지만 에파조테 특유의 독특한 쏘는 맛은 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Mix equal parts of Mexican oregano and cilantro with a tiny bit of mint.",
+            "ko": "멕시코 오레가노와 고수를 같은 비율로 섞고 민트를 아주 살짝 더하세요."
+          },
+          "why_it_works": {
+            "en": "Approximate the diverse chemical terpenes found in the original herb.",
+            "ko": "오리지널 허브에 들어있는 다양한 테르펜 성분을 근사치로 재현합니다."
+          },
+          "tags": [
+            "Herb Mix",
+            "Mexican"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "asafoetida",
+      "name": {
+        "en": "Asafoetida (Hing)",
+        "ko": "아위 (힌)"
+      },
+      "category": {
+        "en": "Herbs & Spices",
+        "ko": "허브 및 향신료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "A dried resin from giant fennel roots, used in India as a digestive aid and flavor booster for those who avoid onions/garlic.",
+        "ko": "거대 펜넬 뿌리의 수지를 말린 것으로, 인도에서 소화를 돕고 양파/마늘을 피하는 사람들을 위한 풍미 증진제로 쓰입니다."
+      },
+      "flavor_profile": {
+        "en": "Strong, sulfurous smell when raw, turning into a deep onion-garlic flavor when cooked in fat.",
+        "ko": "생것은 강한 유황 냄새가 나지만, 기름에 조리하면 깊은 양파와 마늘의 풍미로 변합니다."
+      },
+      "storage_tips": {
+        "en": "MUST be kept in a double-sealed container. Its raw smell can permeate everything in your pantry.",
+        "ko": "반드시 이중 밀폐 보관하세요. 생것의 냄새가 온 주방에 밸 수 있습니다."
+      },
+      "common_pairings": {
+        "en": [
+          "lentils",
+          "legumes",
+          "turmeric",
+          "cumin",
+          "ghee"
+        ],
+        "ko": [
+          "lentils",
+          "legumes",
+          "turmeric",
+          "cumin",
+          "ghee"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Asafoetida (Hing)"
+        ],
+        "ko": [
+          "아위 (힌)"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Is it gluten-free?",
+            "ko": "글루텐 프리인가요?"
+          },
+          "answer": {
+            "en": "Most powdered versions are mixed with wheat flour to prevent clumping. Check labels carefully.",
+            "ko": "대부분의 분말형은 뭉침 방지를 위해 밀가루와 섞여 있습니다. 라벨을 꼭 확인하세요."
+          }
+        }
+      ],
+      "description": {
+        "en": "A potent resin used in Indian cooking that mimics the flavor of garlic and onions.",
+        "ko": "마늘과 양파의 풍미를 내는 인도 요리의 강력한 천연 수지 향료입니다."
+      },
+      "substitutes": [
+        {
+          "id": "garlic-onion-powder",
+          "name": {
+            "en": "Garlic Powder + Onion Powder",
+            "ko": "마늘 가루 + 양파 가루"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 0.5,
+            "target_max": 0.5,
+            "unit": "tsp"
+          },
+          "similarity_score": 88,
+          "umami_reproduction": 90,
+          "chemical_impact": {
+            "en": "Provides the sulfurous punch but lacks the unique 'medicinal' depth of hing.",
+            "ko": "황 성분의 톡 쏘는 맛은 주지만 힌 특유의 독특하고 깊은 약용 풍미는 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Use a 1:1 mix of garlic and onion powder. Add a pinch of salt.",
+            "ko": "마늘 가루와 양파 가루를 1:1로 섞어 사용하고 소금을 한 꼬집 넣으세요."
+          },
+          "why_it_works": {
+            "en": "Both sources rely on sulfur compounds for their signature pungent and savory kick.",
+            "ko": "두 재료 모두 특유의 톡 쏘는 감칠맛을 위해 황 화합물에 의존합니다."
+          },
+          "tags": [
+            "Easy Swap",
+            "Savory"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "amchur",
+      "name": {
+        "en": "Amchur",
+        "ko": "암추르 (망고 가루)"
+      },
+      "category": {
+        "en": "Herbs & Spices",
+        "ko": "허브 및 향신료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Made from sun-dried green (unripe) mangoes, providing a fruity tang to North Indian dishes.",
+        "ko": "말린 덜 익은 망고로 만들며, 북인도 요리에 과일 특유의 상큼함을 더해줍니다."
+      },
+      "flavor_profile": {
+        "en": "Bright, tart, and acidic with a subtle tropical sweetness.",
+        "ko": "밝고 상큼한 산미가 특징이며, 은은한 열대 과일의 단맛이 숨어 있습니다."
+      },
+      "storage_tips": {
+        "en": "Store in a cool dry place. It clumps easily if moisture enters the jar.",
+        "ko": "서늘하고 건조한 곳에 두세요. 습기가 들어가면 쉽게 덩어리집니다."
+      },
+      "common_pairings": {
+        "en": [
+          "potatoes",
+          "chickpeas",
+          "cauliflower",
+          "cumin",
+          "coriander"
+        ],
+        "ko": [
+          "potatoes",
+          "chickpeas",
+          "cauliflower",
+          "cumin",
+          "coriander"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Amchur"
+        ],
+        "ko": [
+          "암추르 (망고 가루)"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Is it the same as lemon juice?",
+            "ko": "레몬즙과 같은 건가요?"
+          },
+          "answer": {
+            "en": "Similar acidity, but Amchur adds a dry tartness without adding liquid to the dish.",
+            "ko": "산미는 비슷하지만, 암추르는 요리에 액체를 추가하지 않고도 마른 산미를 더해줍니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "A fruity spice powder made from dried unripe mangoes.",
+        "ko": "말린 덜 익은 망고로 만든 과일 향 가득한 상큼한 가루 향신료입니다."
+      },
+      "substitutes": [
+        {
+          "id": "lemon-lime-juice",
+          "name": {
+            "en": "Lemon or Lime Juice",
+            "ko": "레몬즙 또는 라임즙"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tsp"
+          },
+          "similarity_score": 85,
+          "umami_reproduction": 10,
+          "chemical_impact": {
+            "en": "Adds the necessary tartness but also introduces liquid content.",
+            "ko": "필요한 상큼함을 더해주지만 요리에 수분이 추가된다는 단점이 있습니다."
+          },
+          "compensation_action": {
+            "en": "Use 1 tsp of juice for 1 tsp of powder, but reduce other liquids in the recipe.",
+            "ko": "가루 1작은술당 즙 1작은술을 쓰되, 레시피의 다른 액체 양을 조절하세요."
+          },
+          "why_it_works": {
+            "en": "Both rely on citric and malic acids for their sharp, mouth-watering effect.",
+            "ko": "둘 다 입맛을 돋우는 날카로운 맛을 위해 시트르산과 말산에 의존합니다."
+          },
+          "tags": [
+            "Acidic",
+            "Fruity"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "curry-leaves",
+      "name": {
+        "en": "Curry Leaves",
+        "ko": "커리 리프"
+      },
+      "category": {
+        "en": "Herbs & Spices",
+        "ko": "허브 및 향신료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Native to India and Sri Lanka, they are unrelated to curry powder and are often used to 'temper' oils.",
+        "ko": "인도와 스리랑카가 원산지로, 시중의 카레 가루와는 관련이 없으며 주로 기름에 향을 입히는 데 쓰입니다."
+      },
+      "flavor_profile": {
+        "en": "Highly aromatic with notes of citrus, anise, and lemongrass.",
+        "ko": "매우 향기로우며 시트러스, 아니스, 레몬그라스가 섞인 듯한 복합적인 향이 납니다."
+      },
+      "storage_tips": {
+        "en": "Fresh leaves can be frozen for up to 6 months without losing flavor. Dried leaves lose most aroma.",
+        "ko": "신선한 잎은 냉동하면 풍미 손실 없이 6개월까지 보관 가능합니다. 말린 잎은 향이 거의 없습니다."
+      },
+      "common_pairings": {
+        "en": [
+          "coconut-milk",
+          "mustard-seeds",
+          "turmeric",
+          "lentils",
+          "fish"
+        ],
+        "ko": [
+          "coconut-milk",
+          "mustard-seeds",
+          "turmeric",
+          "lentils",
+          "fish"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Curry Leaves"
+        ],
+        "ko": [
+          "커리 리프"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Should I eat the leaves?",
+            "ko": "잎을 먹어도 되나요?"
+          },
+          "answer": {
+            "en": "Yes! Unlike bay leaves, they are tender and intended to be eaten with the dish.",
+            "ko": "네! 월계수 잎과 달리 연하며 요리와 함께 먹는 것이 일반적입니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "Small, aromatic leaves essential to South Indian and Sri Lankan cooking.",
+        "ko": "남인도와 스리랑카 요리에 필수적인 작고 향기로운 잎입니다."
+      },
+      "substitutes": [
+        {
+          "id": "lime-zest-basil",
+          "name": {
+            "en": "Lime Zest + Basil",
+            "ko": "라임 껍질 + 바질"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tsp"
+          },
+          "similarity_score": 60,
+          "umami_reproduction": 20,
+          "chemical_impact": {
+            "en": "Captures the citrusy notes but lacks the specific nutty, sulfurous aroma of fried curry leaves.",
+            "ko": "상큼한 향은 잡을 수 있지만 튀긴 커리 리프 특유의 고소하고 톡 쏘는 향은 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Use lime zest and a few fresh basil leaves. No perfect substitute exists for the unique aroma.",
+            "ko": "라임 껍질과 신선한 바질 잎을 쓰세요. 이 독특한 향을 완벽히 대체할 재료는 사실상 없습니다."
+          },
+          "why_it_works": {
+            "en": "Approximate the citrus-herbal profile of the original leaves.",
+            "ko": "오리지널 잎의 시트러스하고 허브 같은 향을 근사치로 제공합니다."
+          },
+          "tags": [
+            "Aromatic",
+            "Fresh"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "mustard-seeds",
+      "name": {
+        "en": "Mustard Seeds",
+        "ko": "머스타드 씨드"
+      },
+      "category": {
+        "en": "Herbs & Spices",
+        "ko": "허브 및 향신료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "One of the oldest spices, mentioned in ancient Sanskrit and Bible texts, used globally for heat and texture.",
+        "ko": "가장 오래된 향신료 중 하나로, 고대 산스크리트어 문헌과 성경에도 언급되며 전 세계적으로 쓰입니다."
+      },
+      "flavor_profile": {
+        "en": "Nutty when toasted, turning sharp and pungent when crushed and mixed with liquid.",
+        "ko": "볶으면 고소하지만, 갈아서 액체와 섞으면 톡 쏘는 강렬하고 날카로운 맛으로 변합니다."
+      },
+      "storage_tips": {
+        "en": "Whole seeds last 3 years in a cool dark pantry. Ground mustard loses punch within 6 months.",
+        "ko": "통씨앗은 서늘한 곳에서 3년까지 보관 가능합니다. 가루는 6개월 내에 매운맛이 약해집니다."
+      },
+      "common_pairings": {
+        "en": [
+          "vinegar",
+          "honey",
+          "pork",
+          "beef",
+          "potatoes"
+        ],
+        "ko": [
+          "vinegar",
+          "honey",
+          "pork",
+          "beef",
+          "potatoes"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Mustard Seeds"
+        ],
+        "ko": [
+          "머스타드 씨드"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Yellow vs. Brown vs. Black?",
+            "ko": "노란색, 갈색, 검은색의 차이는?"
+          },
+          "answer": {
+            "en": "Yellow is mildest; Brown is hotter; Black is the most pungent and small.",
+            "ko": "노란색이 가장 순하고, 갈색은 중간, 검은색이 가장 맵고 향이 강합니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "Small round seeds used as a spice and to make mustard paste.",
+        "ko": "향신료로 쓰이거나 머스타드 페이스트를 만드는 데 사용되는 작은 씨앗입니다."
+      },
+      "substitutes": [
+        {
+          "id": "prepared-mustard",
+          "name": {
+            "en": "Prepared Mustard (Dijon)",
+            "ko": "조리된 머스타드 (디종)"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tsp"
+          },
+          "similarity_score": 85,
+          "umami_reproduction": 70,
+          "chemical_impact": {
+            "en": "Adds the flavor but introduces vinegar and liquid to the recipe.",
+            "ko": "맛은 비슷하게 내주지만 식초와 수분이 요리에 추가됩니다."
+          },
+          "compensation_action": {
+            "en": "Use 1 tsp of prepared mustard for 1/2 tsp of dry seeds or powder.",
+            "ko": "말린 씨앗이나 가루 1/2작은술당 디종 머스타드 1작은술을 사용하세요."
+          },
+          "why_it_works": {
+            "en": "Contains the already activated mustard enzymes and flavors.",
+            "ko": "이미 활성화된 머스타드 효소와 풍미를 모두 담고 있습니다."
+          },
+          "tags": [
+            "Quick Fix",
+            "Sharp"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "fenugreek-seeds",
+      "name": {
+        "en": "Fenugreek Seeds",
+        "ko": "메티 씨앗 (페누그릭)"
+      },
+      "category": {
+        "en": "Herbs & Spices",
+        "ko": "허브 및 향신료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Known as 'Methi' in India, these seeds were found in Tutankhamun's tomb and are essential to curry powders.",
+        "ko": "인도에서 '메티'로 불리며, 투탕카멘의 무덤에서도 발견되었을 만큼 역사가 깊은 카레 가루의 핵심 원료입니다."
+      },
+      "flavor_profile": {
+        "en": "Bitter and nutty with a distinct aroma of maple syrup or burnt sugar.",
+        "ko": "씁쓸하고 고소하며, 메이플 시럽이나 탄 설탕 같은 독특한 향이 납니다."
+      },
+      "storage_tips": {
+        "en": "Store in an airtight container. Toasting whole seeds removes bitterness and enhances sweetness.",
+        "ko": "밀폐 용기에 보관하세요. 통씨앗을 볶으면 쓴맛이 사라지고 단맛과 향이 살아납니다."
+      },
+      "common_pairings": {
+        "en": [
+          "turmeric",
+          "cumin",
+          "tomatoes",
+          "spinach",
+          "lamb"
+        ],
+        "ko": [
+          "turmeric",
+          "cumin",
+          "tomatoes",
+          "spinach",
+          "lamb"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Fenugreek Seeds"
+        ],
+        "ko": [
+          "메티 씨앗 (페누그릭)"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Why does it smell like syrup?",
+            "ko": "왜 시럽 냄새가 나나요?"
+          },
+          "answer": {
+            "en": "It contains sotolon, the same powerful aroma compound found in maple syrup.",
+            "ko": "메이플 시럽에 들어있는 것과 동일한 강력한 향기 성분인 '소톨론'이 들어있기 때문입니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "Small, angular yellow-brown seeds used in Indian and Middle Eastern cooking.",
+        "ko": "인도와 중동 요리에 쓰이는 작고 각진 황갈색 씨앗입니다."
+      },
+      "substitutes": [
+        {
+          "id": "yellow-mustard-maple",
+          "name": {
+            "en": "Yellow Mustard Seeds + Maple Syrup",
+            "ko": "노란 머스타드 씨드 + 메이플 시럽"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tsp"
+          },
+          "similarity_score": 80,
+          "umami_reproduction": 40,
+          "chemical_impact": {
+            "en": "Mustard provides the bitter crunch, and maple syrup captures the signature aroma.",
+            "ko": "머스타드가 씁쓸한 식감을, 메이플 시럽이 특유의 향기를 재현합니다."
+          },
+          "compensation_action": {
+            "en": "Mix 1 tsp mustard seeds with a tiny drop of maple syrup.",
+            "ko": "머스타드 씨드 1작은술에 메이플 시럽을 아주 살짝 한 방울 섞으세요."
+          },
+          "why_it_works": {
+            "en": "Reconstructs the dual sensory profile of bitterness and sweet aroma.",
+            "ko": "쓴맛과 단 향기라는 두 가지 감각적 프로필을 재구성합니다."
+          },
+          "tags": [
+            "Aroma Hack",
+            "Flavor Balance"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "saffron",
+      "name": {
+        "en": "Saffron",
+        "ko": "샤프란"
+      },
+      "category": {
+        "en": "Herbs & Spices",
+        "ko": "허브 및 향신료"
+      },
+      "visual_identity": {
+        "primary_color": "#FFD700",
+        "texture": "Dried Threads"
+      },
+      "difficulty": "hard",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Crocin"
+        ],
+        "ko": [
+          "크로신"
+        ]
+      },
+      "origin_and_history": {
+        "en": "The world's most expensive spice, derived from the dried stigmas of the Crocus sativus flower, primarily harvested in Iran.",
+        "ko": "이란에서 주로 재배되는 크로커스 꽃의 암술대를 말려 만든 세계에서 가장 비싼 향신료입니다."
+      },
+      "flavor_profile": {
+        "en": "Floral, honey-like, and slightly metallic with a stunning golden-yellow staining power.",
+        "ko": "꽃향기와 꿀 같은 향, 그리고 약간의 금속성 풍미가 어우러지며 압도적인 황금색 착색력을 가집니다."
+      },
+      "storage_tips": {
+        "en": "Store in a cool, dark place in an airtight container. Wrap in foil to block all light.",
+        "ko": "서늘하고 어두운 곳에 밀폐하여 보관하세요. 빛을 완전히 차단하기 위해 호일로 감싸는 것이 좋습니다."
+      },
+      "common_pairings": {
+        "en": [
+          "rice",
+          "seafood",
+          "white-wine",
+          "garlic",
+          "onions"
+        ],
+        "ko": [
+          "rice",
+          "seafood",
+          "white-wine",
+          "garlic",
+          "onions"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Red gold",
+          "Saffron threads"
+        ],
+        "ko": [
+          "샤프란",
+          "사프란"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Why is it so expensive?",
+            "ko": "왜 그렇게 비싼가요?"
+          },
+          "answer": {
+            "en": "Each flower produces only three threads, which must be hand-picked at dawn.",
+            "ko": "꽃 한 송이당 오직 세 줄기의 암술대만 나오며, 이를 새벽에 일일이 수작업으로 채취해야 하기 때문입니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "The world's most valuable spice, used for its unique aroma and yellow color.",
+        "ko": "독특한 향과 노란 색감을 위해 쓰이는 세계에서 가장 가치 있는 향신료입니다."
+      },
+      "substitutes": [
+        {
+          "id": "turmeric-paprika-mix",
+          "name": {
+            "en": "Turmeric + Sweet Paprika",
+            "ko": "강황 + 스위트 파프리카"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tsp"
+          },
+          "similarity_score": 70,
+          "umami_reproduction": 10,
+          "chemical_impact": {
+            "en": "Provides the yellow color but lacks the complex floral and honeyed aroma of real saffron.",
+            "ko": "노란 색감은 제공하지만 진짜 샤프란 특유의 복합적인 꽃향기와 꿀 향은 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Use 1/2 tsp turmeric for color. No perfect substitute for the aroma exists.",
+            "ko": "색을 내기 위해 강황 1/2작은술을 사용하세요. 향을 완벽히 대체할 재료는 없습니다."
+          },
+          "why_it_works": {
+            "en": "Turmeric mimics the staining properties (curcumin) found in saffron.",
+            "ko": "강황에 들어있는 커큐민 성분이 샤프란의 착색 성질을 비슷하게 재현합니다."
+          },
+          "tags": [
+            "Color Only",
+            "Economy Swap"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "vanilla-bean",
+      "name": {
+        "en": "Vanilla Bean",
+        "ko": "바닐라 빈"
+      },
+      "category": {
+        "en": "Herbs & Spices",
+        "ko": "허브 및 향신료"
+      },
+      "visual_identity": {
+        "primary_color": "#3D2B1F",
+        "texture": "Supple Pod"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "unit",
+      "nutrition_highlights": {
+        "en": [
+          "Vanillin"
+        ],
+        "ko": [
+          "바닐린"
+        ]
+      },
+      "origin_and_history": {
+        "en": "A seed pod of the Vanilla orchid, originally native to Mexico and first cultivated by the Totonac people.",
+        "ko": "멕시코가 원산지인 바닐라 난초의 씨앗 꼬투리로, 토토낙 원주민들에 의해 처음 재배되었습니다."
+      },
+      "flavor_profile": {
+        "en": "Incredibly complex, sweet, and creamy with over 250 different flavor components.",
+        "ko": "250가지 이상의 향기 성분이 어우러진 믿을 수 없이 복합적이고 달콤하며 크리미한 풍미입니다."
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight jar in a cool dark place. Do not refrigerate as it may cause mold or drying.",
+        "ko": "서늘하고 어두운 곳에 밀폐 용기에 보관하세요. 냉장고에 넣으면 곰팡이가 생기거나 마를 수 있습니다."
+      },
+      "common_pairings": {
+        "en": [
+          "sugar",
+          "milk",
+          "cream",
+          "chocolate",
+          "fruit"
+        ],
+        "ko": [
+          "sugar",
+          "milk",
+          "cream",
+          "chocolate",
+          "fruit"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Vanilla pod",
+          "Whole vanilla"
+        ],
+        "ko": [
+          "바닐라 빈",
+          "바닐라 꼬투리"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "How to use it?",
+            "ko": "어떻게 사용하나요?"
+          },
+          "answer": {
+            "en": "Split the pod lengthwise and scrape out the tiny black seeds with a dull knife.",
+            "ko": "꼬투리를 세로로 가른 뒤, 무딘 칼로 아주 작은 검은 씨앗들을 긁어내어 사용합니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "The whole seed pod of the vanilla orchid, providing the purest vanilla flavor.",
+        "ko": "바닐라 난초의 전체 씨앗 꼬투리로, 가장 순수한 바닐라 풍미를 제공합니다."
+      },
+      "substitutes": [
+        {
+          "id": "vanilla-extract-sub",
+          "name": {
+            "en": "Vanilla Extract",
+            "ko": "바닐라 익스트랙"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tbsp"
+          },
+          "similarity_score": 85,
+          "umami_reproduction": 100,
+          "chemical_impact": {
+            "en": "Provides the flavor but lacks the visual appeal of real vanilla bean specks.",
+            "ko": "맛은 제공하지만 진짜 바닐라 빈 특유의 검은 점(씨앗)이 보이는 시각적 효과는 없습니다."
+          },
+          "compensation_action": {
+            "en": "Use 1 tbsp of extract for every 1 whole vanilla bean.",
+            "ko": "바닐라 빈 1개당 바닐라 익스트랙 1큰술을 사용하세요."
+          },
+          "why_it_works": {
+            "en": "Extract is made by macerating beans in alcohol, capturing the core vanillin flavor.",
+            "ko": "익스트랙은 빈을 알코올에 담가 추출한 것이므로 핵심적인 바닐린 풍미를 담고 있습니다."
+          },
+          "tags": [
+            "Pantry Staple",
+            "Convenient"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "star-anise",
+      "name": {
+        "en": "Star Anise",
+        "ko": "팔각 (스타 아니스)"
+      },
+      "category": {
+        "en": "Herbs & Spices",
+        "ko": "허브 및 향신료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Native to southern China and Vietnam, it's a key ingredient in Chinese Five Spice and Vietnamese Pho.",
+        "ko": "중국 남부와 베트남이 원산지이며, 중국 오향분과 베트남 쌀국수의 핵심 재료입니다."
+      },
+      "flavor_profile": {
+        "en": "Strong licorice flavor, sweet and spicy with a warm numbing effect.",
+        "ko": "강렬한 감초 풍미와 달콤하고 매콤한 맛, 그리고 따뜻하게 혀를 자극하는 효과가 특징입니다."
+      },
+      "storage_tips": {
+        "en": "Keep whole in an airtight container. It stays potent for up to 2 years.",
+        "ko": "통째로 밀폐 용기에 보관하세요. 최대 2년까지 강한 향을 유지합니다."
+      },
+      "common_pairings": {
+        "en": [
+          "cinnamon",
+          "cloves",
+          "ginger",
+          "soy-sauce",
+          "pork"
+        ],
+        "ko": [
+          "cinnamon",
+          "cloves",
+          "ginger",
+          "soy-sauce",
+          "pork"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Star Anise"
+        ],
+        "ko": [
+          "팔각 (스타 아니스)"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Is it the same as anise seed?",
+            "ko": "아니스 씨앗과 같은 건가요?"
+          },
+          "answer": {
+            "en": "Related in flavor (both contain anethole), but they come from entirely different plants.",
+            "ko": "풍미는 비슷하지만(둘 다 아네톨 성분 함유), 완전히 다른 식물에서 유래합니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "A star-shaped spice with a powerful licorice-like aroma.",
+        "ko": "강렬한 감초 향이 나는 별 모양의 향신료입니다."
+      },
+      "substitutes": [
+        {
+          "id": "fennel-seed-sub",
+          "name": {
+            "en": "Fennel Seeds",
+            "ko": "펜넬 씨앗"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tsp"
+          },
+          "similarity_score": 80,
+          "umami_reproduction": 30,
+          "chemical_impact": {
+            "en": "Shares the licorice profile but is milder and more herbal.",
+            "ko": "감초 풍미를 공유하지만 더 순하고 허브 같은 느낌이 강합니다."
+          },
+          "compensation_action": {
+            "en": "Use 1 tsp of fennel seeds for every 1 whole star anise.",
+            "ko": "팔각 1개당 펜넬 씨앗 1작은술을 사용하세요."
+          },
+          "why_it_works": {
+            "en": "Both spices contain anethole, the compound responsible for the licorice flavor.",
+            "ko": "두 향신료 모두 감초 맛을 내는 성분인 아네톨을 함유하고 있습니다."
+          },
+          "tags": [
+            "Licorice Flavor",
+            "Aromatic"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "allspice",
+      "name": {
+        "en": "Allspice",
+        "ko": "올스파이스"
+      },
+      "category": {
+        "en": "Herbs & Spices",
+        "ko": "허브 및 향신료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "The dried unripe berry of Pimenta dioica, native to Jamaica and Central America. Its name comes from its combined flavor profile.",
+        "ko": "자메이카와 중앙아메리카 원산지의 열매를 말린 것으로, 여러 향신료가 섞인 듯한 맛 때문에 이름 붙여졌습니다."
+      },
+      "flavor_profile": {
+        "en": "A complex combination of cinnamon, cloves, and nutmeg with a peppery bite.",
+        "ko": "시나몬, 정향, 넛멕이 섞인 듯한 복합적인 풍미에 후추 같은 알싸함이 더해진 맛입니다."
+      },
+      "storage_tips": {
+        "en": "Whole berries last much longer than ground. Store in a cool dark place.",
+        "ko": "통열매가 가루보다 훨씬 오래 유지됩니다. 서늘하고 어두운 곳에 보관하세요."
+      },
+      "common_pairings": {
+        "en": [
+          "cloves",
+          "cinnamon",
+          "nutmeg",
+          "pork",
+          "beef",
+          "pumpkin"
+        ],
+        "ko": [
+          "cloves",
+          "cinnamon",
+          "nutmeg",
+          "pork",
+          "beef",
+          "pumpkin"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Allspice"
+        ],
+        "ko": [
+          "올스파이스"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Is it a blend of spices?",
+            "ko": "여러 향신료를 섞은 건가요?"
+          },
+          "answer": {
+            "en": "No, it is a single berry, though it tastes like a blend.",
+            "ko": "아니요, 혼합물이 아니라 단일 열매이지만 여러 향이 섞인 듯한 맛이 날 뿐입니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "A single spice that tastes like a blend of cinnamon, nutmeg, and cloves.",
+        "ko": "시나몬, 넛멕, 정향을 섞은 듯한 맛이 나는 단일 향신료입니다."
+      },
+      "substitutes": [
+        {
+          "id": "allspice-diy-blend",
+          "name": {
+            "en": "Cinnamon + Cloves + Nutmeg Mix",
+            "ko": "시나몬 + 정향 + 넛멕 혼합"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tsp"
+          },
+          "similarity_score": 98,
+          "umami_reproduction": 80,
+          "chemical_impact": {
+            "en": "The most accurate way to mimic the flavor if you don't have the whole berry.",
+            "ko": "통열매가 없을 때 그 풍미를 가장 정확하게 재현할 수 있는 방법입니다."
+          },
+          "compensation_action": {
+            "en": "Mix equal parts ground cinnamon, cloves, and nutmeg.",
+            "ko": "가루 시나몬, 정향, 넛멕을 같은 비율로 섞으세요."
+          },
+          "why_it_works": {
+            "en": "Reconstructs the primary chemical terpenes that give allspice its unique multidimensional aroma.",
+            "ko": "올스파이스 특유의 다차원적인 향을 구성하는 핵심 테르펜 성분들을 재구성합니다."
+          },
+          "tags": [
+            "Perfect Match",
+            "DIY Spice"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "cardamom",
+      "name": {
+        "en": "Cardamom",
+        "ko": "카다멈"
+      },
+      "category": {
+        "en": "Herbs & Spices",
+        "ko": "허브 및 향신료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Known as the 'Queen of Spices,' it is native to the evergreen forests of India.",
+        "ko": "'향신료의 여왕'으로 불리며, 인도의 상록수 숲이 원산지입니다."
+      },
+      "flavor_profile": {
+        "en": "Citrusy, minty, and herbal with a warm, floral sweetness.",
+        "ko": "시트러스, 민트, 허브향이 어우러지며 따뜻하고 꽃 같은 단맛이 특징입니다."
+      },
+      "storage_tips": {
+        "en": "Keep in pods until needed. Ground cardamom loses its essential oils very rapidly.",
+        "ko": "사용 직전까지 꼬투리 채 보관하세요. 가루 형태는 에센셜 오일이 매우 빨리 증발합니다."
+      },
+      "common_pairings": {
+        "en": [
+          "coffee",
+          "tea",
+          "cinnamon",
+          "saffron",
+          "yogurt"
+        ],
+        "ko": [
+          "coffee",
+          "tea",
+          "cinnamon",
+          "saffron",
+          "yogurt"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Cardamom"
+        ],
+        "ko": [
+          "카다멈"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Green vs. Black cardamom?",
+            "ko": "그린 vs 블랙 카다멈의 차이는?"
+          },
+          "answer": {
+            "en": "Green is sweet and floral; Black is smoky and earthy. They are not interchangeable.",
+            "ko": "그린은 달콤하고 꽃향기가 나며, 블랙은 스모키하고 흙내음이 납니다. 서로 대체할 수 없습니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "A highly aromatic spice available as green or black pods.",
+        "ko": "그린 또는 블랙 꼬투리 형태로 사용되는 매우 향기로운 향신료입니다."
+      },
+      "substitutes": [
+        {
+          "id": "cinnamon-clove-mix",
+          "name": {
+            "en": "Cinnamon + Cloves",
+            "ko": "시나몬 + 정향"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tsp"
+          },
+          "similarity_score": 75,
+          "umami_reproduction": 40,
+          "chemical_impact": {
+            "en": "Provides the warmth and complexity but lacks the bright minty/citrusy top notes.",
+            "ko": "따뜻함과 복합적인 풍미는 주지만 특유의 밝은 민트/시트러스 향은 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Mix equal parts cinnamon and cloves. Add a pinch of ginger for extra bite.",
+            "ko": "시나몬과 정향을 같은 비율로 섞고, 톡 쏘는 맛을 위해 생강 가루를 살짝 더하세요."
+          },
+          "why_it_works": {
+            "en": "Shares some of the warm, aromatic volatile compounds found in cardamom.",
+            "ko": "카다멈에 들어있는 따뜻하고 향기로운 휘발성 성분 중 일부를 공유합니다."
+          },
+          "tags": [
+            "Warm Spice",
+            "Aromatic"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "cloves",
+      "name": {
+        "en": "Cloves",
+        "ko": "정향 (클로브)"
+      },
+      "category": {
+        "en": "Herbs & Spices",
+        "ko": "허브 및 향신료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Dried flower buds of the Syzygium aromaticum tree, native to the Maluku Islands of Indonesia.",
+        "ko": "인도네시아 몰루카 제도가 원산지인 정향나무의 말린 꽃봉오리입니다."
+      },
+      "flavor_profile": {
+        "en": "Intensely pungent and sweet with a distinct numbing sensation on the tongue.",
+        "ko": "매우 강렬하고 톡 쏘는 단맛이 특징이며, 혀에 닿으면 특유의 얼얼한 느낌을 줍니다."
+      },
+      "storage_tips": {
+        "en": "Whole cloves can last up to 4 years. If it doesn't float upright in water, it's too old.",
+        "ko": "통정향은 최대 4년까지 보관 가능합니다. 물에 넣었을 때 수직으로 뜨지 않으면 오래된 것입니다."
+      },
+      "common_pairings": {
+        "en": [
+          "cinnamon",
+          "nutmeg",
+          "allspice",
+          "orange",
+          "ham"
+        ],
+        "ko": [
+          "cinnamon",
+          "nutmeg",
+          "allspice",
+          "orange",
+          "ham"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Cloves"
+        ],
+        "ko": [
+          "정향 (클로브)"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Why do they numb the mouth?",
+            "ko": "왜 입안이 얼얼해지나요?"
+          },
+          "answer": {
+            "en": "They contain high levels of eugenol, a natural anesthetic also used in dentistry.",
+            "ko": "천연 마취 성분인 유제놀이 풍부하여 치과에서도 사용되는 성분 때문입니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "Powerful dried flower buds used whole or ground in sweet and savory dishes.",
+        "ko": "달콤하거나 짭조름한 요리에 통째로 또는 가루로 쓰이는 강력한 풍미의 꽃봉오리입니다."
+      },
+      "substitutes": [
+        {
+          "id": "allspice-clove-sub",
+          "name": {
+            "en": "Allspice",
+            "ko": "올스파이스"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tsp"
+          },
+          "similarity_score": 88,
+          "umami_reproduction": 80,
+          "chemical_impact": {
+            "en": "Closest single spice match but much milder in intensity.",
+            "ko": "단일 향신료로는 가장 비슷하지만 강도는 훨씬 약합니다."
+          },
+          "compensation_action": {
+            "en": "Use 1 tsp of allspice for every 1/2 tsp of ground cloves.",
+            "ko": "가루 정향 1/2작은술당 올스파이스 1작은술을 사용하세요."
+          },
+          "why_it_works": {
+            "en": "Allspice naturally contains eugenol, the same primary flavor compound in cloves.",
+            "ko": "올스파이스는 정향의 핵심 성분인 유제놀을 천연적으로 함유하고 있습니다."
+          },
+          "tags": [
+            "Milder Option",
+            "One-to-One"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "nutmeg",
+      "name": {
+        "en": "Nutmeg",
+        "ko": "넛멕 (육두구)"
+      },
+      "category": {
+        "en": "Herbs & Spices",
+        "ko": "허브 및 향신료"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "The seed of the Myristica fragrans tree, native to Indonesia. The lacy outer covering is the spice Mace.",
+        "ko": "인도네시아 원산지인 육두구 나무의 씨앗입니다. 씨앗을 감싸고 있는 그물 모양의 껍질은 '메이스'라는 별도의 향신료가 됩니다."
+      },
+      "flavor_profile": {
+        "en": "Warm, nutty, and slightly sweet with a powerful, permeating aroma.",
+        "ko": "따뜻하고 고소하며 약간 달콤한 맛이 특징인 강력하고 침투력이 좋은 향기입니다."
+      },
+      "storage_tips": {
+        "en": "Whole nutmeg lasts indefinitely. Grate fresh for maximum flavor impact.",
+        "ko": "통넛멕은 거의 영구적으로 보관 가능합니다. 최고의 풍미를 위해 사용 직전에 갈아서 쓰세요."
+      },
+      "common_pairings": {
+        "en": [
+          "beshamel-sauce",
+          "spinach",
+          "eggs",
+          "cinnamon",
+          "potatoes"
+        ],
+        "ko": [
+          "beshamel-sauce",
+          "spinach",
+          "eggs",
+          "cinnamon",
+          "potatoes"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Nutmeg"
+        ],
+        "ko": [
+          "넛멕 (육두구)"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Is it different from Mace?",
+            "ko": "메이스(Mace)와 다른가요?"
+          },
+          "answer": {
+            "en": "They come from the same fruit, but Mace is more delicate and peppery than the robust Nutmeg.",
+            "ko": "같은 열매에서 나오지만, 메이스는 넛멕보다 더 섬세하고 후추 같은 풍미를 가집니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "A warm, earthy spice grated from a hard seed.",
+        "ko": "딱딱한 씨앗을 갈아서 사용하는 따뜻하고 흙내음 나는 향신료입니다."
+      },
+      "substitutes": [
+        {
+          "id": "mace-sub",
+          "name": {
+            "en": "Mace",
+            "ko": "메이스"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tsp"
+          },
+          "similarity_score": 95,
+          "umami_reproduction": 90,
+          "chemical_impact": {
+            "en": "Virtually identical since they come from the same plant, but slightly lighter.",
+            "ko": "같은 식물에서 유래하므로 거의 동일하지만 맛은 약간 더 가볍습니다."
+          },
+          "compensation_action": {
+            "en": "Use 1:1. It's the most authentic substitute possible.",
+            "ko": "1:1 비율로 사용하세요. 가장 정통적인 대체제입니다."
+          },
+          "why_it_works": {
+            "en": "Contains almost the exact same volatile oils as nutmeg.",
+            "ko": "넛멕과 거의 똑같은 휘발성 오일을 함유하고 있습니다."
+          },
+          "tags": [
+            "Same Origin",
+            "Premium Sub"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    }
+  ]
+}

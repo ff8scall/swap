@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Header from '@/components/common/Header';
 import Footer from '@/components/common/Footer';
 import SwapCard from '@/components/swap/SwapCard';
-import ingredientsData from '@/lib/data/ingredients.json';
+import ingredientsData from '@/lib/data/ingredients';
 import useTranslation from '@/lib/i18n/useTranslation';
 
 export default function HomePage() {

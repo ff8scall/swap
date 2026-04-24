@@ -19,6 +19,7 @@
 2. **SEO Structured Data**: 검색 결과 상단 노출을 위해 `HowTo` 및 `Recipe` JSON-LD 스키마를 서버 사이드에서 자동 생성
 
 ## 📊 데이터 플랫폼 및 명세 (Data Ecosystem)
-1. **범용 JSON 플랫폼**: 모든 재료 데이터를 `public/data/ingredients.json`으로 노출하여 외부 서비스(모바일 앱, API 등)에서 즉시 재활용 가능하도록 설계
-2. **명세서 기반 관리**: `INGREDIENTS_DATA_SPEC.md`를 통해 데이터 스키마를 표준화하고 필드별 과학적 정의(Chemical Impact, Compensation Action)를 명확히 함
-3. **확장성**: 신규 재료 추가 시 2-Pass AI 검증 파이프라인을 통해 정밀도 90% 이상의 고퀄리티 데이터만 유지
+1. **파편화 데이터 아키텍처 (Fragmented Data Architecture)**: 단일 거대 JSON 대신 카테고리별로 분리된 JSON 파일을 사용하여 유지보수성을 극대화하고, 대용량 데이터 로딩 시의 메모리 병목을 방지
+2. **중앙 집계 인터페이스 (Centralized Aggregator)**: `src/lib/data/ingredients/index.js`를 통해 모든 데이터 파편을 하나의 객체로 통합하여 앱 전체에 일관된 API를 제공
+3. **명세서 기반 관리 (Schema Specification)**: `INGREDIENTS_DATA_SPEC.md`를 통해 데이터 스키마를 표준화하며, 특히 안전(`allergens`), 관리(`shelf_life`), 조리 기능(`culinary_roles`), 활용 요리(`representative_dishes`) 필드를 필수화하여 데이터의 질적 가치 제고
+4. **확장성**: 신규 재료 추가 시 카테고리 파일에 추가하고 인덱스에 등록하는 구조로 협업 및 버전 관리에 용이함

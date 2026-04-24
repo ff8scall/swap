@@ -1,0 +1,467 @@
+{
+  "meta": {
+    "category_en": "Pickles & Ferments",
+    "category_ko": "절임 및 발효 식품",
+    "count": 4,
+    "generated_at": "2026-04-24T01:31:42.973Z"
+  },
+  "ingredients": [
+    {
+      "id": "fenugreek-leaves",
+      "name": {
+        "en": "Fenugreek Leaves (Kasuri Methi)",
+        "ko": "페누그릭 잎"
+      },
+      "category": {
+        "en": "Pickles & Ferments",
+        "ko": "절임 및 발효 식품"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Fenugreek Leaves (Kasuri Methi)"
+        ],
+        "ko": [
+          "페누그릭 잎"
+        ]
+      },
+      "dish_tips": {
+        "en": "Butter Chicken: Use celery leaves mixed with a drop of maple syrup to mimic the nutty, bitter-sweet aroma.",
+        "ko": "버터 치킨: 페누그릭의 고소하고 달콤 쌉싸름한 향을 내려면 셀러리 잎에 메이플 시럽 한 방울을 섞으세요."
+      },
+      "description": {
+        "en": "Dried or fresh leaves with a distinct nutty, slightly bitter, and maple-like aroma.",
+        "ko": "고소하고 약간 쌉싸름하며 메이플 시럽 같은 향이 나는 건조 또는 신선한 잎입니다."
+      },
+      "substitutes": [
+        {
+          "id": "celery-leaves-maple",
+          "name": {
+            "en": "Celery Leaves + Maple Syrup",
+            "ko": "셀러리 잎 + 메이플 시럽"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tbsp"
+          },
+          "similarity_score": 70,
+          "umami_reproduction": 60,
+          "chemical_impact": {
+            "en": "Celery leaves provide the bitter herbal note; maple syrup adds the specific sotolon aroma found in fenugreek.",
+            "ko": "셀러리 잎이 쌉쌀한 허브 노트를 주고, 메이플 시럽이 페누그릭의 핵심 향인 소톨론(sotolon) 향을 더해줍니다."
+          },
+          "compensation_action": {
+            "en": "Use chopped celery leaves and add a tiny drop of maple syrup. Don't overdo the syrup.",
+            "ko": "다진 셀러리 잎을 쓰고 메이플 시럽은 아주 소량만 넣으세요. 시럽을 너무 많이 넣지 않도록 주의하세요."
+          },
+          "why_it_works": {
+            "en": "Mimics the unique bitter-sweet aromatic profile found in Indian spices.",
+            "ko": "인도 향신료 특유의 달콤 쌉싸름한 방향성 프로필을 재현합니다."
+          },
+          "tags": [
+            "Aromatic",
+            "Bitter-Sweet"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "preserved-lemon",
+      "name": {
+        "en": "Preserved Lemon",
+        "ko": "염장 레몬 (프리저브드 레몬)"
+      },
+      "category": {
+        "en": "Pickles & Ferments",
+        "ko": "절임 및 발효 식품"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Preserved Lemon"
+        ],
+        "ko": [
+          "염장 레몬 (프리저브드 레몬)"
+        ]
+      },
+      "dish_tips": {
+        "en": "Tagines: Mince fresh lemon rind and massage with plenty of salt to mimic the fermented briny depth.",
+        "ko": "타진 요리: 신선한 레몬 껍질을 다져 소금에 듬뿍 버무려 두면 발효된 염장의 깊은 맛을 흉내 낼 수 있습니다."
+      },
+      "description": {
+        "en": "Lemons that have been pickled in salt and their own juice, essential in North African cuisine.",
+        "ko": "레몬을 소금과 레몬즙에 절여 만든 것으로, 북아프리카 요리의 핵심 재료입니다."
+      },
+      "substitutes": [
+        {
+          "id": "lemon-zest-salt-hack",
+          "name": {
+            "en": "Lemon Zest + Extra Salt",
+            "ko": "레몬 껍질 + 추가 소금"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tsp"
+          },
+          "similarity_score": 75,
+          "umami_reproduction": 80,
+          "chemical_impact": {
+            "en": "Lacks the fermented funk but provides the sharp salty-acidic punch.",
+            "ko": "발효된 풍미는 부족하지만 날카로운 단짠-산미의 펀치는 제공합니다."
+          },
+          "compensation_action": {
+            "en": "Mince lemon rind and let it sit with salt for 1 hour. Use the rind only, not the flesh.",
+            "ko": "레몬 껍질을 다져 소금에 1시간 동안 절여두세요. 과육은 버리고 껍질만 사용하세요."
+          },
+          "why_it_works": {
+            "en": "Focuses on the concentrated oils and saline profile of the citrus skin.",
+            "ko": "시트러스 껍질의 농축된 오일과 염분 프로필에 집중하여 재현합니다."
+          },
+          "tags": [
+            "Salty",
+            "Citrusy"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "koji",
+      "name": {
+        "en": "Koji",
+        "ko": "코지 (누룩)"
+      },
+      "category": {
+        "en": "Pickles & Ferments",
+        "ko": "절임 및 발효 식품"
+      },
+      "visual_identity": {
+        "primary_color": "#FFFFFF",
+        "texture": "Moldy Rice"
+      },
+      "difficulty": "hard",
+      "dietary_tags": [
+        "vegan",
+        "probiotic"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Enzymes"
+        ],
+        "ko": [
+          "효소"
+        ]
+      },
+      "origin_and_history": {
+        "en": "The national mold of Japan (Aspergillus oryzae), used for centuries to transform rice into sake, miso, and soy sauce.",
+        "ko": "일본의 국균(Aspergillus oryzae)으로, 수세기 동안 쌀을 술, 미소, 간장으로 변환시키는 데 사용되었습니다."
+      },
+      "flavor_profile": {
+        "en": "Sweet, floral, and nutty with a powerhouse of enzymatic activity.",
+        "ko": "달콤하고 꽃향기가 나며 고소하며, 강력한 효소 활동이 특징입니다."
+      },
+      "storage_tips": {
+        "en": "Keep dry koji in the fridge for up to 6 months, or freezer for long-term storage.",
+        "ko": "말린 코지는 냉장고에서 최대 6개월, 장기 보관 시에는 냉동실에 두세요."
+      },
+      "common_pairings": {
+        "en": [
+          "rice",
+          "soybeans",
+          "salt",
+          "meat",
+          "vegetables"
+        ],
+        "ko": [
+          "rice",
+          "soybeans",
+          "salt",
+          "meat",
+          "vegetables"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Koji"
+        ],
+        "ko": [
+          "코지 (누룩)"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Can I use it for marinating meat?",
+            "ko": "고기 마리네이드에 써도 되나요?"
+          },
+          "answer": {
+            "en": "Yes! Shio-koji (salt koji) is famous for tenderizing meat and boosting umami.",
+            "ko": "네! 시오코지(소금 누룩)는 고기를 연하게 하고 감칠맛을 폭발시키는 것으로 유명합니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "Rice or barley inoculated with a fermentation culture used as a starter.",
+        "ko": "발효를 위해 쌀이나 보리에 균을 배양한 천연 발효제입니다."
+      },
+      "substitutes": [
+        {
+          "id": "miso-water-hack",
+          "name": {
+            "en": "Diluted Miso Paste",
+            "ko": "희석한 미소 된장"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tbsp"
+          },
+          "similarity_score": 70,
+          "umami_reproduction": 85,
+          "chemical_impact": {
+            "en": "Provides the finished fermented flavors but lacks the active enzymes to transform other foods.",
+            "ko": "완성된 발효 풍미를 제공하지만, 다른 식재료를 변화시키는 활성 효소는 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Mix 1 tbsp Miso with 1 tbsp water. Use only for flavor, not for tenderizing meat.",
+            "ko": "미소 1큰술과 물 1큰술을 섞으세요. 고기 연화용이 아닌 맛을 내는 용도로만 쓰세요."
+          },
+          "why_it_works": {
+            "en": "Miso is the end product of koji fermentation, containing its flavor essence.",
+            "ko": "미소는 코지 발효의 최종 산물이므로 코지의 핵심 풍미를 담고 있습니다."
+          },
+          "tags": [
+            "Flavor Only",
+            "Umami"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "umeboshi",
+      "name": {
+        "en": "Umeboshi",
+        "ko": "우메보시 (매실 절임)"
+      },
+      "category": {
+        "en": "Pickles & Ferments",
+        "ko": "절임 및 발효 식품"
+      },
+      "visual_identity": {
+        "primary_color": "#D2691E",
+        "texture": "Pickled Plum"
+      },
+      "difficulty": "hard",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "unit",
+      "nutrition_highlights": {
+        "en": [
+          "Citric Acid"
+        ],
+        "ko": [
+          "구연산"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Japanese salted and pickled plums, prized for their preservation properties and intense flavor since the Heian period.",
+        "ko": "일본식 소금 매실 절임으로, 헤이안 시대부터 보존성과 강렬한 맛으로 사랑받아 왔습니다."
+      },
+      "flavor_profile": {
+        "en": "Extremely salty and sour with a unique fruity, fermented funk.",
+        "ko": "극강의 짠맛과 신맛이 특징이며, 과일 특유의 발효된 풍미가 어우러져 있습니다."
+      },
+      "storage_tips": {
+        "en": "Keep refrigerated. High salt content allows them to last for a very long time.",
+        "ko": "냉장 보관하세요. 높은 염도 덕분에 매우 오랫동안 보관이 가능합니다."
+      },
+      "common_pairings": {
+        "en": [
+          "steamed-rice",
+          "shiso",
+          "cucumber",
+          "sake",
+          "green-tea"
+        ],
+        "ko": [
+          "steamed-rice",
+          "shiso",
+          "cucumber",
+          "sake",
+          "green-tea"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Umeboshi"
+        ],
+        "ko": [
+          "우메보시 (매실 절임)"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Why are they red?",
+            "ko": "왜 빨간색인가요?"
+          },
+          "answer": {
+            "en": "Traditional umeboshi are dyed red using red shiso (perilla) leaves during the pickling process.",
+            "ko": "전통적인 우메보시는 절임 과정에서 빨간 시소(차조기) 잎을 사용해 색을 입히기 때문입니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "Salty and tangy pickled plums from Japan, often eaten with rice.",
+        "ko": "일본의 짜고 신 매실 절임으로, 주로 밥과 함께 먹습니다."
+      },
+      "substitutes": [
+        {
+          "id": "lemon-juice-salt-paste",
+          "name": {
+            "en": "Lemon Juice + Salt + Fine Chopped Plums",
+            "ko": "레몬즙 + 소금 + 잘게 다진 자두"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tsp"
+          },
+          "similarity_score": 65,
+          "umami_reproduction": 40,
+          "chemical_impact": {
+            "en": "Captures the mouth-puckering sourness but lacks the specific fermented complexity of umeboshi.",
+            "ko": "입안이 얼얼할 정도의 신맛은 잡을 수 있지만 우메보시 특유의 발효된 복합미는 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Mix lemon juice and plenty of salt. No perfect substitute for the unique fermented profile.",
+            "ko": "레몬즙에 소금을 넉넉히 섞으세요. 이 독특한 발효 풍미를 완벽히 대체할 재료는 드뭅니다."
+          },
+          "why_it_works": {
+            "en": "Focuses on recreating the intense acid-salt sensory experience.",
+            "ko": "강렬한 산미와 짠맛이라는 감각적 경험을 재현하는 데 집중합니다."
+          },
+          "tags": [
+            "Experimental",
+            "Intense"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    }
+  ]
+}

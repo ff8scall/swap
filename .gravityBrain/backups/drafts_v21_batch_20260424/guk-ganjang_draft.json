@@ -1,0 +1,53 @@
+{
+  "id": "guk-ganjang",
+  "name": { "en": "Soup Soy Sauce", "ko": "국간장" },
+  "icon": "🥣",
+  "category": { "en": "Sauces & Condiments", "ko": "소스 및 장류" },
+  "visual_identity": { "primary_color": "#4A2311", "texture": "Clear Thin Liquid" },
+  "difficulty": "medium",
+  "dietary_tags": ["vegan", "keto"],
+  "allergens": ["soy"],
+  "swap_warnings": ["일반 진간장보다 훨씬 짜고 색이 옅습니다. 양 조절에 주의하세요.", "대두 알레르기 주의."],
+  "measurement_type": "volume",
+  "best_use_cases": ["clear-soups", "namul-seasoning"],
+  "avoid_use_cases": ["dipping-sauces", "braising (where dark color is needed)"],
+  "properties": {
+    "ph_level": 5.0,
+    "moisture_content": 70.0,
+    "sweetness_index": 5,
+    "viscosity": "watery",
+    "umami_intensity": 9
+  },
+  "thermal_behavior": {
+    "smoke_point_c": null,
+    "melting_point_c": null,
+    "caramelization": false,
+    "maillard_reaction": true
+  },
+  "functional_properties": ["salinity-agent", "umami-booster"],
+  "texture_profile": { "state": "liquid", "elasticity": "none", "mouthfeel": "watery" },
+  "regional_alias": { "us": ["Korean soup soy sauce", "Traditional soy sauce"], "en": ["Joseon-ganjang"] },
+  "regional_availability": { "common_in": ["Korea"], "rare_in": ["Global"] },
+  "cuisine_origin": ["korean"],
+  "preparation_forms": ["liquid"],
+  "scientific_name": "N/A",
+  "schema_org_type": "Product",
+  "substitutes": [
+    {
+      "id": "light-soy-sauce-plus-salt",
+      "ratio": { "source": 1, "target_min": 0.8, "target_max": 0.8, "unit": "tbsp" },
+      "substitution_logic": "manual",
+      "failure_risk": "medium",
+      "flavor_delta": { "salt": -2, "sweet": 1 },
+      "chemical_impact": {
+        "en": "Standard soy sauce is sweeter and darker. It may darken clear soups.",
+        "ko": "일반 진간장은 더 달고 색이 진해 맑은 국물의 색을 해칠 수 있습니다."
+      },
+      "compensation_action": {
+        "en": "Use less soy sauce and add sea salt to achieve desired salinity without darkening the soup.",
+        "ko": "진간장의 양을 줄이고 천일염을 추가하여 국물 색을 유지하면서 염도를 맞추세요."
+      },
+      "verification": { "verified_by": "Chef Jinny Park", "date": "2026-04-24", "confidence_score": 88 }
+    }
+  ]
+}

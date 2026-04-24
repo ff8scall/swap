@@ -1,0 +1,1203 @@
+{
+  "meta": {
+    "category_en": "Dairy & Fats",
+    "category_ko": "유제품 및 유지류",
+    "count": 11,
+    "generated_at": "2026-04-24T05:26:15.975Z"
+  },
+  "ingredients": [
+    {
+      "id": "sour-cream",
+      "name": {
+        "en": "Sour Cream",
+        "ko": "사워크림"
+      },
+      "category": {
+        "en": "Dairy & Fats",
+        "ko": "유제품 및 유지류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "allergens": [
+        "none"
+      ],
+      "swap_warnings": [],
+      "measurement_type": "weight",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 4.5,
+        "moisture_content": 70,
+        "sweetness_index": 5,
+        "viscosity": "thick-creamy",
+        "umami_intensity": 3
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": null,
+        "caramelization": false,
+        "maillard_reaction": false
+      },
+      "functional_properties": [
+        "acidifier",
+        "fat-source",
+        "thickener"
+      ],
+      "texture_profile": {
+        "state": "paste",
+        "elasticity": "none",
+        "mouthfeel": "creamy-tangy"
+      },
+      "regional_alias": {},
+      "regional_availability": {
+        "common_in": [
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "global"
+      ],
+      "preparation_forms": [
+        "paste"
+      ],
+      "scientific_name": "Cultured cream",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A dairy product obtained by fermenting regular cream with certain kinds of lactic acid bacteria.",
+        "ko": "일반 크림을 유산균으로 발효시켜 만든 유제품입니다."
+      },
+      "substitutes": [
+        {
+          "id": "greek-yogurt",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "substitution_logic": "linear_scaling",
+          "failure_risk": "low",
+          "flavor_delta": {},
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Very similar texture and acidity, but yogurt has less fat and more protein.",
+            "ko": "질감과 산미가 매우 비슷하지만, 요거트는 지방이 적고 단백질이 더 많습니다."
+          },
+          "compensation_action": {
+            "en": "For baking, it's a 1:1 swap. For dips, add a squeeze of lemon to boost the tang.",
+            "ko": "베이킹에서는 1:1로 바꾸면 되고, 딥 소스용으로는 레몬즙을 살짝 짜넣어 산미를 높이세요."
+          },
+          "verification": {
+            "verified_by": "System",
+            "date": "2026-04-24",
+            "confidence_score": 80
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ricotta",
+      "name": {
+        "en": "Ricotta Cheese",
+        "ko": "리코타 치즈"
+      },
+      "category": {
+        "en": "Dairy & Fats",
+        "ko": "유제품 및 유지류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "allergens": [
+        "none"
+      ],
+      "swap_warnings": [],
+      "measurement_type": "weight",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 6,
+        "moisture_content": 72,
+        "sweetness_index": 10,
+        "viscosity": "thick-granular",
+        "umami_intensity": 4
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": null,
+        "caramelization": false,
+        "maillard_reaction": false
+      },
+      "functional_properties": [
+        "flavor-base",
+        "texture-agent"
+      ],
+      "texture_profile": {
+        "state": "paste",
+        "elasticity": "none",
+        "mouthfeel": "grainy-soft"
+      },
+      "regional_alias": {},
+      "regional_availability": {
+        "common_in": [
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "italian"
+      ],
+      "preparation_forms": [
+        "fresh"
+      ],
+      "scientific_name": "Ricotta cheese",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "An Italian whey cheese made from sheep, cow, goat, or Italian water buffalo milk whey left over from the production of other cheeses.",
+        "ko": "치즈 제조 후 남은 유청으로 만든 이탈리아식 치즈로 담백한 맛이 특징입니다."
+      },
+      "substitutes": [
+        {
+          "id": "cottage-cheese",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "substitution_logic": "linear_scaling",
+          "failure_risk": "low",
+          "flavor_delta": {},
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Similar moisture and mild flavor, but cottage cheese has larger curds.",
+            "ko": "수분감과 순한 맛은 비슷하지만, 코티지 치즈는 알갱이가 더 큽니다."
+          },
+          "compensation_action": {
+            "en": "Briefly blend cottage cheese or press through a sieve for a smoother Ricotta-like texture.",
+            "ko": "부드러운 리코타 질감을 위해 코티지 치즈를 살짝 블렌더에 갈거나 체에 거르세요."
+          },
+          "verification": {
+            "verified_by": "System",
+            "date": "2026-04-24",
+            "confidence_score": 80
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mascarpone",
+      "name": {
+        "en": "Mascarpone",
+        "ko": "마스카포네"
+      },
+      "category": {
+        "en": "Dairy & Fats",
+        "ko": "유제품 및 유지류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#FFFDD0",
+        "texture": "Velvety Paste"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian",
+        "keto"
+      ],
+      "allergens": [
+        "none"
+      ],
+      "swap_warnings": [],
+      "measurement_type": "weight",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 6.2,
+        "moisture_content": 45,
+        "sweetness_index": 15,
+        "viscosity": "thick-creamy",
+        "umami_intensity": 3
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": null,
+        "caramelization": false,
+        "maillard_reaction": false
+      },
+      "functional_properties": [
+        "fat-source",
+        "thickener"
+      ],
+      "texture_profile": {
+        "state": "paste",
+        "elasticity": "none",
+        "mouthfeel": "velvety-rich"
+      },
+      "regional_alias": {},
+      "regional_availability": {
+        "common_in": [
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "italian"
+      ],
+      "preparation_forms": [
+        "fresh"
+      ],
+      "scientific_name": "Mascarpone cheese",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "An Italian cream cheese with a very high fat content and exceptionally smooth texture.",
+        "ko": "유지방 함량이 매우 높고 질감이 매우 부드러운 이탈리아식 크림치즈입니다."
+      },
+      "substitutes": [
+        {
+          "id": "cream-cheese-heavy-cream",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "substitution_logic": "linear_scaling",
+          "failure_risk": "low",
+          "flavor_delta": {},
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Cream cheese is tangier and firmer. Adding heavy cream increases the fat and softens the texture.",
+            "ko": "크림치즈는 더 새콤하고 단단합니다. 헤비 크림을 추가하면 유지방이 늘어나고 질감이 부드러워집니다."
+          },
+          "compensation_action": {
+            "en": "Mix 8oz cream cheese with 1/4 cup heavy cream and 1 tbsp sour cream for the perfect match.",
+            "ko": "크림치즈 8온스에 헤비 크림 1/4컵, 사워크림 1큰술을 섞으면 완벽한 조합이 됩니다."
+          },
+          "verification": {
+            "verified_by": "System",
+            "date": "2026-04-24",
+            "confidence_score": 80
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ghee",
+      "name": {
+        "en": "Ghee",
+        "ko": "기 (Ghee) 버터"
+      },
+      "category": {
+        "en": "Dairy & Fats",
+        "ko": "유제품 및 유지류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "allergens": [
+        "none"
+      ],
+      "swap_warnings": [],
+      "measurement_type": "weight",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 6.8,
+        "moisture_content": 0.2,
+        "sweetness_index": 0,
+        "viscosity": "chunky-oil",
+        "umami_intensity": 4
+      },
+      "thermal_behavior": {
+        "smoke_point_c": 250,
+        "melting_point_c": 32,
+        "caramelization": false,
+        "maillard_reaction": false
+      },
+      "functional_properties": [
+        "fat-source",
+        "flavor-enhancer"
+      ],
+      "texture_profile": {
+        "state": "liquid-solid-mix",
+        "elasticity": "none",
+        "mouthfeel": "oily-smooth"
+      },
+      "regional_alias": {},
+      "regional_availability": {
+        "common_in": [
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "indian"
+      ],
+      "preparation_forms": [
+        "fat"
+      ],
+      "scientific_name": "Clarified butter",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "Clarified butter that has been cooked long enough to toast the milk solids, resulting in a nutty aroma.",
+        "ko": "유고형분을 태울 정도로 오래 끓여 견과류 향이 나도록 만든 정제 버터입니다."
+      },
+      "substitutes": [
+        {
+          "id": "clarified-butter",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tbsp"
+          },
+          "substitution_logic": "linear_scaling",
+          "failure_risk": "low",
+          "flavor_delta": {},
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Clarified butter has the same smoke point; brown butter adds the missing toasted nuttiness.",
+            "ko": "정제 버터는 발연점이 같고, 브라운 버터는 기 버터 특유의 구운 견과류 향을 더해줍니다."
+          },
+          "compensation_action": {
+            "en": "Cook butter until the solids turn brown and strain. This is essentially homemade ghee.",
+            "ko": "버터를 고형분이 갈색으로 변할 때까지 끓인 후 걸러내세요. 이것이 사실상 수제 기 버터입니다."
+          },
+          "verification": {
+            "verified_by": "System",
+            "date": "2026-04-24",
+            "confidence_score": 80
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "creme-fraiche",
+      "name": {
+        "en": "Crème Fraîche",
+        "ko": "크렘 프레슈"
+      },
+      "category": {
+        "en": "Dairy & Fats",
+        "ko": "유제품 및 유지류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "allergens": [
+        "none"
+      ],
+      "swap_warnings": [],
+      "measurement_type": "weight",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 4.6,
+        "moisture_content": 60,
+        "sweetness_index": 5,
+        "viscosity": "thick-creamy",
+        "umami_intensity": 3
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": null,
+        "caramelization": false,
+        "maillard_reaction": false
+      },
+      "functional_properties": [
+        "fat-source",
+        "acidifier"
+      ],
+      "texture_profile": {
+        "state": "paste",
+        "elasticity": "none",
+        "mouthfeel": "creamy-rich"
+      },
+      "regional_alias": {},
+      "regional_availability": {
+        "common_in": [
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "french"
+      ],
+      "preparation_forms": [
+        "paste"
+      ],
+      "scientific_name": "Cultured cream",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A thick, soured cream with a high fat content that does not curdle when boiled.",
+        "ko": "유지방 함량이 높고 끓여도 응고되지 않는 걸쭉한 발효 크림입니다."
+      },
+      "substitutes": [
+        {
+          "id": "sour-cream-heavy-mix",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "substitution_logic": "linear_scaling",
+          "failure_risk": "low",
+          "flavor_delta": {},
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Sour cream alone might curdle at high heat. Adding heavy cream increases stability and fat.",
+            "ko": "사워크림만 쓰면 고온에서 응고될 수 있습니다. 헤비 크림을 섞으면 안정성과 지방 함량이 높아집니다."
+          },
+          "compensation_action": {
+            "en": "Mix equal parts sour cream and heavy cream. Let it sit at room temp for 30 mins before using.",
+            "ko": "사워크림과 헤비 크림을 1:1로 섞으세요. 사용 전 실온에 30분 정도 두면 더 좋습니다."
+          },
+          "verification": {
+            "verified_by": "System",
+            "date": "2026-04-24",
+            "confidence_score": 80
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pecorino-romano",
+      "name": {
+        "en": "Pecorino Romano",
+        "ko": "페코리노 로마노"
+      },
+      "category": {
+        "en": "Dairy & Fats",
+        "ko": "유제품 및 유지류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "allergens": [
+        "none"
+      ],
+      "swap_warnings": [],
+      "measurement_type": "weight",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 5.4,
+        "moisture_content": 33,
+        "sweetness_index": 0,
+        "viscosity": "solid",
+        "umami_intensity": 9
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": 80,
+        "caramelization": false,
+        "maillard_reaction": true
+      },
+      "functional_properties": [
+        "flavor-base",
+        "salting-agent"
+      ],
+      "texture_profile": {
+        "state": "solid",
+        "elasticity": "none",
+        "mouthfeel": "hard-crumbly"
+      },
+      "regional_alias": {},
+      "regional_availability": {
+        "common_in": [
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "italian"
+      ],
+      "preparation_forms": [
+        "solid"
+      ],
+      "scientific_name": "Pecorino Romano cheese",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A hard, salty Italian cheese made from sheep's milk.",
+        "ko": "양젖으로 만든 단단하고 짭짤한 이탈리아 치즈입니다."
+      },
+      "substitutes": [
+        {
+          "id": "parmesan-extra-salt",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "substitution_logic": "linear_scaling",
+          "failure_risk": "low",
+          "flavor_delta": {},
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Parmesan lacks the specific sheep-milk fatty acids (caprylic/capric) but shares the hard crystalline texture.",
+            "ko": "파마산은 양젖 특유의 지방산이 부족하지만, 단단하고 결정체가 씹히는 질감은 공유합니다."
+          },
+          "compensation_action": {
+            "en": "Use Parmesan but reduce the salt in the rest of the recipe to compensate for Pecorino's higher salinity.",
+            "ko": "파마산을 쓰되, 페코리노의 높은 염도를 대신하기 위해 요리 전체의 소금 양을 줄이세요."
+          },
+          "verification": {
+            "verified_by": "System",
+            "date": "2026-04-24",
+            "confidence_score": 80
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "truffle-oil",
+      "name": {
+        "en": "Truffle Oil",
+        "ko": "트러플 오일"
+      },
+      "category": {
+        "en": "Dairy & Fats",
+        "ko": "유제품 및 유지류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "allergens": [
+        "none"
+      ],
+      "swap_warnings": [],
+      "measurement_type": "weight",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 6.8,
+        "moisture_content": 0,
+        "sweetness_index": 0,
+        "viscosity": "low",
+        "umami_intensity": 7
+      },
+      "thermal_behavior": {
+        "smoke_point_c": 210,
+        "melting_point_c": -5,
+        "caramelization": false,
+        "maillard_reaction": false
+      },
+      "functional_properties": [
+        "flavor-enhancer",
+        "fat-source"
+      ],
+      "texture_profile": {
+        "state": "liquid",
+        "elasticity": "none",
+        "mouthfeel": "oily"
+      },
+      "regional_alias": {},
+      "regional_availability": {
+        "common_in": [
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "european"
+      ],
+      "preparation_forms": [
+        "liquid"
+      ],
+      "scientific_name": "Infused olive oil",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A finishing oil used to add a rich, earthy mushroom flavor to dishes.",
+        "ko": "요리에 풍부하고 흙내음 가득한 버섯 풍미를 더해주는 피니싱 오일입니다."
+      },
+      "substitutes": [
+        {
+          "id": "porcini-oil-salt",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tbsp"
+          },
+          "substitution_logic": "linear_scaling",
+          "failure_risk": "low",
+          "flavor_delta": {},
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Porcini provides the natural mushroom earthiness, while truffle salt adds the specific aroma.",
+            "ko": "포르치니는 천연 버섯의 흙내음을 제공하고, 트러플 소금은 특유의 향을 더해줍니다."
+          },
+          "compensation_action": {
+            "en": "Use high-quality mushroom-infused oil and finish the dish with a pinch of truffle-infused salt.",
+            "ko": "고품질의 버섯 오일을 쓰고 트러플 소금 한 꼬집으로 요리를 마무리하세요."
+          },
+          "verification": {
+            "verified_by": "System",
+            "date": "2026-04-24",
+            "confidence_score": 80
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gorgonzola",
+      "name": {
+        "en": "Gorgonzola",
+        "ko": "고르곤졸라"
+      },
+      "category": {
+        "en": "Dairy & Fats",
+        "ko": "유제품 및 유지류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "allergens": [
+        "none"
+      ],
+      "swap_warnings": [],
+      "measurement_type": "weight",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 5.8,
+        "moisture_content": 42,
+        "sweetness_index": 0,
+        "viscosity": "thick-creamy",
+        "umami_intensity": 10
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": 45,
+        "caramelization": false,
+        "maillard_reaction": true
+      },
+      "functional_properties": [
+        "flavor-base",
+        "thickener"
+      ],
+      "texture_profile": {
+        "state": "solid",
+        "elasticity": "none",
+        "mouthfeel": "creamy-pungent"
+      },
+      "regional_alias": {},
+      "regional_availability": {
+        "common_in": [
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "italian"
+      ],
+      "preparation_forms": [
+        "fresh"
+      ],
+      "scientific_name": "Gorgonzola cheese",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A veined blue cheese from Italy, known for its creamy texture and distinct 'funk'.",
+        "ko": "크리미한 질감과 독특한 향이 특징인 이탈리아의 푸른 곰팡이 치즈입니다."
+      },
+      "substitutes": [
+        {
+          "id": "roquefort-stilton",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "part"
+          },
+          "substitution_logic": "linear_scaling",
+          "failure_risk": "low",
+          "flavor_delta": {},
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Roquefort is sheep-based and tangier; Stilton is cow-based but drier than Gorgonzola.",
+            "ko": "로크포르는 양젖 베이스라 더 톡 쏘며, 스틸턴은 소젖 베이스지만 고르곤졸라보다 더 건조합니다."
+          },
+          "compensation_action": {
+            "en": "Use 1:1 ratio. For Roquefort, reduce salt in the dish. For Stilton, add a bit of heavy cream for texture.",
+            "ko": "1:1 비율로 사용하세요. 로크포르를 쓸 때는 요리의 소금을 줄이고, 스틸턴을 쓸 때는 질감을 위해 생크림을 약간 섞으세요."
+          },
+          "verification": {
+            "verified_by": "System",
+            "date": "2026-04-24",
+            "confidence_score": 80
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "shortening",
+      "name": {
+        "en": "Shortening",
+        "ko": "쇼트닝"
+      },
+      "category": {
+        "en": "Dairy & Fats",
+        "ko": "유제품 및 유지류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#FFFFFF",
+        "texture": "Waxy Solid"
+      },
+      "difficulty": "easy",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [
+        "none"
+      ],
+      "swap_warnings": [],
+      "measurement_type": "weight",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 7,
+        "moisture_content": 0,
+        "sweetness_index": 0,
+        "viscosity": "thick-paste",
+        "umami_intensity": 0
+      },
+      "thermal_behavior": {
+        "smoke_point_c": 190,
+        "melting_point_c": 45,
+        "caramelization": false,
+        "maillard_reaction": false
+      },
+      "functional_properties": [
+        "fat-source",
+        "texture-agent"
+      ],
+      "texture_profile": {
+        "state": "paste",
+        "elasticity": "none",
+        "mouthfeel": "greasy"
+      },
+      "regional_alias": {},
+      "regional_availability": {
+        "common_in": [
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "global"
+      ],
+      "preparation_forms": [
+        "fat"
+      ],
+      "scientific_name": "Hydrogenated vegetable oil",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A solid vegetable fat used in baking to create a flaky texture.",
+        "ko": "바삭한 식감을 위해 베이킹에 쓰이는 고형 식물성 유지입니다."
+      },
+      "substitutes": [
+        {
+          "id": "butter-sub-shortening",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "substitution_logic": "linear_scaling",
+          "failure_risk": "low",
+          "flavor_delta": {},
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Adds water content (about 15%), making the crust slightly less flaky but more flavorful.",
+            "ko": "수분이 약 15% 들어있어 쇼트닝보다는 덜 바삭하지만 훨씬 풍부한 맛을 줍니다."
+          },
+          "compensation_action": {
+            "en": "Use 1 cup plus 2 tbsp butter for every 1 cup shortening to account for the water content.",
+            "ko": "수분 함량을 고려하여 쇼트닝 1컵당 버터 1컵 + 2큰술을 사용하세요."
+          },
+          "verification": {
+            "verified_by": "System",
+            "date": "2026-04-24",
+            "confidence_score": 80
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lard",
+      "name": {
+        "en": "Lard",
+        "ko": "라드 (돼지 기름)"
+      },
+      "category": {
+        "en": "Dairy & Fats",
+        "ko": "유제품 및 유지류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "allergens": [
+        "none"
+      ],
+      "swap_warnings": [],
+      "measurement_type": "weight",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 7,
+        "moisture_content": 0,
+        "sweetness_index": 0,
+        "viscosity": "thick-paste",
+        "umami_intensity": 2
+      },
+      "thermal_behavior": {
+        "smoke_point_c": 185,
+        "melting_point_c": 35,
+        "caramelization": false,
+        "maillard_reaction": false
+      },
+      "functional_properties": [
+        "fat-source",
+        "flavor-enhancer"
+      ],
+      "texture_profile": {
+        "state": "paste",
+        "elasticity": "none",
+        "mouthfeel": "greasy-rich"
+      },
+      "regional_alias": {},
+      "regional_availability": {
+        "common_in": [
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "global"
+      ],
+      "preparation_forms": [
+        "fat"
+      ],
+      "scientific_name": "Sus scrofa domesticus fat",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "Rendered pork fat used for cooking and baking.",
+        "ko": "요리와 베이킹에 쓰이는 정제된 돼지 기름입니다."
+      },
+      "substitutes": [
+        {
+          "id": "vegetable-shortening-lard",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "substitution_logic": "linear_scaling",
+          "failure_risk": "low",
+          "flavor_delta": {},
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Matches the texture and performance perfectly but lacks the savory pork aroma.",
+            "ko": "식감과 조리 성능은 완벽히 일치하지만 특유의 고소한 돼지 기름 향은 없습니다."
+          },
+          "compensation_action": {
+            "en": "Use a 1:1 swap. If using for savory cooking, add a tiny bit of bacon fat if available.",
+            "ko": "1:1 비율로 바꾸세요. 고소한 맛을 내야 한다면 베이컨 기름을 아주 살짝 섞어보세요."
+          },
+          "verification": {
+            "verified_by": "System",
+            "date": "2026-04-24",
+            "confidence_score": 80
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "perilla-oil",
+      "name": {
+        "en": "Perilla Oil",
+        "ko": "들기름"
+      },
+      "category": {
+        "en": "Dairy & Fats",
+        "ko": "유제품 및 유지류"
+      },
+      "icon": "🧴",
+      "visual_identity": {
+        "primary_color": "#D4AC0D",
+        "texture": "Golden Nutty Oil"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegan",
+        "keto",
+        "gluten-free"
+      ],
+      "allergens": [
+        "none"
+      ],
+      "swap_warnings": [
+        "발연점이 매우 낮으므로(170°C) 고온 볶음이나 튀김에 사용하지 마세요.",
+        "산패가 빠르므로 반드시 냉장 보관하고 개봉 후 1~3개월 내에 소비하세요."
+      ],
+      "measurement_type": "volume",
+      "best_use_cases": [
+        "finishing-oil",
+        "namul-seasoning",
+        "low-heat-sauteing"
+      ],
+      "avoid_use_cases": [
+        "deep-frying",
+        "prolonged-stir-frying"
+      ],
+      "properties": {
+        "ph_level": 7,
+        "moisture_content": 0,
+        "sweetness_index": 0,
+        "viscosity": "thin",
+        "umami_intensity": 4
+      },
+      "thermal_behavior": {
+        "smoke_point_c": 170,
+        "melting_point_c": -5,
+        "caramelization": false,
+        "maillard_reaction": false
+      },
+      "functional_properties": [
+        "aromatic",
+        "fat-source",
+        "omega-3-source"
+      ],
+      "texture_profile": {
+        "state": "liquid",
+        "elasticity": "none",
+        "mouthfeel": "oily"
+      },
+      "regional_alias": {
+        "us": [
+          "Korean perilla oil",
+          "Wild sesame oil"
+        ],
+        "jp": [
+          "エゴマ油"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "Korea",
+          "Japan"
+        ],
+        "rare_in": [
+          "West"
+        ]
+      },
+      "cuisine_origin": [
+        "korean"
+      ],
+      "preparation_forms": [
+        "liquid"
+      ],
+      "scientific_name": "Perilla frutescens",
+      "schema_org_type": "NutritionInformation",
+      "description": {
+        "en": "",
+        "ko": ""
+      },
+      "substitutes": [
+        {
+          "id": "toasted-sesame-oil",
+          "ratio": {
+            "source": 1,
+            "target_min": 0.8,
+            "target_max": 0.8,
+            "unit": "tbsp"
+          },
+          "substitution_logic": "linear_scaling",
+          "failure_risk": "low",
+          "flavor_delta": {
+            "nutty": 2,
+            "earthy": -2
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Sesame oil has a higher smoke point and a stronger, more assertive nutty flavor.",
+            "ko": "참기름은 발연점이 더 높고 훨씬 강한 견과류 향을 가지고 있습니다."
+          },
+          "compensation_action": {
+            "en": "Use slightly less sesame oil as its flavor is more dominant than perilla oil.",
+            "ko": "참기름은 향이 매우 강하므로 들기름보다 약간 적은 양을 사용하세요."
+          },
+          "verification": {
+            "verified_by": "Chef Jinny Park",
+            "date": "2026-04-24",
+            "confidence_score": 90
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    }
+  ]
+}

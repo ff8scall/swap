@@ -1,4 +1,4 @@
-import ingredientsData from '@/lib/data/ingredients.json';
+import ingredientsData from '@/lib/data/ingredients';
 
 export async function GET() {
   const baseUrl = 'https://swap.lego-sia.com';

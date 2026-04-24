@@ -1,0 +1,54 @@
+{
+  "categories": [
+    {
+      "en": "Sauces & Condiments",
+      "ko": "소스 및 장류",
+      "count": 21,
+      "file": "sauces-condiments.json"
+    },
+    {
+      "en": "Herbs & Spices",
+      "ko": "허브 및 향신료",
+      "count": 22,
+      "file": "herbs-spices.json"
+    },
+    {
+      "en": "Pantry Essentials & Sweeteners",
+      "ko": "기본 식재료 및 감미료",
+      "count": 7,
+      "file": "pantry-essentials-sweeteners.json"
+    },
+    {
+      "en": "Baking & Thickeners",
+      "ko": "베이킹 및 증점제",
+      "count": 10,
+      "file": "baking-thickeners.json"
+    },
+    {
+      "en": "Dairy & Fats",
+      "ko": "유제품 및 유지류",
+      "count": 10,
+      "file": "dairy-fats.json"
+    },
+    {
+      "en": "Pickles & Ferments",
+      "ko": "절임 및 발효 식품",
+      "count": 4,
+      "file": "pickles-ferments.json"
+    },
+    {
+      "en": "Seaweed & Dried Seafood",
+      "ko": "건어물 및 해조류",
+      "count": 3,
+      "file": "seaweed-dried-seafood.json"
+    },
+    {
+      "en": "Grains & Seeds",
+      "ko": "곡물 및 씨앗류",
+      "count": 2,
+      "file": "grains-seeds.json"
+    }
+  ],
+  "total": 79,
+  "generated_at": "2026-04-24T01:31:42.974Z"
+}

@@ -1,0 +1,403 @@
+{
+  "meta": {
+    "category_en": "Seaweed & Dried Seafood",
+    "category_ko": "건어물 및 해조류",
+    "count": 3,
+    "generated_at": "2026-04-24T01:31:42.973Z"
+  },
+  "ingredients": [
+    {
+      "id": "nori",
+      "name": {
+        "en": "Nori",
+        "ko": "노리 (김)"
+      },
+      "category": {
+        "en": "Seaweed & Dried Seafood",
+        "ko": "건어물 및 해조류"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "A type of edible seaweed popularized in Japan, traditionally dried on bamboo mats.",
+        "ko": "일본에서 대중화된 식용 해조류의 한 종류로, 전통적으로 대나무 발 위에서 말려 만듭니다."
+      },
+      "flavor_profile": {
+        "en": "Briny, oceanic, and packed with savory umami.",
+        "ko": "바다의 향과 짭조름함, 그리고 풍부한 감칠맛이 특징입니다."
+      },
+      "storage_tips": {
+        "en": "Store in a cool, dry place with a silica gel pack. Moisture is nori's enemy.",
+        "ko": "실리카겔(방습제)과 함께 서늘하고 건조한 곳에 보관하세요. 습기는 김의 최대 적입니다."
+      },
+      "search_keywords": {
+        "en": [
+          "Nori",
+          "Dried seaweed",
+          "Sushi seaweed",
+          "김"
+        ],
+        "ko": [
+          "노리 (김)",
+          "Dried seaweed",
+          "Sushi seaweed",
+          "김"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Is it the same as Korean Gim?",
+            "ko": "한국 김과 같은 건가요?"
+          },
+          "answer": {
+            "en": "Nori is usually thicker and unseasoned (toasted), while Korean Gim is often thinner and seasoned with oil/salt.",
+            "ko": "노리는 보통 더 두껍고 조미되지 않은(구운) 상태이며, 한국 김은 더 얇고 기름과 소금으로 조미된 경우가 많습니다."
+          }
+        }
+      ],
+      "dish_tips": {
+        "en": "Sushi: Ensure the shiny side is on the outside. Snacks: Toasted nori strips are great with rice.",
+        "ko": "초밥: 윤기 나는 면이 바깥으로 가게 하세요. 간식: 구운 김 조각은 밥과 함께 먹기 좋습니다."
+      },
+      "description": {
+        "en": "Dried edible seaweed sheets used in sushi and as a garnish.",
+        "ko": "초밥에 쓰이거나 고명으로 사용되는 말린 식용 해조류 시트입니다."
+      },
+      "substitutes": [
+        {
+          "id": "rice-paper-bonito",
+          "name": {
+            "en": "Rice Paper + Bonito Flakes",
+            "ko": "라이스 페이퍼 + 가쓰오부시"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "sheet"
+          },
+          "similarity_score": 65,
+          "umami_reproduction": 80,
+          "chemical_impact": {
+            "en": "Rice paper provides the wrap structure but no flavor. Bonito adds the missing oceanic umami.",
+            "ko": "라이스 페이퍼는 싸는 구조를 제공하지만 맛은 없습니다. 가쓰오부시가 부족한 바다의 감칠맛을 채워줍니다."
+          },
+          "compensation_action": {
+            "en": "For wrapping, use rice paper. For flavor, add crushed katsuobushi or mushroom powder.",
+            "ko": "싸는 용도라면 라이스 페이퍼를 쓰세요. 맛을 내려면 가쓰오부시 가루나 버섯 가루를 추가하세요."
+          },
+          "why_it_works": {
+            "en": "Separates the structural and flavor components of the original seaweed sheet.",
+            "ko": "해조류 시트의 구조적 요소와 풍미 요소를 분리하여 각각 재현합니다."
+          },
+          "tags": [
+            "Seafood",
+            "Wrap"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "kombu",
+      "name": {
+        "en": "Kombu",
+        "ko": "다시마"
+      },
+      "category": {
+        "en": "Seaweed & Dried Seafood",
+        "ko": "건어물 및 해조류"
+      },
+      "visual_identity": {
+        "primary_color": "#2F4F4F",
+        "texture": "Leathery Seaweed"
+      },
+      "difficulty": "easy",
+      "dietary_tags": [
+        "vegan",
+        "keto"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Iodine",
+          "Glutamate"
+        ],
+        "ko": [
+          "요오드",
+          "글루타메이트"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Edible kelp primarily from Hokkaido, Japan, the foundation of Dashi broth for over a millennium.",
+        "ko": "일본 홋카이도산 식용 다시마가 유명하며, 천년 이상 일본 육수(다시)의 근간이 되었습니다."
+      },
+      "flavor_profile": {
+        "en": "Subtle, oceanic, and packed with natural glutamates (umami).",
+        "ko": "은은한 바다의 향과 천연 글루타메이트(감칠맛)가 풍부하게 응축된 맛입니다."
+      },
+      "storage_tips": {
+        "en": "Keep dry and airtight. The white powder on the surface is umami-rich mannitol; do not wash it off.",
+        "ko": "건조하게 밀폐하여 보관하세요. 표면의 하얀 가루는 감칠맛 성분인 만니톨이므로 씻어내지 마세요."
+      },
+      "common_pairings": {
+        "en": [
+          "water",
+          "bonito-flakes",
+          "soy-sauce",
+          "shiitake-mushrooms",
+          "rice"
+        ],
+        "ko": [
+          "water",
+          "bonito-flakes",
+          "soy-sauce",
+          "shiitake-mushrooms",
+          "rice"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Kombu"
+        ],
+        "ko": [
+          "다시마"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Should I boil it?",
+            "ko": "끓여도 되나요?"
+          },
+          "answer": {
+            "en": "Remove kombu just before the water boils to prevent bitterness and a slimy texture.",
+            "ko": "쓴맛과 끈적한 질감을 방지하려면 물이 끓기 직전에 다시마를 건져내야 합니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "Dried kelp used as a fundamental building block of umami in East Asian cuisines.",
+        "ko": "동아시아 요리에서 감칠맛의 핵심적인 기초가 되는 말린 해조류(다시마)입니다."
+      },
+      "substitutes": [
+        {
+          "id": "msg-pinch-sub",
+          "name": {
+            "en": "A pinch of MSG or Dashi Powder",
+            "ko": "MSG 한 꼬집 또는 다시다/혼다시"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 0.5,
+            "target_max": 0.5,
+            "unit": "tsp"
+          },
+          "similarity_score": 90,
+          "umami_reproduction": 100,
+          "chemical_impact": {
+            "en": "Provides the exact chemical umami boost but lacks the subtle oceanic aroma of whole kelp.",
+            "ko": "정확한 화학적 감칠맛을 폭발시켜 주지만, 통다시마 특유의 은은한 바다 향은 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Use a tiny pinch of MSG for 1 piece of kombu.",
+            "ko": "다시마 1장당 MSG 한 꼬집을 사용하세요."
+          },
+          "why_it_works": {
+            "en": "MSG was originally discovered and derived from kombu kelp.",
+            "ko": "MSG는 원래 다시마에서 처음 발견되고 추출된 성분입니다."
+          },
+          "tags": [
+            "Umami Boost",
+            "Quick Hack"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "bonito-flakes",
+      "name": {
+        "en": "Bonito Flakes (Katsuobushi)",
+        "ko": "가쓰오부시 (가다랑어포)"
+      },
+      "category": {
+        "en": "Seaweed & Dried Seafood",
+        "ko": "건어물 및 해조류"
+      },
+      "visual_identity": {
+        "primary_color": "#C19A6B",
+        "texture": "Thin Shavings"
+      },
+      "difficulty": "easy",
+      "dietary_tags": [
+        "low-carb"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Inosinic Acid"
+        ],
+        "ko": [
+          "이노신산"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Smoked and fermented skipjack tuna, one of the hardest foods in the world before being shaved into paper-thin flakes.",
+        "ko": "훈연 및 발효시킨 가다랑어로, 얇게 깎아내기 전에는 세계에서 가장 딱딱한 식품 중 하나로 꼽힙니다."
+      },
+      "flavor_profile": {
+        "en": "Deeply smoky, savory, and salty with a lightweight, melting texture.",
+        "ko": "깊은 훈연향과 짭조름한 감칠맛이 특징이며, 입안에서 녹는 듯한 가벼운 식감을 가집니다."
+      },
+      "storage_tips": {
+        "en": "Keep in an airtight bag in the fridge or freezer. They oxidize and lose aroma very quickly.",
+        "ko": "밀폐 봉투에 담아 냉장 또는 냉동 보관하세요. 산화가 빨라 향이 금방 날아갑니다."
+      },
+      "common_pairings": {
+        "en": [
+          "kombu",
+          "soy-sauce",
+          "tofu",
+          "takoyaki",
+          "noodles"
+        ],
+        "ko": [
+          "kombu",
+          "soy-sauce",
+          "tofu",
+          "takoyaki",
+          "noodles"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Bonito Flakes (Katsuobushi)"
+        ],
+        "ko": [
+          "가쓰오부시 (가다랑어포)"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Why do they dance on hot food?",
+            "ko": "왜 뜨거운 음식 위에서 움직이나요?"
+          },
+          "answer": {
+            "en": "They are so thin and light that the rising steam makes them move like they are alive.",
+            "ko": "너무 얇고 가벼워서 음식에서 올라오는 열기와 증기에 의해 살아있는 것처럼 움직이는 것입니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "Paper-thin shavings of dried, fermented skipjack tuna.",
+        "ko": "말리고 발효시킨 가다랑어를 종이처럼 얇게 깎아 만든 포입니다."
+      },
+      "substitutes": [
+        {
+          "id": "fish-sauce-smoke-mix",
+          "name": {
+            "en": "Fish Sauce + Drop of Liquid Smoke",
+            "ko": "피쉬소스 + 리퀴드 스모크 한 방울"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tsp"
+          },
+          "similarity_score": 82,
+          "umami_reproduction": 90,
+          "chemical_impact": {
+            "en": "Captures the fishy savory base and the smoky finish of katsuobushi.",
+            "ko": "가쓰오부시의 생선 베이스 감칠맛과 훈연 마무리를 모두 재현할 수 있습니다."
+          },
+          "compensation_action": {
+            "en": "Use 1 tsp fish sauce and a tiny drop of liquid smoke. Use for broths, not for garnishing.",
+            "ko": "피쉬소스 1작은술과 리퀴드 스모크 한 방울을 섞으세요. 육수용으로만 쓰고 고명으로는 부적합합니다."
+          },
+          "why_it_works": {
+            "en": "Combines the essential sensory components of salted-fish umami and wood-fire smoke.",
+            "ko": "소금에 절인 생선의 감칠맛과 나무 훈연향이라는 핵심 감각 요소를 결합합니다."
+          },
+          "tags": [
+            "Flavor Match",
+            "Liquid Sub"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    }
+  ]
+}

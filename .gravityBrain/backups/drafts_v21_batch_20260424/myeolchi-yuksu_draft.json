@@ -1,0 +1,163 @@
+{
+  "id": "myeolchi-yuksu",
+  "name": {
+    "en": "Dried Anchovy Stock",
+    "ko": "멸치육수"
+  },
+  "icon": "🐟",
+  "category": {
+    "en": "Liquid Base",
+    "ko": "액체 베이스"
+  },
+  "visual_identity": {
+    "primary_color": "#5D7C5E",
+    "texture": "translucent"
+  },
+  "difficulty": "easy",
+  "dietary_tags": [
+    "seafood",
+    "gluten-free",
+    "non-vegetarian"
+  ],
+  "allergens": [
+    "fish",
+    "shellfish"
+  ],
+  "swap_warnings": [
+    "high_sodium",
+    "fishy_odor",
+    "oxidation_risk"
+  ],
+  "measurement_type": "volume",
+  "best_use_cases": [
+    "soup_base",
+    "stew_base",
+    "rice_soup",
+    "marinade"
+  ],
+  "avoid_use_cases": [
+    "dessert",
+    "cold_salad",
+    "clear_broth_for_fish"
+  ],
+  "properties": {
+    "ph_level": 6.8,
+    "moisture_content": 96.5,
+    "sweetness_index": 2.5,
+    "viscosity": "watery",
+    "umami_intensity": 8.5
+  },
+  "thermal_behavior": {
+    "smoke_point_c": null,
+    "melting_point_c": null,
+    "caramelization": false,
+    "maillard_reaction": false
+  },
+  "functional_properties": [
+    "umami_carrier",
+    "salt_carrier",
+    "flavor_base",
+    "hydration_source"
+  ],
+  "texture_profile": {
+    "state": "liquid",
+    "elasticity": "none",
+    "mouthfeel": "smooth"
+  },
+  "regional_alias": {
+    "korea": [
+      "myeolchi-guk",
+      "myeolchi-tang"
+    ],
+    "japan": [
+      "iwashi-dashi",
+      "sardine-stock"
+    ]
+  },
+  "regional_availability": {
+    "common_in": [
+      "Korea",
+      "Japan",
+      "China"
+    ],
+    "rare_in": [
+      "USA",
+      "Europe",
+      "Australia"
+    ]
+  },
+  "cuisine_origin": [
+    "Korean"
+  ],
+  "preparation_forms": [
+    "fresh",
+    "concentrated",
+    "freeze-dried"
+  ],
+  "scientific_name": null,
+  "schema_org_type": "Food",
+  "substitutes": [
+    {
+      "id": "chicken-stock",
+      "ratio": {
+        "source": 1,
+        "target_min": 1.2,
+        "target_max": 1.5,
+        "unit": "ml"
+      },
+      "substitution_logic": "linear_scaling",
+      "failure_risk": "medium",
+      "flavor_delta": {
+        "umami": -3,
+        "salt": -1.5,
+        "sweetness": 0.5
+      },
+      "texture_impact": "similar",
+      "chemical_impact": {
+        "en": "Lower glutamate content, requires MSG or seaweed to match savory depth.",
+        "ko": "글루타메이트 함량이 낮아 감칠맛을 보충하려면 MSG 나 다시마 가 필요함."
+      },
+      "compensation_action": {
+        "en": "Add 1g dried kelp per 500ml to restore umami.",
+        "ko": "500ml 당 1g 다시마 를 추가하여 감칠맛 을 회복하세요."
+      },
+      "verification": {
+        "verified_by": "Culinary Lab Seoul",
+        "date": "2023-10-15",
+        "confidence_score": 85,
+        "lab_note": "Taste panel consensus."
+      }
+    },
+    {
+      "id": "vegetable-stock",
+      "ratio": {
+        "source": 1,
+        "target_min": 1.5,
+        "target_max": 2,
+        "unit": "ml"
+      },
+      "substitution_logic": "threshold",
+      "failure_risk": "high",
+      "flavor_delta": {
+        "umami": -6,
+        "salt": -2,
+        "sweetness": 1
+      },
+      "texture_impact": "watery",
+      "chemical_impact": {
+        "en": "Lacks fish-derived nucleotides (IMP/IMP).",
+        "ko": "어류 유래 뉴클레오타이드 (IMP 등) 가 결여됨."
+      },
+      "compensation_action": {
+        "en": "Add soy sauce or miso to mimic savory depth.",
+        "ko": "간장이나 미소를 추가하여 감칠맛 을 모방하세요."
+      },
+      "verification": {
+        "verified_by": "Culinary Lab Seoul",
+        "date": "2023-10-15",
+        "confidence_score": 70,
+        "lab_note": "Not recommended for clear soups."
+      }
+    }
+  ]
+}

@@ -18,9 +18,11 @@
     - **Swap Widget**: 실시간 비율 계산 및 단위 변환
     - **Explore Filter**: Fuzzy Search 기반 다국어 재료 탐색 및 카테고리 필터링
     - **Sharing Engine**: 인포그래픽 실시간 스캔 및 이미지(PNG) 다운로드
-- **[Data]**: Verified Ingredient Dataset (20+ Essential Items)
+- **[Data]**: Fragmented Ingredient Dataset (79+ Verified Items)
+    - **Structure**: Split into 8 category-based JSON files in `src/lib/data/ingredients/`
+    - **Entry Point**: `src/lib/data/ingredients/index.js` (Aggregates all fragments for the application)
     - **Multi-Substitute**: 하나의 재료에 대해 상황별 2개 이상의 대체 옵션 제공
-    - **Data Schema**: `chemical_impact`, `compensation_action`, `umami_reproduction`, `allergen_warning`, `why_it_works`
+    - **Data Schema**: `allergens`, `shelf_life`, `culinary_roles`, `representative_dishes`, `metadata`, `chemical_impact`, `compensation_action`, `umami_reproduction`, `allergen_warning`, `why_it_works`
 
 ## 🎨 디자인 시스템
 - **Theme**: Glassmorphism (Slate-950 Base + Amber-500 Point)

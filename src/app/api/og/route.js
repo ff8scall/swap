@@ -1,5 +1,5 @@
 import { ImageResponse } from 'next/og';
-import ingredientsData from '@/lib/data/ingredients.json';
+import ingredientsData from '@/lib/data/ingredients';
 
 // Runtime setting removed for compatibility
 

@@ -1,0 +1,53 @@
+{
+  "id": "bread-flour",
+  "name": { "en": "Bread Flour", "ko": "강력분" },
+  "icon": "🍞",
+  "category": { "en": "Baking & Thickeners", "ko": "베이킹 및 증점제" },
+  "visual_identity": { "primary_color": "#F9E79F", "texture": "Granular Strong Powder" },
+  "difficulty": "medium",
+  "dietary_tags": ["vegetarian"],
+  "allergens": ["gluten", "wheat"],
+  "swap_warnings": ["단백질 함량이 높아 글루텐 형성이 매우 강합니다. 부드러운 케이크에는 부적합합니다."],
+  "measurement_type": "weight",
+  "best_use_cases": ["yeast-breads", "pizza-dough", "bagels", "chewy-noodles"],
+  "avoid_use_cases": ["cakes", "pastries", "biscuits"],
+  "properties": {
+    "ph_level": 5.8,
+    "moisture_content": 13.0,
+    "sweetness_index": 0,
+    "viscosity": "solid",
+    "umami_intensity": 1
+  },
+  "thermal_behavior": {
+    "smoke_point_c": null,
+    "melting_point_c": null,
+    "caramelization": false,
+    "maillard_reaction": true
+  },
+  "functional_properties": ["structural-agent", "binder", "chewiness-agent"],
+  "texture_profile": { "state": "powder", "elasticity": "high", "mouthfeel": "coarse" },
+  "regional_alias": { "us": ["Bread flour", "High-protein flour"], "uk": ["Strong flour"] },
+  "regional_availability": { "common_in": ["Global"], "rare_in": ["none"] },
+  "cuisine_origin": ["western"],
+  "preparation_forms": ["powder"],
+  "scientific_name": "Triticum aestivum (High protein)",
+  "schema_org_type": "Product",
+  "substitutes": [
+    {
+      "id": "all-purpose-flour",
+      "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "weight" },
+      "substitution_logic": "linear_scaling",
+      "failure_risk": "medium",
+      "flavor_delta": { "chewiness": -3, "structure": -2 },
+      "chemical_impact": {
+        "en": "All-purpose flour has less protein (~10-12%) than bread flour (~12-14%), resulting in a less elastic dough.",
+        "ko": "중력분은 강력분보다 단백질 함량이 낮아 반죽의 탄력과 쫄깃함이 부족할 수 있습니다."
+      },
+      "compensation_action": {
+        "en": "Knead the dough for a longer time to develop as much gluten as possible from the lower protein content.",
+        "ko": "부족한 단백질에서 최대한의 글루텐을 뽑아내기 위해 평소보다 더 오래 반죽을 치대세요."
+      },
+      "verification": { "verified_by": "Chef Jinny Park", "date": "2026-04-24", "confidence_score": 80 }
+    }
+  ]
+}

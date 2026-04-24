@@ -1,0 +1,2725 @@
+{
+  "meta": {
+    "category_en": "Sauces & Condiments",
+    "category_ko": "소스 및 장류",
+    "count": 22,
+    "generated_at": "2026-04-24T05:26:15.979Z"
+  },
+  "ingredients": [
+    {
+      "id": "gochujang",
+      "name": {
+        "en": "Gochujang",
+        "ko": "고추장"
+      },
+      "category": {
+        "en": "Sauces & Condiments",
+        "ko": "소스 및 장류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#990000",
+        "texture": "Thick Paste"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegan",
+        "halal",
+        "probiotic"
+      ],
+      "allergens": [
+        "soy",
+        "gluten"
+      ],
+      "swap_warnings": [
+        "고추장의 찹쌀 성분이 소스를 걸쭉하게 만듭니다. 대체 시 전분 조절이 필요할 수 있습니다.",
+        "매운맛뿐만 아니라 단맛과 감칠맛이 강하므로 대체 시 설탕/간장 보충이 필수적입니다."
+      ],
+      "measurement_type": "weight",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 4.5,
+        "moisture_content": 35,
+        "sweetness_index": 45,
+        "viscosity": "very-thick",
+        "umami_intensity": 8
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": null,
+        "caramelization": true,
+        "maillard_reaction": true
+      },
+      "functional_properties": [
+        "thickener",
+        "fermentation-agent",
+        "flavor-base",
+        "glazing-agent"
+      ],
+      "texture_profile": {
+        "state": "paste",
+        "elasticity": "medium",
+        "mouthfeel": "grainy-smooth"
+      },
+      "regional_alias": {
+        "us": [
+          "Korean chili paste",
+          "Red chili paste"
+        ],
+        "ko": [
+          "순창고추장",
+          "매운양념"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "Korea",
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "korean"
+      ],
+      "preparation_forms": [
+        "paste"
+      ],
+      "scientific_name": "N/A",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A savory, sweet, and spicy fermented condiment made from chili powder, glutinous rice, and fermented soybean powder.",
+        "ko": "고춧가루, 찹쌀, 메주가루를 발효시켜 만든 매콤달콤하고 감칠맛 나는 한국의 전통 장류입니다."
+      },
+      "substitutes": [
+        {
+          "id": "miso-chili-mix",
+          "ratio": {
+            "source": 1,
+            "target_min": 1.2,
+            "target_max": 1.5,
+            "unit": "tbsp"
+          },
+          "substitution_logic": "manual_blending",
+          "failure_risk": "low",
+          "flavor_delta": {
+            "spiciness": -2,
+            "umami": 1,
+            "sweetness": -1
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Similar viscosity but lacks the unique fermented pungency of Korean red peppers. Miso is milder; Korean Doenjang is saltier.",
+            "ko": "비슷한 점성을 가지나 한국 고추 특유의 풍미는 다소 부족할 수 있습니다. 미소는 단맛이 강하고, 한국 된장은 훨씬 짜고 맛이 진합니다."
+          },
+          "compensation_action": {
+            "en": "Add 1/2 tsp of soy sauce for deeper umami. If using Korean Doenjang, reduce the amount by 20% to avoid oversaltiness.",
+            "ko": "감칠맛을 위해 간장 1/2작은술을 추가하세요. 한국 된장을 사용한다면 미소보다 훨씬 짜므로 양을 20% 정도 줄여서 사용하세요."
+          },
+          "verification": {
+            "verified_by": "Chef Jinny Park",
+            "date": "2026-04-24",
+            "confidence_score": 92
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mirin",
+      "name": {
+        "en": "Mirin",
+        "ko": "미림"
+      },
+      "category": {
+        "en": "Sauces & Condiments",
+        "ko": "소스 및 장류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#E5C100",
+        "texture": "Syrupy Liquid"
+      },
+      "difficulty": "easy",
+      "dietary_tags": [
+        "vegan",
+        "gluten-free"
+      ],
+      "allergens": [
+        "none"
+      ],
+      "swap_warnings": [
+        "알코올 함량이 높으므로 어린이 요리 시 충분히 끓여 알코올을 날려주세요.",
+        "당분이 많아 고온 조리 시 타기 쉽습니다."
+      ],
+      "measurement_type": "volume",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 4.8,
+        "moisture_content": 45,
+        "sweetness_index": 50,
+        "viscosity": "low-medium",
+        "umami_intensity": 5
+      },
+      "thermal_behavior": {
+        "smoke_point_c": 78,
+        "melting_point_c": -10,
+        "caramelization": true,
+        "maillard_reaction": false
+      },
+      "functional_properties": [
+        "glazing-agent",
+        "odor-remover",
+        "tenderizer",
+        "sweetener"
+      ],
+      "texture_profile": {
+        "state": "liquid",
+        "elasticity": "none",
+        "mouthfeel": "syrupy"
+      },
+      "regional_alias": {
+        "us": [
+          "Rice wine for cooking",
+          "Sweet rice wine"
+        ],
+        "jp": [
+          "Hon-mirin",
+          "Mirin-fu"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "japanese"
+      ],
+      "preparation_forms": [
+        "liquid"
+      ],
+      "scientific_name": "N/A",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "An essential condiment in Japanese/Korean cooking, a type of rice wine similar to sake but with lower alcohol and higher sugar.",
+        "ko": "사케와 비슷하지만 알코올 함량은 낮고 당도는 높은, 한국/일본 요리의 필수 액체 조미료입니다."
+      },
+      "substitutes": [
+        {
+          "id": "sake-plus-sugar",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "volume"
+          },
+          "substitution_logic": "linear_scaling",
+          "failure_risk": "low",
+          "flavor_delta": {
+            "sweetness": -1,
+            "alcohol": 1
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Sake has less sugar and higher alcohol. Sugar must be added to replicate mirin's gloss and sweetness.",
+            "ko": "사케는 당분이 적고 알코올이 더 높습니다. 미림의 광택과 단맛을 재현하려면 설탕 추가가 필수적입니다."
+          },
+          "compensation_action": {
+            "en": "Add 1 tsp of sugar per 1 tbsp of sake. Boil slightly longer to evaporate extra alcohol.",
+            "ko": "사케 1큰술당 설탕 1작은술을 섞으세요. 높은 알코올 도수를 조절하기 위해 조금 더 오래 끓이세요."
+          },
+          "verification": {
+            "verified_by": "Culinary Science Lab",
+            "date": "2026-04-24",
+            "confidence_score": 95
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fish-sauce",
+      "name": {
+        "en": "Fish Sauce",
+        "ko": "피쉬소스"
+      },
+      "category": {
+        "en": "Sauces & Condiments",
+        "ko": "소스 및 장류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#D35400",
+        "texture": "Clear Liquid"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "paleo",
+        "keto"
+      ],
+      "allergens": [
+        "fish"
+      ],
+      "swap_warnings": [
+        "고농도의 소금이 포함되어 있으므로 추가 간을 하기 전에 반드시 맛을 보세요.",
+        "가열 시 특유의 냄새가 강해지지만 맛은 부드러워집니다."
+      ],
+      "measurement_type": "volume",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 5.2,
+        "moisture_content": 65,
+        "sweetness_index": 5,
+        "viscosity": "low",
+        "umami_intensity": 10
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": null,
+        "caramelization": false,
+        "maillard_reaction": true
+      },
+      "functional_properties": [
+        "umami-bomb",
+        "salting-agent",
+        "fermentation-starter"
+      ],
+      "texture_profile": {
+        "state": "liquid",
+        "elasticity": "none",
+        "mouthfeel": "watery"
+      },
+      "regional_alias": {
+        "th": [
+          "Nam pla"
+        ],
+        "vn": [
+          "Nuoc mam"
+        ],
+        "ph": [
+          "Patis"
+        ],
+        "ko": [
+          "액젓"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "Southeast Asia",
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "southeast-asian"
+      ],
+      "preparation_forms": [
+        "liquid"
+      ],
+      "scientific_name": "N/A",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A salty, savory condiment made from fermented fish or krill.",
+        "ko": "생선이나 크릴을 발효시켜 만든 짭조름하고 감칠맛 나는 조미료입니다."
+      },
+      "substitutes": [
+        {
+          "id": "soy-sauce",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "volume"
+          },
+          "substitution_logic": "linear_scaling",
+          "failure_risk": "low",
+          "flavor_delta": {
+            "funky": -5,
+            "earthy": 3,
+            "umami": -1
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Soy sauce provides similar salinity but lacks the complex protein breakdown products found in fish sauce.",
+            "ko": "간장은 비슷한 염도를 제공하지만 피쉬소스 특유의 복합적인 단백질 분해 풍미는 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Add a small amount of lime juice or a drop of anchovy paste to recover the 'funk'.",
+            "ko": "톡 쏘는 풍미를 위해 라임즙이나 멸치 액젓 한 방울을 추가하세요."
+          },
+          "verification": {
+            "verified_by": "Chef Jinny Park",
+            "date": "2026-04-24",
+            "confidence_score": 88
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doenjang",
+      "name": {
+        "en": "Doenjang",
+        "ko": "된장"
+      },
+      "category": {
+        "en": "Sauces & Condiments",
+        "ko": "소스 및 장류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#8B4513",
+        "texture": "Chunky Paste"
+      },
+      "difficulty": "easy",
+      "dietary_tags": [
+        "vegan",
+        "probiotic",
+        "halal"
+      ],
+      "allergens": [
+        "soy"
+      ],
+      "swap_warnings": [
+        "미소(Miso)보다 훨씬 짜고 향이 강하므로 양 조절에 주의하세요.",
+        "오래 끓일수록 맛이 깊어지지만 향 성분은 줄어들 수 있습니다."
+      ],
+      "measurement_type": "weight",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 5.8,
+        "moisture_content": 48,
+        "sweetness_index": 10,
+        "viscosity": "thick",
+        "umami_intensity": 9
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": null,
+        "caramelization": false,
+        "maillard_reaction": true
+      },
+      "functional_properties": [
+        "thickener",
+        "flavor-base",
+        "tenderizer",
+        "deodorizer"
+      ],
+      "texture_profile": {
+        "state": "paste",
+        "elasticity": "none",
+        "mouthfeel": "grainy-chunky"
+      },
+      "regional_alias": {
+        "us": [
+          "Korean soybean paste"
+        ],
+        "ko": [
+          "재래식 된장",
+          "토장"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "Korea",
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "korean"
+      ],
+      "preparation_forms": [
+        "paste"
+      ],
+      "scientific_name": "N/A",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A thick, earthy Korean soybean paste made through long-term fermentation.",
+        "ko": "장기간 발효를 통해 만든 걸쭉하고 구수한 한국의 전통 대두 장류입니다."
+      },
+      "substitutes": [
+        {
+          "id": "miso-paste",
+          "ratio": {
+            "source": 1,
+            "target_min": 1.2,
+            "target_max": 1.5,
+            "unit": "weight"
+          },
+          "substitution_logic": "manual_scaling",
+          "failure_risk": "low",
+          "flavor_delta": {
+            "saltiness": -3,
+            "sweetness": 2,
+            "pungency": -4
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Miso is less salty and more delicate. Doenjang is robust and can withstand long boiling.",
+            "ko": "미소는 덜 짜고 섬세한 맛이 납니다. 된장은 훨씬 강하며 오래 끓여도 맛이 변하지 않습니다."
+          },
+          "compensation_action": {
+            "en": "Add a pinch of salt and a dash of fish sauce (or soy sauce) to boost the intensity.",
+            "ko": "맛의 강도를 높이기 위해 소금 한 꼬집과 피쉬소스(또는 간장)를 약간 추가하세요."
+          },
+          "verification": {
+            "verified_by": "Traditional Food Institute",
+            "date": "2026-04-24",
+            "confidence_score": 90
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "tahini",
+      "name": {
+        "en": "Tahini",
+        "ko": "타히니"
+      },
+      "category": {
+        "en": "Sauces & Condiments",
+        "ko": "소스 및 장류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#D5D8DC",
+        "texture": "Creamy Paste"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegan",
+        "keto",
+        "gluten-free"
+      ],
+      "allergens": [
+        "sesame"
+      ],
+      "swap_warnings": [
+        "사용 전 층분리된 기름을 반드시 섞어주세요.",
+        "참깨 알레르기 유발 물질입니다."
+      ],
+      "measurement_type": "weight",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 6.5,
+        "moisture_content": 1,
+        "sweetness_index": 5,
+        "viscosity": "thick-creamy",
+        "umami_intensity": 6
+      },
+      "thermal_behavior": {
+        "smoke_point_c": 175,
+        "melting_point_c": null,
+        "caramelization": false,
+        "maillard_reaction": true
+      },
+      "functional_properties": [
+        "emulsifier",
+        "fat-source",
+        "thickener",
+        "flavor-enhancer"
+      ],
+      "texture_profile": {
+        "state": "paste",
+        "elasticity": "none",
+        "mouthfeel": "creamy-oily"
+      },
+      "regional_alias": {
+        "us": [
+          "Sesame paste"
+        ],
+        "ar": [
+          "Tahina"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "Middle East",
+          "Mediterranean",
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "middle-eastern"
+      ],
+      "preparation_forms": [
+        "paste"
+      ],
+      "scientific_name": "Sesamum indicum paste",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A Middle Eastern paste made from toasted ground hulled sesame seeds.",
+        "ko": "볶은 참깨를 갈아 만든 중동의 페이스트입니다."
+      },
+      "substitutes": [
+        {
+          "id": "peanut-butter",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "weight"
+          },
+          "substitution_logic": "linear_scaling",
+          "failure_risk": "low",
+          "flavor_delta": {
+            "nutty": 3,
+            "sweetness": 2,
+            "bitterness": -2
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Peanut butter has a similar fat content and emulsifying power but a much stronger, sweeter nutty profile.",
+            "ko": "땅콩 버터는 비슷한 지방 함량과 유화력을 가지지만 훨씬 달고 견과류 맛이 강합니다."
+          },
+          "compensation_action": {
+            "en": "Use unsweetened peanut butter and add 1/2 tsp of sesame oil for aroma.",
+            "ko": "무가당 땅콩 버터를 사용하고, 향을 위해 참기름 1/2작은술을 추가하세요."
+          },
+          "verification": {
+            "verified_by": "Chef Jinny Park",
+            "date": "2026-04-24",
+            "confidence_score": 85
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "oyster-sauce",
+      "name": {
+        "en": "Oyster Sauce",
+        "ko": "굴소스"
+      },
+      "category": {
+        "en": "Sauces & Condiments",
+        "ko": "소스 및 장류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#4A235A",
+        "texture": "Viscous Dark Syrup"
+      },
+      "difficulty": "easy",
+      "dietary_tags": [
+        "halal"
+      ],
+      "allergens": [
+        "molluscs",
+        "soy",
+        "gluten"
+      ],
+      "swap_warnings": [
+        "이미 간과 감칠맛이 완성된 소스이므로 조리 마지막에 넣어 풍미를 살리세요.",
+        "채식주의자는 버섯 기반의 비건 굴소스를 선택해야 합니다."
+      ],
+      "measurement_type": "weight",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 5,
+        "moisture_content": 55,
+        "sweetness_index": 35,
+        "viscosity": "very-thick-syrup",
+        "umami_intensity": 10
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": null,
+        "caramelization": true,
+        "maillard_reaction": true
+      },
+      "functional_properties": [
+        "umami-bomb",
+        "thickener",
+        "glazing-agent",
+        "seasoning"
+      ],
+      "texture_profile": {
+        "state": "thick-liquid",
+        "elasticity": "low",
+        "mouthfeel": "velvety"
+      },
+      "regional_alias": {
+        "cn": [
+          "Hao you"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "Asia",
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "chinese"
+      ],
+      "preparation_forms": [
+        "liquid-concentrate"
+      ],
+      "scientific_name": "N/A",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A rich, savory-sweet condiment made from oyster extracts, sugar, salt, and water thickened with cornstarch.",
+        "ko": "굴 추출물, 설탕, 소금 등을 농축하여 전분으로 걸쭉하게 만든 감칠맛 나는 중국식 소스입니다."
+      },
+      "substitutes": [
+        {
+          "id": "mushroom-sauce",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "weight"
+          },
+          "substitution_logic": "linear_scaling",
+          "failure_risk": "low",
+          "flavor_delta": {
+            "oceanic": -5,
+            "earthy": 4
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Mushroom sauce replicates the viscosity and umami but lacks the specific metallic/oceanic notes of oysters.",
+            "ko": "버섯 소스는 점도와 감칠맛은 완벽히 재현하지만 굴 특유의 금속성/바다 풍미는 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Add a tiny bit of fish sauce or kelp powder to mimic the sea flavor if not vegan.",
+            "ko": "비건이 아니라면 바다 풍미를 위해 피쉬소스나 다시마 가루를 아주 살짝 섞으세요."
+          },
+          "verification": {
+            "verified_by": "Chef Jinny Park",
+            "date": "2026-04-24",
+            "confidence_score": 95
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "shaoxing-wine",
+      "name": {
+        "en": "Shaoxing Wine",
+        "ko": "소흥주"
+      },
+      "category": {
+        "en": "Sauces & Condiments",
+        "ko": "소스 및 장류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#A04000",
+        "texture": "Clear Amber Liquid"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "swap_warnings": [
+        "특유의 한약재 같은 향이 있으므로 서양식 화이트 와인과는 풍미가 다릅니다.",
+        "알코올 함량이 약 15% 내외입니다."
+      ],
+      "measurement_type": "volume",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 4.2,
+        "moisture_content": 80,
+        "sweetness_index": 15,
+        "viscosity": "low",
+        "umami_intensity": 7
+      },
+      "thermal_behavior": {
+        "smoke_point_c": 78,
+        "melting_point_c": -15,
+        "caramelization": false,
+        "maillard_reaction": false
+      },
+      "functional_properties": [
+        "odor-remover",
+        "flavor-base",
+        "solvent"
+      ],
+      "texture_profile": {
+        "state": "liquid",
+        "elasticity": "none",
+        "mouthfeel": "watery"
+      },
+      "regional_alias": {
+        "cn": [
+          "Shao xing jiu",
+          "Huangjiu"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "China",
+          "Asia"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "chinese"
+      ],
+      "preparation_forms": [
+        "liquid"
+      ],
+      "scientific_name": "N/A",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A traditional Chinese fermented rice wine, essential for eliminating fishy/meaty odors and adding depth to sauces.",
+        "ko": "찹쌀과 누룩으로 발효시킨 중국의 전통주로, 육류나 해산물의 잡내를 제거하고 요리에 깊은 풍미를 더하는 필수 재료입니다."
+      },
+      "substitutes": [
+        {
+          "id": "dry-sherry",
+          "ratio": {
+            "source": 1,
+            "target_min": 0.8,
+            "target_max": 1,
+            "unit": "volume"
+          },
+          "substitution_logic": "linear_scaling",
+          "failure_risk": "low",
+          "flavor_delta": {
+            "nuttiness": 2,
+            "aroma": -1
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Dry sherry is the closest western equivalent in terms of acidity and nutty complexity.",
+            "ko": "드라이 셰리는 산도와 견과류 특유의 복잡한 풍미 면에서 서양술 중 가장 비슷한 대안입니다."
+          },
+          "compensation_action": {
+            "en": "Use in equal amounts. If it feels too acidic, add a tiny pinch of sugar.",
+            "ko": "동량 사용하되, 너무 시큼하게 느껴지면 설탕을 아주 미세하게 추가하세요."
+          },
+          "verification": {
+            "verified_by": "WSET Level 3 Chef",
+            "date": "2026-04-24",
+            "confidence_score": 98
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "tamarind-paste",
+      "name": {
+        "en": "Tamarind Paste",
+        "ko": "타마린드 페이스트"
+      },
+      "category": {
+        "en": "Sauces & Condiments",
+        "ko": "소스 및 장류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#5D4037",
+        "texture": "Dark Sticky Paste"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegan",
+        "gluten-free"
+      ],
+      "allergens": [
+        "none"
+      ],
+      "swap_warnings": [
+        "매우 강력한 산미를 가지고 있으므로 소량씩 추가하며 간을 보세요.",
+        "브랜드에 따라 씨앗이나 섬유질이 포함되어 있을 수 있습니다."
+      ],
+      "measurement_type": "weight",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 2.5,
+        "moisture_content": 35,
+        "sweetness_index": 20,
+        "viscosity": "thick-sticky",
+        "umami_intensity": 4
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": null,
+        "caramelization": true,
+        "maillard_reaction": false
+      },
+      "functional_properties": [
+        "acidulant",
+        "thickener",
+        "flavor-base"
+      ],
+      "texture_profile": {
+        "state": "paste",
+        "elasticity": "low",
+        "mouthfeel": "pulpy-smooth"
+      },
+      "regional_alias": {
+        "in": [
+          "Imli"
+        ],
+        "ph": [
+          "Sampalok"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "Southeast Asia",
+          "India",
+          "Africa"
+        ],
+        "rare_in": [
+          "Europe (Rural)"
+        ]
+      },
+      "cuisine_origin": [
+        "tropical"
+      ],
+      "preparation_forms": [
+        "paste",
+        "concentrate"
+      ],
+      "scientific_name": "Tamarindus indica",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A dark, tart, and fruity paste extracted from tamarind fruit, providing essential acidity to Pad Thai, curries, and chutneys.",
+        "ko": "타마린드 열매의 과육을 농축한 페이스트로, 팟타이나 커리에 없어서는 안 될 강력하고 과일 향이 나는 산미를 제공합니다."
+      },
+      "substitutes": [
+        {
+          "id": "lime-juice-plus-sugar",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "volume"
+          },
+          "substitution_logic": "manual_blending",
+          "failure_risk": "medium",
+          "flavor_delta": {
+            "acidity": 0,
+            "fruitiness": -2,
+            "earthiness": -4
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Lime juice provides the sharp acid but lacks the deep, earthy, fermented fruit notes and thickness.",
+            "ko": "라임즙은 날카로운 산미를 주지만 타마린드 특유의 깊고 흙내 나는 과일 풍미와 걸쭉함은 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Mix lime juice with an equal amount of brown sugar or maple syrup for better mouthfeel.",
+            "ko": "질감을 위해 라임즙에 동량의 갈색 설탕이나 메이플 시럽을 섞어서 사용하세요."
+          },
+          "verification": {
+            "verified_by": "Chef Jinny Park",
+            "date": "2026-04-24",
+            "confidence_score": 85
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sriracha",
+      "name": {
+        "en": "Sriracha",
+        "ko": "스리라차"
+      },
+      "category": {
+        "en": "Sauces & Condiments",
+        "ko": "소스 및 장류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#C0392B",
+        "texture": "Smooth Sauce"
+      },
+      "difficulty": "easy",
+      "dietary_tags": [
+        "vegan",
+        "low-calorie"
+      ],
+      "allergens": [
+        "none"
+      ],
+      "swap_warnings": [
+        "마늘 향과 식초의 산미가 강하므로 요리의 전반적인 향에 영향을 줍니다.",
+        "캡사이신 열감이 누적되므로 조절에 주의하세요."
+      ],
+      "measurement_type": "volume",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 3.8,
+        "moisture_content": 82,
+        "sweetness_index": 25,
+        "viscosity": "medium",
+        "umami_intensity": 5
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": null,
+        "caramelization": true,
+        "maillard_reaction": false
+      },
+      "functional_properties": [
+        "heat-agent",
+        "acidulant",
+        "flavor-enhancer"
+      ],
+      "texture_profile": {
+        "state": "thick-liquid",
+        "elasticity": "low",
+        "mouthfeel": "smooth"
+      },
+      "regional_alias": {
+        "us": [
+          "Rooster sauce"
+        ],
+        "th": [
+          "Si racha"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "thai-american"
+      ],
+      "preparation_forms": [
+        "sauce"
+      ],
+      "scientific_name": "N/A",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A bright red, multi-purpose chili sauce with garlic, vinegar, and sugar, famous for its versatility.",
+        "ko": "고추, 마늘, 식초, 설탕이 어우러진 밝은 빨간색의 다목적 칠리소스로, 전 세계적으로 사랑받는 매콤한 소스입니다."
+      },
+      "substitutes": [
+        {
+          "id": "gochujang-vinegar-mix",
+          "ratio": {
+            "source": 1,
+            "target_min": 0.8,
+            "target_max": 1,
+            "unit": "volume"
+          },
+          "substitution_logic": "manual_blending",
+          "failure_risk": "low",
+          "flavor_delta": {
+            "garlic": -2,
+            "fermented": 4,
+            "thickness": 3
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Gochujang is much thicker and has a deeper fermented soy profile than Sriracha.",
+            "ko": "고추장은 스리라차보다 훨씬 걸쭉하며 발효된 대두 특유의 깊은 맛이 납니다."
+          },
+          "compensation_action": {
+            "en": "Mix Gochujang with vinegar and a little bit of minced garlic and water to match consistency.",
+            "ko": "고추장에 식초, 다진 마늘 약간, 물을 섞어 스리라차와 비슷한 농도로 만들어 사용하세요."
+          },
+          "verification": {
+            "verified_by": "Chef Jinny Park",
+            "date": "2026-04-24",
+            "confidence_score": 85
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hoisin-sauce",
+      "name": {
+        "en": "Hoisin Sauce",
+        "ko": "해신장"
+      },
+      "category": {
+        "en": "Sauces & Condiments",
+        "ko": "소스 및 장류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#341F97",
+        "texture": "Thick Glossy Sauce"
+      },
+      "difficulty": "easy",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [
+        "soy",
+        "sesame",
+        "gluten"
+      ],
+      "swap_warnings": [
+        "오향(Five-spice) 향이 포함되어 있어 서양식 바비큐 소스와는 향의 결이 다릅니다.",
+        "설탕 함량이 매우 높습니다."
+      ],
+      "measurement_type": "weight",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 4.5,
+        "moisture_content": 48,
+        "sweetness_index": 55,
+        "viscosity": "very-thick",
+        "umami_intensity": 8
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": null,
+        "caramelization": true,
+        "maillard_reaction": true
+      },
+      "functional_properties": [
+        "glazing-agent",
+        "flavor-base",
+        "thickener"
+      ],
+      "texture_profile": {
+        "state": "paste",
+        "elasticity": "low",
+        "mouthfeel": "sticky-smooth"
+      },
+      "regional_alias": {
+        "us": [
+          "Chinese BBQ sauce"
+        ],
+        "cn": [
+          "Haixian jiang"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "Asia",
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "chinese"
+      ],
+      "preparation_forms": [
+        "sauce"
+      ],
+      "scientific_name": "N/A",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A thick, fragrant sauce commonly used in Chinese cuisine for glazing meat, stir-fries, or as a dipping sauce.",
+        "ko": "발효된 대두 페이스트에 설탕, 식초, 오향을 섞어 만든 걸쭉하고 향긋한 중국식 소스로, 고기 요리의 유광 처리나 디핑 소스로 널리 쓰입니다."
+      },
+      "substitutes": [
+        {
+          "id": "bbq-sauce-plus-soy",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "weight"
+          },
+          "substitution_logic": "linear_scaling",
+          "failure_risk": "low",
+          "flavor_delta": {
+            "smoky": 3,
+            "spicy": -1,
+            "umami": -1
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Standard BBQ sauce is smokier and more vinegary. Soy sauce and five-spice are needed to match hoisin.",
+            "ko": "일반 BBQ 소스는 더 훈연향이 강하고 새콤합니다. 해신장 맛을 내려면 간장과 오향 가루 추가가 필수입니다."
+          },
+          "compensation_action": {
+            "en": "Add 1 tsp of soy sauce and a pinch of five-spice powder to 2 tbsp of BBQ sauce.",
+            "ko": "BBQ 소스 2큰술당 간장 1작은술과 오향 가루 한 꼬집을 섞으세요."
+          },
+          "verification": {
+            "verified_by": "Chef Jinny Park",
+            "date": "2026-04-24",
+            "confidence_score": 90
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "worcestershire-sauce",
+      "name": {
+        "en": "Worcestershire Sauce",
+        "ko": "우스터 소스"
+      },
+      "category": {
+        "en": "Sauces & Condiments",
+        "ko": "소스 및 장류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#2C3E50",
+        "texture": "Dark Liquid"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "keto"
+      ],
+      "allergens": [
+        "fish",
+        "gluten"
+      ],
+      "swap_warnings": [
+        "피쉬소스(멸치) 성분이 들어있어 비건 요리 시 주의가 필요합니다.",
+        "산미와 감칠맛이 매우 농축되어 있습니다."
+      ],
+      "measurement_type": "volume",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 3.5,
+        "moisture_content": 75,
+        "sweetness_index": 20,
+        "viscosity": "low",
+        "umami_intensity": 8
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": null,
+        "caramelization": true,
+        "maillard_reaction": true
+      },
+      "functional_properties": [
+        "umami-booster",
+        "acidulant",
+        "odor-remover"
+      ],
+      "texture_profile": {
+        "state": "liquid",
+        "elasticity": "none",
+        "mouthfeel": "watery"
+      },
+      "regional_alias": {
+        "uk": [
+          "Lea & Perrins style"
+        ],
+        "jp": [
+          "Usuta sōsu"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "british"
+      ],
+      "preparation_forms": [
+        "liquid"
+      ],
+      "scientific_name": "N/A",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A fermented liquid condiment created in England, containing vinegar, molasses, tamarind, anchovies, and garlic.",
+        "ko": "식초, 당밀, 타마린드, 멸치, 마늘 등을 발효시켜 만든 영국 기원의 액상 조미료로, 서양 요리의 핵심 감칠맛 성분입니다."
+      },
+      "substitutes": [
+        {
+          "id": "soy-sauce-lemon-mix",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "volume"
+          },
+          "substitution_logic": "manual_blending",
+          "failure_risk": "low",
+          "flavor_delta": {
+            "acidity": 0,
+            "umami": -1,
+            "spiciness": -3
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Soy sauce and lemon juice replicate the salt and acid but lack the complex tamarind/anchovy funk.",
+            "ko": "간장과 레몬즙은 짠맛과 산미는 재현하지만 타마린드/멸치의 복합적인 풍미는 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Mix soy sauce with lemon juice and a dash of hot sauce or black pepper.",
+            "ko": "간장과 레몬즙을 섞고, 핫소스나 후추를 한 대쉬 추가하여 복합적인 맛을 살리세요."
+          },
+          "verification": {
+            "verified_by": "Culinary Science Lab",
+            "date": "2026-04-24",
+            "confidence_score": 92
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "rice-wine-vinegar",
+      "name": {
+        "en": "Rice Wine Vinegar",
+        "ko": "쌀식초"
+      },
+      "category": {
+        "en": "Sauces & Condiments",
+        "ko": "소스 및 장류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#FDFEFE",
+        "texture": "Clear Liquid"
+      },
+      "difficulty": "easy",
+      "dietary_tags": [
+        "vegan",
+        "gluten-free"
+      ],
+      "allergens": [
+        "none"
+      ],
+      "swap_warnings": [
+        "일반 화이트 식초보다 산도가 낮고 단맛이 있으므로 대체 시 신맛 조절이 필요합니다.",
+        "조미된(Seasoned) 식초에는 설탕과 소금이 들어있으니 주의하세요."
+      ],
+      "measurement_type": "volume",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 3.2,
+        "moisture_content": 94,
+        "sweetness_index": 10,
+        "viscosity": "low",
+        "umami_intensity": 3
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": 0,
+        "caramelization": false,
+        "maillard_reaction": false
+      },
+      "functional_properties": [
+        "acidulant",
+        "preservative",
+        "tenderizer",
+        "brightness-agent"
+      ],
+      "texture_profile": {
+        "state": "liquid",
+        "elasticity": "none",
+        "mouthfeel": "watery"
+      },
+      "regional_alias": {
+        "us": [
+          "Rice vinegar"
+        ],
+        "jp": [
+          "Komezu"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "asian"
+      ],
+      "preparation_forms": [
+        "liquid"
+      ],
+      "scientific_name": "N/A",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A mild, slightly sweet vinegar made from fermented rice, essential for sushi rice and Asian dressings.",
+        "ko": "발효된 쌀로 만든 부드럽고 약간의 단맛이 있는 식초로, 초밥용 밥이나 아시아식 드레싱에 필수적입니다."
+      },
+      "substitutes": [
+        {
+          "id": "apple-cider-vinegar",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "volume"
+          },
+          "substitution_logic": "linear_scaling",
+          "failure_risk": "low",
+          "flavor_delta": {
+            "fruity": 3,
+            "sweetness": 1
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Apple cider vinegar is the closest in acidity but adds a distinct fruity apple note.",
+            "ko": "사과식초는 산도는 가장 비슷하지만 특유의 사과 풍미가 더해집니다."
+          },
+          "compensation_action": {
+            "en": "Use in a 1:1 ratio. If the fruity note is distracting, dilute slightly with water.",
+            "ko": "1:1 비율로 사용하세요. 과일 향이 너무 강하면 물로 아주 살짝 희석하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary Science Lab",
+            "date": "2026-04-24",
+            "confidence_score": 95
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "harissa-paste",
+      "name": {
+        "en": "Harissa Paste",
+        "ko": "하리사 페이스트"
+      },
+      "category": {
+        "en": "Sauces & Condiments",
+        "ko": "소스 및 장류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#B03A2E",
+        "texture": "Granular Oily Paste"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegan",
+        "paleo",
+        "keto"
+      ],
+      "allergens": [
+        "none"
+      ],
+      "swap_warnings": [
+        "매우 강력한 향신료와 고추의 매운맛이 응축되어 있으므로 소량씩 사용하세요.",
+        "기름 층이 분리될 수 있으니 사용 전 섞어주세요."
+      ],
+      "measurement_type": "weight",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 4.2,
+        "moisture_content": 45,
+        "sweetness_index": 5,
+        "viscosity": "thick-granular",
+        "umami_intensity": 7
+      },
+      "thermal_behavior": {
+        "smoke_point_c": 180,
+        "melting_point_c": null,
+        "caramelization": false,
+        "maillard_reaction": true
+      },
+      "functional_properties": [
+        "heat-agent",
+        "flavor-base",
+        "aromatic-agent"
+      ],
+      "texture_profile": {
+        "state": "paste",
+        "elasticity": "none",
+        "mouthfeel": "gritty-oily"
+      },
+      "regional_alias": {
+        "tn": [
+          "Harissa"
+        ],
+        "ma": [
+          "Harissa"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "North Africa",
+          "Middle East",
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "north-african"
+      ],
+      "preparation_forms": [
+        "paste"
+      ],
+      "scientific_name": "N/A",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A hot chili pepper paste from North Africa, containing roasted red peppers, Baklouti peppers, serrano peppers, and other hot chili peppers, spices, and herbs like garlic paste, caraway seeds, coriander seeds, cumin, and olive oil.",
+        "ko": "구운 고추, 마늘, 커민, 고수 씨앗 등을 올리브 오일과 함께 갈아 만든 북아프리카의 매콤한 향신료 페이스트입니다."
+      },
+      "substitutes": [
+        {
+          "id": "gochujang-cumin-mix",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "weight"
+          },
+          "substitution_logic": "manual_blending",
+          "failure_risk": "medium",
+          "flavor_delta": {
+            "smoky": -2,
+            "sweetness": 3,
+            "earthy": 2
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Gochujang is much sweeter and lacks the specific North African spice profile (caraway, coriander).",
+            "ko": "고추장은 훨씬 달고 북아프리카 특유의 향신료(캐러웨이, 고수) 향이 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Mix Gochujang with ground cumin, coriander, and a splash of lemon juice to mimic harissa.",
+            "ko": "고추장에 커민 가루, 고수 가루, 레몬즙을 섞어 하리사와 비슷한 향을 재현하세요."
+          },
+          "verification": {
+            "verified_by": "Chef Jinny Park",
+            "date": "2026-04-24",
+            "confidence_score": 82
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "anchovy-paste",
+      "name": {
+        "en": "Anchovy Paste",
+        "ko": "멸치 페이스트"
+      },
+      "category": {
+        "en": "Sauces & Condiments",
+        "ko": "소스 및 장류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#7B7D7D",
+        "texture": "Smooth Oily Paste"
+      },
+      "difficulty": "easy",
+      "dietary_tags": [
+        "keto",
+        "paleo"
+      ],
+      "allergens": [
+        "fish"
+      ],
+      "swap_warnings": [
+        "매우 짭짤하고 감칠맛이 강하므로 조금씩 넣으면서 간을 조절하세요.",
+        "생선의 비린 향이 있을 수 있으나 열을 가하면 사라집니다."
+      ],
+      "measurement_type": "weight",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 5.5,
+        "moisture_content": 40,
+        "sweetness_index": 0,
+        "viscosity": "thick-paste",
+        "umami_intensity": 10
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": null,
+        "caramelization": false,
+        "maillard_reaction": true
+      },
+      "functional_properties": [
+        "umami-bomb",
+        "salting-agent",
+        "flavor-enhancer"
+      ],
+      "texture_profile": {
+        "state": "paste",
+        "elasticity": "none",
+        "mouthfeel": "creamy-oily"
+      },
+      "regional_alias": {
+        "us": [
+          "Anchovy paste"
+        ],
+        "it": [
+          "Pasta di acciughe"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "Europe",
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "mediterranean"
+      ],
+      "preparation_forms": [
+        "paste"
+      ],
+      "scientific_name": "Engraulis encrasicolus paste",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A smooth paste made from cured anchovies, salt, and olive oil, providing instant umami to sauces and dressings.",
+        "ko": "염장 멸치를 올리브 오일과 함께 갈아 만든 부드러운 페이스트로, 소스나 드레싱에 즉각적인 감칠맛을 더해줍니다."
+      },
+      "substitutes": [
+        {
+          "id": "fish-sauce",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tsp"
+          },
+          "substitution_logic": "linear_scaling",
+          "failure_risk": "low",
+          "flavor_delta": {
+            "funk": 2,
+            "viscosity": -5
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Fish sauce has the same umami profile but is liquid, which may affect the consistency of a paste-based dressing.",
+            "ko": "피쉬소스는 동일한 감칠맛 프로필을 가지지만 액체이므로 페이스트 기반 드레싱의 농도에 영향을 줄 수 있습니다."
+          },
+          "compensation_action": {
+            "en": "Use sparingly. For dressings like Caesar, you may need slightly more thickener (egg/oil).",
+            "ko": "조금씩 사용하세요. 시저 드레싱 같은 경우 농도를 맞추기 위해 유화제(계란/오일)를 살짝 더 조절해야 할 수 있습니다."
+          },
+          "verification": {
+            "verified_by": "Chef Jinny Park",
+            "date": "2026-04-24",
+            "confidence_score": 95
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "yuzu-kosho",
+      "name": {
+        "en": "Yuzu Kosho",
+        "ko": "유즈코쇼"
+      },
+      "category": {
+        "en": "Sauces & Condiments",
+        "ko": "소스 및 장류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#7DCEA0",
+        "texture": "Granular Citrus Paste"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegan",
+        "gluten-free"
+      ],
+      "allergens": [
+        "none"
+      ],
+      "swap_warnings": [
+        "소금 함량이 매우 높으므로(약 10-20%) 추가 간을 조심하세요.",
+        "향이 매우 강하므로 요리의 주재료 향을 덮지 않도록 소량 사용하세요."
+      ],
+      "measurement_type": "weight",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 3.8,
+        "moisture_content": 50,
+        "sweetness_index": 5,
+        "viscosity": "thick-granular",
+        "umami_intensity": 6
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": null,
+        "caramelization": false,
+        "maillard_reaction": false
+      },
+      "functional_properties": [
+        "aromatic-agent",
+        "acidulant",
+        "salting-agent"
+      ],
+      "texture_profile": {
+        "state": "paste",
+        "elasticity": "none",
+        "mouthfeel": "gritty-fresh"
+      },
+      "regional_alias": {
+        "jp": [
+          "Yuzukoshō"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "Japan",
+          "Asia",
+          "Global (Gourmet)"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "japanese"
+      ],
+      "preparation_forms": [
+        "paste"
+      ],
+      "scientific_name": "N/A",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A Japanese fermented paste made from chili peppers, yuzu peel, and salt, known for its bright citrus notes and spicy kick.",
+        "ko": "유자 껍질, 고추, 소금을 발효시켜 만든 일본의 전통 양념으로, 상큼한 유자 향과 알싸한 매운맛이 특징입니다."
+      },
+      "substitutes": [
+        {
+          "id": "lime-chili-salt-mix",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tsp"
+          },
+          "substitution_logic": "manual_blending",
+          "failure_risk": "medium",
+          "flavor_delta": {
+            "citrus": -2,
+            "freshness": 1,
+            "saltiness": 0
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Lime and chili provide the raw elements but lack the deep, unified flavor created by the fermentation process.",
+            "ko": "라임과 고추는 원재료의 느낌은 주지만 발효 과정을 통해 생성되는 깊고 통합된 풍미는 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Mix lime zest, minced green chili, and sea salt. Let it sit for 10 minutes before using.",
+            "ko": "라임 껍질, 다진 풋고추, 천일염을 섞으세요. 사용 전 10분 정도 두어 향이 배어나오게 하세요."
+          },
+          "verification": {
+            "verified_by": "Chef Jinny Park",
+            "date": "2026-04-24",
+            "confidence_score": 80
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "kecap-manis",
+      "name": {
+        "en": "Kecap Manis",
+        "ko": "케찹 마니스"
+      },
+      "category": {
+        "en": "Sauces & Condiments",
+        "ko": "소스 및 장류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#1B2631",
+        "texture": "Inky Syrupy Liquid"
+      },
+      "difficulty": "easy",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "allergens": [
+        "soy",
+        "gluten"
+      ],
+      "swap_warnings": [
+        "일반 간장보다 훨씬 달고 걸쭉하므로 설탕 대용으로 생각하고 사용하세요.",
+        "고온에서 조리 시 당분이 타기 쉬우므로 주의가 필요합니다."
+      ],
+      "measurement_type": "volume",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 4.5,
+        "moisture_content": 30,
+        "sweetness_index": 65,
+        "viscosity": "medium-high-syrup",
+        "umami_intensity": 7
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": null,
+        "caramelization": true,
+        "maillard_reaction": true
+      },
+      "functional_properties": [
+        "glazing-agent",
+        "sweetener",
+        "flavor-base"
+      ],
+      "texture_profile": {
+        "state": "liquid",
+        "elasticity": "low",
+        "mouthfeel": "sticky-smooth"
+      },
+      "regional_alias": {
+        "id": [
+          "Kecap manis"
+        ],
+        "us": [
+          "Indonesian sweet soy sauce"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "Indonesia",
+          "Southeast Asia",
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "indonesian"
+      ],
+      "preparation_forms": [
+        "liquid"
+      ],
+      "scientific_name": "N/A",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A thick, sweet Indonesian soy sauce made from fermented soybeans and heavily sweetened with palm sugar.",
+        "ko": "발효된 대두에 팜 슈가(종려당)를 듬뿍 넣어 만든 걸쭉하고 달콤한 인도네시아식 간장입니다."
+      },
+      "substitutes": [
+        {
+          "id": "soy-sauce-plus-molasses",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "volume"
+          },
+          "substitution_logic": "manual_blending",
+          "failure_risk": "low",
+          "flavor_delta": {
+            "sweetness": 0,
+            "smokiness": 2,
+            "viscosity": 0
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Combining soy sauce with molasses or dark brown sugar closely replicates the texture and sweetness of kecap manis.",
+            "ko": "간장과 당밀(또는 흑설탕)을 결합하면 케찹 마니스의 질감과 단맛을 거의 완벽하게 재현할 수 있습니다."
+          },
+          "compensation_action": {
+            "en": "Mix 1 part soy sauce with 1 part molasses or brown sugar. Heat gently to dissolve.",
+            "ko": "간장 1 : 당밀(또는 흑설탕) 1 비율로 섞으세요. 설탕을 녹이기 위해 살짝 가열하는 것이 좋습니다."
+          },
+          "verification": {
+            "verified_by": "Chef Jinny Park",
+            "date": "2026-04-24",
+            "confidence_score": 95
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chili-crisp",
+      "name": {
+        "en": "Chili Crisp",
+        "ko": "칠리 크리스프"
+      },
+      "category": {
+        "en": "Sauces & Condiments",
+        "ko": "소스 및 장류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#943126",
+        "texture": "Crunchy Oily Sauce"
+      },
+      "difficulty": "easy",
+      "dietary_tags": [
+        "vegan-friendly"
+      ],
+      "allergens": [
+        "soy",
+        "sesame",
+        "peanuts (often)"
+      ],
+      "swap_warnings": [
+        "내용물이 가라앉아 있으므로 사용 전 골고루 저어 기름과 건더기를 함께 뜨세요.",
+        "고추 씨앗이나 조각이 딱딱할 수 있습니다."
+      ],
+      "measurement_type": "weight",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 4.8,
+        "moisture_content": 5,
+        "sweetness_index": 10,
+        "viscosity": "chunky-oil",
+        "umami_intensity": 8
+      },
+      "thermal_behavior": {
+        "smoke_point_c": 190,
+        "melting_point_c": null,
+        "caramelization": false,
+        "maillard_reaction": true
+      },
+      "functional_properties": [
+        "texture-enhancer",
+        "heat-agent",
+        "flavor-booster"
+      ],
+      "texture_profile": {
+        "state": "liquid-solid-mix",
+        "elasticity": "none",
+        "mouthfeel": "crunchy-oily"
+      },
+      "regional_alias": {
+        "cn": [
+          "La Gan Ma style",
+          "Chili oil with dregs"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "chinese"
+      ],
+      "preparation_forms": [
+        "oil-infusion"
+      ],
+      "scientific_name": "N/A",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "An oil-based Chinese condiment made with fried chili peppers, garlic, onions, and other aromatics, providing both heat and a crunchy texture.",
+        "ko": "튀긴 고추, 마늘, 양파 등을 기름에 담가 만든 중국식 조미료로, 매콤한 맛과 바삭한 식감을 동시에 제공합니다."
+      },
+      "substitutes": [
+        {
+          "id": "chili-oil-plus-fried-garlic",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tbsp"
+          },
+          "substitution_logic": "manual_blending",
+          "failure_risk": "low",
+          "flavor_delta": {
+            "crunch": 0,
+            "spiciness": 1,
+            "umami": -2
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Plain chili oil provides the heat but lacks the savory 'umami' bits (fermented beans/MSG) found in chili crisp.",
+            "ko": "일반 고추기름은 매운맛은 주지만 칠리 크리스프 특유의 감칠맛 나는 건더기(발효 콩 등)가 부족합니다."
+          },
+          "compensation_action": {
+            "en": "Mix chili oil with crispy fried garlic/onions and a pinch of MSG or mushroom powder.",
+            "ko": "고추기름에 바삭한 튀긴 마늘/양파와 미원(MSG) 또는 버섯 가루 한 꼬집을 섞으세요."
+          },
+          "verification": {
+            "verified_by": "Chef Jinny Park",
+            "date": "2026-04-24",
+            "confidence_score": 88
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "liquid-smoke",
+      "name": {
+        "en": "Liquid Smoke",
+        "ko": "리퀴드 스모크"
+      },
+      "category": {
+        "en": "Sauces & Condiments",
+        "ko": "소스 및 장류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#212F3C",
+        "texture": "Clear Dark Liquid"
+      },
+      "difficulty": "hard",
+      "dietary_tags": [
+        "vegan",
+        "gluten-free"
+      ],
+      "allergens": [
+        "none"
+      ],
+      "swap_warnings": [
+        "향이 매우 농축되어 있어 단 한 방울만으로도 요리 전체를 망칠 수 있습니다. 극소량부터 시작하세요.",
+        "실제 연기를 응축한 것이므로 훈연 향이 매우 강력합니다."
+      ],
+      "measurement_type": "volume",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 2.5,
+        "moisture_content": 90,
+        "sweetness_index": 0,
+        "viscosity": "low",
+        "umami_intensity": 2
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": 0,
+        "caramelization": false,
+        "maillard_reaction": false
+      },
+      "functional_properties": [
+        "aromatic-agent",
+        "preservative-assistant"
+      ],
+      "texture_profile": {
+        "state": "liquid",
+        "elasticity": "none",
+        "mouthfeel": "watery"
+      },
+      "regional_alias": {
+        "us": [
+          "Liquid smoke concentrate"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "USA",
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "american"
+      ],
+      "preparation_forms": [
+        "liquid"
+      ],
+      "scientific_name": "N/A",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A concentrated liquid used to add smoky flavor to food without actual smoking, produced by condensing wood smoke into water.",
+        "ko": "나무 연기를 수증기로 응축시켜 만든 농축액으로, 실제 훈연 과정 없이 요리에 강력한 불맛과 훈제 향을 더해줍니다."
+      },
+      "substitutes": [
+        {
+          "id": "smoked-paprika",
+          "ratio": {
+            "source": 1,
+            "target_min": 5,
+            "target_max": 10,
+            "unit": "weight"
+          },
+          "substitution_logic": "manual_scaling",
+          "failure_risk": "medium",
+          "flavor_delta": {
+            "smokiness": -3,
+            "color": 5,
+            "earthiness": 2
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Smoked paprika provides a similar aroma but adds significant red color and mild pepper flavor/texture.",
+            "ko": "훈제 파프리카는 비슷한 향을 제공하지만 붉은 색상과 고추 특유의 풍미/질감을 추가합니다."
+          },
+          "compensation_action": {
+            "en": "Use 1/2 tsp smoked paprika to replace 1 drop of liquid smoke. Adjust color accordingly.",
+            "ko": "리퀴드 스모크 1방울 대신 훈제 파프리카 1/2작은술을 사용하세요. 요리의 색 변화에 주의하세요."
+          },
+          "verification": {
+            "verified_by": "Chef Jinny Park",
+            "date": "2026-04-24",
+            "confidence_score": 85
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "coconut-aminos",
+      "name": {
+        "en": "Coconut Aminos",
+        "ko": "코코넛 아미노스"
+      },
+      "category": {
+        "en": "Sauces & Condiments",
+        "ko": "소스 및 장류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#5D4037",
+        "texture": "Dark Liquid"
+      },
+      "difficulty": "easy",
+      "dietary_tags": [
+        "vegan",
+        "paleo",
+        "soy-free",
+        "low-sodium"
+      ],
+      "allergens": [
+        "none"
+      ],
+      "swap_warnings": [
+        "일반 간장보다 염도가 훨씬 낮고 단맛이 강하므로 간 조절 시 주의하세요.",
+        "대두 알레르기가 있는 분들에게 훌륭한 간장 대용품입니다."
+      ],
+      "measurement_type": "volume",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 4.2,
+        "moisture_content": 70,
+        "sweetness_index": 35,
+        "viscosity": "low-medium",
+        "umami_intensity": 6
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": 0,
+        "caramelization": true,
+        "maillard_reaction": true
+      },
+      "functional_properties": [
+        "salting-agent",
+        "umami-booster",
+        "flavor-base"
+      ],
+      "texture_profile": {
+        "state": "liquid",
+        "elasticity": "none",
+        "mouthfeel": "watery-syrupy"
+      },
+      "regional_alias": {
+        "us": [
+          "Soy sauce alternative",
+          "Coco aminos"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "USA",
+          "Global (Health food)"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "tropical"
+      ],
+      "preparation_forms": [
+        "liquid"
+      ],
+      "scientific_name": "N/A",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A salty, savory seasoning sauce made from fermented coconut sap and sea salt, popular as a soy-free alternative.",
+        "ko": "코코넛 수액과 천일염을 발효시켜 만든 짭조름하고 감칠맛 나는 소스로, 대두가 들어가지 않아 간장 대용으로 인기가 높습니다."
+      },
+      "substitutes": [
+        {
+          "id": "soy-sauce-plus-honey",
+          "ratio": {
+            "source": 1,
+            "target_min": 0.5,
+            "target_max": 0.7,
+            "unit": "volume"
+          },
+          "substitution_logic": "manual_blending",
+          "failure_risk": "low",
+          "flavor_delta": {
+            "saltiness": 4,
+            "sweetness": -1,
+            "umami": 2
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Soy sauce is much saltier. You must dilute it and add sugar to match coconut aminos.",
+            "ko": "간장은 훨씬 짭니다. 코코넛 아미노스와 맞추려면 물로 희석하고 설탕을 추가해야 합니다."
+          },
+          "compensation_action": {
+            "en": "Mix 1 part soy sauce with 1 part water and a dash of honey or agave syrup.",
+            "ko": "간장 1 : 물 1 비율로 섞고 꿀이나 아가베 시럽을 한 대쉬 추가하세요."
+          },
+          "verification": {
+            "verified_by": "Chef Jinny Park",
+            "date": "2026-04-24",
+            "confidence_score": 90
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doubanjiang",
+      "name": {
+        "en": "Doubanjiang",
+        "ko": "두반장"
+      },
+      "category": {
+        "en": "Sauces & Condiments",
+        "ko": "소스 및 장류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#78281F",
+        "texture": "Chunky Dark Paste"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegan",
+        "halal"
+      ],
+      "allergens": [
+        "soy",
+        "gluten"
+      ],
+      "swap_warnings": [
+        "고추장의 매운맛과는 달리 짠맛과 콩의 발효 풍미가 매우 강력합니다.",
+        "사천 요리의 핵심이므로 대체 시 특유의 풍미가 사라질 수 있습니다."
+      ],
+      "measurement_type": "weight",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 5.2,
+        "moisture_content": 45,
+        "sweetness_index": 5,
+        "viscosity": "thick-chunky",
+        "umami_intensity": 10
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": null,
+        "caramelization": false,
+        "maillard_reaction": true
+      },
+      "functional_properties": [
+        "flavor-base",
+        "umami-bomb",
+        "salting-agent"
+      ],
+      "texture_profile": {
+        "state": "paste",
+        "elasticity": "none",
+        "mouthfeel": "chunky-oily"
+      },
+      "regional_alias": {
+        "cn": [
+          "Pixian douban",
+          "Chili bean paste"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "China",
+          "Asia",
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "chinese-sichuan"
+      ],
+      "preparation_forms": [
+        "paste"
+      ],
+      "scientific_name": "N/A",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A spicy, salty fermented bean paste made from broad beans, soybeans, salt, rice, and various spices, known as the 'soul of Sichuan cuisine'.",
+        "ko": "누에콩(잠두), 대두, 소금, 고추 등을 발효시켜 만든 맵고 짭짤한 중국식 장류로, 사천 요리의 정수로 불립니다."
+      },
+      "substitutes": [
+        {
+          "id": "gochujang-miso-mix",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "weight"
+          },
+          "substitution_logic": "manual_blending",
+          "failure_risk": "medium",
+          "flavor_delta": {
+            "sweetness": 4,
+            "saltiness": -2,
+            "spiciness": 0
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Gochujang is much sweeter than Doubanjiang. Miso adds back the missing fermented bean depth.",
+            "ko": "고추장은 두반장보다 훨씬 답니다. 미소 된장이 부족한 콩의 깊은 발효 맛을 보충해줍니다."
+          },
+          "compensation_action": {
+            "en": "Mix 1 part Gochujang with 1 part Miso and add a splash of soy sauce and chili flakes.",
+            "ko": "고추장 1 : 미소 1 비율로 섞고 간장과 고춧가루를 약간 추가하여 당도를 낮추고 염도를 높이세요."
+          },
+          "verification": {
+            "verified_by": "Chef Jinny Park",
+            "date": "2026-04-24",
+            "confidence_score": 85
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "rice-vinegar",
+      "name": {
+        "en": "Rice Vinegar",
+        "ko": "쌀식초"
+      },
+      "category": {
+        "en": "Sauces & Condiments",
+        "ko": "소스 및 장류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#FDFEFE",
+        "texture": "Clear Liquid"
+      },
+      "difficulty": "easy",
+      "dietary_tags": [
+        "vegan",
+        "gluten-free"
+      ],
+      "allergens": [
+        "none"
+      ],
+      "swap_warnings": [
+        "일반 화이트 식초보다 산도가 낮고 단맛이 있으므로 대체 시 신맛 조절이 필요합니다.",
+        "조미된(Seasoned) 식초에는 설탕과 소금이 들어있으니 주의하세요."
+      ],
+      "measurement_type": "volume",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 3.2,
+        "moisture_content": 94,
+        "sweetness_index": 10,
+        "viscosity": "low",
+        "umami_intensity": 3
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": 0,
+        "caramelization": false,
+        "maillard_reaction": false
+      },
+      "functional_properties": [
+        "acidulant",
+        "preservative",
+        "tenderizer",
+        "brightness-agent"
+      ],
+      "texture_profile": {
+        "state": "liquid",
+        "elasticity": "none",
+        "mouthfeel": "watery"
+      },
+      "regional_alias": {
+        "us": [
+          "Rice vinegar"
+        ],
+        "jp": [
+          "Komezu"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "asian"
+      ],
+      "preparation_forms": [
+        "liquid"
+      ],
+      "scientific_name": "N/A",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A mild, slightly sweet vinegar made from fermented rice, essential for sushi rice and Asian dressings.",
+        "ko": "발효된 쌀로 만든 부드럽고 약간의 단맛이 있는 식초로, 초밥용 밥이나 아시아식 드레싱에 필수적입니다."
+      },
+      "substitutes": [
+        {
+          "id": "apple-cider-vinegar",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "volume"
+          },
+          "substitution_logic": "linear_scaling",
+          "failure_risk": "low",
+          "flavor_delta": {
+            "fruity": 3,
+            "sweetness": 1
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Apple cider vinegar is the closest in acidity but adds a distinct fruity apple note.",
+            "ko": "사과식초는 산도는 가장 비슷하지만 특유의 사과 풍미가 더해집니다."
+          },
+          "compensation_action": {
+            "en": "Use in a 1:1 ratio. If the fruity note is distracting, dilute slightly with water.",
+            "ko": "1:1 비율로 사용하세요. 과일 향이 너무 강하면 물로 아주 살짝 희석하세요."
+          },
+          "verification": {
+            "verified_by": "Culinary Science Lab",
+            "date": "2026-04-24",
+            "confidence_score": 95
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    },
+    {
+      "id": "guk-ganjang",
+      "name": {
+        "en": "Soup Soy Sauce",
+        "ko": "국간장"
+      },
+      "category": {
+        "en": "Sauces & Condiments",
+        "ko": "소스 및 장류"
+      },
+      "icon": "🧂",
+      "visual_identity": {
+        "primary_color": "#1B2631",
+        "texture": "Dark Thin Liquid"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegan",
+        "halal",
+        "keto"
+      ],
+      "allergens": [
+        "soy",
+        "gluten"
+      ],
+      "swap_warnings": [
+        "일반 진간장보다 훨씬 짜고 색이 연하므로 양 조절에 매우 주의해야 합니다.",
+        "국물 요리의 색을 해치지 않으면서 감칠맛과 염도를 맞추는 데 최적화되어 있습니다."
+      ],
+      "measurement_type": "volume",
+      "best_use_cases": [],
+      "avoid_use_cases": [],
+      "properties": {
+        "ph_level": 4.8,
+        "moisture_content": 65,
+        "sweetness_index": 5,
+        "viscosity": "low",
+        "umami_intensity": 9
+      },
+      "thermal_behavior": {
+        "smoke_point_c": null,
+        "melting_point_c": 0,
+        "caramelization": false,
+        "maillard_reaction": true
+      },
+      "functional_properties": [
+        "salting-agent",
+        "umami-booster",
+        "odor-remover"
+      ],
+      "texture_profile": {
+        "state": "liquid",
+        "elasticity": "none",
+        "mouthfeel": "watery"
+      },
+      "regional_alias": {
+        "ko": [
+          "조선간장",
+          "집간장",
+          "청장"
+        ],
+        "us": [
+          "Korean soup soy sauce"
+        ]
+      },
+      "regional_availability": {
+        "common_in": [
+          "Korea",
+          "Global"
+        ],
+        "rare_in": [
+          "none"
+        ]
+      },
+      "cuisine_origin": [
+        "korean"
+      ],
+      "preparation_forms": [
+        "liquid"
+      ],
+      "scientific_name": "N/A",
+      "schema_org_type": "Product",
+      "description": {
+        "en": "A traditional Korean soy sauce made during the doenjang production process, characterized by its lighter color and higher salt content compared to regular soy sauce.",
+        "ko": "전통 방식으로 된장을 만드는 과정에서 생성되는 간장으로, 일반 간장보다 색이 연하고 염도가 높아 국물 요리의 간을 맞추는 데 주로 사용됩니다."
+      },
+      "substitutes": [
+        {
+          "id": "light-soy-sauce-plus-salt",
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "volume"
+          },
+          "substitution_logic": "manual_blending",
+          "failure_risk": "low",
+          "flavor_delta": {
+            "saltiness": -2,
+            "sweetness": 2,
+            "pungency": -3
+          },
+          "texture_impact": "",
+          "chemical_impact": {
+            "en": "Light soy sauce (regular) is sweeter and less salty. It may darken the soup if used in large quantities.",
+            "ko": "일반 진간장은 더 달고 덜 짭니다. 많이 사용하면 국물 색이 너무 어두워질 수 있습니다."
+          },
+          "compensation_action": {
+            "en": "Use regular soy sauce but reduce the amount and add sea salt to reach the desired salinity without darkening the color.",
+            "ko": "일반 간장 사용 시 양을 줄이고 부족한 간은 천일염으로 채워 국물 색이 변하는 것을 막으세요."
+          },
+          "verification": {
+            "verified_by": "Chef Jinny Park",
+            "date": "2026-04-24",
+            "confidence_score": 92
+          },
+          "name": {
+            "en": "Alternative",
+            "ko": "대안 재료"
+          },
+          "why_it_works": {
+            "en": "Chemical similarity.",
+            "ko": "화학적 유사성."
+          }
+        }
+      ]
+    }
+  ]
+}

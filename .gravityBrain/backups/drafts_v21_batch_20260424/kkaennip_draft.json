@@ -1,0 +1,53 @@
+{
+  "id": "kkaennip",
+  "name": { "en": "Perilla Leaves", "ko": "깻잎" },
+  "icon": "🍃",
+  "category": { "en": "Herbs & Spices", "ko": "허브 및 향신료" },
+  "visual_identity": { "primary_color": "#228B22", "texture": "Veined Leaf" },
+  "difficulty": "medium",
+  "dietary_tags": ["vegan", "gluten-free", "keto"],
+  "allergens": ["none"],
+  "swap_warnings": ["향이 매우 강하므로 대체 시 양 조절이 중요합니다.", "시소(Shiso)와는 다른 품종임을 인지해야 합니다."],
+  "measurement_type": "unit",
+  "best_use_cases": ["wraps", "pickles", "stews", "stir-fries"],
+  "avoid_use_cases": ["mild-salads (can be overpowering)"],
+  "properties": {
+    "ph_level": 6.2,
+    "moisture_content": 85.0,
+    "sweetness_index": 5,
+    "viscosity": "solid",
+    "umami_intensity": 3
+  },
+  "thermal_behavior": {
+    "smoke_point_c": null,
+    "melting_point_c": null,
+    "caramelization": false,
+    "maillard_reaction": false
+  },
+  "functional_properties": ["aromatic", "garnish", "preservative"],
+  "texture_profile": { "state": "solid", "elasticity": "low", "mouthfeel": "textured" },
+  "regional_alias": { "us": ["Wild sesame leaves (incorrect but common)", "Korean perilla"], "jp": ["エゴマの葉"] },
+  "regional_availability": { "common_in": ["Korea", "Vietnam"], "rare_in": ["Europe", "US"] },
+  "cuisine_origin": ["korean"],
+  "preparation_forms": ["fresh", "dried", "powder", "paste"],
+  "scientific_name": "Perilla frutescens var. frutescens",
+  "schema_org_type": "NutritionInformation",
+  "substitutes": [
+    {
+      "id": "shiso",
+      "ratio": { "source": 1, "target_min": 1, "target_max": 1.2, "unit": "leaf" },
+      "substitution_logic": "linear_scaling",
+      "failure_risk": "low",
+      "flavor_delta": { "citrus": 2, "mint": 1, "anise": -3 },
+      "chemical_impact": {
+        "en": "Shiso has a more citrusy and grassy profile compared to the deep anise flavor of kkaennip.",
+        "ko": "시소는 깻잎의 깊은 향(애니스향)에 비해 더 상큼하고 풀 향이 강합니다."
+      },
+      "compensation_action": {
+        "en": "Use slightly more shiso if a strong aromatic presence is desired.",
+        "ko": "강한 향이 필요하다면 시소의 양을 약간 늘려 사용하세요."
+      },
+      "verification": { "verified_by": "Chef Jinny Park", "date": "2026-04-24", "confidence_score": 85 }
+    }
+  ]
+}

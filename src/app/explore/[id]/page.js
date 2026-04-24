@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import IngredientDetailView from '@/components/swap/IngredientDetailView';
-import ingredientsData from '@/lib/data/ingredients.json';
+import ingredientsData from '@/lib/data/ingredients';
 import { notFound } from 'next/navigation';
 
 export async function generateMetadata({ params }) {

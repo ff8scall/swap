@@ -1,0 +1,187 @@
+{
+  "id": "ssaltteumul",
+  "name": {
+    "en": "Salt",
+    "ko": "소금"
+  },
+  "icon": "🧂",
+  "category": {
+    "en": "Seasoning",
+    "ko": "양념"
+  },
+  "visual_identity": {
+    "primary_color": "#FFFFFF",
+    "texture": "Crystalline"
+  },
+  "difficulty": "easy",
+  "dietary_tags": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten-Free"
+  ],
+  "allergens": [],
+  "swap_warnings": [
+    "Excessive sodium intake",
+    "Iodine deficiency risk if non-iodized"
+  ],
+  "measurement_type": "weight",
+  "best_use_cases": [
+    "Finishing",
+    "Brining",
+    "Seasoning"
+  ],
+  "avoid_use_cases": [
+    "Raw consumption without dilution",
+    "High heat without oil (clumping)"
+  ],
+  "properties": {
+    "ph_level": 7,
+    "moisture_content": 1.5,
+    "sweetness_index": 0,
+    "viscosity": "solid",
+    "umami_intensity": 0
+  },
+  "thermal_behavior": {
+    "smoke_point_c": null,
+    "melting_point_c": 801,
+    "caramelization": false,
+    "maillard_reaction": false
+  },
+  "functional_properties": [
+    "Electrolyte",
+    "Flavor Enhancer",
+    "Preservative"
+  ],
+  "texture_profile": {
+    "state": "solid",
+    "elasticity": "none",
+    "mouthfeel": "Salty/Crunchy"
+  },
+  "regional_alias": {
+    "KR": [
+      "소금",
+      "굵은 소금",
+      "꽃소금"
+    ],
+    "US": [
+      "Table Salt",
+      "Canning Salt",
+      "Sea Salt"
+    ],
+    "JP": [
+      "塩",
+      "岩塩"
+    ]
+  },
+  "regional_availability": {
+    "common_in": [
+      "Global",
+      "Korea",
+      "Japan",
+      "USA"
+    ],
+    "rare_in": []
+  },
+  "cuisine_origin": [
+    "Global"
+  ],
+  "preparation_forms": [
+    "Granular",
+    "Flake",
+    "Crystal"
+  ],
+  "scientific_name": "Sodium Chloride",
+  "schema_org_type": "FoodIngredient",
+  "substitutes": [
+    {
+      "id": "kosher-salt",
+      "ratio": {
+        "source": 1,
+        "target_min": 1.2,
+        "target_max": 1.5,
+        "unit": "g"
+      },
+      "substitution_logic": "linear_scaling",
+      "failure_risk": "low",
+      "flavor_delta": {
+        "saltiness": 1,
+        "mouthfeel": 0.8
+      },
+      "texture_impact": "Coarser crystals, slower dissolution",
+      "chemical_impact": {
+        "en": "Same NaCl composition, larger crystal structure affects dissolution rate and texture perception.",
+        "ko": "동일한 NaCl 성분이나 결정 구조가 더 커서 용해 속도와 식감 인지가 달라집니다."
+      },
+      "compensation_action": {
+        "en": "Adjust volume for texture. Use less if fine texture is desired.",
+        "ko": "식감을 위해 양을 조절하세요. 부드러운 식감이 필요하면 양을 줄이세요."
+      },
+      "verification": {
+        "verified_by": "Culinary Science Lab",
+        "date": "2023-10-27",
+        "confidence_score": 98,
+        "lab_note": "Crystal size difference confirmed via microscopy."
+      }
+    },
+    {
+      "id": "monosodium-glutamate",
+      "ratio": {
+        "source": 1,
+        "target_min": 0.5,
+        "target_max": 0.8,
+        "unit": "g"
+      },
+      "substitution_logic": "threshold",
+      "failure_risk": "medium",
+      "flavor_delta": {
+        "saltiness": -0.5,
+        "umami": 5
+      },
+      "texture_impact": "Dissolves instantly, no texture",
+      "chemical_impact": {
+        "en": "Glutamate replaces chloride ions, providing umami without sodium chloride structure.",
+        "ko": "글루탐산염이 염화 이온을 대체하여 나트륨 염화물 구조 없이 감칠맛을 제공합니다."
+      },
+      "compensation_action": {
+        "en": "Add salt to balance sodium levels if sodium reduction is not the goal.",
+        "ko": "나트륨 감소를 목표로 하지 않는다면 나트륨 균형을 위해 소금을 추가하세요."
+      },
+      "verification": {
+        "verified_by": "Culinary Science Lab",
+        "date": "2023-10-27",
+        "confidence_score": 92,
+        "lab_note": "Taste panel consensus on umami equivalence."
+      }
+    },
+    {
+      "id": "soy-sauce",
+      "ratio": {
+        "source": 1,
+        "target_min": 15,
+        "target_max": 20,
+        "unit": "ml"
+      },
+      "substitution_logic": "manual",
+      "failure_risk": "high",
+      "flavor_delta": {
+        "saltiness": 1.5,
+        "savoriness": 3
+      },
+      "texture_impact": "Liquid, adds moisture",
+      "chemical_impact": {
+        "en": "Complex mixture of amino acids and salts, introduces fermentation flavors.",
+        "ko": "아미노산과 염의 복잡한 혼합물이며 발효 풍미를 추가합니다."
+      },
+      "compensation_action": {
+        "en": "Reduce other liquids in the recipe to account for added moisture.",
+        "ko": "추가된 수분을 고려하여 레시피의 다른 액체 양을 줄이세요."
+      },
+      "verification": {
+        "verified_by": "Culinary Science Lab",
+        "date": "2023-10-27",
+        "confidence_score": 85,
+        "lab_note": "Flavor profile shift significant for non-Asian dishes."
+      }
+    }
+  ]
+}

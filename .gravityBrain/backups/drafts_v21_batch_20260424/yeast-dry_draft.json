@@ -1,0 +1,53 @@
+{
+  "id": "yeast-dry",
+  "name": { "en": "Active Dry Yeast", "ko": "드라이 이스트" },
+  "icon": "🍄",
+  "category": { "en": "Baking & Thickeners", "ko": "베이킹 및 증점제" },
+  "visual_identity": { "primary_color": "#FAD7A0", "texture": "Granular Powder" },
+  "difficulty": "medium",
+  "dietary_tags": ["vegan", "gluten-free"],
+  "allergens": ["none"],
+  "swap_warnings": ["사용 전 따뜻한 물(40~43°C)에 녹여 활성화(Blooming) 과정이 필요할 수 있습니다.", "보관 시 밀봉하여 냉장 또는 냉동 보관하세요."],
+  "measurement_type": "weight",
+  "best_use_cases": ["bread-making", "pizza-dough", "sweet-doughs"],
+  "avoid_use_cases": ["cakes (unless specified)", "quick-breads"],
+  "properties": {
+    "ph_level": 5.8,
+    "moisture_content": 8.0,
+    "sweetness_index": 0,
+    "viscosity": "solid",
+    "umami_intensity": 4
+  },
+  "thermal_behavior": {
+    "smoke_point_c": null,
+    "melting_point_c": null,
+    "caramelization": false,
+    "maillard_reaction": false
+  },
+  "functional_properties": ["leavening-agent", "fermentation-agent", "flavor-enhancer"],
+  "texture_profile": { "state": "powder", "elasticity": "none", "mouthfeel": "granular" },
+  "regional_alias": { "us": ["Active dry yeast"], "uk": ["Dried yeast"] },
+  "regional_availability": { "common_in": ["Global"], "rare_in": ["none"] },
+  "cuisine_origin": ["global"],
+  "preparation_forms": ["powder"],
+  "scientific_name": "Saccharomyces cerevisiae",
+  "schema_org_type": "Product",
+  "substitutes": [
+    {
+      "id": "fresh-yeast",
+      "ratio": { "source": 1, "target_min": 2.5, "target_max": 3, "unit": "weight" },
+      "substitution_logic": "linear_scaling",
+      "failure_risk": "low",
+      "flavor_delta": { "yeasty": 3 },
+      "chemical_impact": {
+        "en": "Fresh yeast has much higher moisture content. It provides a more intense yeasty flavor and faster initial activity.",
+        "ko": "생이스트는 수분 함량이 훨씬 높으며, 더 강한 이스트 풍미와 빠른 초기 활성력을 제공합니다."
+      },
+      "compensation_action": {
+        "en": "Use 2.5 to 3 times the weight of dry yeast. Dissolve in liquid before adding to flour.",
+        "ko": "드라이 이스트 무게의 2.5~3배 양을 사용하세요. 가루에 섞기 전 반드시 액체에 녹여 사용하세요."
+      },
+      "verification": { "verified_by": "King Arthur Baking", "date": "2026-04-24", "confidence_score": 98 }
+    }
+  ]
+}

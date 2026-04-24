@@ -1,0 +1,53 @@
+{
+  "id": "almond-flour",
+  "name": { "en": "Almond Flour", "ko": "아몬드 가루" },
+  "icon": "🥜",
+  "category": { "en": "Baking & Thickeners", "ko": "베이킹 및 증점제" },
+  "visual_identity": { "primary_color": "#F9E79F", "texture": "Granular Nutty Powder" },
+  "difficulty": "medium",
+  "dietary_tags": ["vegan", "gluten-free", "keto"],
+  "allergens": ["nuts"],
+  "swap_warnings": ["지방 함량이 매우 높으므로 조리 시 유분 밸런스에 주의하세요.", "견과류 알레르기 유발 물질입니다."],
+  "measurement_type": "weight",
+  "best_use_cases": ["macarons", "low-carb-baking", "gluten-free-cakes", "coatings"],
+  "avoid_use_cases": ["high-gluten-breads", "pizza-dough (as a direct replacement)"],
+  "properties": {
+    "ph_level": 6.8,
+    "moisture_content": 5.0,
+    "sweetness_index": 10,
+    "viscosity": "solid",
+    "umami_intensity": 3
+  },
+  "thermal_behavior": {
+    "smoke_point_c": null,
+    "melting_point_c": null,
+    "caramelization": false,
+    "maillard_reaction": true
+  },
+  "functional_properties": ["structural-agent", "fat-source", "flavor-enhancer"],
+  "texture_profile": { "state": "powder", "elasticity": "none", "mouthfeel": "granular" },
+  "regional_alias": { "us": ["Almond meal (if coarse)", "Ground almonds"] },
+  "regional_availability": { "common_in": ["Global"], "rare_in": ["none"] },
+  "cuisine_origin": ["global"],
+  "preparation_forms": ["powder"],
+  "scientific_name": "Prunus dulcis",
+  "schema_org_type": "Product",
+  "substitutes": [
+    {
+      "id": "sunflower-seed-flour",
+      "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "weight" },
+      "substitution_logic": "linear_scaling",
+      "failure_risk": "low",
+      "flavor_delta": { "nutty": -1, "earthy": 2 },
+      "chemical_impact": {
+        "en": "Sunflower seed flour is a great nut-free alternative but may turn green due to reaction with baking soda.",
+        "ko": "해바라기씨 가루는 훌륭한 견과류 프리 대안이지만, 베이킹소다와 반응하여 녹색으로 변할 수 있습니다."
+      },
+      "compensation_action": {
+        "en": "Add a teaspoon of lemon juice or cream of tartar to prevent the green color change.",
+        "ko": "녹색으로 변하는 것을 막기 위해 레몬즙이나 크림 오브 타르타르를 1작은술 추가하세요."
+      },
+      "verification": { "verified_by": "Chef Jinny Park", "date": "2026-04-24", "confidence_score": 90 }
+    }
+  ]
+}

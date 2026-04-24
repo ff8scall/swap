@@ -1,0 +1,53 @@
+{
+  "id": "mirin-homemade",
+  "name": { "en": "Homemade Mirin", "ko": "수제 미림" },
+  "icon": "🍶",
+  "category": { "en": "Pantry Essentials & Sweeteners", "ko": "기본 식재료 및 감미료" },
+  "visual_identity": { "primary_color": "#F9E79F", "texture": "Clear Amber Liquid" },
+  "difficulty": "easy",
+  "dietary_tags": ["vegan", "gluten-free"],
+  "allergens": ["none"],
+  "swap_warnings": ["알코올과 당분이 포함되어 있으므로 보관 시 밀봉하여 냉장 보관하세요."],
+  "measurement_type": "volume",
+  "best_use_cases": ["glazes", "marinades", "sauces", "odor-removal"],
+  "avoid_use_cases": ["alcohol-free cooking"],
+  "properties": {
+    "ph_level": 4.5,
+    "moisture_content": 60.0,
+    "sweetness_index": 45,
+    "viscosity": "medium",
+    "umami_intensity": 5
+  },
+  "thermal_behavior": {
+    "smoke_point_c": 78,
+    "melting_point_c": -5,
+    "caramelization": true,
+    "maillard_reaction": false
+  },
+  "functional_properties": ["glazing-agent", "odor-remover", "sweetener"],
+  "texture_profile": { "state": "liquid", "elasticity": "none", "mouthfeel": "syrupy" },
+  "regional_alias": { "us": ["Mirin substitute", "Rice wine with sugar"] },
+  "regional_availability": { "common_in": ["Global (Home-made)"], "rare_in": ["none"] },
+  "cuisine_origin": ["japanese"],
+  "preparation_forms": ["liquid"],
+  "scientific_name": "N/A",
+  "schema_org_type": "Product",
+  "substitutes": [
+    {
+      "id": "sake-plus-sugar",
+      "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "volume" },
+      "substitution_logic": "manual",
+      "failure_risk": "low",
+      "flavor_delta": { "sweet": 0, "umami": 0 },
+      "chemical_impact": {
+        "en": "Combining sake with sugar replicates the alcohol and sweetness profile of authentic mirin.",
+        "ko": "사케와 설탕을 조합하면 정통 미림의 알코올 및 당분 프로필을 완벽하게 재현할 수 있습니다."
+      },
+      "compensation_action": {
+        "en": "Mix 3 parts sake with 1 part sugar (or 2:1 for sweeter recipes).",
+        "ko": "사케 3 : 설탕 1의 비율로 섞어서 사용하세요. (더 단 맛을 원하면 2:1)"
+      },
+      "verification": { "verified_by": "Chef Jinny Park", "date": "2026-04-24", "confidence_score": 95 }
+    }
+  ]
+}

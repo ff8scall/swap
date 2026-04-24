@@ -1,0 +1,53 @@
+{
+  "id": "potato-starch",
+  "name": { "en": "Potato Starch", "ko": "감자 전분" },
+  "icon": "🥔",
+  "category": { "en": "Baking & Thickeners", "ko": "베이킹 및 증점제" },
+  "visual_identity": { "primary_color": "#FBFCFC", "texture": "Silky Fine Powder" },
+  "difficulty": "easy",
+  "dietary_tags": ["vegan", "gluten-free"],
+  "allergens": ["none"],
+  "swap_warnings": ["고온에서 오래 끓이면 점도가 깨질 수 있으므로 조리 마지막에 넣으세요."],
+  "measurement_type": "weight",
+  "best_use_cases": ["clear-soups", "gravies", "frying-batter (for crispiness)"],
+  "avoid_use_cases": ["pie-fillings (can become gluey)"],
+  "properties": {
+    "ph_level": 6.5,
+    "moisture_content": 15.0,
+    "sweetness_index": 0,
+    "viscosity": "thick",
+    "umami_intensity": 1
+  },
+  "thermal_behavior": {
+    "smoke_point_c": null,
+    "melting_point_c": null,
+    "caramelization": false,
+    "maillard_reaction": false
+  },
+  "functional_properties": ["thickener", "crisping-agent"],
+  "texture_profile": { "state": "powder", "elasticity": "medium", "mouthfeel": "silky" },
+  "regional_alias": { "us": ["Potato starch flour"] },
+  "regional_availability": { "common_in": ["Global"], "rare_in": ["none"] },
+  "cuisine_origin": ["global"],
+  "preparation_forms": ["powder"],
+  "scientific_name": "Solanum tuberosum starch",
+  "schema_org_type": "Product",
+  "substitutes": [
+    {
+      "id": "cornstarch",
+      "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "tbsp" },
+      "substitution_logic": "linear_scaling",
+      "failure_risk": "low",
+      "flavor_delta": { "clarity": -2, "texture": -1 },
+      "chemical_impact": {
+        "en": "Cornstarch is more heat-stable but produces a more opaque sauce than potato starch.",
+        "ko": "옥수수 전분은 열에 더 안정적이지만, 감자 전분보다 소스가 더 불투명해집니다."
+      },
+      "compensation_action": {
+        "en": "Use in a 1:1 ratio. Simmer longer if needed to remove the starchy taste.",
+        "ko": "1:1 비율로 사용하세요. 전분 맛을 없애기 위해 필요 시 조금 더 오래 끓이세요."
+      },
+      "verification": { "verified_by": "Chef Jinny Park", "date": "2026-04-24", "confidence_score": 95 }
+    }
+  ]
+}

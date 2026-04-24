@@ -1,0 +1,53 @@
+{
+  "id": "glutinous-rice-flour",
+  "name": { "en": "Glutinous Rice Flour", "ko": "찹쌀가루" },
+  "icon": "🍚",
+  "category": { "en": "Baking & Thickeners", "ko": "베이킹 및 증점제" },
+  "visual_identity": { "primary_color": "#FDFEFE", "texture": "Sticky Fine Powder" },
+  "difficulty": "medium",
+  "dietary_tags": ["vegan", "gluten-free"],
+  "allergens": ["none"],
+  "swap_warnings": ["일반 쌀가루보다 훨씬 끈적거리므로 요리의 목적에 맞게 선택하세요."],
+  "measurement_type": "weight",
+  "best_use_cases": ["kimchi-paste-base", "desserts (mochi/tteok)", "thickening-soups"],
+  "avoid_use_cases": ["standard-wheat-bread-recipes"],
+  "properties": {
+    "ph_level": 6.5,
+    "moisture_content": 12.0,
+    "sweetness_index": 5,
+    "viscosity": "very-thick",
+    "umami_intensity": 2
+  },
+  "thermal_behavior": {
+    "smoke_point_c": null,
+    "melting_point_c": null,
+    "caramelization": false,
+    "maillard_reaction": false
+  },
+  "functional_properties": ["thickener", "binder", "chewiness-agent"],
+  "texture_profile": { "state": "powder", "elasticity": "very-high", "mouthfeel": "sticky" },
+  "regional_alias": { "us": ["Sweet rice flour", "Mochiko"] },
+  "regional_availability": { "common_in": ["Asia"], "rare_in": ["Global"] },
+  "cuisine_origin": ["asian"],
+  "preparation_forms": ["powder"],
+  "scientific_name": "Oryza sativa var. glutinosa",
+  "schema_org_type": "Product",
+  "substitutes": [
+    {
+      "id": "tapioca-starch",
+      "ratio": { "source": 1, "target_min": 0.8, "target_max": 1, "unit": "weight" },
+      "substitution_logic": "linear_scaling",
+      "failure_risk": "medium",
+      "flavor_delta": { "stickiness": 1, "chewiness": 2 },
+      "chemical_impact": {
+        "en": "Tapioca starch provides a similar chewy texture but is more translucent and slightly more elastic.",
+        "ko": "타피오카 전분은 비슷한 쫄깃한 식감을 제공하지만 더 투명하고 탄성이 강합니다."
+      },
+      "compensation_action": {
+        "en": "Use in a similar weight ratio. Be aware of the increased translucency in sauces.",
+        "ko": "비슷한 무게 비율로 사용하세요. 소스가 더 투명해질 수 있음을 고려하세요."
+      },
+      "verification": { "verified_by": "Chef Jinny Park", "date": "2026-04-24", "confidence_score": 80 }
+    }
+  ]
+}

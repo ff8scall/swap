@@ -1,0 +1,1131 @@
+{
+  "meta": {
+    "category_en": "Dairy & Fats",
+    "category_ko": "유제품 및 유지류",
+    "count": 10,
+    "generated_at": "2026-04-24T01:31:42.972Z"
+  },
+  "ingredients": [
+    {
+      "id": "sour-cream",
+      "name": {
+        "en": "Sour Cream",
+        "ko": "사워크림"
+      },
+      "category": {
+        "en": "Dairy & Fats",
+        "ko": "유제품 및 유지류"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Sour Cream"
+        ],
+        "ko": [
+          "사워크림"
+        ]
+      },
+      "description": {
+        "en": "A dairy product obtained by fermenting regular cream with certain kinds of lactic acid bacteria.",
+        "ko": "일반 크림을 유산균으로 발효시켜 만든 유제품입니다."
+      },
+      "substitutes": [
+        {
+          "id": "greek-yogurt",
+          "name": {
+            "en": "Greek Yogurt",
+            "ko": "그릭 요거트"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "similarity_score": 95,
+          "umami_reproduction": 90,
+          "chemical_impact": {
+            "en": "Very similar texture and acidity, but yogurt has less fat and more protein.",
+            "ko": "질감과 산미가 매우 비슷하지만, 요거트는 지방이 적고 단백질이 더 많습니다."
+          },
+          "compensation_action": {
+            "en": "For baking, it's a 1:1 swap. For dips, add a squeeze of lemon to boost the tang.",
+            "ko": "베이킹에서는 1:1로 바꾸면 되고, 딥 소스용으로는 레몬즙을 살짝 짜넣어 산미를 높이세요."
+          },
+          "why_it_works": {
+            "en": "Both are fermented dairy with a similar pH level, ensuring proper leavening in baking.",
+            "ko": "둘 다 pH 농도가 비슷한 발효 유제품으로 베이킹 시 적절한 팽창을 돕습니다."
+          },
+          "tags": [
+            "Creamy",
+            "Healthier Option"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "ricotta",
+      "name": {
+        "en": "Ricotta Cheese",
+        "ko": "리코타 치즈"
+      },
+      "category": {
+        "en": "Dairy & Fats",
+        "ko": "유제품 및 유지류"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Ricotta Cheese"
+        ],
+        "ko": [
+          "리코타 치즈"
+        ]
+      },
+      "description": {
+        "en": "An Italian whey cheese made from sheep, cow, goat, or Italian water buffalo milk whey left over from the production of other cheeses.",
+        "ko": "치즈 제조 후 남은 유청으로 만든 이탈리아식 치즈로 담백한 맛이 특징입니다."
+      },
+      "substitutes": [
+        {
+          "id": "cottage-cheese",
+          "name": {
+            "en": "Cottage Cheese",
+            "ko": "코티지 치즈"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "similarity_score": 90,
+          "umami_reproduction": 95,
+          "chemical_impact": {
+            "en": "Similar moisture and mild flavor, but cottage cheese has larger curds.",
+            "ko": "수분감과 순한 맛은 비슷하지만, 코티지 치즈는 알갱이가 더 큽니다."
+          },
+          "compensation_action": {
+            "en": "Briefly blend cottage cheese or press through a sieve for a smoother Ricotta-like texture.",
+            "ko": "부드러운 리코타 질감을 위해 코티지 치즈를 살짝 블렌더에 갈거나 체에 거르세요."
+          },
+          "why_it_works": {
+            "en": "Both are fresh, unaged cheeses with high moisture and low acidity.",
+            "ko": "둘 다 수분은 많고 산도는 낮은 숙성되지 않은 신선한 치즈입니다."
+          },
+          "tags": [
+            "Creamy",
+            "Cheese Hack"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "mascarpone",
+      "name": {
+        "en": "Mascarpone",
+        "ko": "마스카포네"
+      },
+      "category": {
+        "en": "Dairy & Fats",
+        "ko": "유제품 및 유지류"
+      },
+      "visual_identity": {
+        "primary_color": "#FFFDD0",
+        "texture": "Velvety Paste"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian",
+        "keto"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Vitamin A"
+        ],
+        "ko": [
+          "비타민 A"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Mascarpone"
+        ],
+        "ko": [
+          "마스카포네"
+        ]
+      },
+      "dish_tips": {
+        "en": "Tiramisu: Whip cream cheese with heavy cream and sour cream to mimic mascarpone's velvety, mild flavor.",
+        "ko": "티라미수: 마스카포네의 벨벳처럼 부드럽고 순한 맛을 내려면 크림치즈를 생크림, 사워크림과 함께 휘핑하세요."
+      },
+      "description": {
+        "en": "An Italian cream cheese with a very high fat content and exceptionally smooth texture.",
+        "ko": "유지방 함량이 매우 높고 질감이 매우 부드러운 이탈리아식 크림치즈입니다."
+      },
+      "substitutes": [
+        {
+          "id": "cream-cheese-heavy-cream",
+          "name": {
+            "en": "Cream Cheese + Heavy Cream",
+            "ko": "크림치즈 + 헤비 크림"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "similarity_score": 92,
+          "umami_reproduction": 90,
+          "chemical_impact": {
+            "en": "Cream cheese is tangier and firmer. Adding heavy cream increases the fat and softens the texture.",
+            "ko": "크림치즈는 더 새콤하고 단단합니다. 헤비 크림을 추가하면 유지방이 늘어나고 질감이 부드러워집니다."
+          },
+          "compensation_action": {
+            "en": "Mix 8oz cream cheese with 1/4 cup heavy cream and 1 tbsp sour cream for the perfect match.",
+            "ko": "크림치즈 8온스에 헤비 크림 1/4컵, 사워크림 1큰술을 섞으면 완벽한 조합이 됩니다."
+          },
+          "why_it_works": {
+            "en": "Reconstitutes the high-fat, low-moisture emulsion of Italian mascarpone.",
+            "ko": "이탈리아 마스카포네의 고지방, 저수분 유화 상태를 재구성합니다."
+          },
+          "tags": [
+            "Creamy",
+            "Dessert Hack"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "ghee",
+      "name": {
+        "en": "Ghee",
+        "ko": "기 (Ghee) 버터"
+      },
+      "category": {
+        "en": "Dairy & Fats",
+        "ko": "유제품 및 유지류"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Ghee"
+        ],
+        "ko": [
+          "기 (Ghee) 버터"
+        ]
+      },
+      "dish_tips": {
+        "en": "Indian Curries: Use clarified butter or brown butter to get that nutty, high-heat stability.",
+        "ko": "인도 카레: 견과류 향과 고온에서의 안정성을 위해 정제 버터나 브라운 버터를 사용하세요."
+      },
+      "description": {
+        "en": "Clarified butter that has been cooked long enough to toast the milk solids, resulting in a nutty aroma.",
+        "ko": "유고형분을 태울 정도로 오래 끓여 견과류 향이 나도록 만든 정제 버터입니다."
+      },
+      "substitutes": [
+        {
+          "id": "clarified-butter",
+          "name": {
+            "en": "Clarified Butter or Brown Butter",
+            "ko": "정제 버터 또는 브라운 버터"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tbsp"
+          },
+          "similarity_score": 98,
+          "umami_reproduction": 100,
+          "chemical_impact": {
+            "en": "Clarified butter has the same smoke point; brown butter adds the missing toasted nuttiness.",
+            "ko": "정제 버터는 발연점이 같고, 브라운 버터는 기 버터 특유의 구운 견과류 향을 더해줍니다."
+          },
+          "compensation_action": {
+            "en": "Cook butter until the solids turn brown and strain. This is essentially homemade ghee.",
+            "ko": "버터를 고형분이 갈색으로 변할 때까지 끓인 후 걸러내세요. 이것이 사실상 수제 기 버터입니다."
+          },
+          "why_it_works": {
+            "en": "Both are pure butterfat with milk solids removed, allowing for high-temperature cooking.",
+            "ko": "둘 다 유고형분이 제거된 순수 유지방으로, 고온 요리가 가능합니다."
+          },
+          "tags": [
+            "Fat",
+            "High Heat"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "creme-fraiche",
+      "name": {
+        "en": "Crème Fraîche",
+        "ko": "크렘 프레슈"
+      },
+      "category": {
+        "en": "Dairy & Fats",
+        "ko": "유제품 및 유지류"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Crème Fraîche"
+        ],
+        "ko": [
+          "크렘 프레슈"
+        ]
+      },
+      "dish_tips": {
+        "en": "Creamy Soups: Use a mix of sour cream and heavy cream for a heat-stable, rich texture.",
+        "ko": "크리미한 수프: 열에 강하고 풍부한 질감을 위해 사워크림과 헤비 크림을 섞어 사용하세요."
+      },
+      "description": {
+        "en": "A thick, soured cream with a high fat content that does not curdle when boiled.",
+        "ko": "유지방 함량이 높고 끓여도 응고되지 않는 걸쭉한 발효 크림입니다."
+      },
+      "substitutes": [
+        {
+          "id": "sour-cream-heavy-mix",
+          "name": {
+            "en": "Sour Cream + Heavy Cream",
+            "ko": "사워크림 + 헤비 크림"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "similarity_score": 95,
+          "umami_reproduction": 90,
+          "chemical_impact": {
+            "en": "Sour cream alone might curdle at high heat. Adding heavy cream increases stability and fat.",
+            "ko": "사워크림만 쓰면 고온에서 응고될 수 있습니다. 헤비 크림을 섞으면 안정성과 지방 함량이 높아집니다."
+          },
+          "compensation_action": {
+            "en": "Mix equal parts sour cream and heavy cream. Let it sit at room temp for 30 mins before using.",
+            "ko": "사워크림과 헤비 크림을 1:1로 섞으세요. 사용 전 실온에 30분 정도 두면 더 좋습니다."
+          },
+          "why_it_works": {
+            "en": "Replicates the pH and fat-to-protein ratio of cultured French cream.",
+            "ko": "프랑스식 발효 크림의 pH와 지방 대 단백질 비율을 재현합니다."
+          },
+          "tags": [
+            "Creamy",
+            "Heat Stable"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "pecorino-romano",
+      "name": {
+        "en": "Pecorino Romano",
+        "ko": "페코리노 로마노"
+      },
+      "category": {
+        "en": "Dairy & Fats",
+        "ko": "유제품 및 유지류"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "One of Italy's oldest cheeses, dating back to Roman times, made from sheep's milk.",
+        "ko": "양젖으로 만든 이탈리아에서 가장 오래된 치즈 중 하나로, 로마 시대까지 역사가 거슬러 올라갑니다."
+      },
+      "storage_tips": {
+        "en": "Wrap in parchment paper then plastic wrap. Keeps for months in the refrigerator.",
+        "ko": "유산지로 감싼 후 랩으로 한 번 더 싸세요. 냉장고에서 몇 달간 보관이 가능합니다."
+      },
+      "search_keywords": {
+        "en": [
+          "Pecorino Romano",
+          "Hard sheep cheese",
+          "Italian sheep cheese",
+          "로마노 치즈"
+        ],
+        "ko": [
+          "페코리노 로마노",
+          "Hard sheep cheese",
+          "Italian sheep cheese",
+          "로마노 치즈"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Is it the same as Parmesan?",
+            "ko": "파마산 치즈와 같은 건가요?"
+          },
+          "answer": {
+            "en": "No, Pecorino is made from sheep's milk and is much saltier and tangier than cow's milk Parmesan.",
+            "ko": "아니요, 페코리노는 양젖으로 만들며 소젖으로 만든 파마산보다 훨씬 짜고 톡 쏘는 맛이 강합니다."
+          }
+        }
+      ],
+      "dish_tips": {
+        "en": "Carbonara: Essential for the authentic sharp flavor. Cacio e Pepe: Use finely grated for a smooth emulsion.",
+        "ko": "까르보나라: 정통의 날카로운 풍미를 위해 필수입니다. 카초 에 페페: 부드러운 유화를 위해 아주 곱게 갈아서 사용하세요."
+      },
+      "description": {
+        "en": "A hard, salty Italian cheese made from sheep's milk.",
+        "ko": "양젖으로 만든 단단하고 짭짤한 이탈리아 치즈입니다."
+      },
+      "substitutes": [
+        {
+          "id": "parmesan-extra-salt",
+          "name": {
+            "en": "Parmesan + Extra Salt",
+            "ko": "파마산 + 추가 소금"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "similarity_score": 88,
+          "umami_reproduction": 90,
+          "chemical_impact": {
+            "en": "Parmesan lacks the specific sheep-milk fatty acids (caprylic/capric) but shares the hard crystalline texture.",
+            "ko": "파마산은 양젖 특유의 지방산이 부족하지만, 단단하고 결정체가 씹히는 질감은 공유합니다."
+          },
+          "compensation_action": {
+            "en": "Use Parmesan but reduce the salt in the rest of the recipe to compensate for Pecorino's higher salinity.",
+            "ko": "파마산을 쓰되, 페코리노의 높은 염도를 대신하기 위해 요리 전체의 소금 양을 줄이세요."
+          },
+          "why_it_works": {
+            "en": "Both are aged, hard grana-style cheeses with high glutamate levels.",
+            "ko": "둘 다 숙성된 단단한 그라나 스타일 치즈로, 높은 글루타메이트 함량을 가지고 있습니다."
+          },
+          "tags": [
+            "Salty",
+            "Hard Cheese"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "truffle-oil",
+      "name": {
+        "en": "Truffle Oil",
+        "ko": "트러플 오일"
+      },
+      "category": {
+        "en": "Dairy & Fats",
+        "ko": "유제품 및 유지류"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Modern truffle oil is often extra virgin olive oil infused with synthetic truffle aroma compounds.",
+        "ko": "현대의 트러플 오일은 대개 엑스트라 버진 올리브 오일에 합성 트러플 향 성분을 입힌 제품입니다."
+      },
+      "flavor_profile": {
+        "en": "Earthy, musky, and extremely pungent with mushroom undertones.",
+        "ko": "버섯 향을 바탕으로 한 흙내음, 머스크 향, 그리고 매우 강렬한 풍미가 특징입니다."
+      },
+      "storage_tips": {
+        "en": "Store in a cool, dark place. Use quickly after opening as the aroma is highly volatile.",
+        "ko": "서늘하고 어두운 곳에 보관하세요. 향이 매우 휘발성이므로 개봉 후 빨리 사용하십시오."
+      },
+      "common_pairings": {
+        "en": [
+          "fries",
+          "risotto",
+          "eggs",
+          "popcorn"
+        ],
+        "ko": [
+          "fries",
+          "risotto",
+          "eggs",
+          "popcorn"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Truffle Oil",
+          "Black truffle oil",
+          "White truffle oil",
+          "송로버섯 오일"
+        ],
+        "ko": [
+          "트러플 오일",
+          "Black truffle oil",
+          "White truffle oil",
+          "송로버섯 오일"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Can I cook with it?",
+            "ko": "가열 요리에 써도 되나요?"
+          },
+          "answer": {
+            "en": "No, heat destroys the delicate aroma. It should only be used as a finishing oil.",
+            "ko": "아니요, 열은 섬세한 향을 파괴합니다. 반드시 요리의 마지막에 뿌리는 피니싱 오일로만 사용해야 합니다."
+          }
+        }
+      ],
+      "dish_tips": {
+        "en": "Truffle Fries: Toss hot fries with a tiny amount and salt. Risotto: Drizzle just before serving.",
+        "ko": "트러플 감자튀김: 뜨거운 튀김을 소량의 오일과 소금에 버무려주세요. 리조또: 서빙 직전에 뿌리세요."
+      },
+      "description": {
+        "en": "A finishing oil used to add a rich, earthy mushroom flavor to dishes.",
+        "ko": "요리에 풍부하고 흙내음 가득한 버섯 풍미를 더해주는 피니싱 오일입니다."
+      },
+      "substitutes": [
+        {
+          "id": "porcini-oil-salt",
+          "name": {
+            "en": "Porcini Mushroom Oil + Truffle Salt",
+            "ko": "포르치니 버섯 오일 + 트러플 소금"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "tbsp"
+          },
+          "similarity_score": 85,
+          "umami_reproduction": 80,
+          "chemical_impact": {
+            "en": "Porcini provides the natural mushroom earthiness, while truffle salt adds the specific aroma.",
+            "ko": "포르치니는 천연 버섯의 흙내음을 제공하고, 트러플 소금은 특유의 향을 더해줍니다."
+          },
+          "compensation_action": {
+            "en": "Use high-quality mushroom-infused oil and finish the dish with a pinch of truffle-infused salt.",
+            "ko": "고품질의 버섯 오일을 쓰고 트러플 소금 한 꼬집으로 요리를 마무리하세요."
+          },
+          "why_it_works": {
+            "en": "Combines natural mushroom esters with real truffle particulates for a more authentic depth.",
+            "ko": "천연 버섯 에스테르와 실제 트러플 입자를 결합하여 더 정통적인 깊은 맛을 냅니다."
+          },
+          "tags": [
+            "Aromatic",
+            "Finishing Oil"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "gorgonzola",
+      "name": {
+        "en": "Gorgonzola",
+        "ko": "고르곤졸라"
+      },
+      "category": {
+        "en": "Dairy & Fats",
+        "ko": "유제품 및 유지류"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "One of the world's oldest blue-veined cheeses, originating from the Italian town of Gorgonzola in 879 AD.",
+        "ko": "세계에서 가장 오래된 푸른 곰팡이 치즈 중 하나로, 서기 879년 이탈리아의 고르곤졸라 마을에서 시작되었습니다."
+      },
+      "storage_tips": {
+        "en": "Keep tightly wrapped in foil. It can 'weep' liquid; simply pat dry with a paper towel.",
+        "ko": "호일로 꽉 싸서 보관하세요. 액체가 배어 나올 수 있으니 키친타월로 살짝 닦아내면 됩니다."
+      },
+      "search_keywords": {
+        "en": [
+          "Gorgonzola",
+          "Blue cheese",
+          "Italian blue cheese",
+          "푸른 곰팡이 치즈"
+        ],
+        "ko": [
+          "고르곤졸라",
+          "Blue cheese",
+          "Italian blue cheese",
+          "푸른 곰팡이 치즈"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "What is the difference between Piccante and Dolce?",
+            "ko": "피칸테와 돌체의 차이가 뭔가요?"
+          },
+          "answer": {
+            "en": "Dolce is milder, creamier, and sweeter; Piccante is aged longer, firmer, and much stronger.",
+            "ko": "돌체는 더 순하고 부드러우며 달콤합니다. 피칸테는 더 오래 숙성되어 단단하고 맛이 훨씬 강렬합니다."
+          }
+        }
+      ],
+      "dish_tips": {
+        "en": "Gorgonzola Pizza: Use Dolce for a melty, mild finish. Steak Topping: Piccante provides a sharp contrast.",
+        "ko": "고르곤졸라 피자: 잘 녹고 부드러운 맛을 위해 돌체를 쓰세요. 스테이크 토핑: 피칸테가 강렬한 대비를 줍니다."
+      },
+      "description": {
+        "en": "A veined blue cheese from Italy, known for its creamy texture and distinct 'funk'.",
+        "ko": "크리미한 질감과 독특한 향이 특징인 이탈리아의 푸른 곰팡이 치즈입니다."
+      },
+      "substitutes": [
+        {
+          "id": "roquefort-stilton",
+          "name": {
+            "en": "Roquefort or Stilton",
+            "ko": "로크포르 또는 스틸턴"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "part"
+          },
+          "similarity_score": 90,
+          "umami_reproduction": 100,
+          "chemical_impact": {
+            "en": "Roquefort is sheep-based and tangier; Stilton is cow-based but drier than Gorgonzola.",
+            "ko": "로크포르는 양젖 베이스라 더 톡 쏘며, 스틸턴은 소젖 베이스지만 고르곤졸라보다 더 건조합니다."
+          },
+          "compensation_action": {
+            "en": "Use 1:1 ratio. For Roquefort, reduce salt in the dish. For Stilton, add a bit of heavy cream for texture.",
+            "ko": "1:1 비율로 사용하세요. 로크포르를 쓸 때는 요리의 소금을 줄이고, 스틸턴을 쓸 때는 질감을 위해 생크림을 약간 섞으세요."
+          },
+          "why_it_works": {
+            "en": "All contain Penicillium roqueforti, providing that signature blue cheese bite and umami.",
+            "ko": "모두 페니실리움 로크포르티균을 포함하고 있어, 푸른 곰팡이 치즈 특유의 맛과 감칠맛을 제공합니다."
+          },
+          "tags": [
+            "Blue Cheese",
+            "Umami"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "shortening",
+      "name": {
+        "en": "Shortening",
+        "ko": "쇼트닝"
+      },
+      "category": {
+        "en": "Dairy & Fats",
+        "ko": "유제품 및 유지류"
+      },
+      "visual_identity": {
+        "primary_color": "#FFFFFF",
+        "texture": "Waxy Solid"
+      },
+      "difficulty": "easy",
+      "dietary_tags": [
+        "vegan"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Stable Fat"
+        ],
+        "ko": [
+          "안정적인 지방"
+        ]
+      },
+      "origin_and_history": {
+        "en": "Invented in 1911 as 'Crisco,' it was the first solid vegetable fat designed to 'shorten' gluten strands.",
+        "ko": "1911년 '크리스코'라는 이름으로 발명되었으며, 글루텐 결합을 끊어 바삭함을 주도록 설계된 최초의 고형 식물성 유지입니다."
+      },
+      "flavor_profile": {
+        "en": "Neutral and odorless, allowing other flavors in the bake to shine.",
+        "ko": "중립적이고 냄새가 없어 베이킹의 다른 재료 본연의 맛을 살려줍니다."
+      },
+      "storage_tips": {
+        "en": "Pantry stable for 1 year. Keep in a cool dark place to prevent oxidation.",
+        "ko": "실온에서 1년 정도 보관 가능합니다. 산패 방지를 위해 서늘하고 어두운 곳에 두세요."
+      },
+      "common_pairings": {
+        "en": [
+          "flour",
+          "sugar",
+          "apples",
+          "fried-chicken",
+          "pie-crust"
+        ],
+        "ko": [
+          "flour",
+          "sugar",
+          "apples",
+          "fried-chicken",
+          "pie-crust"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Shortening"
+        ],
+        "ko": [
+          "쇼트닝"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Is it healthier than butter?",
+            "ko": "버터보다 건강한가요?"
+          },
+          "answer": {
+            "en": "It has no water (100% fat), making crusts flakier, but lacks butter's vitamins and flavor.",
+            "ko": "수분이 없어(지방 100%) 식감은 더 바삭하지만, 버터의 영양소와 풍미는 없습니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "A solid vegetable fat used in baking to create a flaky texture.",
+        "ko": "바삭한 식감을 위해 베이킹에 쓰이는 고형 식물성 유지입니다."
+      },
+      "substitutes": [
+        {
+          "id": "butter-sub-shortening",
+          "name": {
+            "en": "Unsalted Butter",
+            "ko": "무염 버터"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "similarity_score": 90,
+          "umami_reproduction": 100,
+          "chemical_impact": {
+            "en": "Adds water content (about 15%), making the crust slightly less flaky but more flavorful.",
+            "ko": "수분이 약 15% 들어있어 쇼트닝보다는 덜 바삭하지만 훨씬 풍부한 맛을 줍니다."
+          },
+          "compensation_action": {
+            "en": "Use 1 cup plus 2 tbsp butter for every 1 cup shortening to account for the water content.",
+            "ko": "수분 함량을 고려하여 쇼트닝 1컵당 버터 1컵 + 2큰술을 사용하세요."
+          },
+          "why_it_works": {
+            "en": "Both are solid fats at room temperature that coat flour proteins.",
+            "ko": "둘 다 실온에서 고체 상태인 유지로, 밀가루 단백질을 코팅하는 역할을 합니다."
+          },
+          "tags": [
+            "Rich Flavor",
+            "Traditional"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "lard",
+      "name": {
+        "en": "Lard",
+        "ko": "라드 (돼지 기름)"
+      },
+      "category": {
+        "en": "Dairy & Fats",
+        "ko": "유제품 및 유지류"
+      },
+      "visual_identity": {
+        "primary_color": "#E0E0E0",
+        "texture": "Standard"
+      },
+      "difficulty": "medium",
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "seasonality": [
+        "year-round"
+      ],
+      "measurement_type": "weight",
+      "nutrition_highlights": {
+        "en": [
+          "Balanced"
+        ],
+        "ko": [
+          "균형 잡힌 영양"
+        ]
+      },
+      "origin_and_history": {
+        "en": "The primary cooking fat for centuries until replaced by vegetable oils in the 20th century.",
+        "ko": "20세기 식물성 기름으로 대체되기 전까지 수세기 동안 인류의 가장 주된 요리용 유지였습니다."
+      },
+      "flavor_profile": {
+        "en": "Subtle, savory, and rich with a very high smoke point.",
+        "ko": "은은하고 고소하며 풍부한 맛이 특징이고 발연점이 매우 높습니다."
+      },
+      "storage_tips": {
+        "en": "Must be refrigerated or frozen to prevent rancidity. Fresh lard lasts 6 months in the fridge.",
+        "ko": "변질 방지를 위해 반드시 냉장 또는 냉동 보관하세요. 신선한 라드는 냉장고에서 6개월 정도 유지됩니다."
+      },
+      "common_pairings": {
+        "en": [
+          "pie-crust",
+          "refried-beans",
+          "biscuits",
+          "pork",
+          "dumplings"
+        ],
+        "ko": [
+          "pie-crust",
+          "refried-beans",
+          "biscuits",
+          "pork",
+          "dumplings"
+        ]
+      },
+      "search_keywords": {
+        "en": [
+          "Lard"
+        ],
+        "ko": [
+          "라드 (돼지 기름)"
+        ]
+      },
+      "faq": [
+        {
+          "question": {
+            "en": "Is it better for pie crusts?",
+            "ko": "파이 반죽에 더 좋나요?"
+          },
+          "answer": {
+            "en": "Many bakers swear by it! It creates the largest fat crystals, leading to the flakiest crust possible.",
+            "ko": "많은 베이커들이 최고로 꼽습니다! 큰 지방 결정이 형성되어 압도적으로 바삭한 식감을 만듭니다."
+          }
+        }
+      ],
+      "description": {
+        "en": "Rendered pork fat used for cooking and baking.",
+        "ko": "요리와 베이킹에 쓰이는 정제된 돼지 기름입니다."
+      },
+      "substitutes": [
+        {
+          "id": "vegetable-shortening-lard",
+          "name": {
+            "en": "Vegetable Shortening",
+            "ko": "식물성 쇼트닝"
+          },
+          "ratio": {
+            "source": 1,
+            "target_min": 1,
+            "target_max": 1,
+            "unit": "cup"
+          },
+          "similarity_score": 95,
+          "umami_reproduction": 20,
+          "chemical_impact": {
+            "en": "Matches the texture and performance perfectly but lacks the savory pork aroma.",
+            "ko": "식감과 조리 성능은 완벽히 일치하지만 특유의 고소한 돼지 기름 향은 없습니다."
+          },
+          "compensation_action": {
+            "en": "Use a 1:1 swap. If using for savory cooking, add a tiny bit of bacon fat if available.",
+            "ko": "1:1 비율로 바꾸세요. 고소한 맛을 내야 한다면 베이컨 기름을 아주 살짝 섞어보세요."
+          },
+          "why_it_works": {
+            "en": "Both have large fat crystals and high smoke points, essential for frying and flaky baking.",
+            "ko": "둘 다 큰 지방 결정과 높은 발연점을 가지고 있어 튀김과 바삭한 베이킹에 필수적입니다."
+          },
+          "tags": [
+            "Texture Match",
+            "Vegetarian Option"
+          ]
+        }
+      ],
+      "allergens": [
+        "none"
+      ],
+      "shelf_life": {
+        "unopened_days": null,
+        "opened_days": null
+      },
+      "culinary_roles": [],
+      "metadata": {
+        "last_updated": "2026-04-24T10:40:00Z",
+        "data_source": "chef-curated"
+      },
+      "representative_dishes": {
+        "en": [],
+        "ko": []
+      }
+    }
+  ]
+}

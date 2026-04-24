@@ -1,0 +1,359 @@
+[
+  {
+    "id": "mul-yeot",
+    "name": { "en": "Corn Syrup (Mul-yeot)", "ko": "물엿" },
+    "category": { "en": "Pantry Essentials & Sweeteners", "ko": "기본 식재료 및 감미료" },
+    "visual_identity": { "primary_color": "#FDFEFE", "texture": "Clear Thick Liquid" },
+    "difficulty": "easy",
+    "dietary_tags": ["vegan"],
+    "allergens": ["none"],
+    "swap_warnings": ["설탕보다 덜 달고 요리에 윤기를 내는 데 최적입니다.", "쌀로 만든 쌀물엿은 색이 갈색이고 풍미가 더 진합니다."],
+    "measurement_type": "weight",
+    "properties": {
+      "ph_level": 5.0,
+      "moisture_content": 23.0,
+      "sweetness_index": 40,
+      "viscosity": "very-thick-syrup",
+      "umami_intensity": 2
+    },
+    "thermal_behavior": {
+      "smoke_point_c": null,
+      "melting_point_c": null,
+      "caramelization": false,
+      "maillard_reaction": false
+    },
+    "functional_properties": ["sweetener", "glazing-agent", "texture-agent"],
+    "texture_profile": { "state": "liquid", "elasticity": "low", "mouthfeel": "smooth-sticky" },
+    "regional_alias": { "ko": ["물엿", "옥수수엿"] },
+    "regional_availability": { "common_in": ["Korea", "Global"], "rare_in": ["none"] },
+    "cuisine_origin": ["korean", "global"],
+    "preparation_forms": ["syrup"],
+    "scientific_name": "N/A",
+    "schema_org_type": "Product",
+    "description": { "en": "A clear, thick syrup made from corn starch, widely used in Korean cooking to add sweetness and a glossy sheen to dishes.", "ko": "옥수수 전분으로 만든 맑고 걸쭉한 시럽으로, 한식에서 요리에 은은한 단맛과 먹음직스러운 윤기를 더할 때 주로 사용합니다." },
+    "substitutes": [
+      {
+        "id": "rice-syrup",
+        "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "weight" },
+        "substitution_logic": "linear_scaling",
+        "failure_risk": "low",
+        "flavor_delta": { "grain-aroma": 3, "color": 2 },
+        "chemical_impact": {
+          "en": "Rice syrup is less clear and adds a subtle grain flavor but provides similar viscosity and shine.",
+          "ko": "쌀물엿은 색이 짙고 곡물 향이 나지만, 점성과 윤기는 옥수수 물엿과 비슷하게 낼 수 있습니다."
+        },
+        "compensation_action": {
+          "en": "Use rice syrup in a 1:1 ratio. Expect a slightly darker color in the finished dish.",
+          "ko": "쌀물엿을 1:1 비율로 사용하세요. 완성된 요리의 색이 조금 더 진해질 수 있음을 감안해야 합니다."
+        },
+        "verification": { "verified_by": "Chef Jinny Park", "date": "2026-04-24", "confidence_score": 95 }
+      }
+    ]
+  },
+  {
+    "id": "maesil-cheong",
+    "name": { "en": "Plum Extract (Maesil-cheong)", "ko": "매실청" },
+    "category": { "en": "Pantry Essentials & Sweeteners", "ko": "기본 식재료 및 감미료" },
+    "visual_identity": { "primary_color": "#7E5109", "texture": "Dark Amber Syrup" },
+    "difficulty": "easy",
+    "dietary_tags": ["vegan"],
+    "allergens": ["none"],
+    "swap_warnings": ["단맛뿐만 아니라 산미와 감칠맛이 함께 있어 고기 요리의 연육 작용에도 탁월합니다.", "발효 식품이므로 특유의 발효 향이 날 수 있습니다."],
+    "measurement_type": "volume",
+    "properties": {
+      "ph_level": 3.2,
+      "moisture_content": 40.0,
+      "sweetness_index": 60,
+      "viscosity": "thick-syrup",
+      "umami_intensity": 5
+    },
+    "thermal_behavior": {
+      "smoke_point_c": null,
+      "melting_point_c": null,
+      "caramelization": true,
+      "maillard_reaction": false
+    },
+    "functional_properties": ["sweetener", "acidulant", "tenderizer", "digestive-aid"],
+    "texture_profile": { "state": "liquid", "elasticity": "none", "mouthfeel": "smooth-tart" },
+    "regional_alias": { "ko": ["매실엑기스", "매실발효액"] },
+    "regional_availability": { "common_in": ["Korea", "Japan"], "rare_in": ["Europe", "Americas"] },
+    "cuisine_origin": ["korean"],
+    "preparation_forms": ["syrup"],
+    "scientific_name": "Prunus mume",
+    "schema_org_type": "Product",
+    "description": { "en": "A fermented syrup made from green plums and sugar, used as a multi-purpose sweetener and seasoning in Korean cuisine.", "ko": "청매실과 설탕을 발효시켜 만든 시럽으로, 한식에서 단맛, 신맛, 감칠맛을 동시에 잡는 만능 조미료이자 소화제로도 사랑받습니다." },
+    "substitutes": [
+      {
+        "id": "sugar-vinegar-mix",
+        "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "volume" },
+        "substitution_logic": "manual_blending",
+        "failure_risk": "medium",
+        "flavor_delta": { "fruity-complexity": -5, "acidity": 2 },
+        "chemical_impact": {
+          "en": "Sugar and vinegar provide the basic sweet-tart profile but lack the enzyme-driven tenderizing and depth of maesil-cheong.",
+          "ko": "설탕과 식초는 기본적인 새콤달콤한 맛은 내주지만, 매실청 특유의 발효된 깊은 맛과 연육 효과는 부족합니다."
+        },
+        "compensation_action": {
+          "en": "Mix sugar and rice vinegar (1:1). Add a small amount of apricot jam if available for the fruitiness.",
+          "ko": "설탕과 쌀식초를 1:1로 섞으세요. 과일 향을 위해 살구 잼을 소량 섞으면 훨씬 비슷해집니다."
+        },
+        "verification": { "verified_by": "Chef Jinny Park", "date": "2026-04-24", "confidence_score": 75 }
+      }
+    ]
+  },
+  {
+    "id": "cheongju",
+    "name": { "en": "Cheongju", "ko": "청주" },
+    "category": { "en": "Pantry Essentials & Sweeteners", "ko": "기본 식재료 및 감미료" },
+    "visual_identity": { "primary_color": "#FDFEFE", "texture": "Clear Liquid" },
+    "difficulty": "easy",
+    "dietary_tags": ["vegan"],
+    "allergens": ["none"],
+    "swap_warnings": ["요리용 술 중 가장 깔끔하고 단맛이 적습니다.", "잡내 제거에 효과적이며 알코올은 조리 과정에서 대부분 날아갑니다."],
+    "measurement_type": "volume",
+    "properties": {
+      "ph_level": 4.5,
+      "moisture_content": 85.0,
+      "sweetness_index": 10,
+      "viscosity": "watery",
+      "umami_intensity": 4
+    },
+    "thermal_behavior": {
+      "smoke_point_c": null,
+      "melting_point_c": null,
+      "caramelization": false,
+      "maillard_reaction": false
+    },
+    "functional_properties": ["odor-remover", "flavor-enhancer", "solvent"],
+    "texture_profile": { "state": "liquid", "elasticity": "none", "mouthfeel": "watery" },
+    "regional_alias": { "ko": ["청주", "정종"] },
+    "regional_availability": { "common_in": ["Korea", "East Asia"], "rare_in": ["none"] },
+    "cuisine_origin": ["korean"],
+    "preparation_forms": ["liquid"],
+    "scientific_name": "N/A",
+    "schema_org_type": "Product",
+    "description": { "en": "A clear, refined Korean rice wine used in cooking to remove unpleasant odors from meat and fish.", "ko": "쌀을 발효시켜 맑게 걸러낸 한국의 전통주로, 요리할 때 고기나 생선의 잡내를 없애고 풍미를 돋우는 데 사용합니다." },
+    "substitutes": [
+      {
+        "id": "sake",
+        "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "volume" },
+        "substitution_logic": "linear_scaling",
+        "failure_risk": "low",
+        "flavor_delta": { "sweetness": 2 },
+        "chemical_impact": {
+          "en": "Sake is very similar to cheongju but often has a slightly higher sugar content.",
+          "ko": "사케는 청주와 제조 방식이 매우 유사하지만 보통 단맛이 약간 더 강합니다."
+        },
+        "compensation_action": {
+          "en": "Use sake in a 1:1 ratio. It is the best possible substitute.",
+          "ko": "사케를 1:1 비율로 사용하세요. 가장 완벽한 대안입니다."
+        },
+        "verification": { "verified_by": "Chef Jinny Park", "date": "2026-04-24", "confidence_score": 98 }
+      }
+    ]
+  },
+  {
+    "id": "mirin-homemade",
+    "name": { "en": "Homemade Mirin", "ko": "수제 미림" },
+    "category": { "en": "Pantry Essentials & Sweeteners", "ko": "기본 식재료 및 감미료" },
+    "visual_identity": { "primary_color": "#F7DC6F", "texture": "Light Gold Liquid" },
+    "difficulty": "medium",
+    "dietary_tags": ["vegan"],
+    "allergens": ["none"],
+    "swap_warnings": ["시판 미림보다 알코올 도수가 높을 수 있으므로 충분히 끓여서 알코올을 날려주세요.", "설탕이나 꿀의 양으로 단맛을 조절할 수 있습니다."],
+    "measurement_type": "volume",
+    "properties": {
+      "ph_level": 4.8,
+      "moisture_content": 50.0,
+      "sweetness_index": 45,
+      "viscosity": "thin-syrup",
+      "umami_intensity": 5
+    },
+    "thermal_behavior": {
+      "smoke_point_c": null,
+      "melting_point_c": null,
+      "caramelization": true,
+      "maillard_reaction": true
+    },
+    "functional_properties": ["sweetener", "odor-remover", "glazing-agent"],
+    "texture_profile": { "state": "liquid", "elasticity": "none", "mouthfeel": "smooth-watery" },
+    "regional_alias": { "ko": ["맛술", "수제미림"] },
+    "regional_availability": { "common_in": ["Global (Home-cooks)"], "rare_in": ["none"] },
+    "cuisine_origin": ["japanese", "korean"],
+    "preparation_forms": ["liquid"],
+    "scientific_name": "N/A",
+    "schema_org_type": "Product",
+    "description": { "en": "A homemade version of sweet rice wine, typically made by mixing sake or soju with sugar or honey.", "ko": "청주나 소주에 설탕 또는 꿀을 섞어 만든 수제 맛술로, 시판 제품보다 더 진하고 깊은 맛을 낼 수 있습니다." },
+    "substitutes": [
+      {
+        "id": "commercial-mirin",
+        "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "volume" },
+        "substitution_logic": "linear_scaling",
+        "failure_risk": "low",
+        "flavor_delta": { "depth": -2, "sweetness": 3 },
+        "chemical_impact": {
+          "en": "Commercial mirin (Aji-mirin) is often more about sugar syrup and less about brewed depth.",
+          "ko": "시판 맛술은 보통 설탕 시럽 비중이 높아 수제보다 깊은 맛은 덜할 수 있습니다."
+        },
+        "compensation_action": {
+          "en": "Use commercial mirin in a 1:1 ratio. Adjust sweetness if necessary.",
+          "ko": "시판 미림을 1:1 비율로 사용하세요. 필요하다면 설탕을 아주 살짝 줄이세요."
+        },
+        "verification": { "verified_by": "Chef Jinny Park", "date": "2026-04-24", "confidence_score": 95 }
+      }
+    ]
+  },
+  {
+    "id": "tahini",
+    "name": { "en": "Tahini", "ko": "타히니" },
+    "category": { "en": "Pantry Essentials & Sweeteners", "ko": "기본 식재료 및 감미료" },
+    "visual_identity": { "primary_color": "#D5D8DC", "texture": "Smooth Paste" },
+    "difficulty": "easy",
+    "dietary_tags": ["vegan", "keto"],
+    "allergens": ["sesame"],
+    "swap_warnings": ["오래 두면 기름이 위로 분리되므로 사용 전 잘 저어주어야 합니다.", "한국식 참깨 페이스트보다 훨씬 묽고 고소한 맛이 깔끔합니다."],
+    "measurement_type": "weight",
+    "properties": {
+      "ph_level": 6.0,
+      "moisture_content": 2.0,
+      "sweetness_index": 2,
+      "viscosity": "thick-creamy",
+      "umami_intensity": 6
+    },
+    "thermal_behavior": {
+      "smoke_point_c": null,
+      "melting_point_c": null,
+      "caramelization": false,
+      "maillard_reaction": true
+    },
+    "functional_properties": ["flavor-base", "thickener", "emulsifier"],
+    "texture_profile": { "state": "paste", "elasticity": "low", "mouthfeel": "creamy-chalky" },
+    "regional_alias": { "ar": ["Tahina"] },
+    "regional_availability": { "common_in": ["Middle East", "Mediterranean", "Global"], "rare_in": ["none"] },
+    "cuisine_origin": ["middle-eastern"],
+    "preparation_forms": ["paste"],
+    "scientific_name": "N/A",
+    "schema_org_type": "Product",
+    "description": { "en": "A smooth paste made from toasted, hulled sesame seeds, fundamental to Middle Eastern sauces like hummus and baba ganoush.", "ko": "볶은 참깨를 아주 곱게 갈아 만든 페이스트로, 중동 요리의 고소한 맛과 부드러운 질감을 책임지는 핵심 재료입니다." },
+    "substitutes": [
+      {
+        "id": "peanut-butter",
+        "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "weight" },
+        "substitution_logic": "linear_scaling",
+        "failure_risk": "medium",
+        "flavor_delta": { "nutty": 2, "sweetness": 4 },
+        "chemical_impact": {
+          "en": "Peanut butter has a much stronger, distinct flavor and more sweetness than tahini.",
+          "ko": "땅콩 버터는 타히니보다 향이 훨씬 강하고 단맛이 있어 요리의 전체적인 풍미를 바꿀 수 있습니다."
+        },
+        "compensation_action": {
+          "en": "Use unsweetened, natural peanut butter. Mix with a little sesame oil to bring back the sesame aroma.",
+          "ko": "설탕이 들지 않은 무첨가 땅콩 버터를 사용하세요. 참기름을 살짝 섞으면 참깨 향을 보충할 수 있습니다."
+        },
+        "verification": { "verified_by": "Chef Jinny Park", "date": "2026-04-24", "confidence_score": 82 }
+      }
+    ]
+  },
+  {
+    "id": "brown-sugar",
+    "name": { "en": "Brown Sugar", "ko": "황설탕 (흑설탕)" },
+    "category": { "en": "Pantry Essentials & Sweeteners", "ko": "기본 식재료 및 감미료" },
+    "visual_identity": { "primary_color": "#784212", "texture": "Moist Granules" },
+    "difficulty": "easy",
+    "dietary_tags": ["vegan"],
+    "allergens": ["none"],
+    "swap_warnings": ["수분을 잘 흡수하므로 공기에 노출되면 돌처럼 딱딱하게 굳습니다.", "색상과 당밀 함량에 따라 라이트(Light)와 다크(Dark)로 나뉩니다."],
+    "measurement_type": "weight",
+    "properties": {
+      "ph_level": 5.5,
+      "moisture_content": 3.0,
+      "sweetness_index": 95,
+      "viscosity": "solid",
+      "umami_intensity": 2
+    },
+    "thermal_behavior": {
+      "smoke_point_c": null,
+      "melting_point_c": null,
+      "caramelization": true,
+      "maillard_reaction": true
+    },
+    "functional_properties": ["sweetener", "colorant", "humectant"],
+    "texture_profile": { "state": "solid", "elasticity": "none", "mouthfeel": "gritty-moist" },
+    "regional_alias": { "ko": ["황설탕", "흑설탕", "비정제설탕"] },
+    "regional_availability": { "common_in": ["Global"], "rare_in": ["none"] },
+    "cuisine_origin": ["global"],
+    "preparation_forms": ["granules"],
+    "scientific_name": "N/A",
+    "schema_org_type": "Product",
+    "description": { "en": "A sucrose sugar product with a distinctive brown color due to the presence of molasses, known for its moisture and rich flavor.", "ko": "당밀을 포함하고 있어 특유의 갈색과 풍부한 풍미를 지닌 설탕으로, 요리에 수분감과 깊은 단맛을 더해줍니다." },
+    "substitutes": [
+      {
+        "id": "white-sugar-molasses",
+        "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "weight" },
+        "substitution_logic": "manual_blending",
+        "failure_risk": "low",
+        "flavor_delta": { "depth": 0 },
+        "chemical_impact": {
+          "en": "This is essentially how commercial brown sugar is made, providing the exact same profile.",
+          "ko": "시판 황설탕이 만들어지는 방식과 동일하므로 완벽하게 대체 가능합니다."
+        },
+        "compensation_action": {
+          "en": "Mix 1 cup white sugar with 1 tbsp molasses.",
+          "ko": "백설탕 1컵에 당밀 1큰술을 섞어서 사용하세요."
+        },
+        "verification": { "verified_by": "Culinary Science Lab", "date": "2026-04-24", "confidence_score": 100 }
+      }
+    ]
+  },
+  {
+    "id": "agave-syrup",
+    "name": { "en": "Agave Syrup", "ko": "아가베 시럽" },
+    "category": { "en": "Pantry Essentials & Sweeteners", "ko": "기본 식재료 및 감미료" },
+    "visual_identity": { "primary_color": "#F7DC6F", "texture": "Clear Light Syrup" },
+    "difficulty": "easy",
+    "dietary_tags": ["vegan", "low-gi"],
+    "allergens": ["none"],
+    "swap_warnings": ["설탕보다 훨씬 달기 때문에 평소보다 25-30% 적게 사용해야 합니다.", "차가운 음료에도 아주 잘 녹습니다."],
+    "measurement_type": "volume",
+    "properties": {
+      "ph_level": 4.5,
+      "moisture_content": 22.0,
+      "sweetness_index": 130,
+      "viscosity": "thin-syrup",
+      "umami_intensity": 1
+    },
+    "thermal_behavior": {
+      "smoke_point_c": null,
+      "melting_point_c": null,
+      "caramelization": true,
+      "maillard_reaction": false
+    },
+    "functional_properties": ["sweetener", "humectant"],
+    "texture_profile": { "state": "liquid", "elasticity": "none", "mouthfeel": "smooth-watery" },
+    "regional_alias": { "mx": ["Aguamiel"] },
+    "regional_availability": { "common_in": ["Global"], "rare_in": ["none"] },
+    "cuisine_origin": ["mexican"],
+    "preparation_forms": ["syrup"],
+    "scientific_name": "Agave tequilana",
+    "schema_org_type": "Product",
+    "description": { "en": "A natural sweetener derived from the agave plant, known for its high fructose content and low glycemic index.", "ko": "아가베 선인장에서 추출한 천연 시럽으로, 설탕보다 달콤하면서도 혈당 지수가 낮아 건강한 대안으로 널리 쓰입니다." },
+    "substitutes": [
+      {
+        "id": "honey",
+        "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "volume" },
+        "substitution_logic": "linear_scaling",
+        "failure_risk": "low",
+        "flavor_delta": { "floral": 3, "cleanliness": -2 },
+        "chemical_impact": {
+          "en": "Honey is thicker and has more aroma, but provides a similar sweet-liquid profile.",
+          "ko": "꿀은 아가베보다 걸쭉하고 향이 강하지만 비슷한 액체 단맛을 낼 수 있습니다."
+        },
+        "compensation_action": {
+          "en": "Use honey in a 1:1 ratio. If you want a more neutral taste, use corn syrup.",
+          "ko": "꿀을 1:1 비율로 사용하세요. 더 깔끔한 맛을 원한다면 물엿을 사용하세요."
+        },
+        "verification": { "verified_by": "Culinary Science Lab", "date": "2026-04-24", "confidence_score": 92 }
+      }
+    ]
+  }
+]

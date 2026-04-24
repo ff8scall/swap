@@ -1,0 +1,53 @@
+{
+  "id": "perilla-oil",
+  "name": { "en": "Perilla Oil", "ko": "들기름" },
+  "icon": "🧴",
+  "category": { "en": "Dairy & Fats", "ko": "유제품 및 유지류" },
+  "visual_identity": { "primary_color": "#D4AC0D", "texture": "Golden Nutty Oil" },
+  "difficulty": "medium",
+  "dietary_tags": ["vegan", "keto", "gluten-free"],
+  "allergens": ["none"],
+  "swap_warnings": ["발연점이 매우 낮으므로(170°C) 고온 볶음이나 튀김에 사용하지 마세요.", "산패가 빠르므로 반드시 냉장 보관하고 개봉 후 1~3개월 내에 소비하세요."],
+  "measurement_type": "volume",
+  "best_use_cases": ["finishing-oil", "namul-seasoning", "low-heat-sauteing"],
+  "avoid_use_cases": ["deep-frying", "prolonged-stir-frying"],
+  "properties": {
+    "ph_level": 7.0,
+    "moisture_content": 0.0,
+    "sweetness_index": 0,
+    "viscosity": "thin",
+    "umami_intensity": 4
+  },
+  "thermal_behavior": {
+    "smoke_point_c": 170,
+    "melting_point_c": -5,
+    "caramelization": false,
+    "maillard_reaction": false
+  },
+  "functional_properties": ["aromatic", "fat-source", "omega-3-source"],
+  "texture_profile": { "state": "liquid", "elasticity": "none", "mouthfeel": "oily" },
+  "regional_alias": { "us": ["Korean perilla oil", "Wild sesame oil"], "jp": ["エゴマ油"] },
+  "regional_availability": { "common_in": ["Korea", "Japan"], "rare_in": ["West"] },
+  "cuisine_origin": ["korean"],
+  "preparation_forms": ["liquid"],
+  "scientific_name": "Perilla frutescens",
+  "schema_org_type": "NutritionInformation",
+  "substitutes": [
+    {
+      "id": "toasted-sesame-oil",
+      "ratio": { "source": 1, "target_min": 0.8, "target_max": 0.8, "unit": "tbsp" },
+      "substitution_logic": "linear_scaling",
+      "failure_risk": "low",
+      "flavor_delta": { "nutty": 2, "earthy": -2 },
+      "chemical_impact": {
+        "en": "Sesame oil has a higher smoke point and a stronger, more assertive nutty flavor.",
+        "ko": "참기름은 발연점이 더 높고 훨씬 강한 견과류 향을 가지고 있습니다."
+      },
+      "compensation_action": {
+        "en": "Use slightly less sesame oil as its flavor is more dominant than perilla oil.",
+        "ko": "참기름은 향이 매우 강하므로 들기름보다 약간 적은 양을 사용하세요."
+      },
+      "verification": { "verified_by": "Chef Jinny Park", "date": "2026-04-24", "confidence_score": 90 }
+    }
+  ]
+}

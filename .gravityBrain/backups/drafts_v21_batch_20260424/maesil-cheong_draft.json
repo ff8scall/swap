@@ -1,0 +1,53 @@
+{
+  "id": "maesil-cheong",
+  "name": { "en": "Plum Extract", "ko": "매실청" },
+  "icon": "🟢",
+  "category": { "en": "Pantry Essentials & Sweeteners", "ko": "기본 식재료 및 감미료" },
+  "visual_identity": { "primary_color": "#52BE80", "texture": "Syrupy Liquid" },
+  "difficulty": "easy",
+  "dietary_tags": ["vegan", "gluten-free"],
+  "allergens": ["none"],
+  "swap_warnings": ["산미와 단맛이 동시에 있으므로 대체 시 두 가지 요소를 모두 고려해야 합니다."],
+  "measurement_type": "volume",
+  "best_use_cases": ["marinades", "dressings", "beverages", "sauces"],
+  "avoid_use_cases": ["baking (can affect pH and structure)"],
+  "properties": {
+    "ph_level": 3.0,
+    "moisture_content": 40.0,
+    "sweetness_index": 55,
+    "viscosity": "medium",
+    "umami_intensity": 2
+  },
+  "thermal_behavior": {
+    "smoke_point_c": null,
+    "melting_point_c": null,
+    "caramelization": true,
+    "maillard_reaction": false
+  },
+  "functional_properties": ["sweetener", "acidulant", "meat-tenderizer"],
+  "texture_profile": { "state": "liquid", "elasticity": "none", "mouthfeel": "syrupy" },
+  "regional_alias": { "us": ["Korean plum syrup", "Green plum extract"] },
+  "regional_availability": { "common_in": ["Korea", "China", "Japan"], "rare_in": ["West"] },
+  "cuisine_origin": ["korean"],
+  "preparation_forms": ["liquid"],
+  "scientific_name": "Prunus mume extract",
+  "schema_org_type": "NutritionInformation",
+  "substitutes": [
+    {
+      "id": "apricot-jam-plus-vinegar",
+      "ratio": { "source": 1, "target_min": 1, "target_max": 1, "unit": "tbsp" },
+      "substitution_logic": "manual",
+      "failure_risk": "medium",
+      "flavor_delta": { "fruity": 2, "acid": -1 },
+      "chemical_impact": {
+        "en": "Apricot jam provides the fruitiness and sugar, while vinegar adds the necessary acidity.",
+        "ko": "살구잼은 과일향과 당분을 제공하며, 식초는 필요한 산미를 보충해 줍니다."
+      },
+      "compensation_action": {
+        "en": "Mix 1 tbsp apricot jam with 1 tsp apple cider vinegar to mimic the plum extract profile.",
+        "ko": "살구잼 1큰술에 사과식초 1작은술을 섞어 매실청의 풍미를 재현하세요."
+      },
+      "verification": { "verified_by": "Chef Jinny Park", "date": "2026-04-24", "confidence_score": 82 }
+    }
+  ]
+}
