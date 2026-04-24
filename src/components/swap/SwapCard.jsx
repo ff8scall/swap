@@ -2,35 +2,42 @@
 import React, { useState } from 'react';
 import useTranslation from '@/lib/i18n/useTranslation';
 
-export default function SwapCard({ ingredient, substitute }) {
+export default function SwapCard({ ingredient, substitute, isCompact = false }) {
   const { t, lang } = useTranslation();
   const [amount, setAmount] = useState(1);
   const [isFlipped, setIsFlipped] = useState(false);
 
   const calculateTarget = (val, ratio) => {
-    const min = (val * ratio.target_min).toFixed(1);
-    const max = (val * ratio.target_max).toFixed(1);
+    if (!ratio) return val;
+    const min = (val * (ratio.target_min || 1)).toFixed(1);
+    const max = (val * (ratio.target_max || 1)).toFixed(1);
     return min === max ? min : `${min} - ${max}`;
   };
 
-  const formatUnit = (amt, unitKey, ingredientName) => {
-    const unit = t(`units.${unitKey}`) || unitKey;
-    if (lang === 'ko') {
-      return `${ingredientName} ${amt} ${unit}`;
-    }
-    return `${amt} ${unit} of ${ingredientName}`;
-  };
-
-  return (
-    <div className="swap-card glass-card">
-      <div className="card-header">
-        <div className="status-badge">
-          <span className="dot"></span> {t('swap.ai_generated')}
-        </div>
-        <div className="score-badge">
-          {substitute.similarity_score}% {t('swap.why_this_works')}
+  if (!substitute) {
+    return (
+      <div className="swap-card glass-card">
+        <div className="py-20 text-center">
+          <p className="text-secondary opacity-60">
+            {lang === 'ko' ? '이 식재료에 대한 최적의 대체재 정보를 분석 중입니다.' : 'Analyzing the best substitutes for this ingredient...'}
+          </p>
         </div>
       </div>
+    );
+  }
+
+  return (
+    <div className={`swap-card ${isCompact ? 'compact' : 'glass-card'}`}>
+      {!isCompact && (
+        <div className="card-header">
+          <div className="status-badge">
+            <span className="dot"></span> {t('swap.ai_generated')}
+          </div>
+          <div className="score-badge">
+            {substitute.verification?.confidence_score || 0}% {t('swap.why_this_works')}
+          </div>
+        </div>
+      )}
 
       <div className="card-main">
         <div className="source-area">
@@ -44,8 +51,8 @@ export default function SwapCard({ ingredient, substitute }) {
             />
             <span className="unit">
               {lang === 'ko' 
-                ? `${ingredient.name[lang]} ${t(`units.${substitute.ratio.unit}`)}`
-                : `${t(`units.${substitute.ratio.unit}`)} of ${ingredient.name[lang]}`
+                ? `${ingredient.name?.[lang] || ''} ${t(`units.${substitute.ratio?.unit || 'unit'}`)}`
+                : `${t(`units.${substitute.ratio?.unit || 'unit'}`)} of ${ingredient.name?.[lang] || ''}`
               }
             </span>
           </div>
@@ -63,44 +70,54 @@ export default function SwapCard({ ingredient, substitute }) {
             </span>
             <span className="unit">
               {lang === 'ko'
-                ? `${substitute.name[lang]} ${t(`units.${substitute.ratio.unit}`)}`
-                : `${t(`units.${substitute.ratio.unit}`)} of ${substitute.name[lang]}`
+                ? `${substitute.name?.[lang] || ''} ${t(`units.${substitute.ratio?.unit || 'unit'}`)}`
+                : `${t(`units.${substitute.ratio?.unit || 'unit'}`)} of ${substitute.name?.[lang] || ''}`
               }
             </span>
           </div>
         </div>
       </div>
 
-      <div className="card-details">
-        <div className="detail-item">
-          <span className="detail-label">{t('swap.chemical_impact')}:</span>
-          <p className="detail-text">{substitute.chemical_impact[lang]}</p>
-        </div>
-        <div className="detail-item alert-box">
-          <span className="detail-label text-warning">⚠️ {t('swap.pro_hack')}:</span>
-          <p className="detail-text">{substitute.compensation_action[lang]}</p>
-        </div>
-      </div>
+      {!isCompact && (
+        <>
+          <div className="card-details">
+            <div className="detail-item">
+              <span className="detail-label">{t('swap.chemical_impact')}:</span>
+              <p className="detail-text">{substitute.chemical_impact?.[lang] || ''}</p>
+            </div>
+            <div className="detail-item alert-box">
+              <span className="detail-label text-warning">⚠️ {t('swap.pro_hack')}:</span>
+              <p className="detail-text">{substitute.compensation_action?.[lang] || ''}</p>
+            </div>
+          </div>
 
-      <button className="btn-toggle" onClick={() => setIsFlipped(!isFlipped)}>
-        {isFlipped ? t('swap.hide_science') : t('swap.show_science')}
-      </button>
+          <button className="btn-toggle" onClick={() => setIsFlipped(!isFlipped)}>
+            {isFlipped ? t('swap.hide_science') : t('swap.show_science')}
+          </button>
 
-      {isFlipped && (
-        <div className="science-drawer">
-          <h4>{t('swap.why_this_works')}</h4>
-          <p>{substitute.why_it_works[lang]}</p>
-          {substitute?.oops_insurance && (
-            <div className="oops-box">
-              <strong>{t('swap.oops_insurance')}:</strong>
-              <p>{substitute.oops_insurance[lang]}</p>
+          {isFlipped && (
+            <div className="science-drawer">
+              <h4>{t('swap.why_this_works')}</h4>
+              <p>{substitute.why_it_works?.[lang] || ''}</p>
+              {substitute?.oops_insurance && (
+                <div className="oops-box">
+                  <strong>{t('swap.oops_insurance')}:</strong>
+                  <p>{substitute.oops_insurance[lang]}</p>
+                </div>
+              )}
             </div>
           )}
-        </div>
+        </>
       )}
 
-
       <style jsx>{`
+        .swap-card.compact {
+          background: transparent;
+          border: none;
+          box-shadow: none;
+          padding: 0;
+          width: 100%;
+        }
         .swap-card {
           max-width: 500px;
           margin: 20px auto;

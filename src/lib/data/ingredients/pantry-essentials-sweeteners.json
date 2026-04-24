@@ -2,846 +2,83 @@
   "meta": {
     "category_en": "Pantry Essentials & Sweeteners",
     "category_ko": "기본 식재료 및 감미료",
-    "count": 15,
-    "generated_at": "2026-04-24T05:26:15.977Z"
+    "count": 21,
+    "generated_at": "2026-04-24T07:03:19Z"
   },
   "ingredients": [
     {
-      "id": "molasses",
+      "id": "white-sugar",
       "name": {
-        "en": "Molasses",
-        "ko": "당밀"
+        "en": "White Sugar",
+        "ko": "백설탕"
       },
       "category": {
         "en": "Pantry Essentials & Sweeteners",
         "ko": "기본 식재료 및 감미료"
       },
       "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#2C1B0E",
-        "texture": "Viscous Black Syrup"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegan"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [
-        "매우 어둡고 씁쓸한 단맛이 있으므로 양 조절에 주의하세요.",
-        "블랙스트랩(Blackstrap)은 훨씬 덜 달고 쓴맛이 강합니다."
-      ],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
       "properties": {
-        "ph_level": 5,
-        "moisture_content": 20,
-        "sweetness_index": 45,
-        "viscosity": "very-thick-syrup",
-        "umami_intensity": 5
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 0,
+        "umami_intensity": 0,
+        "sweetness_index": 100,
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": true,
-        "maillard_reaction": true
-      },
-      "functional_properties": [
-        "sweetener",
-        "colorant",
-        "humectant"
-      ],
-      "texture_profile": {
-        "state": "liquid",
-        "elasticity": "low",
-        "mouthfeel": "thick-clinging"
-      },
-      "regional_alias": {
-        "us": [
-          "Molasses"
-        ],
-        "uk": [
-          "Treacle"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Americas",
-          "Europe",
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "global"
-      ],
-      "preparation_forms": [
-        "syrup"
-      ],
-      "scientific_name": "N/A",
-      "schema_org_type": "Product",
       "description": {
-        "en": "A thick, dark syrup byproduct of refining sugar cane or sugar beets, known for its deep, bittersweet flavor.",
-        "ko": "설탕을 정제할 때 나오는 진하고 어두운 시럽 부산물로, 씁쓸하면서도 깊은 풍미를 가진 감미료입니다."
+        "en": "Pure sucrose, the standard for sweetness.",
+        "ko": "순수한 수크로스로, 단맛의 표준이 되는 기본 감미료입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "brown-sugar-honey",
-          "ratio": {
-            "source": 1,
-            "target_min": 0.75,
-            "target_max": 1,
-            "unit": "cup"
-          },
-          "substitution_logic": "manual_blending",
-          "failure_risk": "low",
-          "flavor_delta": {
-            "bitterness": -4,
-            "sweetness": 2
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Brown sugar contains some molasses but in much lower concentration. Honey adds the necessary liquid volume.",
-            "ko": "황설탕은 당밀을 포함하고 있지만 농도가 훨씬 낮습니다. 꿀을 섞으면 필요한 액체 부피와 점성을 맞출 수 있습니다."
-          },
-          "compensation_action": {
-            "en": "Mix 3/4 cup brown sugar with 1/4 cup honey or water to mimic the volume and flavor.",
-            "ko": "황설탕 3/4컵에 꿀이나 물 1/4컵을 섞어서 사용하세요."
-          },
-          "verification": {
-            "verified_by": "Culinary Science Lab",
-            "date": "2026-04-24",
-            "confidence_score": 90
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Baking",
+          "ko": "베이킹"
+        },
+        {
+          "en": "Drinks",
+          "ko": "음료"
+        },
+        {
+          "en": "General Cooking",
+          "ko": "요리 전반"
         }
       ]
     },
     {
-      "id": "maple-syrup",
+      "id": "brown-sugar",
       "name": {
-        "en": "Maple Syrup",
-        "ko": "메이플 시럽"
+        "en": "Brown Sugar",
+        "ko": "황설탕"
       },
       "category": {
         "en": "Pantry Essentials & Sweeteners",
         "ko": "기본 식재료 및 감미료"
       },
       "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#873600",
-        "texture": "Amber Syrup"
-      },
-      "difficulty": "easy",
-      "dietary_tags": [
-        "vegan"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [
-        "진짜 메이플 시럽은 냉장 보관해야 곰팡이가 생기지 않습니다.",
-        "등급(Grade A, B 등)에 따라 색상과 향의 강도가 다릅니다."
-      ],
-      "measurement_type": "volume",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
       "properties": {
-        "ph_level": 4.8,
-        "moisture_content": 33,
-        "sweetness_index": 65,
-        "viscosity": "thick-syrup",
-        "umami_intensity": 2
+        "spiciness": 0,
+        "salinity": 5,
+        "acidity": 5,
+        "umami_intensity": 5,
+        "sweetness_index": 95,
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": true,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "sweetener",
-        "aromatic-agent",
-        "humectant"
-      ],
-      "texture_profile": {
-        "state": "liquid",
-        "elasticity": "none",
-        "mouthfeel": "smooth-syrupy"
-      },
-      "regional_alias": {
-        "ca": [
-          "Sirop d'érable"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "north-american"
-      ],
-      "preparation_forms": [
-        "syrup"
-      ],
-      "scientific_name": "N/A",
-      "schema_org_type": "Product",
       "description": {
-        "en": "A natural sweetener made from the sap of sugar maple trees, prized for its complex woody and caramel notes.",
-        "ko": "설탕단풍나무 수액으로 만든 천연 감미료로, 복합적인 나무 향과 캐러멜 풍미가 일품입니다."
+        "en": "Sugar with molasses, providing a deep caramel flavor.",
+        "ko": "당밀이 포함되어 깊은 캐러멜 풍미와 수분감을 주는 설탕입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "honey",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "volume"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {
-            "floral": 3,
-            "woody": -5
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Honey is slightly thicker and has floral notes instead of woody ones.",
-            "ko": "꿀은 약간 더 걸쭉하고 메이플의 나무 향 대신 꽃 향기가 납니다."
-          },
-          "compensation_action": {
-            "en": "Use honey 1:1. Add a tiny drop of vanilla or almond extract to mimic the complexity.",
-            "ko": "꿀을 1:1 비율로 사용하세요. 바닐라나 아몬드 익스트랙을 한 방울 넣으면 나무 향을 흉내 낼 수 있습니다."
-          },
-          "verification": {
-            "verified_by": "Chef Jinny Park",
-            "date": "2026-04-24",
-            "confidence_score": 88
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
-        }
-      ]
-    },
-    {
-      "id": "gochugaru",
-      "name": {
-        "en": "Gochugaru",
-        "ko": "고춧가루"
-      },
-      "category": {
-        "en": "Pantry Essentials & Sweeteners",
-        "ko": "기본 식재료 및 감미료"
-      },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#922B21",
-        "texture": "Coarse Flakes"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegan"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [
-        "빛과 열에 약해 색이 금방 변하므로 냉동 보관이 필수입니다.",
-        "굵은 입자는 김치/찌개용, 고운 입자는 고추장/소스용입니다."
-      ],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
-      "properties": {
-        "ph_level": 5.2,
-        "moisture_content": 10,
-        "sweetness_index": 10,
-        "viscosity": "solid",
-        "umami_intensity": 5
-      },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "heat-agent",
-        "colorant",
-        "flavor-enhancer"
-      ],
-      "texture_profile": {
-        "state": "solid",
-        "elasticity": "none",
-        "mouthfeel": "gritty-spicy"
-      },
-      "regional_alias": {
-        "ko": [
-          "태양초 고춧가루"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Korea",
-          "Asia",
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "korean"
-      ],
-      "preparation_forms": [
-        "coarse-flakes",
-        "fine-powder"
-      ],
-      "scientific_name": "Capsicum annuum",
-      "schema_org_type": "Product",
-      "description": {
-        "en": "Korean red chili flakes known for their unique smoky, sweet, and spicy profile, essential for traditional Korean cuisine.",
-        "ko": "훈연향, 단맛, 매운맛이 독특하게 어우러진 한국의 고춧가루로, 김치와 모든 한식 요리의 핵심 재료입니다."
-      },
-      "substitutes": [
+          "en": "Cookies",
+          "ko": "쿠키"
+        },
         {
-          "id": "paprika-cayenne-mix",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "weight"
-          },
-          "substitution_logic": "manual_blending",
-          "failure_risk": "medium",
-          "flavor_delta": {
-            "smokiness": 3,
-            "sweetness": -2
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Gochugaru has a specific 'clean' heat and sweetness that is hard to match with a single pepper.",
-            "ko": "고춧가루 특유의 깔끔한 매운맛과 단맛은 단일 고추 가루로 재현하기 힘듭니다."
-          },
-          "compensation_action": {
-            "en": "Mix 3 parts sweet paprika with 1 part cayenne pepper to match the color and heat level.",
-            "ko": "스위트 파프리카 3 : 카옌 페퍼 1 비율로 섞으면 색상과 맵기를 비슷하게 맞출 수 있습니다."
-          },
-          "verification": {
-            "verified_by": "Culinary Science Lab",
-            "date": "2026-04-24",
-            "confidence_score": 85
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
-        }
-      ]
-    },
-    {
-      "id": "panko",
-      "name": {
-        "en": "Panko Breadcrumbs",
-        "ko": "빵가루 (판코)"
-      },
-      "category": {
-        "en": "Pantry Essentials & Sweeteners",
-        "ko": "기본 식재료 및 감미료"
-      },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#FAD7A0",
-        "texture": "Light Airy Flakes"
-      },
-      "difficulty": "easy",
-      "dietary_tags": [
-        "vegan"
-      ],
-      "allergens": [
-        "wheat"
-      ],
-      "swap_warnings": [
-        "일반 빵가루보다 훨씬 크고 바삭하며 기름을 적게 흡수합니다.",
-        "습기에 약하므로 밀폐 보관하세요."
-      ],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
-      "properties": {
-        "ph_level": 5.5,
-        "moisture_content": 5,
-        "sweetness_index": 2,
-        "viscosity": "solid",
-        "umami_intensity": 2
-      },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": true
-      },
-      "functional_properties": [
-        "texturizer",
-        "coating-agent"
-      ],
-      "texture_profile": {
-        "state": "solid",
-        "elasticity": "none",
-        "mouthfeel": "crunchy-airy"
-      },
-      "regional_alias": {
-        "jp": [
-          "Panko"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "japanese"
-      ],
-      "preparation_forms": [
-        "flakes"
-      ],
-      "scientific_name": "N/A",
-      "schema_org_type": "Product",
-      "description": {
-        "en": "Japanese-style breadcrumbs with a light, flaky texture that creates an exceptionally crispy crust when fried.",
-        "ko": "일반 빵가루보다 입자가 크고 공기층이 많아 튀겼을 때 훨씬 바삭한 식감을 내는 일본식 빵가루입니다."
-      },
-      "substitutes": [
+          "en": "BBQ Sauce",
+          "ko": "바비큐 소스"
+        },
         {
-          "id": "crushed-cornflakes",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "volume"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {
-            "corn-flavor": 4,
-            "sweetness": 2
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Cornflakes provide a similar crunch but add a distinct corn taste and more sweetness.",
-            "ko": "콘플렉스는 비슷한 바삭함을 주지만 옥수수 맛과 단맛이 추가됩니다."
-          },
-          "compensation_action": {
-            "en": "Use unsweetened cornflakes and crush them coarsely. Reduce other salts/sugars in the coating.",
-            "ko": "단맛이 없는 콘플렉스를 거칠게 부수어 사용하세요. 튀김옷의 소금/설탕 양을 살짝 줄이세요."
-          },
-          "verification": {
-            "verified_by": "Chef Jinny Park",
-            "date": "2026-04-24",
-            "confidence_score": 90
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
-        }
-      ]
-    },
-    {
-      "id": "palm-sugar",
-      "name": {
-        "en": "Palm Sugar",
-        "ko": "팜 슈가"
-      },
-      "category": {
-        "en": "Pantry Essentials & Sweeteners",
-        "ko": "기본 식재료 및 감미료"
-      },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#D35400",
-        "texture": "Coarse Solid/Paste"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegan",
-        "low-gi"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [
-        "훈연향과 캐러멜 맛이 강해 일반 설탕보다 풍미가 깊습니다.",
-        "매우 단단할 수 있으니 칼로 썰거나 녹여서 사용하세요."
-      ],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
-      "properties": {
-        "ph_level": 6,
-        "moisture_content": 5,
-        "sweetness_index": 80,
-        "viscosity": "solid",
-        "umami_intensity": 3
-      },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": true,
-        "maillard_reaction": true
-      },
-      "functional_properties": [
-        "sweetener",
-        "aromatic-agent"
-      ],
-      "texture_profile": {
-        "state": "solid",
-        "elasticity": "none",
-        "mouthfeel": "gritty-caramel"
-      },
-      "regional_alias": {
-        "th": [
-          "Nam tan pip"
-        ],
-        "id": [
-          "Gula jawa"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Southeast Asia",
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "southeast-asian"
-      ],
-      "preparation_forms": [
-        "block",
-        "granules",
-        "paste"
-      ],
-      "scientific_name": "N/A",
-      "schema_org_type": "Product",
-      "description": {
-        "en": "A sweetener derived from the sap of palm trees, known for its rich, smoky, and caramel-like flavor profile.",
-        "ko": "종려나무 수액으로 만든 비정제 감미료로, 특유의 훈연향과 진한 캐러멜 풍미가 특징입니다."
-      },
-      "substitutes": [
-        {
-          "id": "brown-sugar-maple",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "weight"
-          },
-          "substitution_logic": "manual_blending",
-          "failure_risk": "low",
-          "flavor_delta": {
-            "complexity": -2
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Brown sugar matches the molasses notes, and maple syrup adds back the floral/woody complexity.",
-            "ko": "황설탕은 당밀의 맛을 내주고, 메이플 시럽은 팜 슈가의 복합적인 향을 보충해줍니다."
-          },
-          "compensation_action": {
-            "en": "Mix 1 cup dark brown sugar with 1 tbsp maple syrup.",
-            "ko": "흑설탕 1컵에 메이플 시럽 1큰술을 섞어서 사용하세요."
-          },
-          "verification": {
-            "verified_by": "Chef Jinny Park",
-            "date": "2026-04-24",
-            "confidence_score": 92
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
-        }
-      ]
-    },
-    {
-      "id": "pomegranate-molasses",
-      "name": {
-        "en": "Pomegranate Molasses",
-        "ko": "석류 당밀"
-      },
-      "category": {
-        "en": "Pantry Essentials & Sweeteners",
-        "ko": "기본 식재료 및 감미료"
-      },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#641E16",
-        "texture": "Thick Purple Syrup"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegan"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [
-        "매우 새콤하고 진하므로 소량씩 사용하며 맛을 보세요.",
-        "설탕이 든 것과 안 든 것이 있으니 성분표를 확인하세요."
-      ],
-      "measurement_type": "volume",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
-      "properties": {
-        "ph_level": 2.5,
-        "moisture_content": 30,
-        "sweetness_index": 50,
-        "viscosity": "very-thick-syrup",
-        "umami_intensity": 4
-      },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": true,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "acidulant",
-        "sweetener",
-        "glazing-agent"
-      ],
-      "texture_profile": {
-        "state": "liquid",
-        "elasticity": "low",
-        "mouthfeel": "thick-tart"
-      },
-      "regional_alias": {
-        "ir": [
-          "Rob-e anar"
-        ],
-        "tr": [
-          "Nar eksisi"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Middle East",
-          "Mediterranean",
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "middle-eastern"
-      ],
-      "preparation_forms": [
-        "syrup"
-      ],
-      "scientific_name": "N/A",
-      "schema_org_type": "Product",
-      "description": {
-        "en": "A thick, tart syrup made by reducing pomegranate juice, fundamental to Persian and Levantine cooking.",
-        "ko": "석류 주스를 걸쭉하게 졸여 만든 것으로, 강렬한 산미와 과일 향이 조화를 이루는 중동 요리의 핵심 소스입니다."
-      },
-      "substitutes": [
-        {
-          "id": "balsamic-glaze-lemon",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "volume"
-          },
-          "substitution_logic": "manual_blending",
-          "failure_risk": "low",
-          "flavor_delta": {
-            "fruitiness": -3,
-            "acidity": 2
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Balsamic glaze provides the syrup texture and acid but lacks the specific pomegranate profile.",
-            "ko": "발사믹 글레이즈는 비슷한 점성과 산미를 주지만 석류 특유의 풍미는 없습니다."
-          },
-          "compensation_action": {
-            "en": "Mix 1 tbsp balsamic glaze with 1 tsp honey and a squeeze of lemon.",
-            "ko": "발사믹 글레이즈 1큰술에 꿀 1작은술과 레몬즙 약간을 섞으세요."
-          },
-          "verification": {
-            "verified_by": "Chef Jinny Park",
-            "date": "2026-04-24",
-            "confidence_score": 90
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
-        }
-      ]
-    },
-    {
-      "id": "malt-syrup",
-      "name": {
-        "en": "Malt Syrup (Jo-cheong)",
-        "ko": "조청 (Malt Syrup)"
-      },
-      "category": {
-        "en": "Pantry Essentials & Sweeteners",
-        "ko": "기본 식재료 및 감미료"
-      },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#7E5109",
-        "texture": "High Viscosity Amber"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegan"
-      ],
-      "allergens": [
-        "barley"
-      ],
-      "swap_warnings": [
-        "냉장고에 넣으면 돌처럼 딱딱해져 사용하기 어렵습니다. 실온 보관하세요.",
-        "은은하고 깊은 곡물 향이 특징입니다."
-      ],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
-      "properties": {
-        "ph_level": 5,
-        "moisture_content": 20,
-        "sweetness_index": 55,
-        "viscosity": "very-thick-sticky",
-        "umami_intensity": 4
-      },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": true,
-        "maillard_reaction": true
-      },
-      "functional_properties": [
-        "sweetener",
-        "thickener-assistant",
-        "glazing-agent"
-      ],
-      "texture_profile": {
-        "state": "liquid",
-        "elasticity": "high",
-        "mouthfeel": "very-sticky"
-      },
-      "regional_alias": {
-        "ko": [
-          "쌀조청",
-          "곡물시럽"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Korea",
-          "East Asia"
-        ],
-        "rare_in": [
-          "Europe",
-          "Americas"
-        ]
-      },
-      "cuisine_origin": [
-        "korean"
-      ],
-      "preparation_forms": [
-        "syrup"
-      ],
-      "scientific_name": "N/A",
-      "schema_org_type": "Product",
-      "description": {
-        "en": "Traditional Korean grain syrup made from malted barley and rice, prized for its deep, mellow sweetness and high viscosity.",
-        "ko": "엿기름과 곡물을 고아 만든 한국 전통 시럽으로, 설탕보다 깊고 은은한 단맛과 강력한 점성이 특징입니다."
-      },
-      "substitutes": [
-        {
-          "id": "corn-syrup-honey-mix",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "weight"
-          },
-          "substitution_logic": "manual_blending",
-          "failure_risk": "low",
-          "flavor_delta": {
-            "grain-aroma": -5,
-            "clarity": 3
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Corn syrup provides the shine and viscosity, while honey adds flavor depth.",
-            "ko": "물엿은 윤기와 점성을 담당하고, 꿀은 조청 특유의 깊은 맛을 어느 정도 보충해줍니다."
-          },
-          "compensation_action": {
-            "en": "Mix 2 parts corn syrup with 1 part honey.",
-            "ko": "물엿 2 : 꿀 1 비율로 섞어서 사용하세요."
-          },
-          "verification": {
-            "verified_by": "Chef Jinny Park",
-            "date": "2026-04-24",
-            "confidence_score": 92
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Marinade",
+          "ko": "양념"
         }
       ]
     },
@@ -855,112 +92,449 @@
         "en": "Pantry Essentials & Sweeteners",
         "ko": "기본 식재료 및 감미료"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#F1C40F",
-        "texture": "Golden Syrup"
-      },
-      "difficulty": "easy",
-      "dietary_tags": [
-        "vegetarian"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [
-        "1세 미만 영아에게는 보툴리누스 중독 위험으로 절대 먹이면 안 됩니다.",
-        "꽃의 종류에 따라 향과 맛이 천차만별입니다."
-      ],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🍯",
       "properties": {
-        "ph_level": 3.9,
-        "moisture_content": 17,
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 15,
+        "umami_intensity": 10,
         "sweetness_index": 120,
-        "viscosity": "thick-syrup",
-        "umami_intensity": 3
+        "viscosity": 85
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": true,
-        "maillard_reaction": true
-      },
-      "functional_properties": [
-        "sweetener",
-        "humectant",
-        "preservative-assistant"
-      ],
-      "texture_profile": {
-        "state": "liquid",
-        "elasticity": "low",
-        "mouthfeel": "smooth-sticky"
-      },
-      "regional_alias": {
-        "ko": [
-          "벌꿀"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "global"
-      ],
-      "preparation_forms": [
-        "syrup",
-        "raw",
-        "creamed"
-      ],
-      "scientific_name": "N/A",
-      "schema_org_type": "Product",
       "description": {
-        "en": "A sweet, viscous food substance made by honey bees, valued for its complex flavor and natural preservative qualities.",
-        "ko": "꿀벌이 꽃의 밀원을 수집하여 만든 천연 감미료로, 특유의 풍미와 뛰어난 보존 효과를 가집니다."
+        "en": "Natural sweetener made by bees, rich in floral notes.",
+        "ko": "꿀벌이 만든 천연 감미료로 은은한 꽃 향기와 강한 단맛이 특징입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "agave-syrup",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "weight"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {
-            "floral": -2,
-            "cleanliness": 3
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Agave syrup is thinner and has a more neutral, 'cleaner' sweetness than honey.",
-            "ko": "아가베 시럽은 꿀보다 약간 묽고 꽃 향기 대신 깔끔한 단맛이 특징입니다."
-          },
-          "compensation_action": {
-            "en": "Use agave syrup 1:1. It is a perfect vegan alternative.",
-            "ko": "아가베 시럽을 1:1 비율로 사용하세요. 완벽한 비건 대안입니다."
-          },
-          "verification": {
-            "verified_by": "Culinary Science Lab",
-            "date": "2026-04-24",
-            "confidence_score": 95
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Tea",
+          "ko": "차"
+        },
+        {
+          "en": "Dressing",
+          "ko": "드레싱"
+        },
+        {
+          "en": "Toast",
+          "ko": "토스트"
+        }
+      ]
+    },
+    {
+      "id": "maple-syrup",
+      "name": {
+        "en": "Maple Syrup",
+        "ko": "메이플 시럽"
+      },
+      "category": {
+        "en": "Pantry Essentials & Sweeteners",
+        "ko": "기본 식재료 및 감미료"
+      },
+      "icon": "🍁",
+      "properties": {
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 10,
+        "umami_intensity": 5,
+        "sweetness_index": 65,
+        "viscosity": 50
+      },
+      "description": {
+        "en": "Syrup from maple sap, known for its woody aroma.",
+        "ko": "단풍나무 수액을 졸여 만든 고유의 나무 향이 일품인 시럽입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Pancakes",
+          "ko": "팬케이크"
+        },
+        {
+          "en": "Baking",
+          "ko": "베이킹"
+        },
+        {
+          "en": "Sauces",
+          "ko": "소스"
+        }
+      ]
+    },
+    {
+      "id": "salt-kosher",
+      "name": {
+        "en": "Kosher Salt / Sea Salt",
+        "ko": "천일염 (코셔 소금)"
+      },
+      "category": {
+        "en": "Pantry Essentials & Sweeteners",
+        "ko": "기본 식재료 및 감미료"
+      },
+      "icon": "🧂",
+      "properties": {
+        "spiciness": 0,
+        "salinity": 100,
+        "acidity": 0,
+        "umami_intensity": 0,
+        "sweetness_index": 0,
+        "viscosity": 100
+      },
+      "description": {
+        "en": "Coarse salt without additives, preferred by chefs.",
+        "ko": "첨가물 없이 입자가 굵어 양 조절이 용이한 전문 요리용 소금입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Seasoning",
+          "ko": "고기 밑간"
+        },
+        {
+          "en": "General Cooking",
+          "ko": "요리 전반"
+        },
+        {
+          "en": "Finishing",
+          "ko": "마무리"
+        }
+      ]
+    },
+    {
+      "id": "salt-table",
+      "name": {
+        "en": "Table Salt",
+        "ko": "꽃소금 (식탁 소금)"
+      },
+      "category": {
+        "en": "Pantry Essentials & Sweeteners",
+        "ko": "기본 식재료 및 감미료"
+      },
+      "icon": "🧂",
+      "properties": {
+        "spiciness": 0,
+        "salinity": 100,
+        "acidity": 0,
+        "umami_intensity": 0,
+        "sweetness_index": 0,
+        "viscosity": 100
+      },
+      "description": {
+        "en": "Fine-grained salt, standard for everyday seasoning.",
+        "ko": "입자가 고와 요리 전반에 두루 쓰이는 일반적인 소금입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Baking",
+          "ko": "베이킹"
+        },
+        {
+          "en": "Table use",
+          "ko": "식탁용"
+        },
+        {
+          "en": "Cooking",
+          "ko": "요리"
+        }
+      ]
+    },
+    {
+      "id": "vinegar-rice",
+      "name": {
+        "en": "Rice Vinegar",
+        "ko": "쌀식초"
+      },
+      "category": {
+        "en": "Pantry Essentials & Sweeteners",
+        "ko": "기본 식재료 및 감미료"
+      },
+      "icon": "🧪",
+      "properties": {
+        "spiciness": 0,
+        "salinity": 5,
+        "acidity": 90,
+        "umami_intensity": 15,
+        "sweetness_index": 20,
+        "viscosity": 5
+      },
+      "description": {
+        "en": "Mild, slightly sweet vinegar made from fermented rice.",
+        "ko": "곡물의 은은한 단맛이 있는 순하고 부드러운 식초입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Sushi",
+          "ko": "초밥"
+        },
+        {
+          "en": "Pickles",
+          "ko": "피클"
+        },
+        {
+          "en": "Dressing",
+          "ko": "드레싱"
+        }
+      ]
+    },
+    {
+      "id": "vinegar-balsamic",
+      "name": {
+        "en": "Balsamic Vinegar",
+        "ko": "발사믹 식초"
+      },
+      "category": {
+        "en": "Pantry Essentials & Sweeteners",
+        "ko": "기본 식재료 및 감미료"
+      },
+      "icon": "🍇",
+      "properties": {
+        "spiciness": 0,
+        "salinity": 5,
+        "acidity": 85,
+        "umami_intensity": 30,
+        "sweetness_index": 55,
+        "viscosity": 25
+      },
+      "description": {
+        "en": "Aged Italian grape vinegar, dark and complex.",
+        "ko": "포도즙을 숙성시켜 만든 진하고 복합적인 풍미의 이탈리아 식초입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Salad",
+          "ko": "샐러드"
+        },
+        {
+          "en": "Glaze",
+          "ko": "글레이즈"
+        },
+        {
+          "en": "Dipping",
+          "ko": "빵 찍어먹기"
+        }
+      ]
+    },
+    {
+      "id": "molasses",
+      "name": {
+        "en": "Molasses",
+        "ko": "당밀"
+      },
+      "category": {
+        "en": "Pantry Essentials & Sweeteners",
+        "ko": "기본 식재료 및 감미료"
+      },
+      "icon": "🧪",
+      "properties": {
+        "spiciness": 0,
+        "salinity": 10,
+        "acidity": 20,
+        "umami_intensity": 15,
+        "sweetness_index": 45,
+        "viscosity": 90
+      },
+      "description": {
+        "en": "Dark, bittersweet syrup from sugar refining.",
+        "ko": "설탕 정제 과정에서 나오는 진하고 씁쓸한 풍미의 시럽입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Baking",
+          "ko": "베이킹"
+        },
+        {
+          "en": "Sauces",
+          "ko": "소스"
+        },
+        {
+          "en": "BBQ",
+          "ko": "바비큐"
+        }
+      ]
+    },
+    {
+      "id": "gochugaru",
+      "name": {
+        "en": "Gochugaru",
+        "ko": "고춧가루"
+      },
+      "category": {
+        "en": "Pantry Essentials & Sweeteners",
+        "ko": "기본 식재료 및 감미료"
+      },
+      "icon": "🌶️",
+      "properties": {
+        "spiciness": 80,
+        "salinity": 5,
+        "acidity": 10,
+        "umami_intensity": 40,
+        "sweetness_index": 30,
+        "viscosity": 100
+      },
+      "description": {
+        "en": "Korean red chili flakes, smoky and sweet.",
+        "ko": "한식의 매운맛과 색감을 책임지는 한국 전통 고춧가루입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Kimchi",
+          "ko": "김치"
+        },
+        {
+          "en": "Stew",
+          "ko": "찌개"
+        },
+        {
+          "en": "Seasoned Veg",
+          "ko": "나물 무침"
+        }
+      ]
+    },
+    {
+      "id": "panko",
+      "name": {
+        "en": "Panko Breadcrumbs",
+        "ko": "빵가루"
+      },
+      "category": {
+        "en": "Pantry Essentials & Sweeteners",
+        "ko": "기본 식재료 및 감미료"
+      },
+      "icon": "🥖",
+      "properties": {
+        "spiciness": 0,
+        "salinity": 10,
+        "acidity": 5,
+        "umami_intensity": 5,
+        "sweetness_index": 5,
+        "viscosity": 100
+      },
+      "description": {
+        "en": "Airy, flaky breadcrumbs for maximum crunch.",
+        "ko": "튀김을 극도로 바삭하게 만들어주는 입자가 큰 빵가루입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Frying",
+          "ko": "튀김"
+        },
+        {
+          "en": "Tonkatsu",
+          "ko": "돈까스"
+        },
+        {
+          "en": "Crust",
+          "ko": "크러스트"
+        }
+      ]
+    },
+    {
+      "id": "palm-sugar",
+      "name": {
+        "en": "Palm Sugar",
+        "ko": "팜 슈가"
+      },
+      "category": {
+        "en": "Pantry Essentials & Sweeteners",
+        "ko": "기본 식재료 및 감미료"
+      },
+      "icon": "🌴",
+      "properties": {
+        "spiciness": 0,
+        "salinity": 5,
+        "acidity": 10,
+        "umami_intensity": 10,
+        "sweetness_index": 80,
+        "viscosity": 100
+      },
+      "description": {
+        "en": "Smoky, caramel-like sugar from palm sap.",
+        "ko": "종려나무 수액으로 만든 훈연향이 도는 비정제 설탕입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Curries",
+          "ko": "동남아 커리"
+        },
+        {
+          "en": "Desserts",
+          "ko": "디저트"
+        },
+        {
+          "en": "Pad Thai",
+          "ko": "팟타이"
+        }
+      ]
+    },
+    {
+      "id": "pomegranate-molasses",
+      "name": {
+        "en": "Pomegranate Molasses",
+        "ko": "석류 당밀"
+      },
+      "category": {
+        "en": "Pantry Essentials & Sweeteners",
+        "ko": "기본 식재료 및 감미료"
+      },
+      "icon": "🍷",
+      "properties": {
+        "spiciness": 0,
+        "salinity": 5,
+        "acidity": 95,
+        "umami_intensity": 15,
+        "sweetness_index": 50,
+        "viscosity": 90
+      },
+      "description": {
+        "en": "Thick, tart syrup from reduced pomegranate juice.",
+        "ko": "석류 주스를 졸여 만든 강렬한 산미의 중동식 소스입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Dips",
+          "ko": "무함마라"
+        },
+        {
+          "en": "Salad",
+          "ko": "샐러드"
+        },
+        {
+          "en": "Marinade",
+          "ko": "마리네이드"
+        }
+      ]
+    },
+    {
+      "id": "malt-syrup",
+      "name": {
+        "en": "Malt Syrup (Jo-cheong)",
+        "ko": "조청"
+      },
+      "category": {
+        "en": "Pantry Essentials & Sweeteners",
+        "ko": "기본 식재료 및 감미료"
+      },
+      "icon": "🍯",
+      "properties": {
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 5,
+        "umami_intensity": 15,
+        "sweetness_index": 55,
+        "viscosity": 95
+      },
+      "description": {
+        "en": "Traditional Korean grain syrup, mellow and sticky.",
+        "ko": "곡물을 발효시켜 만든 한국의 전통적인 깊은 맛의 시럽입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Bagels",
+          "ko": "베이글"
+        },
+        {
+          "en": "Snacks",
+          "ko": "엿강정"
+        },
+        {
+          "en": "Simmered Dishes",
+          "ko": "조림"
         }
       ]
     },
@@ -974,352 +548,107 @@
         "en": "Pantry Essentials & Sweeteners",
         "ko": "기본 식재료 및 감미료"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#FDFEFE",
-        "texture": "Clear Thick Liquid"
-      },
-      "difficulty": "easy",
-      "dietary_tags": [
-        "vegan"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [
-        "설탕보다 덜 달고 요리에 윤기를 내는 데 최적입니다.",
-        "쌀로 만든 쌀물엿은 색이 갈색이고 풍미가 더 진합니다."
-      ],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🍯",
       "properties": {
-        "ph_level": 5,
-        "moisture_content": 23,
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 0,
+        "umami_intensity": 5,
         "sweetness_index": 40,
-        "viscosity": "very-thick-syrup",
-        "umami_intensity": 2
+        "viscosity": 85
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "sweetener",
-        "glazing-agent",
-        "texture-agent"
-      ],
-      "texture_profile": {
-        "state": "liquid",
-        "elasticity": "low",
-        "mouthfeel": "smooth-sticky"
-      },
-      "regional_alias": {
-        "ko": [
-          "물엿",
-          "옥수수엿"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Korea",
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "korean",
-        "global"
-      ],
-      "preparation_forms": [
-        "syrup"
-      ],
-      "scientific_name": "N/A",
-      "schema_org_type": "Product",
       "description": {
-        "en": "A clear, thick syrup made from corn starch, widely used in Korean cooking to add sweetness and a glossy sheen to dishes.",
-        "ko": "옥수수 전분으로 만든 맑고 걸쭉한 시럽으로, 한식에서 요리에 은은한 단맛과 먹음직스러운 윤기를 더할 때 주로 사용합니다."
+        "en": "Clear syrup that adds gloss and mild sweetness.",
+        "ko": "요리에 먹음직스러운 윤기와 은은한 단맛을 더해주는 시럽입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "rice-syrup",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "weight"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {
-            "grain-aroma": 3,
-            "color": 2
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Rice syrup is less clear and adds a subtle grain flavor but provides similar viscosity and shine.",
-            "ko": "쌀물엿은 색이 짙고 곡물 향이 나지만, 점성과 윤기는 옥수수 물엿과 비슷하게 낼 수 있습니다."
-          },
-          "compensation_action": {
-            "en": "Use rice syrup in a 1:1 ratio. Expect a slightly darker color in the finished dish.",
-            "ko": "쌀물엿을 1:1 비율로 사용하세요. 완성된 요리의 색이 조금 더 진해질 수 있음을 감안해야 합니다."
-          },
-          "verification": {
-            "verified_by": "Chef Jinny Park",
-            "date": "2026-04-24",
-            "confidence_score": 95
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Simmered Dishes",
+          "ko": "조림"
+        },
+        {
+          "en": "Stir-fries",
+          "ko": "볶음"
+        },
+        {
+          "en": "Korean Fried Chicken",
+          "ko": "양념치킨"
         }
       ]
     },
     {
       "id": "maesil-cheong",
       "name": {
-        "en": "Plum Extract (Maesil-cheong)",
+        "en": "Plum Extract",
         "ko": "매실청"
       },
       "category": {
         "en": "Pantry Essentials & Sweeteners",
         "ko": "기본 식재료 및 감미료"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#7E5109",
-        "texture": "Dark Amber Syrup"
-      },
-      "difficulty": "easy",
-      "dietary_tags": [
-        "vegan"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [
-        "단맛뿐만 아니라 산미와 감칠맛이 함께 있어 고기 요리의 연육 작용에도 탁월합니다.",
-        "발효 식품이므로 특유의 발효 향이 날 수 있습니다."
-      ],
-      "measurement_type": "volume",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🟢",
       "properties": {
-        "ph_level": 3.2,
-        "moisture_content": 40,
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 70,
+        "umami_intensity": 30,
         "sweetness_index": 60,
-        "viscosity": "thick-syrup",
-        "umami_intensity": 5
+        "viscosity": 60
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": true,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "sweetener",
-        "acidulant",
-        "tenderizer",
-        "digestive-aid"
-      ],
-      "texture_profile": {
-        "state": "liquid",
-        "elasticity": "none",
-        "mouthfeel": "smooth-tart"
-      },
-      "regional_alias": {
-        "ko": [
-          "매실엑기스",
-          "매실발효액"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Korea",
-          "Japan"
-        ],
-        "rare_in": [
-          "Europe",
-          "Americas"
-        ]
-      },
-      "cuisine_origin": [
-        "korean"
-      ],
-      "preparation_forms": [
-        "syrup"
-      ],
-      "scientific_name": "Prunus mume",
-      "schema_org_type": "Product",
       "description": {
-        "en": "A fermented syrup made from green plums and sugar, used as a multi-purpose sweetener and seasoning in Korean cuisine.",
-        "ko": "청매실과 설탕을 발효시켜 만든 시럽으로, 한식에서 단맛, 신맛, 감칠맛을 동시에 잡는 만능 조미료이자 소화제로도 사랑받습니다."
+        "en": "Fermented plum syrup, a versatile Korean seasoning.",
+        "ko": "매실을 설탕에 발효시켜 만든 산미와 단맛이 조화로운 조미료입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "sugar-vinegar-mix",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "volume"
-          },
-          "substitution_logic": "manual_blending",
-          "failure_risk": "medium",
-          "flavor_delta": {
-            "fruity-complexity": -5,
-            "acidity": 2
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Sugar and vinegar provide the basic sweet-tart profile but lack the enzyme-driven tenderizing and depth of maesil-cheong.",
-            "ko": "설탕과 식초는 기본적인 새콤달콤한 맛은 내주지만, 매실청 특유의 발효된 깊은 맛과 연육 효과는 부족합니다."
-          },
-          "compensation_action": {
-            "en": "Mix sugar and rice vinegar (1:1). Add a small amount of apricot jam if available for the fruitiness.",
-            "ko": "설탕과 쌀식초를 1:1로 섞으세요. 과일 향을 위해 살구 잼을 소량 섞으면 훨씬 비슷해집니다."
-          },
-          "verification": {
-            "verified_by": "Chef Jinny Park",
-            "date": "2026-04-24",
-            "confidence_score": 75
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Seasoned Veg",
+          "ko": "나물 무침"
+        },
+        {
+          "en": "Drinks",
+          "ko": "음료"
+        },
+        {
+          "en": "Sauces",
+          "ko": "소스"
         }
       ]
     },
     {
       "id": "cheongju",
       "name": {
-        "en": "Cheongju",
+        "en": "Cheongju (Cooking Wine)",
         "ko": "청주"
       },
       "category": {
         "en": "Pantry Essentials & Sweeteners",
         "ko": "기본 식재료 및 감미료"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#FDFEFE",
-        "texture": "Clear Liquid"
-      },
-      "difficulty": "easy",
-      "dietary_tags": [
-        "vegan"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [
-        "요리용 술 중 가장 깔끔하고 단맛이 적습니다.",
-        "잡내 제거에 효과적이며 알코올은 조리 과정에서 대부분 날아갑니다."
-      ],
-      "measurement_type": "volume",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🍶",
       "properties": {
-        "ph_level": 4.5,
-        "moisture_content": 85,
-        "sweetness_index": 10,
-        "viscosity": "watery",
-        "umami_intensity": 4
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 25,
+        "umami_intensity": 20,
+        "sweetness_index": 15,
+        "viscosity": 5
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "odor-remover",
-        "flavor-enhancer",
-        "solvent"
-      ],
-      "texture_profile": {
-        "state": "liquid",
-        "elasticity": "none",
-        "mouthfeel": "watery"
-      },
-      "regional_alias": {
-        "ko": [
-          "청주",
-          "정종"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Korea",
-          "East Asia"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "korean"
-      ],
-      "preparation_forms": [
-        "liquid"
-      ],
-      "scientific_name": "N/A",
-      "schema_org_type": "Product",
       "description": {
-        "en": "A clear, refined Korean rice wine used in cooking to remove unpleasant odors from meat and fish.",
-        "ko": "쌀을 발효시켜 맑게 걸러낸 한국의 전통주로, 요리할 때 고기나 생선의 잡내를 없애고 풍미를 돋우는 데 사용합니다."
+        "en": "Refined rice wine used to remove food odors.",
+        "ko": "요리의 잡내를 없애고 풍미를 돋우는 맑은 전통주입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "sake",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "volume"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {
-            "sweetness": 2
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Sake is very similar to cheongju but often has a slightly higher sugar content.",
-            "ko": "사케는 청주와 제조 방식이 매우 유사하지만 보통 단맛이 약간 더 강합니다."
-          },
-          "compensation_action": {
-            "en": "Use sake in a 1:1 ratio. It is the best possible substitute.",
-            "ko": "사케를 1:1 비율로 사용하세요. 가장 완벽한 대안입니다."
-          },
-          "verification": {
-            "verified_by": "Chef Jinny Park",
-            "date": "2026-04-24",
-            "confidence_score": 98
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Marinade",
+          "ko": "고기 밑간"
+        },
+        {
+          "en": "Fish",
+          "ko": "생선 요리"
+        },
+        {
+          "en": "Stock",
+          "ko": "육수"
         }
       ]
     },
@@ -1327,356 +656,37 @@
       "id": "mirin-homemade",
       "name": {
         "en": "Homemade Mirin",
-        "ko": "수제 미림"
+        "ko": "수제 미림 (맛술)"
       },
       "category": {
         "en": "Pantry Essentials & Sweeteners",
         "ko": "기본 식재료 및 감미료"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#F7DC6F",
-        "texture": "Light Gold Liquid"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegan"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [
-        "시판 미림보다 알코올 도수가 높을 수 있으므로 충분히 끓여서 알코올을 날려주세요.",
-        "설탕이나 꿀의 양으로 단맛을 조절할 수 있습니다."
-      ],
-      "measurement_type": "volume",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🍶",
       "properties": {
-        "ph_level": 4.8,
-        "moisture_content": 50,
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 20,
+        "umami_intensity": 25,
         "sweetness_index": 45,
-        "viscosity": "thin-syrup",
-        "umami_intensity": 5
+        "viscosity": 15
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": true,
-        "maillard_reaction": true
-      },
-      "functional_properties": [
-        "sweetener",
-        "odor-remover",
-        "glazing-agent"
-      ],
-      "texture_profile": {
-        "state": "liquid",
-        "elasticity": "none",
-        "mouthfeel": "smooth-watery"
-      },
-      "regional_alias": {
-        "ko": [
-          "맛술",
-          "수제미림"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Global (Home-cooks)"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "japanese",
-        "korean"
-      ],
-      "preparation_forms": [
-        "liquid"
-      ],
-      "scientific_name": "N/A",
-      "schema_org_type": "Product",
       "description": {
-        "en": "A homemade version of sweet rice wine, typically made by mixing sake or soju with sugar or honey.",
-        "ko": "청주나 소주에 설탕 또는 꿀을 섞어 만든 수제 맛술로, 시판 제품보다 더 진하고 깊은 맛을 낼 수 있습니다."
+        "en": "Sweet rice wine for cooking and glazing.",
+        "ko": "요리에 단맛과 윤기를 더하고 잡내를 잡아주는 조미술입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "commercial-mirin",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "volume"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {
-            "depth": -2,
-            "sweetness": 3
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Commercial mirin (Aji-mirin) is often more about sugar syrup and less about brewed depth.",
-            "ko": "시판 맛술은 보통 설탕 시럽 비중이 높아 수제보다 깊은 맛은 덜할 수 있습니다."
-          },
-          "compensation_action": {
-            "en": "Use commercial mirin in a 1:1 ratio. Adjust sweetness if necessary.",
-            "ko": "시판 미림을 1:1 비율로 사용하세요. 필요하다면 설탕을 아주 살짝 줄이세요."
-          },
-          "verification": {
-            "verified_by": "Chef Jinny Park",
-            "date": "2026-04-24",
-            "confidence_score": 95
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
-        }
-      ]
-    },
-    {
-      "id": "tahini",
-      "name": {
-        "en": "Tahini",
-        "ko": "타히니"
-      },
-      "category": {
-        "en": "Pantry Essentials & Sweeteners",
-        "ko": "기본 식재료 및 감미료"
-      },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#D5D8DC",
-        "texture": "Smooth Paste"
-      },
-      "difficulty": "easy",
-      "dietary_tags": [
-        "vegan",
-        "keto"
-      ],
-      "allergens": [
-        "sesame"
-      ],
-      "swap_warnings": [
-        "오래 두면 기름이 위로 분리되므로 사용 전 잘 저어주어야 합니다.",
-        "한국식 참깨 페이스트보다 훨씬 묽고 고소한 맛이 깔끔합니다."
-      ],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
-      "properties": {
-        "ph_level": 6,
-        "moisture_content": 2,
-        "sweetness_index": 2,
-        "viscosity": "thick-creamy",
-        "umami_intensity": 6
-      },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": true
-      },
-      "functional_properties": [
-        "flavor-base",
-        "thickener",
-        "emulsifier"
-      ],
-      "texture_profile": {
-        "state": "paste",
-        "elasticity": "low",
-        "mouthfeel": "creamy-chalky"
-      },
-      "regional_alias": {
-        "ar": [
-          "Tahina"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Middle East",
-          "Mediterranean",
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "middle-eastern"
-      ],
-      "preparation_forms": [
-        "paste"
-      ],
-      "scientific_name": "N/A",
-      "schema_org_type": "Product",
-      "description": {
-        "en": "A smooth paste made from toasted, hulled sesame seeds, fundamental to Middle Eastern sauces like hummus and baba ganoush.",
-        "ko": "볶은 참깨를 아주 곱게 갈아 만든 페이스트로, 중동 요리의 고소한 맛과 부드러운 질감을 책임지는 핵심 재료입니다."
-      },
-      "substitutes": [
+          "en": "Simmered Dishes",
+          "ko": "조림"
+        },
         {
-          "id": "peanut-butter",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "weight"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "medium",
-          "flavor_delta": {
-            "nutty": 2,
-            "sweetness": 4
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Peanut butter has a much stronger, distinct flavor and more sweetness than tahini.",
-            "ko": "땅콩 버터는 타히니보다 향이 훨씬 강하고 단맛이 있어 요리의 전체적인 풍미를 바꿀 수 있습니다."
-          },
-          "compensation_action": {
-            "en": "Use unsweetened, natural peanut butter. Mix with a little sesame oil to bring back the sesame aroma.",
-            "ko": "설탕이 들지 않은 무첨가 땅콩 버터를 사용하세요. 참기름을 살짝 섞으면 참깨 향을 보충할 수 있습니다."
-          },
-          "verification": {
-            "verified_by": "Chef Jinny Park",
-            "date": "2026-04-24",
-            "confidence_score": 82
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
-        }
-      ]
-    },
-    {
-      "id": "brown-sugar",
-      "name": {
-        "en": "Brown Sugar",
-        "ko": "황설탕 (흑설탕)"
-      },
-      "category": {
-        "en": "Pantry Essentials & Sweeteners",
-        "ko": "기본 식재료 및 감미료"
-      },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#784212",
-        "texture": "Moist Granules"
-      },
-      "difficulty": "easy",
-      "dietary_tags": [
-        "vegan"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [
-        "수분을 잘 흡수하므로 공기에 노출되면 돌처럼 딱딱하게 굳습니다.",
-        "색상과 당밀 함량에 따라 라이트(Light)와 다크(Dark)로 나뉩니다."
-      ],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
-      "properties": {
-        "ph_level": 5.5,
-        "moisture_content": 3,
-        "sweetness_index": 95,
-        "viscosity": "solid",
-        "umami_intensity": 2
-      },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": true,
-        "maillard_reaction": true
-      },
-      "functional_properties": [
-        "sweetener",
-        "colorant",
-        "humectant"
-      ],
-      "texture_profile": {
-        "state": "solid",
-        "elasticity": "none",
-        "mouthfeel": "gritty-moist"
-      },
-      "regional_alias": {
-        "ko": [
-          "황설탕",
-          "흑설탕",
-          "비정제설탕"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "global"
-      ],
-      "preparation_forms": [
-        "granules"
-      ],
-      "scientific_name": "N/A",
-      "schema_org_type": "Product",
-      "description": {
-        "en": "A sucrose sugar product with a distinctive brown color due to the presence of molasses, known for its moisture and rich flavor.",
-        "ko": "당밀을 포함하고 있어 특유의 갈색과 풍부한 풍미를 지닌 설탕으로, 요리에 수분감과 깊은 단맛을 더해줍니다."
-      },
-      "substitutes": [
+          "en": "Teriyaki",
+          "ko": "테리야키"
+        },
         {
-          "id": "white-sugar-molasses",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "weight"
-          },
-          "substitution_logic": "manual_blending",
-          "failure_risk": "low",
-          "flavor_delta": {
-            "depth": 0
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "This is essentially how commercial brown sugar is made, providing the exact same profile.",
-            "ko": "시판 황설탕이 만들어지는 방식과 동일하므로 완벽하게 대체 가능합니다."
-          },
-          "compensation_action": {
-            "en": "Mix 1 cup white sugar with 1 tbsp molasses.",
-            "ko": "백설탕 1컵에 당밀 1큰술을 섞어서 사용하세요."
-          },
-          "verification": {
-            "verified_by": "Culinary Science Lab",
-            "date": "2026-04-24",
-            "confidence_score": 100
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Sauces",
+          "ko": "소스"
         }
       ]
     },
@@ -1690,110 +700,107 @@
         "en": "Pantry Essentials & Sweeteners",
         "ko": "기본 식재료 및 감미료"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#F7DC6F",
-        "texture": "Clear Light Syrup"
-      },
-      "difficulty": "easy",
-      "dietary_tags": [
-        "vegan",
-        "low-gi"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [
-        "설탕보다 훨씬 달기 때문에 평소보다 25-30% 적게 사용해야 합니다.",
-        "차가운 음료에도 아주 잘 녹습니다."
-      ],
-      "measurement_type": "volume",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🌵",
       "properties": {
-        "ph_level": 4.5,
-        "moisture_content": 22,
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 5,
+        "umami_intensity": 5,
         "sweetness_index": 130,
-        "viscosity": "thin-syrup",
-        "umami_intensity": 1
+        "viscosity": 45
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": true,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "sweetener",
-        "humectant"
-      ],
-      "texture_profile": {
-        "state": "liquid",
-        "elasticity": "none",
-        "mouthfeel": "smooth-watery"
-      },
-      "regional_alias": {
-        "mx": [
-          "Aguamiel"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "mexican"
-      ],
-      "preparation_forms": [
-        "syrup"
-      ],
-      "scientific_name": "Agave tequilana",
-      "schema_org_type": "Product",
       "description": {
-        "en": "A natural sweetener derived from the agave plant, known for its high fructose content and low glycemic index.",
-        "ko": "아가베 선인장에서 추출한 천연 시럽으로, 설탕보다 달콤하면서도 혈당 지수가 낮아 건강한 대안으로 널리 쓰입니다."
+        "en": "Low-GI sweetener from the agave plant.",
+        "ko": "혈당 지수가 낮고 단맛이 강한 선인장 유래 천연 시럽입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "honey",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "volume"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {
-            "floral": 3,
-            "cleanliness": -2
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Honey is thicker and has more aroma, but provides a similar sweet-liquid profile.",
-            "ko": "꿀은 아가베보다 걸쭉하고 향이 강하지만 비슷한 액체 단맛을 낼 수 있습니다."
-          },
-          "compensation_action": {
-            "en": "Use honey in a 1:1 ratio. If you want a more neutral taste, use corn syrup.",
-            "ko": "꿀을 1:1 비율로 사용하세요. 더 깔끔한 맛을 원한다면 물엿을 사용하세요."
-          },
-          "verification": {
-            "verified_by": "Culinary Science Lab",
-            "date": "2026-04-24",
-            "confidence_score": 92
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Drinks",
+          "ko": "음료"
+        },
+        {
+          "en": "Baking",
+          "ko": "비건 베이킹"
+        },
+        {
+          "en": "Dressing",
+          "ko": "드레싱"
+        }
+      ]
+    },
+    {
+      "id": "cocoa-powder",
+      "name": {
+        "en": "Cocoa Powder",
+        "ko": "코코아 가루"
+      },
+      "category": {
+        "en": "Pantry Essentials & Sweeteners",
+        "ko": "기본 식재료 및 감미료"
+      },
+      "icon": "🍫",
+      "properties": {
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 20,
+        "umami_intensity": 45,
+        "sweetness_index": 5,
+        "viscosity": 100
+      },
+      "description": {
+        "en": "Unsweetened chocolate powder for deep flavor.",
+        "ko": "풍부한 초콜릿 향과 쌉싸름한 맛을 더해주는 무가당 가루입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Baking",
+          "ko": "초콜릿 케이크"
+        },
+        {
+          "en": "Drinks",
+          "ko": "음료"
+        },
+        {
+          "en": "Desserts",
+          "ko": "디저트"
+        }
+      ]
+    },
+    {
+      "id": "vanilla-extract",
+      "name": {
+        "en": "Vanilla Extract",
+        "ko": "바닐라 추출물"
+      },
+      "category": {
+        "en": "Pantry Essentials & Sweeteners",
+        "ko": "기본 식재료 및 감미료"
+      },
+      "icon": "🍦",
+      "properties": {
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 15,
+        "umami_intensity": 25,
+        "sweetness_index": 10,
+        "viscosity": 5
+      },
+      "description": {
+        "en": "Aromatic extract from vanilla beans.",
+        "ko": "베이킹의 풍미를 완성하는 향긋한 바닐라 빈 추출액입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Baking",
+          "ko": "베이킹"
+        },
+        {
+          "en": "Custard",
+          "ko": "커스터드"
+        },
+        {
+          "en": "Smoothies",
+          "ko": "스무디"
         }
       ]
     }

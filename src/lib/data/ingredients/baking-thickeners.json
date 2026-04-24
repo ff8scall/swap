@@ -3,7 +3,7 @@
     "category_en": "Baking & Thickeners",
     "category_ko": "베이킹 및 증점제",
     "count": 18,
-    "generated_at": "2026-04-24T05:26:15.971Z"
+    "generated_at": "2026-04-24T07:02:11Z"
   },
   "ingredients": [
     {
@@ -16,134 +16,31 @@
         "en": "Baking & Thickeners",
         "ko": "베이킹 및 증점제"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#F5F5DC",
-        "texture": "Creamy Liquid"
-      },
-      "difficulty": "easy",
-      "dietary_tags": [
-        "vegetarian"
-      ],
-      "allergens": [
-        "dairy"
-      ],
-      "swap_warnings": [],
-      "measurement_type": "volume",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🥛",
       "properties": {
-        "ph_level": 4.5,
-        "moisture_content": 90,
-        "sweetness_index": 5,
-        "viscosity": "watery-syrup",
-        "umami_intensity": 2
+        "spiciness": 0,
+        "salinity": 10,
+        "acidity": 60,
+        "umami_intensity": 30,
+        "sweetness_index": 10,
+        "viscosity": 30
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": 0,
-        "caramelization": true,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "tenderizer",
-        "leavening-agent",
-        "acidifier"
-      ],
-      "texture_profile": {
-        "state": "liquid",
-        "elasticity": "none",
-        "mouthfeel": "creamy-thin"
-      },
-      "regional_alias": {},
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "global"
-      ],
-      "preparation_forms": [
-        "liquid"
-      ],
-      "scientific_name": "Cultured buttermilk",
-      "schema_org_type": "Product",
       "description": {
-        "en": "A fermented dairy drink, traditionally the liquid left behind after churning butter.",
-        "ko": "전통적으로 버터를 휘젓고 남은 액체로, 산미와 걸쭉함이 특징인 발효 유제품입니다."
+        "en": "Fermented dairy milk with a tangy flavor.",
+        "ko": "특유의 산미가 있는 발효된 우유입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "milk-lemon-hack",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "cup"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {},
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "The acid curdles the milk slightly, mimicking the pH level and thickness of buttermilk.",
-            "ko": "산성 성분이 우유를 살짝 응고시켜 버터밀크의 pH 농도와 질감을 거의 동일하게 재현합니다."
-          },
-          "compensation_action": {
-            "en": "Wait 5-10 minutes after mixing for the milk to curdle before adding to the batter.",
-            "ko": "섞은 후 우유가 응고될 때까지 5~10분 정도 기다린 뒤 반죽에 넣으세요."
-          },
-          "verification": {
-            "verified_by": "System",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Pancakes",
+          "ko": "팬케이크"
         },
         {
-          "id": "yogurt-milk-mix",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "cup"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {},
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Closer to the original thickness. Provides natural fermentation benefits.",
-            "ko": "원래의 버터밀크 점도에 더 가깝습니다. 자연 발효의 풍미를 제공합니다."
-          },
-          "compensation_action": {
-            "en": "Mix 3/4 cup yogurt with 1/4 cup milk to get the perfect pourable consistency.",
-            "ko": "요거트 3/4컵과 우유 1/4컵을 섞어 부드럽게 흐르는 농도를 맞추세요."
-          },
-          "verification": {
-            "verified_by": "System",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Fried Chicken",
+          "ko": "프라이드 치킨"
+        },
+        {
+          "en": "Biscuits",
+          "ko": "비스킷"
         }
       ]
     },
@@ -157,276 +54,69 @@
         "en": "Baking & Thickeners",
         "ko": "베이킹 및 증점제"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#FFFDD0",
-        "texture": "Rich Liquid"
-      },
-      "difficulty": "easy",
-      "dietary_tags": [
-        "vegetarian",
-        "keto"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [],
-      "measurement_type": "volume",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🥛",
       "properties": {
-        "ph_level": 6.6,
-        "moisture_content": 58,
-        "sweetness_index": 5,
-        "viscosity": "thick-creamy",
-        "umami_intensity": 2
+        "spiciness": 0,
+        "salinity": 5,
+        "acidity": 5,
+        "umami_intensity": 35,
+        "sweetness_index": 20,
+        "viscosity": 45
       },
-      "thermal_behavior": {
-        "smoke_point_c": 100,
-        "melting_point_c": 10,
-        "caramelization": true,
-        "maillard_reaction": true
-      },
-      "functional_properties": [
-        "thickener",
-        "fat-source",
-        "emulsifier"
-      ],
-      "texture_profile": {
-        "state": "liquid",
-        "elasticity": "none",
-        "mouthfeel": "velvety"
-      },
-      "regional_alias": {},
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "global"
-      ],
-      "preparation_forms": [
-        "liquid"
-      ],
-      "scientific_name": "Heavy cream",
-      "schema_org_type": "Product",
       "description": {
-        "en": "High-fat cream containing 36–40% milk fat.",
-        "ko": "유지방 함량이 36~40%인 고지방 크림입니다."
+        "en": "Rich cream with a high fat content.",
+        "ko": "유지방 함량이 높은 진하고 부드러운 크림입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "milk-butter-mix",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "cup"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {},
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Adding butter increases the fat content to match heavy cream, but it won't whip.",
-            "ko": "버터를 추가하여 유지방 함량을 맞추지만, 휘핑(거품 내기)은 되지 않습니다."
-          },
-          "compensation_action": {
-            "en": "Mix 3/4 cup milk with 1/4 cup melted butter. Best for cooking/baking, not whipping.",
-            "ko": "우유 3/4컵과 녹인 버터 1/4컵을 섞으세요. 요리나 베이킹용으로 적합하며 휘핑용은 아닙니다."
-          },
-          "verification": {
-            "verified_by": "System",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Pasta",
+          "ko": "파스타 소스"
         },
         {
-          "id": "coconut-milk-full-fat",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "cup"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {},
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Excellent for whipping and richness, but adds a distinct coconut flavor.",
-            "ko": "휘핑이 가능하고 아주 진하지만, 코코넛 특유의 풍미가 요리에 배어듭니다."
-          },
-          "compensation_action": {
-            "en": "Chill the can overnight and use the thick cream on top for whipping. Use for curries or tropical desserts.",
-            "ko": "캔을 밤새 냉장 보관한 뒤 상단의 걸쭉한 크림만 떠서 휘핑하세요. 카레나 열대 과일 디저트에 적합합니다."
-          },
-          "verification": {
-            "verified_by": "System",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Baking",
+          "ko": "베이킹"
+        },
+        {
+          "en": "Soups",
+          "ko": "수프"
         }
       ]
     },
     {
       "id": "egg-baking",
       "name": {
-        "en": "Egg (for Baking)",
-        "ko": "계란 (베이킹용)"
+        "en": "Egg",
+        "ko": "달걀"
       },
       "category": {
         "en": "Baking & Thickeners",
         "ko": "베이킹 및 증점제"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#E0E0E0",
-        "texture": "Standard"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegetarian"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🥚",
       "properties": {
-        "ph_level": 7.6,
-        "moisture_content": 75,
-        "sweetness_index": 0,
-        "viscosity": "thick-sticky",
-        "umami_intensity": 3
+        "spiciness": 0,
+        "salinity": 10,
+        "acidity": 5,
+        "umami_intensity": 45,
+        "sweetness_index": 5,
+        "viscosity": 40
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": true
-      },
-      "functional_properties": [
-        "binder",
-        "leavening-agent",
-        "emulsifier"
-      ],
-      "texture_profile": {
-        "state": "liquid-solid-mix",
-        "elasticity": "low",
-        "mouthfeel": "smooth"
-      },
-      "regional_alias": {},
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "global"
-      ],
-      "preparation_forms": [
-        "fresh"
-      ],
-      "scientific_name": "Gallus gallus domesticus egg",
-      "schema_org_type": "Product",
       "description": {
-        "en": "A fundamental ingredient in baking that provides structure, leavening, and moisture.",
-        "ko": "베이킹에서 구조를 잡고, 팽창을 돕고, 수분을 공급하는 가장 핵심적인 재료입니다."
+        "en": "Whole egg used for structure and richness.",
+        "ko": "요리의 구조와 풍미를 더해주는 필수 식재료입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "applesauce-egg",
-          "ratio": {
-            "source": 1,
-            "target_min": 0.25,
-            "target_max": 0.25,
-            "unit": "cup"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {},
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Provides moisture but lacks the binding power of egg protein. Cookies will be softer.",
-            "ko": "수분은 충분하지만 계란 단백질의 결속력은 부족합니다. 쿠키가 더 부드러워집니다."
-          },
-          "compensation_action": {
-            "en": "Best for cakes and muffins. Add 1/2 tsp baking powder if the recipe needs extra lift.",
-            "ko": "케이크나 머핀에 가장 적합합니다. 반죽이 덜 부풀 것 같다면 베이킹 파우더 1/2작은술을 추가하세요."
-          },
-          "verification": {
-            "verified_by": "System",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Baking",
+          "ko": "베이킹"
         },
         {
-          "id": "flax-egg",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "tbsp"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {},
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Excellent binder, adds a nutty flavor and dense texture.",
-            "ko": "결속력이 뛰어나며, 고소한 맛과 묵직한 질감을 더해줍니다."
-          },
-          "compensation_action": {
-            "en": "Mix 1 tbsp flaxseed meal with 3 tbsp water. Let sit for 5 mins until gelatinous.",
-            "ko": "아마씨 가루 1큰술과 물 3큰술을 섞으세요. 5분 정도 두어 젤리처럼 변하면 사용하세요."
-          },
-          "verification": {
-            "verified_by": "System",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Custard",
+          "ko": "커스터드"
+        },
+        {
+          "en": "Cooking",
+          "ko": "요리 전반"
         }
       ]
     },
@@ -440,99 +130,31 @@
         "en": "Baking & Thickeners",
         "ko": "베이킹 및 증점제"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#E0E0E0",
-        "texture": "Standard"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegetarian"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🍚",
       "properties": {
-        "ph_level": 5,
-        "moisture_content": 12,
-        "sweetness_index": 0,
-        "viscosity": "solid",
-        "umami_intensity": 0
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 0,
+        "umami_intensity": 0,
+        "sweetness_index": 5,
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "thickener",
-        "binder"
-      ],
-      "texture_profile": {
-        "state": "powder",
-        "elasticity": "none",
-        "mouthfeel": "grainy"
-      },
-      "regional_alias": {},
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "global"
-      ],
-      "preparation_forms": [
-        "powder"
-      ],
-      "scientific_name": "Zea mays starch",
-      "schema_org_type": "Product",
       "description": {
-        "en": "A common thickening agent derived from corn.",
-        "ko": "옥수수에서 추출한 일반적인 걸쭉하게 만드는 재료(증점제)입니다."
+        "en": "Fine corn flour used as a thickening agent.",
+        "ko": "소스나 수프를 걸쭉하게 만드는 데 쓰이는 고운 가루입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "all-purpose-flour",
-          "ratio": {
-            "source": 1,
-            "target_min": 2,
-            "target_max": 2,
-            "unit": "tbsp"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {},
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Flour has less thickening power and can make sauces cloudy.",
-            "ko": "밀가루는 전분보다 응축력이 약하며 소스를 탁하게 만들 수 있습니다."
-          },
-          "compensation_action": {
-            "en": "Use twice the amount of flour and cook longer to remove the raw flour taste.",
-            "ko": "밀가루 양을 두 배로 늘리고, 밀가루 냄새를 없애기 위해 더 오래 끓이세요."
-          },
-          "verification": {
-            "verified_by": "System",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Frying",
+          "ko": "튀김"
+        },
+        {
+          "en": "Thickening",
+          "ko": "소스 걸쭉하게"
+        },
+        {
+          "en": "Baking",
+          "ko": "베이킹"
         }
       ]
     },
@@ -547,97 +169,30 @@
         "ko": "베이킹 및 증점제"
       },
       "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#E0E0E0",
-        "texture": "Standard"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegetarian"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
       "properties": {
-        "ph_level": 7,
-        "moisture_content": 0,
+        "spiciness": 0,
+        "salinity": 30,
+        "acidity": 10,
+        "umami_intensity": 0,
         "sweetness_index": 0,
-        "viscosity": "solid",
-        "umami_intensity": 0
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "leavening-agent"
-      ],
-      "texture_profile": {
-        "state": "powder",
-        "elasticity": "none",
-        "mouthfeel": "grainy"
-      },
-      "regional_alias": {},
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "global"
-      ],
-      "preparation_forms": [
-        "powder"
-      ],
-      "scientific_name": "Sodium bicarbonate blend",
-      "schema_org_type": "Product",
       "description": {
-        "en": "A dry chemical leavening agent consisting of a carbonate or bicarbonate and a weak acid.",
-        "ko": "탄산수소나트륨과 약산성 성분이 섞인 건식 화학 팽창제입니다."
+        "en": "Leavening agent that releases CO2.",
+        "ko": "반죽을 부풀어 오르게 하는 화학 팽창제입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "baking-soda-acid",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "tsp"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {},
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Identical chemical reaction once moisture is added.",
-            "ko": "수분이 공급되면 베이킹 파우더와 동일한 화학 반응을 일으킵니다."
-          },
-          "compensation_action": {
-            "en": "Mix 1/4 tsp baking soda with 1/2 tsp cream of tartar for 1 tsp baking powder.",
-            "ko": "소다 1/4작은술과 주석산 1/2작은술을 섞으면 파우더 1작은술이 됩니다."
-          },
-          "verification": {
-            "verified_by": "System",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Baking",
+          "ko": "케이크"
+        },
+        {
+          "en": "Cookies",
+          "ko": "쿠키"
+        },
+        {
+          "en": "Muffins",
+          "ko": "머핀"
         }
       ]
     },
@@ -645,105 +200,37 @@
       "id": "cream-of-tartar",
       "name": {
         "en": "Cream of Tartar",
-        "ko": "주석산"
+        "ko": "크림 오브 타르타르"
       },
       "category": {
         "en": "Baking & Thickeners",
         "ko": "베이킹 및 증점제"
       },
       "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#E0E0E0",
-        "texture": "Standard"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegetarian"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
       "properties": {
-        "ph_level": 3.5,
-        "moisture_content": 0,
+        "spiciness": 0,
+        "salinity": 5,
+        "acidity": 95,
+        "umami_intensity": 0,
         "sweetness_index": 0,
-        "viscosity": "solid",
-        "umami_intensity": 0
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "stabilizer",
-        "acidifier"
-      ],
-      "texture_profile": {
-        "state": "powder",
-        "elasticity": "none",
-        "mouthfeel": "grainy"
-      },
-      "regional_alias": {},
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "global"
-      ],
-      "preparation_forms": [
-        "powder"
-      ],
-      "scientific_name": "Potassium bitartrate",
-      "schema_org_type": "Product",
       "description": {
-        "en": "A byproduct of winemaking, used to stabilize egg whites and prevent sugar crystals.",
-        "ko": "와인 제조 부산물로, 달걀 흰자를 안정시키거나 설탕 결정을 방지하는 데 쓰입니다."
+        "en": "Acidic powder used to stabilize egg whites.",
+        "ko": "머랭의 안정성을 높여주는 강력한 산성 가루입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "lemon-juice-vinegar",
-          "ratio": {
-            "source": 1,
-            "target_min": 2,
-            "target_max": 2,
-            "unit": "tsp"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {},
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Provides the necessary acidity to strengthen egg white protein structures.",
-            "ko": "달걀 흰자의 단백질 구조를 강화하는 데 필요한 산도를 제공합니다."
-          },
-          "compensation_action": {
-            "en": "Use 2 tsp of lemon juice for every 1 tsp of cream of tartar.",
-            "ko": "주석산 1작은술당 레몬즙 2작은술을 사용하세요."
-          },
-          "verification": {
-            "verified_by": "System",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Meringue",
+          "ko": "머랭"
+        },
+        {
+          "en": "Baking",
+          "ko": "베이킹"
+        },
+        {
+          "en": "Syrup",
+          "ko": "시럽"
         }
       ]
     },
@@ -757,100 +244,31 @@
         "en": "Baking & Thickeners",
         "ko": "베이킹 및 증점제"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#E0E0E0",
-        "texture": "Standard"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegetarian"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🧪",
       "properties": {
-        "ph_level": 7,
-        "moisture_content": 0,
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 0,
+        "umami_intensity": 0,
         "sweetness_index": 0,
-        "viscosity": "solid",
-        "umami_intensity": 0
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "thickener",
-        "stabilizer",
-        "emulsifier"
-      ],
-      "texture_profile": {
-        "state": "powder",
-        "elasticity": "high",
-        "mouthfeel": "slimy"
-      },
-      "regional_alias": {},
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "global"
-      ],
-      "preparation_forms": [
-        "powder"
-      ],
-      "scientific_name": "Xanthomonas campestris polysaccharide",
-      "schema_org_type": "Product",
       "description": {
-        "en": "A common food additive that acts as a powerful thickener and stabilizer.",
-        "ko": "강력한 점증제 및 안정제 역할을 하는 일반적인 식품 첨가물입니다."
+        "en": "Thickener and stabilizer used in food.",
+        "ko": "점도를 조절하고 혼합물을 안정화시키는 증점제입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "guar-gum-sub",
-          "ratio": {
-            "source": 2,
-            "target_min": 3,
-            "target_max": 3,
-            "unit": "part"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {},
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Guar gum is better for cold foods but may not provide the same heat stability as xanthan.",
-            "ko": "구아검은 찬 음식에 더 적합하며, 잔탄검만큼의 열 안정성은 없을 수 있습니다."
-          },
-          "compensation_action": {
-            "en": "Use 3 parts guar gum for every 2 parts xanthan gum called for in the recipe.",
-            "ko": "레시피에서 요구하는 잔탄검 2부분당 구아검 3부분을 사용하세요."
-          },
-          "verification": {
-            "verified_by": "System",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Baking",
+          "ko": "글루텐 프리 베이킹"
+        },
+        {
+          "en": "Dressing",
+          "ko": "드레싱"
+        },
+        {
+          "en": "Sauces",
+          "ko": "소스"
         }
       ]
     },
@@ -858,105 +276,37 @@
       "id": "arrowroot-powder",
       "name": {
         "en": "Arrowroot Powder",
-        "ko": "애로우루트 가루"
+        "ko": "칡 전분 (애로우루트)"
       },
       "category": {
         "en": "Baking & Thickeners",
         "ko": "베이킹 및 증점제"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#E0E0E0",
-        "texture": "Standard"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegetarian"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🌾",
       "properties": {
-        "ph_level": 5.5,
-        "moisture_content": 12,
-        "sweetness_index": 0,
-        "viscosity": "solid",
-        "umami_intensity": 0
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 0,
+        "umami_intensity": 0,
+        "sweetness_index": 5,
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "thickener",
-        "binder"
-      ],
-      "texture_profile": {
-        "state": "powder",
-        "elasticity": "none",
-        "mouthfeel": "smooth"
-      },
-      "regional_alias": {},
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "global"
-      ],
-      "preparation_forms": [
-        "powder"
-      ],
-      "scientific_name": "Maranta arundinacea",
-      "schema_org_type": "Product",
       "description": {
-        "en": "A clear, flavorless starch used as a thickener, especially in acidic recipes.",
-        "ko": "산성 레시피에서 점증제로 사용되는 투명하고 맛이 없는 전분입니다."
+        "en": "Nutrient-dense starch from tropical tubers.",
+        "ko": "열대 식물의 뿌리에서 추출한 맑고 투명한 전분입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "cornstarch-sub",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "part"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {},
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Cornstarch creates a more opaque, matte finish compared to arrowroot's gloss.",
-            "ko": "옥수수 전분은 애로우루트의 광택에 비해 더 불투명하고 무광택인 마무리를 만듭니다."
-          },
-          "compensation_action": {
-            "en": "Use 1:1 ratio. Mix with cold water first to create a slurry before adding to hot liquid.",
-            "ko": "1:1 비율로 사용하세요. 뜨거운 액체에 넣기 전에 먼저 찬물과 섞어 슬러리(전분물)를 만드세요."
-          },
-          "verification": {
-            "verified_by": "System",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Pudding",
+          "ko": "푸딩"
+        },
+        {
+          "en": "Sauces",
+          "ko": "소스"
+        },
+        {
+          "en": "Baking",
+          "ko": "베이킹"
         }
       ]
     },
@@ -970,100 +320,31 @@
         "en": "Baking & Thickeners",
         "ko": "베이킹 및 증점제"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#F5F5DC",
-        "texture": "Transparent"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "low-carb"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🍮",
       "properties": {
-        "ph_level": 5.5,
-        "moisture_content": 12,
-        "sweetness_index": 0,
-        "viscosity": "solid",
-        "umami_intensity": 1
+        "spiciness": 0,
+        "salinity": 5,
+        "acidity": 0,
+        "umami_intensity": 10,
+        "sweetness_index": 5,
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": 35,
-        "caramelization": false,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "gelling-agent",
-        "thickener"
-      ],
-      "texture_profile": {
-        "state": "powder",
-        "elasticity": "high",
-        "mouthfeel": "smooth-slippery"
-      },
-      "regional_alias": {},
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "global"
-      ],
-      "preparation_forms": [
-        "powder",
-        "sheet"
-      ],
-      "scientific_name": "Hydrolyzed collagen",
-      "schema_org_type": "Product",
       "description": {
-        "en": "An odorless, colorless protein used as a thickening and gelling agent.",
-        "ko": "냄새와 색이 없는 단백질로, 증점제 및 겔화제로 쓰입니다."
+        "en": "Colorless, flavorless food ingredient derived from collagen.",
+        "ko": "동물의 콜라겐에서 추출한 투명하고 끈기 있는 단백질입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "agar-agar-gelatin",
-          "ratio": {
-            "source": 1,
-            "target_min": 0.3,
-            "target_max": 0.5,
-            "unit": "tsp"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {},
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Sets much firmer and stays solid at room temperature unlike gelatin.",
-            "ko": "젤라틴보다 훨씬 단단하게 굳으며, 실온에서도 녹지 않고 고체 상태를 유지합니다."
-          },
-          "compensation_action": {
-            "en": "Use much less. 1 tsp agar equals about 1 tbsp gelatin. Boil to activate.",
-            "ko": "양을 훨씬 적게 쓰세요. 한천 1작은술은 젤라틴 1큰술과 비슷합니다. 끓여야 활성화됩니다."
-          },
-          "verification": {
-            "verified_by": "System",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Jelly",
+          "ko": "젤리"
+        },
+        {
+          "en": "Mousse",
+          "ko": "무스"
+        },
+        {
+          "en": "Marshmallows",
+          "ko": "마시멜로"
         }
       ]
     },
@@ -1077,102 +358,31 @@
         "en": "Baking & Thickeners",
         "ko": "베이킹 및 증점제"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#F0F8FF",
-        "texture": "Powder/Flakes"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegan"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🧫",
       "properties": {
-        "ph_level": 6,
-        "moisture_content": 12,
+        "spiciness": 0,
+        "salinity": 5,
+        "acidity": 0,
+        "umami_intensity": 5,
         "sweetness_index": 0,
-        "viscosity": "solid",
-        "umami_intensity": 1
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": 85,
-        "caramelization": false,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "gelling-agent",
-        "thickener"
-      ],
-      "texture_profile": {
-        "state": "powder",
-        "elasticity": "low",
-        "mouthfeel": "firm-brittle"
-      },
-      "regional_alias": {},
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "asian",
-        "global"
-      ],
-      "preparation_forms": [
-        "powder",
-        "sheet",
-        "strand"
-      ],
-      "scientific_name": "Gelidium amansii polysaccharide",
-      "schema_org_type": "Product",
       "description": {
-        "en": "A plant-based gelling agent derived from seaweed, commonly used in Asian desserts.",
-        "ko": "해조류에서 추출한 식물성 겔화제로, 아시아 디저트에 널리 쓰입니다."
+        "en": "Jelly-like substance derived from red algae.",
+        "ko": "해조류에서 추출한 식물성 젤라틴 대용품입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "gelatin-sub-agar",
-          "ratio": {
-            "source": 1,
-            "target_min": 3,
-            "target_max": 3,
-            "unit": "tsp"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {},
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Melts at body temperature, giving a 'melt-in-mouth' feel that agar lacks.",
-            "ko": "체온에서 녹기 때문에 한천에는 없는 '입안에서 녹는' 식감을 줍니다."
-          },
-          "compensation_action": {
-            "en": "Use 3 times the amount of gelatin compared to agar. Do not boil gelatin; just bloom and melt.",
-            "ko": "한천 양의 3배에 달하는 젤라틴을 사용하세요. 젤라틴은 끓이지 말고 불려서 녹여야 합니다."
-          },
-          "verification": {
-            "verified_by": "System",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Desserts",
+          "ko": "양갱"
+        },
+        {
+          "en": "Jelly",
+          "ko": "젤리"
+        },
+        {
+          "en": "Vegan Food",
+          "ko": "비건 푸드"
         }
       ]
     },
@@ -1187,120 +397,30 @@
         "ko": "베이킹 및 증점제"
       },
       "icon": "🥜",
-      "visual_identity": {
-        "primary_color": "#F9E79F",
-        "texture": "Granular Nutty Powder"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegan",
-        "gluten-free",
-        "keto"
-      ],
-      "allergens": [
-        "nuts"
-      ],
-      "swap_warnings": [
-        "지방 함량이 매우 높으므로 조리 시 유분 밸런스에 주의하세요.",
-        "견과류 알레르기 유발 물질입니다."
-      ],
-      "measurement_type": "weight",
-      "best_use_cases": [
-        "macarons",
-        "low-carb-baking",
-        "gluten-free-cakes",
-        "coatings"
-      ],
-      "avoid_use_cases": [
-        "high-gluten-breads",
-        "pizza-dough (as a direct replacement)"
-      ],
       "properties": {
-        "ph_level": 6.8,
-        "moisture_content": 5,
-        "sweetness_index": 10,
-        "viscosity": "solid",
-        "umami_intensity": 3
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 0,
+        "umami_intensity": 25,
+        "sweetness_index": 15,
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": true
-      },
-      "functional_properties": [
-        "structural-agent",
-        "fat-source",
-        "flavor-enhancer"
-      ],
-      "texture_profile": {
-        "state": "powder",
-        "elasticity": "none",
-        "mouthfeel": "granular"
-      },
-      "regional_alias": {
-        "us": [
-          "Almond meal (if coarse)",
-          "Ground almonds"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "global"
-      ],
-      "preparation_forms": [
-        "powder"
-      ],
-      "scientific_name": "Prunus dulcis",
-      "schema_org_type": "Product",
       "description": {
-        "en": "",
-        "ko": ""
+        "en": "Finely ground almonds, gluten-free.",
+        "ko": "아몬드를 곱게 갈아 만든 글루텐 프리 가루입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "sunflower-seed-flour",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "weight"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {
-            "nutty": -1,
-            "earthy": 2
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Sunflower seed flour is a great nut-free alternative but may turn green due to reaction with baking soda.",
-            "ko": "해바라기씨 가루는 훌륭한 견과류 프리 대안이지만, 베이킹소다와 반응하여 녹색으로 변할 수 있습니다."
-          },
-          "compensation_action": {
-            "en": "Add a teaspoon of lemon juice or cream of tartar to prevent the green color change.",
-            "ko": "녹색으로 변하는 것을 막기 위해 레몬즙이나 크림 오브 타르타르를 1작은술 추가하세요."
-          },
-          "verification": {
-            "verified_by": "Chef Jinny Park",
-            "date": "2026-04-24",
-            "confidence_score": 90
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Macarons",
+          "ko": "마카롱"
+        },
+        {
+          "en": "Baking",
+          "ko": "글루텐 프리 베이킹"
+        },
+        {
+          "en": "Coating",
+          "ko": "코팅"
         }
       ]
     },
@@ -1315,122 +435,30 @@
         "ko": "베이킹 및 증점제"
       },
       "icon": "🍞",
-      "visual_identity": {
-        "primary_color": "#F9E79F",
-        "texture": "Granular Strong Powder"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegetarian"
-      ],
-      "allergens": [
-        "gluten",
-        "wheat"
-      ],
-      "swap_warnings": [
-        "단백질 함량이 높아 글루텐 형성이 매우 강합니다. 부드러운 케이크에는 부적합합니다."
-      ],
-      "measurement_type": "weight",
-      "best_use_cases": [
-        "yeast-breads",
-        "pizza-dough",
-        "bagels",
-        "chewy-noodles"
-      ],
-      "avoid_use_cases": [
-        "cakes",
-        "pastries",
-        "biscuits"
-      ],
       "properties": {
-        "ph_level": 5.8,
-        "moisture_content": 13,
-        "sweetness_index": 0,
-        "viscosity": "solid",
-        "umami_intensity": 1
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 0,
+        "umami_intensity": 10,
+        "sweetness_index": 10,
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": true
-      },
-      "functional_properties": [
-        "structural-agent",
-        "binder",
-        "chewiness-agent"
-      ],
-      "texture_profile": {
-        "state": "powder",
-        "elasticity": "high",
-        "mouthfeel": "coarse"
-      },
-      "regional_alias": {
-        "us": [
-          "Bread flour",
-          "High-protein flour"
-        ],
-        "uk": [
-          "Strong flour"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "western"
-      ],
-      "preparation_forms": [
-        "powder"
-      ],
-      "scientific_name": "Triticum aestivum (High protein)",
-      "schema_org_type": "Product",
       "description": {
-        "en": "",
-        "ko": ""
+        "en": "High-protein flour for chewy textures.",
+        "ko": "단백질 함량이 높아 쫄깃한 식감의 빵에 적합한 가루입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "all-purpose-flour",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "weight"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "medium",
-          "flavor_delta": {
-            "chewiness": -3,
-            "structure": -2
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "All-purpose flour has less protein (~10-12%) than bread flour (~12-14%), resulting in a less elastic dough.",
-            "ko": "중력분은 강력분보다 단백질 함량이 낮아 반죽의 탄력과 쫄깃함이 부족할 수 있습니다."
-          },
-          "compensation_action": {
-            "en": "Knead the dough for a longer time to develop as much gluten as possible from the lower protein content.",
-            "ko": "부족한 단백질에서 최대한의 글루텐을 뽑아내기 위해 평소보다 더 오래 반죽을 치대세요."
-          },
-          "verification": {
-            "verified_by": "Chef Jinny Park",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Bread",
+          "ko": "식빵"
+        },
+        {
+          "en": "Pizza",
+          "ko": "피자 도우"
+        },
+        {
+          "en": "Yeasted Bread",
+          "ko": "발효 빵"
         }
       ]
     },
@@ -1445,119 +473,30 @@
         "ko": "베이킹 및 증점제"
       },
       "icon": "🍰",
-      "visual_identity": {
-        "primary_color": "#FDFEFE",
-        "texture": "Fine Soft Powder"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegetarian"
-      ],
-      "allergens": [
-        "gluten",
-        "wheat"
-      ],
-      "swap_warnings": [
-        "단백질 함량이 낮아 글루텐 형성이 적습니다. 쫄깃한 식감이 필요한 요리(빵 등)에는 부적합합니다."
-      ],
-      "measurement_type": "weight",
-      "best_use_cases": [
-        "cakes",
-        "delicate-pastries",
-        "cookies",
-        "tempura-batter"
-      ],
-      "avoid_use_cases": [
-        "bread-making",
-        "pizza-dough"
-      ],
       "properties": {
-        "ph_level": 5.5,
-        "moisture_content": 12,
-        "sweetness_index": 0,
-        "viscosity": "solid",
-        "umami_intensity": 1
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 0,
+        "umami_intensity": 5,
+        "sweetness_index": 15,
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": true
-      },
-      "functional_properties": [
-        "structural-agent",
-        "thickener",
-        "tenderizer"
-      ],
-      "texture_profile": {
-        "state": "powder",
-        "elasticity": "low",
-        "mouthfeel": "fine"
-      },
-      "regional_alias": {
-        "us": [
-          "Cake flour"
-        ],
-        "uk": [
-          "Soft flour"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "western"
-      ],
-      "preparation_forms": [
-        "powder"
-      ],
-      "scientific_name": "Triticum aestivum (Low protein)",
-      "schema_org_type": "Product",
       "description": {
-        "en": "",
-        "ko": ""
+        "en": "Low-protein flour for tender textures.",
+        "ko": "단백질 함량이 낮아 부드러운 케이크나 튀김에 적합한 가루입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "all-purpose-flour-plus-starch",
-          "ratio": {
-            "source": 100,
-            "target_min": 85,
-            "target_max": 85,
-            "unit": "g"
-          },
-          "substitution_logic": "manual",
-          "failure_risk": "low",
-          "flavor_delta": {
-            "texture": -1
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Adding cornstarch to AP flour reduces the overall protein percentage and inhibits gluten development.",
-            "ko": "중력분에 전분을 섞으면 전체 단백질 함량이 낮아지고 글루텐 형성이 억제되어 박력분과 유사한 성질을 띱니다."
-          },
-          "compensation_action": {
-            "en": "For every 1 cup (120g) of cake flour, use 1 cup (120g) of AP flour minus 2 tbsp (15g), and replace it with 2 tbsp (15g) of cornstarch. Sift twice.",
-            "ko": "박력분 1컵(120g)당 중력분 1컵에서 2큰술(15g)을 빼고, 그 자리를 전분 2큰술(15g)로 채운 뒤 두 번 체를 치세요."
-          },
-          "verification": {
-            "verified_by": "King Arthur Baking / America's Test Kitchen",
-            "date": "2026-04-24",
-            "confidence_score": 95
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Cakes",
+          "ko": "스펀지 케이크"
+        },
+        {
+          "en": "Pastries",
+          "ko": "페이스트리"
+        },
+        {
+          "en": "Biscuits",
+          "ko": "비스킷"
         }
       ]
     },
@@ -1572,116 +511,30 @@
         "ko": "베이킹 및 증점제"
       },
       "icon": "🍚",
-      "visual_identity": {
-        "primary_color": "#FDFEFE",
-        "texture": "Sticky Fine Powder"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegan",
-        "gluten-free"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [
-        "일반 쌀가루보다 훨씬 끈적거리므로 요리의 목적에 맞게 선택하세요."
-      ],
-      "measurement_type": "weight",
-      "best_use_cases": [
-        "kimchi-paste-base",
-        "desserts (mochi/tteok)",
-        "thickening-soups"
-      ],
-      "avoid_use_cases": [
-        "standard-wheat-bread-recipes"
-      ],
       "properties": {
-        "ph_level": 6.5,
-        "moisture_content": 12,
-        "sweetness_index": 5,
-        "viscosity": "very-thick",
-        "umami_intensity": 2
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 0,
+        "umami_intensity": 10,
+        "sweetness_index": 20,
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "thickener",
-        "binder",
-        "chewiness-agent"
-      ],
-      "texture_profile": {
-        "state": "powder",
-        "elasticity": "very-high",
-        "mouthfeel": "sticky"
-      },
-      "regional_alias": {
-        "us": [
-          "Sweet rice flour",
-          "Mochiko"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Asia"
-        ],
-        "rare_in": [
-          "Global"
-        ]
-      },
-      "cuisine_origin": [
-        "asian"
-      ],
-      "preparation_forms": [
-        "powder"
-      ],
-      "scientific_name": "Oryza sativa var. glutinosa",
-      "schema_org_type": "Product",
       "description": {
-        "en": "",
-        "ko": ""
+        "en": "Sticky flour from short-grain rice.",
+        "ko": "찰기가 강한 쌀로 만들어 쫄깃한 식감을 주는 가루입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "tapioca-starch",
-          "ratio": {
-            "source": 1,
-            "target_min": 0.8,
-            "target_max": 1,
-            "unit": "weight"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "medium",
-          "flavor_delta": {
-            "stickiness": 1,
-            "chewiness": 2
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Tapioca starch provides a similar chewy texture but is more translucent and slightly more elastic.",
-            "ko": "타피오카 전분은 비슷한 쫄깃한 식감을 제공하지만 더 투명하고 탄성이 강합니다."
-          },
-          "compensation_action": {
-            "en": "Use in a similar weight ratio. Be aware of the increased translucency in sauces.",
-            "ko": "비슷한 무게 비율로 사용하세요. 소스가 더 투명해질 수 있음을 고려하세요."
-          },
-          "verification": {
-            "verified_by": "Chef Jinny Park",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Rice Cakes",
+          "ko": "떡"
+        },
+        {
+          "en": "Porridge",
+          "ko": "김치 풀"
+        },
+        {
+          "en": "Dumplings",
+          "ko": "만두피"
         }
       ]
     },
@@ -1696,114 +549,30 @@
         "ko": "베이킹 및 증점제"
       },
       "icon": "🥔",
-      "visual_identity": {
-        "primary_color": "#FBFCFC",
-        "texture": "Silky Fine Powder"
-      },
-      "difficulty": "easy",
-      "dietary_tags": [
-        "vegan",
-        "gluten-free"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [
-        "고온에서 오래 끓이면 점도가 깨질 수 있으므로 조리 마지막에 넣으세요."
-      ],
-      "measurement_type": "weight",
-      "best_use_cases": [
-        "clear-soups",
-        "gravies",
-        "frying-batter (for crispiness)"
-      ],
-      "avoid_use_cases": [
-        "pie-fillings (can become gluey)"
-      ],
       "properties": {
-        "ph_level": 6.5,
-        "moisture_content": 15,
-        "sweetness_index": 0,
-        "viscosity": "thick",
-        "umami_intensity": 1
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 0,
+        "umami_intensity": 5,
+        "sweetness_index": 5,
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "thickener",
-        "crisping-agent"
-      ],
-      "texture_profile": {
-        "state": "powder",
-        "elasticity": "medium",
-        "mouthfeel": "silky"
-      },
-      "regional_alias": {
-        "us": [
-          "Potato starch flour"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "global"
-      ],
-      "preparation_forms": [
-        "powder"
-      ],
-      "scientific_name": "Solanum tuberosum starch",
-      "schema_org_type": "Product",
       "description": {
-        "en": "",
-        "ko": ""
+        "en": "Starch extracted from potatoes.",
+        "ko": "감자에서 추출한 전분으로 튀김을 바삭하게 만듭니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "cornstarch",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "tbsp"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {
-            "clarity": -2,
-            "texture": -1
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Cornstarch is more heat-stable but produces a more opaque sauce than potato starch.",
-            "ko": "옥수수 전분은 열에 더 안정적이지만, 감자 전분보다 소스가 더 불투명해집니다."
-          },
-          "compensation_action": {
-            "en": "Use in a 1:1 ratio. Simmer longer if needed to remove the starchy taste.",
-            "ko": "1:1 비율로 사용하세요. 전분 맛을 없애기 위해 필요 시 조금 더 오래 끓이세요."
-          },
-          "verification": {
-            "verified_by": "Chef Jinny Park",
-            "date": "2026-04-24",
-            "confidence_score": 95
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Frying",
+          "ko": "튀김"
+        },
+        {
+          "en": "Soups",
+          "ko": "옹심이"
+        },
+        {
+          "en": "Sauces",
+          "ko": "소스"
         }
       ]
     },
@@ -1811,129 +580,37 @@
       "id": "self-rising-flour",
       "name": {
         "en": "Self-Rising Flour",
-        "ko": "셀프 라이징 플라워"
+        "ko": "셀프 라이징 밀가루"
       },
       "category": {
         "en": "Baking & Thickeners",
         "ko": "베이킹 및 증점제"
       },
-      "icon": "☁️",
-      "visual_identity": {
-        "primary_color": "#FDFEFE",
-        "texture": "Aerated Leavened Powder"
-      },
-      "difficulty": "easy",
-      "dietary_tags": [
-        "vegetarian"
-      ],
-      "allergens": [
-        "gluten",
-        "wheat"
-      ],
-      "swap_warnings": [
-        "이미 팽창제(베이킹파우더)와 소금이 섞여 있습니다. 추가로 넣지 않도록 주의하세요."
-      ],
-      "measurement_type": "weight",
-      "best_use_cases": [
-        "biscuits",
-        "muffins",
-        "quick-breads",
-        "pancakes"
-      ],
-      "avoid_use_cases": [
-        "yeast-breads",
-        "pizza-dough"
-      ],
+      "icon": "🍞",
       "properties": {
-        "ph_level": 7,
-        "moisture_content": 12,
-        "sweetness_index": 0,
-        "viscosity": "solid",
-        "umami_intensity": 1
+        "spiciness": 0,
+        "salinity": 25,
+        "acidity": 5,
+        "umami_intensity": 10,
+        "sweetness_index": 10,
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": true
-      },
-      "functional_properties": [
-        "leavening-agent",
-        "structural-agent"
-      ],
-      "texture_profile": {
-        "state": "powder",
-        "elasticity": "low",
-        "mouthfeel": "light"
-      },
-      "regional_alias": {
-        "us": [
-          "Self-rising flour"
-        ],
-        "uk": [
-          "Self-raising flour"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "US",
-          "UK",
-          "Australia"
-        ],
-        "rare_in": [
-          "Korea",
-          "Asia"
-        ]
-      },
-      "cuisine_origin": [
-        "western"
-      ],
-      "preparation_forms": [
-        "powder"
-      ],
-      "scientific_name": "N/A",
-      "schema_org_type": "Product",
       "description": {
-        "en": "",
-        "ko": ""
+        "en": "Flour with salt and leavening mixed in.",
+        "ko": "소금과 팽창제가 미리 혼합된 간편한 밀가루입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "all-purpose-flour-plus-leavening",
-          "ratio": {
-            "source": 100,
-            "target_min": 98,
-            "target_max": 98,
-            "unit": "g"
-          },
-          "substitution_logic": "manual",
-          "failure_risk": "low",
-          "flavor_delta": {
-            "lift": 0,
-            "salt": 0
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Combining AP flour with baking powder and salt creates an identical functional profile.",
-            "ko": "중력분에 베이킹파우더와 소금을 배합하면 기능적으로 완벽하게 동일한 결과물을 얻을 수 있습니다."
-          },
-          "compensation_action": {
-            "en": "For 1 cup (120g) of self-rising flour, mix 1 cup (120g) of AP flour with 1.5 tsp baking powder and 1/4 tsp salt. Whisk thoroughly.",
-            "ko": "셀프 라이징 플라워 1컵(120g)당 중력분 1컵에 베이킹파우더 1.5작은술, 소금 1/4작은술을 넣고 잘 섞으세요."
-          },
-          "verification": {
-            "verified_by": "The Kitchn / King Arthur Baking",
-            "date": "2026-04-24",
-            "confidence_score": 100
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Quick Bread",
+          "ko": "퀵 브레드"
+        },
+        {
+          "en": "Biscuits",
+          "ko": "비스킷"
+        },
+        {
+          "en": "Pancakes",
+          "ko": "팬케이크"
         }
       ]
     },
@@ -1947,122 +624,31 @@
         "en": "Baking & Thickeners",
         "ko": "베이킹 및 증점제"
       },
-      "icon": "⚪",
-      "visual_identity": {
-        "primary_color": "#FDFEFE",
-        "texture": "Squeaky Fine Powder"
-      },
-      "difficulty": "easy",
-      "dietary_tags": [
-        "vegan",
-        "gluten-free"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [
-        "낮은 온도에서 빠르게 걸쭉해지며, 냉동 안정성이 뛰어납니다."
-      ],
-      "measurement_type": "weight",
-      "best_use_cases": [
-        "pie-fillings",
-        "puddings",
-        "gluten-free-baking",
-        "boba-pearls"
-      ],
-      "avoid_use_cases": [
-        "long-simmered-stews (can break down)"
-      ],
+      "icon": "🍠",
       "properties": {
-        "ph_level": 6,
-        "moisture_content": 13,
-        "sweetness_index": 0,
-        "viscosity": "thick",
-        "umami_intensity": 1
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 0,
+        "umami_intensity": 5,
+        "sweetness_index": 15,
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "thickener",
-        "binder",
-        "gloss-agent"
-      ],
-      "texture_profile": {
-        "state": "powder",
-        "elasticity": "high",
-        "mouthfeel": "smooth"
-      },
-      "regional_alias": {
-        "us": [
-          "Tapioca flour",
-          "Manioc starch"
-        ],
-        "ko": [
-          "카사바 전분"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "brazilian",
-        "asian"
-      ],
-      "preparation_forms": [
-        "powder"
-      ],
-      "scientific_name": "Manihot esculenta",
-      "schema_org_type": "Product",
       "description": {
-        "en": "",
-        "ko": ""
+        "en": "Starch from cassava roots.",
+        "ko": "카사바 뿌리에서 추출한 쫄깃한 식감의 전분입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "cornstarch",
-          "ratio": {
-            "source": 2,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "tbsp"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "medium",
-          "flavor_delta": {
-            "gloss": -3,
-            "opacity": 3
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Cornstarch creates an opaque finish and is less stable in the freezer compared to tapioca.",
-            "ko": "옥수수 전분은 불투명한 마감을 만들며, 타피오카에 비해 냉동 보관 시 안정성이 떨어집니다."
-          },
-          "compensation_action": {
-            "en": "Use half the amount of cornstarch compared to tapioca. Do not freeze if using cornstarch.",
-            "ko": "타피오카의 절반 양만 사용하세요. 옥수수 전분 사용 시 요리를 냉동하지 마세요."
-          },
-          "verification": {
-            "verified_by": "Chef Jinny Park",
-            "date": "2026-04-24",
-            "confidence_score": 85
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Bubble Tea",
+          "ko": "버블티"
+        },
+        {
+          "en": "Pão de Queijo",
+          "ko": "브라질 치즈빵"
+        },
+        {
+          "en": "Pudding",
+          "ko": "푸딩"
         }
       ]
     },
@@ -2076,120 +662,31 @@
         "en": "Baking & Thickeners",
         "ko": "베이킹 및 증점제"
       },
-      "icon": "🍄",
-      "visual_identity": {
-        "primary_color": "#FAD7A0",
-        "texture": "Granular Powder"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegan",
-        "gluten-free"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [
-        "사용 전 따뜻한 물(40~43°C)에 녹여 활성화(Blooming) 과정이 필요할 수 있습니다.",
-        "보관 시 밀봉하여 냉장 또는 냉동 보관하세요."
-      ],
-      "measurement_type": "weight",
-      "best_use_cases": [
-        "bread-making",
-        "pizza-dough",
-        "sweet-doughs"
-      ],
-      "avoid_use_cases": [
-        "cakes (unless specified)",
-        "quick-breads"
-      ],
+      "icon": "🥯",
       "properties": {
-        "ph_level": 5.8,
-        "moisture_content": 8,
-        "sweetness_index": 0,
-        "viscosity": "solid",
-        "umami_intensity": 4
+        "spiciness": 0,
+        "salinity": 5,
+        "acidity": 10,
+        "umami_intensity": 55,
+        "sweetness_index": 5,
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "leavening-agent",
-        "fermentation-agent",
-        "flavor-enhancer"
-      ],
-      "texture_profile": {
-        "state": "powder",
-        "elasticity": "none",
-        "mouthfeel": "granular"
-      },
-      "regional_alias": {
-        "us": [
-          "Active dry yeast"
-        ],
-        "uk": [
-          "Dried yeast"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "global"
-      ],
-      "preparation_forms": [
-        "powder"
-      ],
-      "scientific_name": "Saccharomyces cerevisiae",
-      "schema_org_type": "Product",
       "description": {
-        "en": "",
-        "ko": ""
+        "en": "Leavening agent for bread baking.",
+        "ko": "빵을 부풀리는 데 사용되는 살아있는 효모입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "fresh-yeast",
-          "ratio": {
-            "source": 1,
-            "target_min": 2.5,
-            "target_max": 3,
-            "unit": "weight"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {
-            "yeasty": 3
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Fresh yeast has much higher moisture content. It provides a more intense yeasty flavor and faster initial activity.",
-            "ko": "생이스트는 수분 함량이 훨씬 높으며, 더 강한 이스트 풍미와 빠른 초기 활성력을 제공합니다."
-          },
-          "compensation_action": {
-            "en": "Use 2.5 to 3 times the weight of dry yeast. Dissolve in liquid before adding to flour.",
-            "ko": "드라이 이스트 무게의 2.5~3배 양을 사용하세요. 가루에 섞기 전 반드시 액체에 녹여 사용하세요."
-          },
-          "verification": {
-            "verified_by": "King Arthur Baking",
-            "date": "2026-04-24",
-            "confidence_score": 98
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Bread",
+          "ko": "빵"
+        },
+        {
+          "en": "Pizza",
+          "ko": "피자"
+        },
+        {
+          "en": "Dough",
+          "ko": "발효 반죽"
         }
       ]
     }

@@ -6,6 +6,9 @@
 - **Affiliate Strategy**: "Don't have it? Buy it here!" - 대체제가 없거나 품질 차이가 큰 경우 즉시 구매 링크 제공.
 
 ## 2. 경제성 분석 및 성장 구조 (Growth Engine)
+- **[Recipe Parsing Engine]**: 자연어 레시피를 분석하여 '핵심 풍미 재료'와 '구조 형성 재료'를 구분하고, 부재 시 즉시 대체 후보를 매핑하는 NLP 엔진.
+- **[Complex Correction Logic]**: 화학적 일치도(Chemical Match)와 풍미 밸런스(Flavor Balance)의 가중 평균을 적용하여 보정 가이드를 단계별로 생성 (`Match = (Σ(Property_i * Weight_i) / ΣWeight_i)`).
+- **[Dynamic Yield Adjuster]**: 기본 비율(Ratio)을 입력된 목표량(Yield)에 따라 비선형적으로 확장하여 조리 실패를 방지하는 수학적 모델.
 - **CAC (획득 비용)**: SEO 및 유기적 공유 중심이므로 사실상 $0에 수렴.
 - **LTV (고객 생애 가치)**: 반복적인 요리 상황에서의 재방문 및 뉴스레터 구독을 통한 연계 수익.
 - **Growth Flywheel**: 

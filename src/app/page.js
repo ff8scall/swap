@@ -47,31 +47,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="features-section container">
-        <div className="features-grid">
-          <div className="feature-item glass-card">
-            <div className="feature-icon-wrapper">
-              <span className="feature-icon">🧪</span>
-            </div>
-            <h3>{t('common.feature_1_title')}</h3>
-            <p>{t('common.feature_1_desc')}</p>
-          </div>
-          <div className="feature-item glass-card">
-            <div className="feature-icon-wrapper">
-              <span className="feature-icon">🌏</span>
-            </div>
-            <h3>{t('common.feature_2_title')}</h3>
-            <p>{t('common.feature_2_desc')}</p>
-          </div>
-          <div className="feature-item glass-card">
-            <div className="feature-icon-wrapper">
-              <span className="feature-icon">🛡️</span>
-            </div>
-            <h3>{t('common.feature_3_title')}</h3>
-            <p>{t('common.feature_3_desc')}</p>
-          </div>
-        </div>
-      </section>
+
 
       <Footer />
 
@@ -127,47 +103,7 @@ export default function HomePage() {
           margin-bottom: 20px;
           font-weight: 700;
         }
-        .features-section {
-          padding: 100px 0 140px;
-        }
-        .features-grid {
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          gap: 32px;
-        }
-        .feature-item {
-          text-align: center;
-          padding: 40px 32px;
-          transition: var(--transition-smooth);
-        }
-        .feature-item:hover {
-          transform: translateY(-8px);
-          border-color: rgba(245, 158, 11, 0.2);
-        }
-        .feature-icon-wrapper {
-          width: 64px;
-          height: 64px;
-          background: rgba(245, 158, 11, 0.1);
-          border-radius: 16px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          margin: 0 auto 24px;
-        }
-        .feature-icon {
-          font-size: 32px;
-        }
-        .feature-item h3 {
-          margin-bottom: 16px;
-          font-size: 20px;
-          color: var(--text-primary);
-        }
-        .feature-item p {
-          color: var(--text-secondary);
-          font-size: 15px;
-          line-height: 1.6;
-          word-break: keep-all;
-        }
+
         @media (max-width: 1024px) {
           .hero-inner {
             grid-template-columns: 1fr;
@@ -183,9 +119,7 @@ export default function HomePage() {
           .hero-title {
             font-size: 48px;
           }
-          .features-grid {
-            grid-template-columns: 1fr;
-          }
+
         }
       `}</style>
     </main>

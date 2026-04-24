@@ -1,33 +1,24 @@
 "use client";
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
 import Header from '@/components/common/Header';
 import Footer from '@/components/common/Footer';
 import Link from 'next/link';
-import { useSearchParams } from 'next/navigation';
 import useTranslation from '@/lib/i18n/useTranslation';
-import RequestModal from '@/components/swap/RequestModal';
-import { Plus } from 'lucide-react';
 
 export default function IngredientExploreView({ ingredients }) {
   const { t, lang } = useTranslation();
-  const searchParams = useSearchParams();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
-  const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // Sync search query with URL parameter
-  useEffect(() => {
-    const q = searchParams.get('q');
-    if (q !== null) {
-      setSearchQuery(q);
-    }
-  }, [searchParams]);
-
-  // Extract unique categories for tabs
+  // Dynamically extract categories from ingredients data
   const categories = useMemo(() => {
-    const cats = new Set();
-    ingredients.forEach(ing => cats.add(ing.category.en)); // Use EN as internal key
-    return ['All', ...Array.from(cats)];
+    const catsMap = new Map();
+    ingredients.forEach(ing => {
+      if (ing.category?.en) {
+        catsMap.set(ing.category.en, ing.category);
+      }
+    });
+    return ['All', ...Array.from(catsMap.values())];
   }, [ingredients]);
 
   // Unified Filter Logic
@@ -35,16 +26,16 @@ export default function IngredientExploreView({ ingredients }) {
     return ingredients.filter(ing => {
       const q = searchQuery.toLowerCase();
       const matchesSearch = 
-        ing.name[lang].toLowerCase().includes(q) ||
-        ing.name.en.toLowerCase().includes(q) ||
-        (ing.search_keywords?.[lang]?.some(s => s.toLowerCase().includes(q))) ||
-        (ing.search_keywords?.en?.some(s => s.toLowerCase().includes(q))) ||
-        ing.category[lang].toLowerCase().includes(q) ||
-        ing.description[lang].toLowerCase().includes(q) ||
-        ing.substitutes.some(s => s.name[lang].toLowerCase().includes(q));
+        (ing.name?.[lang]?.toLowerCase().includes(q) || false) ||
+        (ing.name?.en?.toLowerCase().includes(q) || false) ||
+        (ing.search_keywords?.[lang]?.some(s => s.toLowerCase().includes(q)) || false) ||
+        (ing.search_keywords?.en?.some(s => s.toLowerCase().includes(q)) || false) ||
+        (ing.category?.[lang]?.toLowerCase().includes(q) || false) ||
+        (ing.description?.[lang]?.toLowerCase().includes(q) || false) ||
+        (ing.substitutes?.some(s => s.name?.[lang]?.toLowerCase().includes(q)) || false);
       
       const matchesCategory = 
-        selectedCategory === 'All' || ing.category.en === selectedCategory;
+        selectedCategory === 'All' || ing.category?.en === selectedCategory;
       
       return matchesSearch && matchesCategory;
     });
@@ -58,78 +49,66 @@ export default function IngredientExploreView({ ingredients }) {
         <header className="explore-header">
           <div className="title-row">
             <h1 className="text-gradient explore-title">{t('common.explore_title')}</h1>
-            <button className="btn btn-outline request-trigger" onClick={() => setIsModalOpen(true)}>
-              <Plus size={16} style={{ marginRight: '8px' }} />
-              {lang === 'ko' ? '재료 요청' : 'Request'}
-            </button>
-          </div>
-          <p className="explore-subtitle">{t('common.explore_subtitle')}</p>
-        </header>
-
-        <div className="filter-bar glass-card">
-          <div className="search-wrapper">
-            <span className="search-icon">🔍</span>
-            <input 
-              type="text" 
-              placeholder={t('common.search_placeholder')}
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="search-input"
-            />
+            <div className="count-badge">{filteredIngredients.length} {t('common.items_count')}</div>
           </div>
           
-          <div className="category-tabs">
-            {categories.map(cat => (
-              <button
-                key={cat}
-                onClick={() => setSelectedCategory(cat)}
-                className={`category-tab ${selectedCategory === cat ? 'active' : ''}`}
-              >
-                {cat === 'All' ? t('common.all_categories') : 
-                  ingredients.find(i => i.category.en === cat)?.category[lang]}
-              </button>
-            ))}
+          <div className="filter-bar glass-card">
+            <div className="search-box">
+              <span className="search-icon">🔍</span>
+              <input 
+                type="text" 
+                placeholder={t('common.search_placeholder')}
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
+            </div>
+             <div className="category-chips">
+              {categories.map(cat => {
+                const isAll = cat === 'All';
+                const label = isAll ? t('common.all_categories') : (cat[lang] || cat.en);
+                const value = isAll ? 'All' : cat.en;
+                
+                return (
+                  <button 
+                    key={value}
+                    className={`chip ${selectedCategory === value ? 'active' : ''}`}
+                    onClick={() => setSelectedCategory(value)}
+                  >
+                    {label}
+                  </button>
+                );
+              })}
+            </div>
           </div>
-        </div>
+        </header>
 
-        <div className="ingredient-grid">
-          {filteredIngredients.length > 0 ? (
-            filteredIngredients.map((ing) => (
-              <Link href={`/explore/${ing.id}`} key={ing.id} className="ingredient-card glass-card">
+        <div className="ingredients-grid">
+          {filteredIngredients.map(ing => (
+            <Link href={`/explore/${ing.id}`} key={ing.id} className="ingredient-card-link">
+              <article className="ingredient-card glass-card">
                 <div className="card-top">
-                  <div className="badge-stack">
-                    <span className="category-badge">{ing.category[lang]}</span>
-                    {ing.difficulty && (
-                      <span className={`diff-badge diff-${ing.difficulty}`}>
-                        {t(`difficulty.${ing.difficulty}`)}
-                      </span>
-                    )}
-                    {ing.allergens && ing.allergens.length > 0 && ing.allergens[0] !== 'none' && (
-                      <span className="allergen-badge">⚠️ {t(`allergens.${ing.allergens[0]}`) || ing.allergens[0]}</span>
-                    )}
+                  <div className="icon-badge">{ing.icon || '🧂'}</div>
+                  <div className="name-meta">
+                    <h3>{ing.name?.[lang] || ing.id}</h3>
+                    <span className="category-label">{ing.category?.[lang] || ''}</span>
                   </div>
-                  <span className="substitute-dot" style={{ background: ing.visual_identity?.primary_color, boxShadow: `0 0 10px ${ing.visual_identity?.primary_color}` }}></span>
                 </div>
                 
-                <div className="card-content">
-                  <h3>{ing.name[lang]}</h3>
-                  <div className="dietary-mini-tags">
-                    {ing.dietary_tags?.slice(0, 2).map(tag => (
-                      <span key={tag} className="mini-tag">#{tag}</span>
-                    ))}
+                <div className="card-body">
+                  <div className="roles-container">
                     {ing.culinary_roles?.slice(0, 1).map(role => (
                       <span key={role} className="role-mini-tag">@{t(`roles.${role}`) || role}</span>
                     ))}
                   </div>
                   <div className="desc-wrapper">
-                    <p>{ing.description[lang]}</p>
+                    <p>{ing.description?.[lang] || ''}</p>
                   </div>
                 </div>
 
                 <div className="card-footer">
                   <div className="stats">
                     <span className="stat-label">{t('common.substitutes_label')}</span>
-                    <span className="stat-value">{ing.substitutes.length}</span>
+                    <span className="stat-value">{ing.substitutes?.length || 0}</span>
                   </div>
                   <div className="action-arrow">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -137,328 +116,206 @@ export default function IngredientExploreView({ ingredients }) {
                     </svg>
                   </div>
                 </div>
-                
-                <div className="card-glow"></div>
-              </Link>
-            ))
-          ) : (
-            <div className="no-results">
-              <p>No ingredients found matching your search.</p>
-            </div>
-          )}
+              </article>
+            </Link>
+          ))}
         </div>
       </div>
-
-      <RequestModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
 
       <Footer />
 
       <style jsx>{`
-        .title-row {
-          display: flex;
-          justify-content: space-between;
-          align-items: flex-end;
-          margin-bottom: 16px;
-        }
-        .request-trigger {
-          padding: 8px 16px;
-          font-size: 14px;
-          border-radius: 100px;
-          margin-bottom: 8px;
-        }
         .explore-container {
-          padding: 80px 24px 120px;
+          padding: 60px 0 100px;
         }
         .explore-header {
           margin-bottom: 48px;
-          max-width: 600px;
+        }
+        .title-row {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          margin-bottom: 32px;
         }
         .explore-title {
-          font-size: 56px;
+          font-size: 40px;
+          font-weight: 800;
+        }
+        .count-badge {
+          background: rgba(245, 158, 11, 0.1);
+          color: var(--brand-primary);
+          padding: 4px 12px;
+          border-radius: 100px;
+          font-size: 14px;
           font-weight: 700;
-          margin-bottom: 16px;
-          line-height: 1.1;
         }
-        .explore-subtitle {
-          color: var(--text-secondary);
-          font-size: 18px;
-          font-weight: 400;
-        }
-        
-        /* Filter Bar Styles */
         .filter-bar {
+          padding: 24px;
           display: flex;
           flex-direction: column;
-          gap: 24px;
-          padding: 24px;
-          margin-bottom: 48px;
-          background: rgba(255, 255, 255, 0.03);
+          gap: 20px;
         }
-        
-        .search-wrapper {
+        .search-box {
           position: relative;
           display: flex;
           align-items: center;
-        }
-        
-        .search-icon {
-          position: absolute;
-          left: 16px;
-          font-size: 18px;
-          opacity: 0.5;
-        }
-        
-        .search-input {
-          width: 100%;
-          padding: 16px 16px 16px 48px;
-          background: rgba(0, 0, 0, 0.2);
+          background: rgba(255, 255, 255, 0.05);
           border: 1px solid var(--glass-border);
           border-radius: 12px;
-          color: var(--text-primary);
-          font-size: 16px;
-          transition: var(--transition-smooth);
+          padding: 0 16px;
+          transition: all 0.3s ease;
         }
-        
-        .search-input:focus {
-          outline: none;
+        .search-box:focus-within {
+          background: rgba(255, 255, 255, 0.1);
           border-color: var(--brand-primary);
-          background: rgba(0, 0, 0, 0.4);
         }
-        
-        .category-tabs {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 12px;
-        }
-        
-        .category-tab {
-          padding: 8px 20px;
-          border-radius: 100px;
-          border: 1px solid var(--glass-border);
+        .search-box input {
+          width: 100%;
           background: transparent;
+          border: none;
+          color: white;
+          padding: 14px 12px;
+          font-size: 16px;
+          outline: none;
+        }
+        .search-icon {
+          opacity: 0.6;
+        }
+        .category-chips {
+          display: flex;
+          gap: 10px;
+          flex-wrap: wrap;
+        }
+        .chip {
+          background: rgba(255, 255, 255, 0.05);
+          border: 1px solid var(--glass-border);
           color: var(--text-secondary);
+          padding: 8px 18px;
+          border-radius: 100px;
           font-size: 14px;
-          font-weight: 500;
-          cursor: pointer;
-          transition: var(--transition-smooth);
-        }
-        
-        .category-tab:hover {
-          border-color: var(--text-muted);
-          color: var(--text-primary);
-        }
-        
-        .category-tab.active {
-          background: var(--brand-primary);
-          border-color: var(--brand-primary);
-          color: #000;
           font-weight: 600;
+          cursor: pointer;
+          transition: all 0.3s ease;
         }
-        
-        .ingredient-grid {
+        .chip:hover {
+          background: rgba(255, 255, 255, 0.1);
+        }
+        .chip.active {
+          background: var(--brand-primary);
+          color: #000;
+          border-color: var(--brand-primary);
+        }
+
+        .ingredients-grid {
           display: grid;
-          grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-          gap: 32px;
+          grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+          gap: 24px;
         }
-        
+        .ingredient-card-link {
+          text-decoration: none;
+        }
         .ingredient-card {
-          position: relative;
+          height: 100%;
+          padding: 28px;
           display: flex;
           flex-direction: column;
-          padding: 32px;
-          overflow: hidden;
-          background: rgba(255, 255, 255, 0.02);
-          border: 1px solid rgba(255, 255, 255, 0.05);
-          transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-          height: 380px;
+          transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
         }
-        
         .ingredient-card:hover {
-          transform: translateY(-8px);
-          background: rgba(255, 255, 255, 0.04);
+          transform: translateY(-8px) scale(1.02);
           border-color: rgba(245, 158, 11, 0.3);
-          box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 20px 40px rgba(0,0,0,0.4), 0 0 20px rgba(245, 158, 11, 0.1);
         }
-        
         .card-top {
           display: flex;
-          justify-content: space-between;
           align-items: center;
+          gap: 16px;
           margin-bottom: 24px;
         }
-        
-        .category-badge {
+        .icon-badge {
+          width: 56px;
+          height: 56px;
+          background: rgba(255, 255, 255, 0.05);
+          border-radius: 14px;
           display: flex;
           align-items: center;
-          font-size: 9px;
+          justify-content: center;
+          font-size: 28px;
+          border: 1px solid var(--glass-border);
+        }
+        .name-meta h3 {
+          font-size: 20px;
+          font-weight: 700;
+          color: var(--text-primary);
+          margin-bottom: 4px;
+        }
+        .category-label {
+          font-size: 12px;
+          color: var(--brand-primary);
           font-weight: 700;
           text-transform: uppercase;
-          color: var(--brand-primary);
-          background: rgba(245, 158, 11, 0.1);
-          padding: 0 8px;
-          border-radius: 4px;
-          height: 20px;
-          letter-spacing: 0.1em;
-        }
-        
-        .badge-stack {
-          display: flex;
-          gap: 8px;
-          align-items: center;
-        }
-        
-        .diff-badge {
-          display: flex;
-          align-items: center;
-          font-size: 9px;
-          font-weight: 800;
-          color: var(--text-muted);
-          background: rgba(255, 255, 255, 0.05);
-          padding: 0 8px;
-          border-radius: 4px;
-          height: 20px;
           letter-spacing: 0.05em;
         }
-        
-        .diff-easy { color: #10b981; }
-        .diff-medium { color: #f59e0b; }
-        .diff-hard { color: #ef4444; }
-
-        .allergen-badge {
-          display: flex;
-          align-items: center;
-          font-size: 9px;
-          font-weight: 800;
-          color: #fff;
-          background: #ef4444;
-          padding: 0 8px;
-          border-radius: 4px;
-          height: 20px;
-          letter-spacing: 0.05em;
+        .card-body {
+          flex: 1;
         }
-
-        .substitute-dot {
-          width: 8px;
-          height: 8px;
-          border-radius: 50%;
-        }
-        
-        .card-content h3 {
-          font-size: 24px;
-          margin-bottom: 12px;
-          color: var(--text-primary);
-          font-weight: 600;
-        }
-        
-        .dietary-mini-tags {
+        .roles-container {
+          margin-bottom: 16px;
           display: flex;
           gap: 6px;
-          margin-bottom: 12px;
         }
-        
-        .mini-tag {
-          font-size: 11px;
-          color: var(--text-muted);
-          font-weight: 600;
-        }
-        
         .role-mini-tag {
-          font-size: 11px;
-          color: var(--brand-primary);
-          opacity: 0.8;
-          font-weight: 600;
+          font-size: 10px;
+          background: rgba(59, 130, 246, 0.1);
+          color: #60a5fa;
+          padding: 2px 8px;
+          border-radius: 4px;
+          font-weight: 700;
+          text-transform: uppercase;
         }
-
-        .desc-wrapper {
-          height: 80px;
-          overflow: hidden;
-        }
-
-        .card-content p {
-          font-size: 15px;
+        .desc-wrapper p {
           color: var(--text-secondary);
+          font-size: 14px;
           line-height: 1.6;
           display: -webkit-box;
-          -webkit-line-clamp: 3;
+          -webkit-line-clamp: 2;
           -webkit-box-orient: vertical;
+          overflow: hidden;
         }
-        
         .card-footer {
-          margin-top: auto;
+          margin-top: 24px;
+          padding-top: 20px;
+          border-top: 1px solid var(--glass-border);
           display: flex;
           justify-content: space-between;
           align-items: center;
-          padding-top: 24px;
-          border-top: 1px solid var(--glass-border);
         }
-        
-        .stats {
-          display: flex;
-          flex-direction: column;
-          gap: 2px;
-        }
-        
         .stat-label {
-          font-size: 11px;
+          font-size: 12px;
           color: var(--text-muted);
-          text-transform: uppercase;
-          letter-spacing: 0.05em;
+          display: block;
         }
-        
         .stat-value {
           font-size: 18px;
           font-weight: 700;
-          font-family: 'Outfit', sans-serif;
           color: var(--text-primary);
         }
-        
         .action-arrow {
-          color: var(--text-muted);
-          transition: var(--transition-smooth);
-        }
-        
-        .ingredient-card:hover .action-arrow {
           color: var(--brand-primary);
-          transform: translateX(4px);
+          opacity: 0.6;
+          transition: all 0.3s ease;
         }
-        
-        .card-glow {
-          position: absolute;
-          top: 0;
-          right: 0;
-          width: 100px;
-          height: 100px;
-          background: radial-gradient(circle, rgba(245, 158, 11, 0.1) 0%, transparent 70%);
-          z-index: -1;
-          opacity: 0;
-          transition: opacity 0.4s ease;
-        }
-        
-        .ingredient-card:hover .card-glow {
+        .ingredient-card:hover .action-arrow {
           opacity: 1;
-        }
-        
-        .no-results {
-          grid-column: 1 / -1;
-          padding: 100px 0;
-          text-align: center;
-          color: var(--text-muted);
-          font-size: 18px;
+          transform: translateX(4px);
         }
 
         @media (max-width: 768px) {
           .explore-title {
-            font-size: 40px;
+            font-size: 32px;
           }
-          .ingredient-grid {
+          .ingredients-grid {
             grid-template-columns: 1fr;
-          }
-          .ingredient-card {
-            height: auto;
-            min-height: 340px;
-          }
-          .filter-bar {
-            padding: 16px;
           }
         }
       `}</style>

@@ -17,11 +17,6 @@ export async function GET() {
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>${baseUrl}/quiz</loc>
-    <lastmod>${lastMod}</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>${baseUrl}/docs</loc>
     <lastmod>${lastMod}</lastmod>
     <priority>0.6</priority>

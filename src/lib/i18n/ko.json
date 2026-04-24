@@ -9,6 +9,8 @@
     "substitutes_label": "대체 가능 재료",
     "search_placeholder": "재료 이름이나 카테고리를 검색해보세요...",
     "all_categories": "전체",
+    "items_count": "개의 항목",
+    "loading": "데이터를 불러오는 중...",
     "no_allergen_info": "특이 알러지 정보가 등록되지 않았습니다.",
     "try_calculator": "실시간 대체 계산기",
     "feature_1_title": "정밀한 화학적 보정",
@@ -49,6 +51,9 @@
     "tsp": "작은술(tsp)",
     "g": "g",
     "ml": "ml",
+    "weight": "g",
+    "volume": "ml",
+    "unit": "단위",
     "of": ""
   },
   "allergens": {
@@ -187,5 +192,31 @@
       "smooth-slippery": "매끄럽고 미끈한",
       "firm-brittle": "단단하고 잘 부서지는"
     }
+  },
+  "dietary": {
+    "vegan": "비건",
+    "halal": "할랄",
+    "probiotic": "프로바이오틱",
+    "gluten-free": "글루텐 프리",
+    "vegetarian": "채식",
+    "low-carb": "저탄수화물",
+    "keto": "키토",
+    "dairy-free": "유제품 프리",
+    "fermented": "발효 식품"
+  },
+  "science_labels": {
+    "match": "일치",
+    "step": "단계",
+    "pro_analytics": "프로 분석기",
+    "ph_level": "pH 농도",
+    "moisture": "수분 함량",
+    "smoke_point": "발연점",
+    "caramelization": "카라멜화",
+    "maillard": "마이야르 반응",
+    "shelf_life": "유통 기한",
+    "opened": "개봉 후",
+    "days": "일",
+    "processing": "처리 중...",
+    "download_guide": "셰프용 가이드 다운로드"
   }
 }

@@ -1,0 +1,326 @@
+[
+  {
+    "path": "herbs-spices.json: ingredients[0] (kkaennip).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[1] (cilantro).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[2] (lemongrass).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[3] (galangal).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[4] (sumac).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[5] (shallots).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[6] (garam-masala).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[7] (thai-basil).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[8] (zaatar).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[9] (kashmiri-chili).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[10] (epazote).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[11] (asafoetida).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[12] (amchur).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[13] (curry-leaves).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[14] (mustard-seeds).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[15] (fenugreek-seeds).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[16] (saffron).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[17] (vanilla-bean).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[18] (star-anise).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[19] (allspice).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[20] (cardamom).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[21] (cloves).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[22] (nutmeg).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[23] (turmeric).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[24] (cumin).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[25] (coriander-seeds).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[26] (cinnamon).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[27] (ginger-powder).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[28] (oregano).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[29] (thyme).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[30] (rosemary).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[31] (bay-leaves).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "herbs-spices.json: ingredients[32] (fennel-seeds).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "sauces-condiments.json: ingredients[1] (mirin).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "sauces-condiments.json: ingredients[2] (fish-sauce).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "sauces-condiments.json: ingredients[3] (doenjang).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "sauces-condiments.json: ingredients[4] (tahini).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "sauces-condiments.json: ingredients[5] (oyster-sauce).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "sauces-condiments.json: ingredients[6] (shaoxing-wine).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "sauces-condiments.json: ingredients[7] (tamarind-paste).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "sauces-condiments.json: ingredients[8] (sriracha).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "sauces-condiments.json: ingredients[9] (hoisin-sauce).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "sauces-condiments.json: ingredients[10] (worcestershire-sauce).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "sauces-condiments.json: ingredients[11] (rice-wine-vinegar).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "sauces-condiments.json: ingredients[12] (harissa-paste).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "sauces-condiments.json: ingredients[13] (anchovy-paste).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "sauces-condiments.json: ingredients[14] (yuzu-kosho).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "sauces-condiments.json: ingredients[15] (kecap-manis).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "sauces-condiments.json: ingredients[16] (chili-crisp).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "sauces-condiments.json: ingredients[17] (liquid-smoke).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "sauces-condiments.json: ingredients[18] (coconut-aminos).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "sauces-condiments.json: ingredients[19] (doubanjiang).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "sauces-condiments.json: ingredients[20] (rice-vinegar).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  },
+  {
+    "path": "sauces-condiments.json: ingredients[21] (guk-ganjang).substitutes[0].name",
+    "en": "Alternative",
+    "ko": "대안 재료",
+    "status": "PLACEHOLDER"
+  }
+]

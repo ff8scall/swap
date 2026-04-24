@@ -58,11 +58,25 @@
     },
     "best_use_cases": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": {
+        "type": "object",
+        "properties": {
+          "en": { "type": "string" },
+          "ko": { "type": "string" }
+        },
+        "required": ["en", "ko"]
+      }
     },
     "avoid_use_cases": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": {
+        "type": "object",
+        "properties": {
+          "en": { "type": "string" },
+          "ko": { "type": "string" }
+        },
+        "required": ["en", "ko"]
+      }
     },
     "properties": {
       "type": "object",

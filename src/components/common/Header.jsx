@@ -41,10 +41,7 @@ export default function Header() {
           </div>
 
           <Link href="/explore" className="nav-link">{t('common.explore')}</Link>
-          <Link href="/quiz" className="nav-link quiz-link">
-            <span className="quiz-tag">HOT</span>
-            {lang === 'ko' ? '퀴즈' : 'Quiz'}
-          </Link>
+
           <Link href="/about" className="nav-link">{t('common.science')}</Link>
           
           <div className="lang-switcher">
@@ -59,7 +56,7 @@ export default function Header() {
             >KO</button>
           </div>
 
-          <button className="btn btn-outline btn-sm">{t('common.signin')}</button>
+
         </nav>
       </div>
 
@@ -148,21 +145,7 @@ export default function Header() {
         .nav-link:hover {
           color: var(--text-primary);
         }
-        .quiz-link {
-          position: relative;
-          display: flex;
-          align-items: center;
-        }
-        .quiz-tag {
-          font-size: 8px;
-          background: var(--brand-primary);
-          color: #000;
-          padding: 1px 4px;
-          border-radius: 2px;
-          margin-right: 6px;
-          font-weight: 800;
-          letter-spacing: 0.05em;
-        }
+
         .btn-sm {
           padding: 8px 16px;
           font-size: 13px;

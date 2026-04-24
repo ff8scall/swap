@@ -5,23 +5,25 @@ import useTranslation from '@/lib/i18n/useTranslation';
 export default function ShareableCard({ ingredient, substitute }) {
   const { t, lang } = useTranslation();
 
+  if (!substitute) return null; // Or render a placeholder if preferred
+
   return (
     <div id="share-card" className="share-card">
       <div className="card-overlay"></div>
       <div className="card-inner">
         <header className="card-header">
           <span className="brand-label">Swap.sia</span>
-          <span className="category-tag">{ingredient.category[lang]}</span>
+          <span className="category-tag">{ingredient.category?.[lang] || ''}</span>
         </header>
 
         <div className="main-content">
-          <h2 className="title">{lang === 'ko' ? `${ingredient.name[lang]} 대체제` : `${ingredient.name.en} Substitute`}</h2>
+          <h2 className="title">{lang === 'ko' ? `${ingredient.name?.[lang] || ''} 대체제` : `${ingredient.name?.en || ''} Substitute`}</h2>
           
           <div className="swap-visual">
             <div className="swap-item source">
               <span className="amount">1</span>
-              <span className="unit">{substitute.ratio.unit}</span>
-              <span className="name">{ingredient.name[lang]}</span>
+              <span className="unit">{substitute.ratio?.unit || 'unit'}</span>
+              <span className="name">{ingredient.name?.[lang] || ''}</span>
             </div>
             
             <div className="swap-arrow">
@@ -31,9 +33,9 @@ export default function ShareableCard({ ingredient, substitute }) {
             </div>
 
             <div className="swap-item target brand-gradient-bg">
-              <span className="amount">{substitute.ratio.target_min}-{substitute.ratio.target_max}</span>
-              <span className="unit">{substitute.ratio.unit}</span>
-              <span className="name">{substitute.name[lang]}</span>
+              <span className="amount">{substitute.ratio?.target_min || 1}-{substitute.ratio?.target_max || 1}</span>
+              <span className="unit">{substitute.ratio?.unit || 'unit'}</span>
+              <span className="name">{substitute.name?.[lang] || ''}</span>
             </div>
           </div>
         </div>
@@ -46,7 +48,7 @@ export default function ShareableCard({ ingredient, substitute }) {
           {substitute?.oops_insurance && (
             <div className="pro-tip" style={{ marginTop: '20px', borderLeftColor: '#10b981' }}>
               <span className="tip-label" style={{ color: '#10b981' }}>🛡️ {t('swap.oops_insurance')}</span>
-              <p className="tip-text">{substitute.oops_insurance[lang]}</p>
+              <p className="tip-text">{substitute.oops_insurance?.[lang] || ""}</p>
             </div>
           )}
           <p className="domain">www.swap.lego-sia.com</p>

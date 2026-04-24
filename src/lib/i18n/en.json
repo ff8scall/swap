@@ -9,6 +9,8 @@
     "substitutes_label": "Substitutes",
     "search_placeholder": "Search ingredients or categories...",
     "all_categories": "All",
+    "items_count": "Items",
+    "loading": "Loading ingredients...",
     "no_allergen_info": "No specific allergen info registered.",
     "try_calculator": "Try the Calculator",
     "feature_1_title": "Chemical Precision",
@@ -49,6 +51,9 @@
     "tsp": "tsp",
     "g": "g",
     "ml": "ml",
+    "weight": "weight",
+    "volume": "volume",
+    "unit": "unit",
     "of": "of"
   },
   "allergens": {
@@ -173,6 +178,43 @@
       "slimy": "slimy",
       "smooth-slippery": "smooth & slippery",
       "firm-brittle": "firm & brittle"
+    },
+    "dietary": {
+      "vegan": "Vegan",
+      "halal": "Halal",
+      "probiotic": "Probiotic",
+      "gluten-free": "Gluten-Free",
+      "vegetarian": "Vegetarian",
+      "low-carb": "Low-Carb",
+      "keto": "Keto",
+      "dairy-free": "Dairy-Free",
+      "fermented": "Fermented"
     }
+  },
+  "dietary": {
+    "vegan": "Vegan",
+    "halal": "Halal",
+    "probiotic": "Probiotic",
+    "gluten-free": "Gluten-Free",
+    "vegetarian": "Vegetarian",
+    "low-carb": "Low-Carb",
+    "keto": "Keto",
+    "dairy-free": "Dairy-Free",
+    "fermented": "Fermented"
+  },
+  "science_labels": {
+    "match": "MATCH",
+    "step": "STEP",
+    "pro_analytics": "PRO ANALYTICS",
+    "ph_level": "pH Level",
+    "moisture": "Moisture",
+    "smoke_point": "Smoke Point",
+    "caramelization": "Caramelization",
+    "maillard": "Maillard",
+    "shelf_life": "Shelf Life",
+    "opened": "Opened",
+    "days": "Days",
+    "processing": "Processing...",
+    "download_guide": "Download Chef Guide"
   }
 }

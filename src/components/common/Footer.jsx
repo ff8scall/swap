@@ -12,22 +12,6 @@ export default function Footer() {
           <p className="footer-logo brand-gradient">Global Ingredient Swap | Lego-Sia</p>
           <p className="footer-tagline">{t('common.footer_tagline')}</p>
         </div>
-
-        <div className="footer-links">
-          <div className="footer-column">
-            <h4>Categories</h4>
-            <a href="#">Baking</a>
-            <a href="#">K-Food</a>
-            <a href="#">Vegan</a>
-            <a href="#">Dairy-Free</a>
-          </div>
-          <div className="footer-column">
-            <h4>Resources</h4>
-            <a href="#">Conversion Table</a>
-            <a href="#">Flavor Science</a>
-            <a href="#">API Documentation</a>
-          </div>
-        </div>
       </div>
       <div className="footer-bottom container">
         <p>© 2026 Swap.lego-sia - Part of the Lego-Sia Ecosystem. All rights reserved.</p>
@@ -36,60 +20,34 @@ export default function Footer() {
         .footer {
           background: var(--bg-secondary);
           border-top: 1px solid var(--glass-border);
-          padding: 40px 0 24px;
-          margin-top: 60px;
+          padding: 60px 0 32px;
+          margin-top: 80px;
         }
         .footer-inner {
           display: flex;
-          justify-content: space-between;
-          margin-bottom: 32px;
+          justify-content: center;
+          text-align: center;
+          margin-bottom: 40px;
         }
         .footer-logo {
           font-family: 'Outfit', sans-serif;
           font-weight: 700;
-          font-size: 18px;
+          font-size: 20px;
           margin-bottom: 12px;
         }
         .footer-tagline {
           color: var(--text-secondary);
           font-size: 14px;
-          max-width: 240px;
-        }
-        .footer-links {
-          display: flex;
-          gap: 64px;
-        }
-        .footer-column h4 {
-          font-size: 14px;
-          margin-bottom: 20px;
-          color: var(--text-primary);
-        }
-        .footer-column a {
-          display: block;
-          color: var(--text-secondary);
-          text-decoration: none;
-          font-size: 14px;
-          margin-bottom: 12px;
-          transition: var(--transition-smooth);
-        }
-        .footer-column a:hover {
-          color: var(--brand-primary);
+          max-width: 460px;
+          margin: 0 auto;
+          line-height: 1.6;
         }
         .footer-bottom {
-          padding-top: 20px;
+          padding-top: 24px;
           border-top: 1px solid var(--glass-border);
           text-align: center;
           color: var(--text-muted);
           font-size: 12px;
-        }
-        @media (max-width: 768px) {
-          .footer-inner {
-            flex-direction: column;
-            gap: 48px;
-          }
-          .footer-links {
-            gap: 32px;
-          }
         }
       `}</style>
     </footer>

@@ -36,14 +36,30 @@
         "매운맛뿐만 아니라 단맛과 감칠맛이 강하므로 대체 시 설탕/간장 보충이 필수적입니다."
       ],
       "measurement_type": "weight",
-      "best_use_cases": [],
+      "best_use_cases": [
+        {
+          "en": "Bibimbap",
+          "ko": "비빔밥"
+        },
+        {
+          "en": "Tteokbokki",
+          "ko": "떡볶이"
+        },
+        {
+          "en": "Stir-fried Pork",
+          "ko": "제육볶음"
+        }
+      ],
       "avoid_use_cases": [],
       "properties": {
         "ph_level": 4.5,
         "moisture_content": 35,
-        "sweetness_index": 45,
+        "sweetness_index": 50,
+        "salinity": 60,
+        "spiciness": 95,
+        "acidity": 20,
         "viscosity": "very-thick",
-        "umami_intensity": 8
+        "umami_intensity": 85
       },
       "thermal_behavior": {
         "smoke_point_c": null,
@@ -124,8 +140,8 @@
             "confidence_score": 92
           },
           "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
+            "en": "Miso-Chili Mix",
+            "ko": "미소-고추 믹스"
           },
           "why_it_works": {
             "en": "Chemical similarity.",
@@ -162,14 +178,30 @@
         "당분이 많아 고온 조리 시 타기 쉽습니다."
       ],
       "measurement_type": "volume",
-      "best_use_cases": [],
+      "best_use_cases": [
+        {
+          "en": "Simmered Dishes",
+          "ko": "조림"
+        },
+        {
+          "en": "Teriyaki",
+          "ko": "테리야키 소스"
+        },
+        {
+          "en": "Rolled Omelet",
+          "ko": "계란말이"
+        }
+      ],
       "avoid_use_cases": [],
       "properties": {
         "ph_level": 4.8,
         "moisture_content": 45,
-        "sweetness_index": 50,
+        "sweetness_index": 80,
+        "salinity": 10,
+        "spiciness": 0,
+        "acidity": 30,
         "viscosity": "low-medium",
-        "umami_intensity": 5
+        "umami_intensity": 40
       },
       "thermal_behavior": {
         "smoke_point_c": 78,
@@ -248,8 +280,8 @@
             "confidence_score": 95
           },
           "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
+            "en": "Sake & Sugar",
+            "ko": "사케와 설탕"
           },
           "why_it_works": {
             "en": "Chemical similarity.",
@@ -286,14 +318,30 @@
         "가열 시 특유의 냄새가 강해지지만 맛은 부드러워집니다."
       ],
       "measurement_type": "volume",
-      "best_use_cases": [],
+      "best_use_cases": [
+        {
+          "en": "Pad Thai",
+          "ko": "볶음쌀국수"
+        },
+        {
+          "en": "Kimchi",
+          "ko": "김치"
+        },
+        {
+          "en": "Dressing",
+          "ko": "샐러드 드레싱"
+        }
+      ],
       "avoid_use_cases": [],
       "properties": {
         "ph_level": 5.2,
         "moisture_content": 65,
-        "sweetness_index": 5,
+        "sweetness_index": 10,
+        "salinity": 90,
+        "spiciness": 0,
+        "acidity": 35,
         "viscosity": "low",
-        "umami_intensity": 10
+        "umami_intensity": 95
       },
       "thermal_behavior": {
         "smoke_point_c": null,
@@ -377,8 +425,8 @@
             "confidence_score": 88
           },
           "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
+            "en": "Soy Sauce",
+            "ko": "간장"
           },
           "why_it_works": {
             "en": "Chemical similarity.",
@@ -416,14 +464,30 @@
         "오래 끓일수록 맛이 깊어지지만 향 성분은 줄어들 수 있습니다."
       ],
       "measurement_type": "weight",
-      "best_use_cases": [],
+      "best_use_cases": [
+        {
+          "en": "Stew",
+          "ko": "된장찌개"
+        },
+        {
+          "en": "Ssamjang",
+          "ko": "쌈장"
+        },
+        {
+          "en": "Seasoned Veg",
+          "ko": "나물 무침"
+        }
+      ],
       "avoid_use_cases": [],
       "properties": {
         "ph_level": 5.8,
         "moisture_content": 48,
-        "sweetness_index": 10,
+        "sweetness_index": 20,
+        "salinity": 85,
+        "spiciness": 10,
+        "acidity": 15,
         "viscosity": "thick",
-        "umami_intensity": 9
+        "umami_intensity": 90
       },
       "thermal_behavior": {
         "smoke_point_c": null,
@@ -503,8 +567,8 @@
             "confidence_score": 90
           },
           "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
+            "en": "Miso Paste",
+            "ko": "미소 된장"
           },
           "why_it_works": {
             "en": "Chemical similarity.",
@@ -542,14 +606,30 @@
         "참깨 알레르기 유발 물질입니다."
       ],
       "measurement_type": "weight",
-      "best_use_cases": [],
+      "best_use_cases": [
+        {
+          "en": "Hummus",
+          "ko": "후무스"
+        },
+        {
+          "en": "Middle Eastern Dressing",
+          "ko": "중동식 드레싱"
+        },
+        {
+          "en": "Baba Ganoush",
+          "ko": "바바 가누쉬"
+        }
+      ],
       "avoid_use_cases": [],
       "properties": {
         "ph_level": 6.5,
         "moisture_content": 1,
-        "sweetness_index": 5,
+        "sweetness_index": 10,
+        "salinity": 15,
+        "spiciness": 0,
+        "acidity": 10,
         "viscosity": "thick-creamy",
-        "umami_intensity": 6
+        "umami_intensity": 60
       },
       "thermal_behavior": {
         "smoke_point_c": 175,
@@ -629,8 +709,8 @@
             "confidence_score": 85
           },
           "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
+            "en": "Peanut Butter",
+            "ko": "땅콩 버터"
           },
           "why_it_works": {
             "en": "Chemical similarity.",
@@ -668,14 +748,30 @@
         "채식주의자는 버섯 기반의 비건 굴소스를 선택해야 합니다."
       ],
       "measurement_type": "weight",
-      "best_use_cases": [],
+      "best_use_cases": [
+        {
+          "en": "Stir-fried Veg",
+          "ko": "청경채 볶음"
+        },
+        {
+          "en": "Fried Rice",
+          "ko": "볶음밥"
+        },
+        {
+          "en": "Braised Meat",
+          "ko": "고기 조림"
+        }
+      ],
       "avoid_use_cases": [],
       "properties": {
         "ph_level": 5,
         "moisture_content": 55,
-        "sweetness_index": 35,
+        "sweetness_index": 55,
+        "salinity": 75,
+        "spiciness": 0,
+        "acidity": 20,
         "viscosity": "very-thick-syrup",
-        "umami_intensity": 10
+        "umami_intensity": 98
       },
       "thermal_behavior": {
         "smoke_point_c": null,
@@ -750,8 +846,8 @@
             "confidence_score": 95
           },
           "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
+            "en": "Mushroom Sauce",
+            "ko": "버섯 소스"
           },
           "why_it_works": {
             "en": "Chemical similarity.",
@@ -787,14 +883,30 @@
         "알코올 함량이 약 15% 내외입니다."
       ],
       "measurement_type": "volume",
-      "best_use_cases": [],
+      "best_use_cases": [
+        {
+          "en": "Stir-fries",
+          "ko": "중식 볶음"
+        },
+        {
+          "en": "Marinade",
+          "ko": "고기 밑간"
+        },
+        {
+          "en": "Braised Pork",
+          "ko": "동파육"
+        }
+      ],
       "avoid_use_cases": [],
       "properties": {
         "ph_level": 4.2,
         "moisture_content": 80,
-        "sweetness_index": 15,
+        "sweetness_index": 25,
+        "salinity": 15,
+        "spiciness": 0,
+        "acidity": 40,
         "viscosity": "low",
-        "umami_intensity": 7
+        "umami_intensity": 70
       },
       "thermal_behavior": {
         "smoke_point_c": 78,
@@ -869,8 +981,8 @@
             "confidence_score": 98
           },
           "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
+            "en": "Dry Sherry",
+            "ko": "드라이 셰리"
           },
           "why_it_works": {
             "en": "Chemical similarity.",
@@ -907,14 +1019,30 @@
         "브랜드에 따라 씨앗이나 섬유질이 포함되어 있을 수 있습니다."
       ],
       "measurement_type": "weight",
-      "best_use_cases": [],
+      "best_use_cases": [
+        {
+          "en": "Pad Thai",
+          "ko": "팟타이"
+        },
+        {
+          "en": "Tom Yum",
+          "ko": "똠얌"
+        },
+        {
+          "en": "Chutney",
+          "ko": "처트니"
+        }
+      ],
       "avoid_use_cases": [],
       "properties": {
         "ph_level": 2.5,
         "moisture_content": 35,
-        "sweetness_index": 20,
+        "sweetness_index": 30,
+        "salinity": 10,
+        "spiciness": 10,
+        "acidity": 95,
         "viscosity": "thick-sticky",
-        "umami_intensity": 4
+        "umami_intensity": 40
       },
       "thermal_behavior": {
         "smoke_point_c": null,
@@ -994,8 +1122,8 @@
             "confidence_score": 85
           },
           "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
+            "en": "Lime Juice & Sugar",
+            "ko": "라임즙과 설탕"
           },
           "why_it_works": {
             "en": "Chemical similarity.",
@@ -1032,14 +1160,30 @@
         "캡사이신 열감이 누적되므로 조절에 주의하세요."
       ],
       "measurement_type": "volume",
-      "best_use_cases": [],
+      "best_use_cases": [
+        {
+          "en": "Burgers",
+          "ko": "버거"
+        },
+        {
+          "en": "Topping",
+          "ko": "소스 토핑"
+        },
+        {
+          "en": "Stir-fries",
+          "ko": "볶음 요리"
+        }
+      ],
       "avoid_use_cases": [],
       "properties": {
         "ph_level": 3.8,
         "moisture_content": 82,
-        "sweetness_index": 25,
+        "sweetness_index": 30,
+        "salinity": 45,
+        "spiciness": 75,
+        "acidity": 65,
         "viscosity": "medium",
-        "umami_intensity": 5
+        "umami_intensity": 50
       },
       "thermal_behavior": {
         "smoke_point_c": null,
@@ -1116,8 +1260,8 @@
             "confidence_score": 85
           },
           "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
+            "en": "Gochujang & Vinegar",
+            "ko": "고추장과 식초"
           },
           "why_it_works": {
             "en": "Chemical similarity.",
@@ -1155,14 +1299,30 @@
         "설탕 함량이 매우 높습니다."
       ],
       "measurement_type": "weight",
-      "best_use_cases": [],
+      "best_use_cases": [
+        {
+          "en": "Peking Duck",
+          "ko": "베이징 덕"
+        },
+        {
+          "en": "Pho Sauce",
+          "ko": "쌀국수 고명"
+        },
+        {
+          "en": "BBQ",
+          "ko": "바비큐"
+        }
+      ],
       "avoid_use_cases": [],
       "properties": {
         "ph_level": 4.5,
         "moisture_content": 48,
-        "sweetness_index": 55,
+        "sweetness_index": 75,
+        "salinity": 55,
+        "spiciness": 5,
+        "acidity": 25,
         "viscosity": "very-thick",
-        "umami_intensity": 8
+        "umami_intensity": 80
       },
       "thermal_behavior": {
         "smoke_point_c": null,
@@ -1240,8 +1400,8 @@
             "confidence_score": 90
           },
           "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
+            "en": "BBQ Sauce & Soy",
+            "ko": "BBQ 소스와 간장"
           },
           "why_it_works": {
             "en": "Chemical similarity.",
@@ -1278,14 +1438,30 @@
         "산미와 감칠맛이 매우 농축되어 있습니다."
       ],
       "measurement_type": "volume",
-      "best_use_cases": [],
+      "best_use_cases": [
+        {
+          "en": "Steak",
+          "ko": "스테이크"
+        },
+        {
+          "en": "Bloody Mary",
+          "ko": "블러디 메리"
+        },
+        {
+          "en": "Dressing",
+          "ko": "드레싱"
+        }
+      ],
       "avoid_use_cases": [],
       "properties": {
         "ph_level": 3.5,
         "moisture_content": 75,
-        "sweetness_index": 20,
+        "sweetness_index": 35,
+        "salinity": 60,
+        "spiciness": 15,
+        "acidity": 75,
         "viscosity": "low",
-        "umami_intensity": 8
+        "umami_intensity": 85
       },
       "thermal_behavior": {
         "smoke_point_c": null,
@@ -1362,8 +1538,8 @@
             "confidence_score": 92
           },
           "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
+            "en": "Soy Sauce & Lemon",
+            "ko": "간장과 레몬"
           },
           "why_it_works": {
             "en": "Chemical similarity.",
@@ -1400,14 +1576,30 @@
         "조미된(Seasoned) 식초에는 설탕과 소금이 들어있으니 주의하세요."
       ],
       "measurement_type": "volume",
-      "best_use_cases": [],
+      "best_use_cases": [
+        {
+          "en": "Sushi",
+          "ko": "초밥"
+        },
+        {
+          "en": "Pickled Veg",
+          "ko": "오이 무침"
+        },
+        {
+          "en": "Sauces",
+          "ko": "소스"
+        }
+      ],
       "avoid_use_cases": [],
       "properties": {
         "ph_level": 3.2,
         "moisture_content": 94,
-        "sweetness_index": 10,
+        "sweetness_index": 20,
+        "salinity": 5,
+        "spiciness": 0,
+        "acidity": 85,
         "viscosity": "low",
-        "umami_intensity": 3
+        "umami_intensity": 30
       },
       "thermal_behavior": {
         "smoke_point_c": null,
@@ -1484,8 +1676,8 @@
             "confidence_score": 95
           },
           "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
+            "en": "Apple Cider Vinegar",
+            "ko": "사과 식초"
           },
           "why_it_works": {
             "en": "Chemical similarity.",
@@ -1523,14 +1715,30 @@
         "기름 층이 분리될 수 있으니 사용 전 섞어주세요."
       ],
       "measurement_type": "weight",
-      "best_use_cases": [],
+      "best_use_cases": [
+        {
+          "en": "Tagine",
+          "ko": "모로코 요리"
+        },
+        {
+          "en": "Couscous",
+          "ko": "쿠스쿠스"
+        },
+        {
+          "en": "Marinade",
+          "ko": "마리네이드"
+        }
+      ],
       "avoid_use_cases": [],
       "properties": {
         "ph_level": 4.2,
         "moisture_content": 45,
-        "sweetness_index": 5,
+        "sweetness_index": 10,
+        "salinity": 40,
+        "spiciness": 85,
+        "acidity": 30,
         "viscosity": "thick-granular",
-        "umami_intensity": 7
+        "umami_intensity": 70
       },
       "thermal_behavior": {
         "smoke_point_c": 180,
@@ -1609,8 +1817,8 @@
             "confidence_score": 82
           },
           "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
+            "en": "Gochujang & Cumin",
+            "ko": "고추장과 큐민"
           },
           "why_it_works": {
             "en": "Chemical similarity.",
@@ -1647,14 +1855,30 @@
         "생선의 비린 향이 있을 수 있으나 열을 가하면 사라집니다."
       ],
       "measurement_type": "weight",
-      "best_use_cases": [],
+      "best_use_cases": [
+        {
+          "en": "Caesar Salad",
+          "ko": "시저 샐러드"
+        },
+        {
+          "en": "Puttanesca",
+          "ko": "파스타 소스"
+        },
+        {
+          "en": "Dressing",
+          "ko": "드레싱"
+        }
+      ],
       "avoid_use_cases": [],
       "properties": {
         "ph_level": 5.5,
         "moisture_content": 40,
         "sweetness_index": 0,
+        "salinity": 95,
+        "spiciness": 0,
+        "acidity": 30,
         "viscosity": "thick-paste",
-        "umami_intensity": 10
+        "umami_intensity": 95
       },
       "thermal_behavior": {
         "smoke_point_c": null,
@@ -1731,8 +1955,8 @@
             "confidence_score": 95
           },
           "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
+            "en": "Fish Sauce",
+            "ko": "피쉬 소스"
           },
           "why_it_works": {
             "en": "Chemical similarity.",
@@ -1769,14 +1993,30 @@
         "향이 매우 강하므로 요리의 주재료 향을 덮지 않도록 소량 사용하세요."
       ],
       "measurement_type": "weight",
-      "best_use_cases": [],
+      "best_use_cases": [
+        {
+          "en": "Hot Pot",
+          "ko": "나베 요리"
+        },
+        {
+          "en": "Sashimi",
+          "ko": "생선회"
+        },
+        {
+          "en": "Grilled Meat",
+          "ko": "구운 고기"
+        }
+      ],
       "avoid_use_cases": [],
       "properties": {
         "ph_level": 3.8,
         "moisture_content": 50,
-        "sweetness_index": 5,
+        "sweetness_index": 10,
+        "salinity": 85,
+        "spiciness": 80,
+        "acidity": 70,
         "viscosity": "thick-granular",
-        "umami_intensity": 6
+        "umami_intensity": 50
       },
       "thermal_behavior": {
         "smoke_point_c": null,
@@ -1852,8 +2092,8 @@
             "confidence_score": 80
           },
           "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
+            "en": "Lime, Chili & Salt",
+            "ko": "라임, 고추, 소금"
           },
           "why_it_works": {
             "en": "Chemical similarity.",
@@ -1890,14 +2130,30 @@
         "고온에서 조리 시 당분이 타기 쉬우므로 주의가 필요합니다."
       ],
       "measurement_type": "volume",
-      "best_use_cases": [],
+      "best_use_cases": [
+        {
+          "en": "Nasi Goreng",
+          "ko": "나시고랭"
+        },
+        {
+          "en": "Mie Goreng",
+          "ko": "미고랭"
+        },
+        {
+          "en": "Satay",
+          "ko": "사테"
+        }
+      ],
       "avoid_use_cases": [],
       "properties": {
         "ph_level": 4.5,
         "moisture_content": 30,
-        "sweetness_index": 65,
+        "sweetness_index": 90,
+        "salinity": 40,
+        "spiciness": 0,
+        "acidity": 20,
         "viscosity": "medium-high-syrup",
-        "umami_intensity": 7
+        "umami_intensity": 65
       },
       "thermal_behavior": {
         "smoke_point_c": null,
@@ -1976,8 +2232,8 @@
             "confidence_score": 95
           },
           "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
+            "en": "Soy Sauce & Molasses",
+            "ko": "간장과 당밀"
           },
           "why_it_works": {
             "en": "Chemical similarity.",
@@ -2015,14 +2271,30 @@
         "고추 씨앗이나 조각이 딱딱할 수 있습니다."
       ],
       "measurement_type": "weight",
-      "best_use_cases": [],
+      "best_use_cases": [
+        {
+          "en": "Noodles",
+          "ko": "면 요리"
+        },
+        {
+          "en": "Dumplings",
+          "ko": "만두 소스"
+        },
+        {
+          "en": "Rice Topping",
+          "ko": "밥"
+        }
+      ],
       "avoid_use_cases": [],
       "properties": {
         "ph_level": 4.8,
         "moisture_content": 5,
-        "sweetness_index": 10,
+        "sweetness_index": 20,
+        "salinity": 55,
+        "spiciness": 70,
+        "acidity": 15,
         "viscosity": "chunky-oil",
-        "umami_intensity": 8
+        "umami_intensity": 85
       },
       "thermal_behavior": {
         "smoke_point_c": 190,
@@ -2097,8 +2369,8 @@
             "confidence_score": 88
           },
           "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
+            "en": "Chili Oil & Fried Garlic",
+            "ko": "고추기름과 튀긴 마늘"
           },
           "why_it_works": {
             "en": "Chemical similarity.",
@@ -2135,14 +2407,30 @@
         "실제 연기를 응축한 것이므로 훈연 향이 매우 강력합니다."
       ],
       "measurement_type": "volume",
-      "best_use_cases": [],
+      "best_use_cases": [
+        {
+          "en": "BBQ",
+          "ko": "바비큐"
+        },
+        {
+          "en": "Sauces",
+          "ko": "소스"
+        },
+        {
+          "en": "Vegan Bacon",
+          "ko": "비건 베이컨"
+        }
+      ],
       "avoid_use_cases": [],
       "properties": {
         "ph_level": 2.5,
         "moisture_content": 90,
         "sweetness_index": 0,
+        "salinity": 10,
+        "spiciness": 0,
+        "acidity": 60,
         "viscosity": "low",
-        "umami_intensity": 2
+        "umami_intensity": 30
       },
       "thermal_behavior": {
         "smoke_point_c": null,
@@ -2216,8 +2504,8 @@
             "confidence_score": 85
           },
           "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
+            "en": "Smoked Paprika",
+            "ko": "훈제 파프리카"
           },
           "why_it_works": {
             "en": "Chemical similarity.",
@@ -2256,14 +2544,30 @@
         "대두 알레르기가 있는 분들에게 훌륭한 간장 대용품입니다."
       ],
       "measurement_type": "volume",
-      "best_use_cases": [],
+      "best_use_cases": [
+        {
+          "en": "Salad",
+          "ko": "샐러드"
+        },
+        {
+          "en": "Stir-fries",
+          "ko": "볶음 요리"
+        },
+        {
+          "en": "Marinade",
+          "ko": "마리네이드"
+        }
+      ],
       "avoid_use_cases": [],
       "properties": {
         "ph_level": 4.2,
         "moisture_content": 70,
-        "sweetness_index": 35,
+        "sweetness_index": 50,
+        "salinity": 45,
+        "spiciness": 0,
+        "acidity": 40,
         "viscosity": "low-medium",
-        "umami_intensity": 6
+        "umami_intensity": 70
       },
       "thermal_behavior": {
         "smoke_point_c": null,
@@ -2339,8 +2643,8 @@
             "confidence_score": 90
           },
           "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
+            "en": "Soy Sauce & Honey",
+            "ko": "간장과 꿀"
           },
           "why_it_works": {
             "en": "Chemical similarity.",
@@ -2378,14 +2682,30 @@
         "사천 요리의 핵심이므로 대체 시 특유의 풍미가 사라질 수 있습니다."
       ],
       "measurement_type": "weight",
-      "best_use_cases": [],
+      "best_use_cases": [
+        {
+          "en": "Mapo Tofu",
+          "ko": "마파두부"
+        },
+        {
+          "en": "Hot Pot",
+          "ko": "마라탕"
+        },
+        {
+          "en": "Sichuan Dishes",
+          "ko": "사천 요리"
+        }
+      ],
       "avoid_use_cases": [],
       "properties": {
         "ph_level": 5.2,
         "moisture_content": 45,
-        "sweetness_index": 5,
+        "sweetness_index": 10,
+        "salinity": 95,
+        "spiciness": 85,
+        "acidity": 30,
         "viscosity": "thick-chunky",
-        "umami_intensity": 10
+        "umami_intensity": 90
       },
       "thermal_behavior": {
         "smoke_point_c": null,
@@ -2462,8 +2782,8 @@
             "confidence_score": 85
           },
           "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
+            "en": "Gochujang & Miso",
+            "ko": "고추장과 미소"
           },
           "why_it_works": {
             "en": "Chemical similarity.",
@@ -2500,14 +2820,30 @@
         "조미된(Seasoned) 식초에는 설탕과 소금이 들어있으니 주의하세요."
       ],
       "measurement_type": "volume",
-      "best_use_cases": [],
+      "best_use_cases": [
+        {
+          "en": "Sushi",
+          "ko": "초밥"
+        },
+        {
+          "en": "Pickles",
+          "ko": "피클"
+        },
+        {
+          "en": "Dressing",
+          "ko": "드레싱"
+        }
+      ],
       "avoid_use_cases": [],
       "properties": {
         "ph_level": 3.2,
         "moisture_content": 94,
-        "sweetness_index": 10,
+        "sweetness_index": 20,
+        "salinity": 5,
+        "spiciness": 0,
+        "acidity": 85,
         "viscosity": "low",
-        "umami_intensity": 3
+        "umami_intensity": 30
       },
       "thermal_behavior": {
         "smoke_point_c": null,
@@ -2584,8 +2920,8 @@
             "confidence_score": 95
           },
           "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
+            "en": "Apple Cider Vinegar",
+            "ko": "사과 식초"
           },
           "why_it_works": {
             "en": "Chemical similarity.",
@@ -2624,7 +2960,20 @@
         "국물 요리의 색을 해치지 않으면서 감칠맛과 염도를 맞추는 데 최적화되어 있습니다."
       ],
       "measurement_type": "volume",
-      "best_use_cases": [],
+      "best_use_cases": [
+        {
+          "en": "Soups",
+          "ko": "국"
+        },
+        {
+          "en": "Seasoned Veg",
+          "ko": "나물 무침"
+        },
+        {
+          "en": "Stew",
+          "ko": "찌개"
+        }
+      ],
       "avoid_use_cases": [],
       "properties": {
         "ph_level": 4.8,
@@ -2711,8 +3060,8 @@
             "confidence_score": 92
           },
           "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
+            "en": "Light Soy Sauce & Salt",
+            "ko": "국간장과 소금"
           },
           "why_it_works": {
             "en": "Chemical similarity.",

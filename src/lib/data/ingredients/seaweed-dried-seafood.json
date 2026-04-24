@@ -2,114 +2,45 @@
   "meta": {
     "category_en": "Seaweed & Dried Seafood",
     "category_ko": "건어물 및 해조류",
-    "count": 3,
-    "generated_at": "2026-04-24T05:26:15.980Z"
+    "count": 5,
+    "generated_at": "2026-04-24T07:02:11Z"
   },
   "ingredients": [
     {
       "id": "nori",
       "name": {
         "en": "Nori",
-        "ko": "노리 (김)"
+        "ko": "김"
       },
       "category": {
         "en": "Seaweed & Dried Seafood",
         "ko": "건어물 및 해조류"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#E0E0E0",
-        "texture": "Standard"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegetarian"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🍱",
       "properties": {
-        "ph_level": 6.5,
-        "moisture_content": 5,
-        "sweetness_index": 2,
-        "viscosity": "solid",
-        "umami_intensity": 9
+        "spiciness": 0,
+        "salinity": 30,
+        "acidity": 5,
+        "umami_intensity": 90,
+        "sweetness_index": 20,
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "wrapper",
-        "flavor-enhancer"
-      ],
-      "texture_profile": {
-        "state": "solid",
-        "elasticity": "none",
-        "mouthfeel": "crispy-melty"
-      },
-      "regional_alias": {},
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "japanese",
-        "korean"
-      ],
-      "preparation_forms": [
-        "dried-sheet"
-      ],
-      "scientific_name": "Pyropia/Porphyra species",
-      "schema_org_type": "Product",
       "description": {
-        "en": "Dried edible seaweed sheets used in sushi and as a garnish.",
-        "ko": "초밥에 쓰이거나 고명으로 사용되는 말린 식용 해조류 시트입니다."
+        "en": "Dried edible seaweed sheets, essential for sushi.",
+        "ko": "초밥과 고명에 사용되는 말린 식용 해조류입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "rice-paper-bonito",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "sheet"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {},
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Rice paper provides the wrap structure but no flavor. Bonito adds the missing oceanic umami.",
-            "ko": "라이스 페이퍼는 싸는 구조를 제공하지만 맛은 없습니다. 가쓰오부시가 부족한 바다의 감칠맛을 채워줍니다."
-          },
-          "compensation_action": {
-            "en": "For wrapping, use rice paper. For flavor, add crushed katsuobushi or mushroom powder.",
-            "ko": "싸는 용도라면 라이스 페이퍼를 쓰세요. 맛을 내려면 가쓰오부시 가루나 버섯 가루를 추가하세요."
-          },
-          "verification": {
-            "verified_by": "System",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Gimbap",
+          "ko": "김밥"
+        },
+        {
+          "en": "Sushi",
+          "ko": "초밥"
+        },
+        {
+          "en": "Snacks",
+          "ko": "스낵"
         }
       ]
     },
@@ -123,207 +54,145 @@
         "en": "Seaweed & Dried Seafood",
         "ko": "건어물 및 해조류"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#2F4F4F",
-        "texture": "Leathery Seaweed"
-      },
-      "difficulty": "easy",
-      "dietary_tags": [
-        "vegan",
-        "keto"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🌊",
       "properties": {
-        "ph_level": 6.8,
-        "moisture_content": 12,
-        "sweetness_index": 2,
-        "viscosity": "solid",
-        "umami_intensity": 10
+        "spiciness": 0,
+        "salinity": 40,
+        "acidity": 5,
+        "umami_intensity": 100,
+        "sweetness_index": 10,
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "flavor-base",
-        "tenderizer"
-      ],
-      "texture_profile": {
-        "state": "solid",
-        "elasticity": "medium",
-        "mouthfeel": "leathery-tough"
-      },
-      "regional_alias": {},
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "japanese",
-        "korean"
-      ],
-      "preparation_forms": [
-        "dried"
-      ],
-      "scientific_name": "Saccharina japonica",
-      "schema_org_type": "Product",
       "description": {
-        "en": "Dried kelp used as a fundamental building block of umami in East Asian cuisines.",
-        "ko": "동아시아 요리에서 감칠맛의 핵심적인 기초가 되는 말린 해조류(다시마)입니다."
+        "en": "Dried kelp, the primary source of umami in dashi.",
+        "ko": "육수의 감칠맛을 내는 핵심 재료인 말린 다시마입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "msg-pinch-sub",
-          "ratio": {
-            "source": 1,
-            "target_min": 0.5,
-            "target_max": 0.5,
-            "unit": "tsp"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {},
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Provides the exact chemical umami boost but lacks the subtle oceanic aroma of whole kelp.",
-            "ko": "정확한 화학적 감칠맛을 폭발시켜 주지만, 통다시마 특유의 은은한 바다 향은 부족합니다."
-          },
-          "compensation_action": {
-            "en": "Use a tiny pinch of MSG for 1 piece of kombu.",
-            "ko": "다시마 1장당 MSG 한 꼬집을 사용하세요."
-          },
-          "verification": {
-            "verified_by": "System",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Stock",
+          "ko": "다시마 육수"
+        },
+        {
+          "en": "Simmered Dishes",
+          "ko": "조림"
+        },
+        {
+          "en": "Rice",
+          "ko": "밥"
         }
       ]
     },
     {
       "id": "bonito-flakes",
       "name": {
-        "en": "Bonito Flakes (Katsuobushi)",
-        "ko": "가쓰오부시 (가다랑어포)"
+        "en": "Bonito Flakes",
+        "ko": "가쓰오부시"
       },
       "category": {
         "en": "Seaweed & Dried Seafood",
         "ko": "건어물 및 해조류"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#C19A6B",
-        "texture": "Thin Shavings"
-      },
-      "difficulty": "easy",
-      "dietary_tags": [
-        "low-carb"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🐟",
       "properties": {
-        "ph_level": 6.5,
-        "moisture_content": 15,
-        "sweetness_index": 0,
-        "viscosity": "solid",
-        "umami_intensity": 10
+        "spiciness": 0,
+        "salinity": 35,
+        "acidity": 5,
+        "umami_intensity": 100,
+        "sweetness_index": 5,
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "flavor-base",
-        "topping"
-      ],
-      "texture_profile": {
-        "state": "solid",
-        "elasticity": "none",
-        "mouthfeel": "papery-light"
-      },
-      "regional_alias": {},
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "japanese"
-      ],
-      "preparation_forms": [
-        "dried-flake"
-      ],
-      "scientific_name": "Katsuwonus pelamis (smoked)",
-      "schema_org_type": "Product",
       "description": {
-        "en": "Paper-thin shavings of dried, fermented skipjack tuna.",
-        "ko": "말리고 발효시킨 가다랑어를 종이처럼 얇게 깎아 만든 포입니다."
+        "en": "Smoked and fermented skipjack tuna shavings.",
+        "ko": "훈연 후 발효시킨 가다랑어를 얇게 깎아 만든 포입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "fish-sauce-smoke-mix",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "tsp"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {},
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Captures the fishy savory base and the smoky finish of katsuobushi.",
-            "ko": "가쓰오부시의 생선 베이스 감칠맛과 훈연 마무리를 모두 재현할 수 있습니다."
-          },
-          "compensation_action": {
-            "en": "Use 1 tsp fish sauce and a tiny drop of liquid smoke. Use for broths, not for garnishing.",
-            "ko": "피쉬소스 1작은술과 리퀴드 스모크 한 방울을 섞으세요. 육수용으로만 쓰고 고명으로는 부적합합니다."
-          },
-          "verification": {
-            "verified_by": "System",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Dashi",
+          "ko": "가쓰오 육수"
+        },
+        {
+          "en": "Topping",
+          "ko": "오코노미야키"
+        },
+        {
+          "en": "Topping",
+          "ko": "타코야키"
+        }
+      ]
+    },
+    {
+      "id": "dried-anchovies",
+      "name": {
+        "en": "Dried Anchovies",
+        "ko": "국물용 멸치"
+      },
+      "category": {
+        "en": "Seaweed & Dried Seafood",
+        "ko": "건어물 및 해조류"
+      },
+      "icon": "🐟",
+      "properties": {
+        "spiciness": 0,
+        "salinity": 70,
+        "acidity": 5,
+        "umami_intensity": 95,
+        "sweetness_index": 5,
+        "viscosity": 100
+      },
+      "description": {
+        "en": "Small dried fish used for deep-flavored Korean broths.",
+        "ko": "깊은 맛의 육수를 내기 위해 사용되는 말린 멸치입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Stock",
+          "ko": "멸치 육수"
+        },
+        {
+          "en": "Stir-fries",
+          "ko": "볶음"
+        },
+        {
+          "en": "Snacks",
+          "ko": "스낵"
+        }
+      ]
+    },
+    {
+      "id": "dried-pollack",
+      "name": {
+        "en": "Dried Pollack",
+        "ko": "북어"
+      },
+      "category": {
+        "en": "Seaweed & Dried Seafood",
+        "ko": "건어물 및 해조류"
+      },
+      "icon": "🐟",
+      "properties": {
+        "spiciness": 0,
+        "salinity": 45,
+        "acidity": 5,
+        "umami_intensity": 85,
+        "sweetness_index": 10,
+        "viscosity": 100
+      },
+      "description": {
+        "en": "Dried Alaskan pollack, often used in restorative soups.",
+        "ko": "시원한 국물 요리에 자주 쓰이는 말린 명태입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Soups",
+          "ko": "황태국"
+        },
+        {
+          "en": "Seasoned Veg",
+          "ko": "나물 무침"
+        },
+        {
+          "en": "Grilled",
+          "ko": "구이"
         }
       ]
     }

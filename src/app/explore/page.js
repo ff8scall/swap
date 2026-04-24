@@ -9,7 +9,7 @@ export const metadata = {
 
 export default function ExplorePage() {
   return (
-    <Suspense fallback={<div className="loading">Loading ingredients...</div>}>
+    <Suspense fallback={<div className="loading">Loading...</div>}>
       <IngredientExploreView ingredients={ingredientsData.ingredients} />
     </Suspense>
   );

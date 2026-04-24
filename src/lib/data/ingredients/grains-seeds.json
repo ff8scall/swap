@@ -2,8 +2,8 @@
   "meta": {
     "category_en": "Grains & Seeds",
     "category_ko": "곡물 및 씨앗류",
-    "count": 3,
-    "generated_at": "2026-04-24T05:26:15.975Z"
+    "count": 7,
+    "generated_at": "2026-04-24T07:02:11Z"
   },
   "ingredients": [
     {
@@ -16,99 +16,31 @@
         "en": "Grains & Seeds",
         "ko": "곡물 및 씨앗류"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#E0E0E0",
-        "texture": "Standard"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegetarian"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🌾",
       "properties": {
-        "ph_level": 6.5,
-        "moisture_content": 13,
-        "sweetness_index": 2,
-        "viscosity": "solid",
-        "umami_intensity": 2
+        "spiciness": 0,
+        "salinity": 5,
+        "acidity": 0,
+        "umami_intensity": 20,
+        "sweetness_index": 10,
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": true
-      },
-      "functional_properties": [
-        "grain-base",
-        "protein-source"
-      ],
-      "texture_profile": {
-        "state": "solid",
-        "elasticity": "low",
-        "mouthfeel": "grainy-crunchy"
-      },
-      "regional_alias": {},
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "south-american"
-      ],
-      "preparation_forms": [
-        "seed"
-      ],
-      "scientific_name": "Chenopodium quinoa",
-      "schema_org_type": "Product",
       "description": {
-        "en": "A highly nutritious seed used as a grain, known for its complete protein content.",
-        "ko": "완전 단백질을 포함한 영양가 높은 씨앗으로, 곡물처럼 사용됩니다."
+        "en": "Protein-rich seed used as a grain substitute.",
+        "ko": "단백질이 풍부하여 곡물 대용으로 쓰이는 고영양 씨앗입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "millet-couscous",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "cup"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {},
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Millet is gluten-free and has a similar size/pop; couscous is wheat-based and softer.",
-            "ko": "기장은 글루텐 프리이며 크기와 터지는 식감이 비슷합니다. 쿠스쿠스는 밀 베이스라 더 부드럽습니다."
-          },
-          "compensation_action": {
-            "en": "Use 1:1 ratio. For millet, toast before boiling. For couscous, use slightly less water.",
-            "ko": "1:1 비율로 사용하세요. 기장은 끓이기 전 볶아주고, 쿠스쿠스는 물을 약간 적게 잡으세요."
-          },
-          "verification": {
-            "verified_by": "System",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Salad",
+          "ko": "샐러드"
+        },
+        {
+          "en": "Bowls",
+          "ko": "볼"
+        },
+        {
+          "en": "Sides",
+          "ko": "사이드"
         }
       ]
     },
@@ -122,100 +54,31 @@
         "en": "Grains & Seeds",
         "ko": "곡물 및 씨앗류"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#F5DEB3",
-        "texture": "Fine Flour"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegan",
-        "gluten-free"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🌽",
       "properties": {
-        "ph_level": 8,
-        "moisture_content": 10,
-        "sweetness_index": 5,
-        "viscosity": "solid",
-        "umami_intensity": 3
+        "spiciness": 0,
+        "salinity": 10,
+        "acidity": 5,
+        "umami_intensity": 30,
+        "sweetness_index": 15,
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": true
-      },
-      "functional_properties": [
-        "flour-base",
-        "thickener"
-      ],
-      "texture_profile": {
-        "state": "powder",
-        "elasticity": "low",
-        "mouthfeel": "grainy-soft"
-      },
-      "regional_alias": {},
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "mexican"
-      ],
-      "preparation_forms": [
-        "powder"
-      ],
-      "scientific_name": "Zea mays (nixtamalized)",
-      "schema_org_type": "Product",
       "description": {
-        "en": "Dough flour made from nixtamalized corn, used for tortillas and tamales.",
-        "ko": "닉스타말화한 옥수수로 만든 가루로, 또띠아와 타말레의 주재료입니다."
+        "en": "Nixtamalized corn flour for tortillas.",
+        "ko": "또띠아 제조에 필수적인 닉스타말화 옥수수 가루입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "corn-tortilla-crumb",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "cup"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {},
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Provides the exact flavor but requires processing back into a fine meal.",
-            "ko": "맛은 정확히 똑같지만, 다시 고운 가루 형태로 갈아내는 과정이 필요합니다."
-          },
-          "compensation_action": {
-            "en": "Dry and grind store-bought corn tortillas into a fine powder.",
-            "ko": "시판 옥수수 또띠아를 말려 고운 가루로 갈아서 사용하세요."
-          },
-          "verification": {
-            "verified_by": "System",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Tortillas",
+          "ko": "또띠아"
+        },
+        {
+          "en": "Tamales",
+          "ko": "타말레"
+        },
+        {
+          "en": "Sauces",
+          "ko": "소스"
         }
       ]
     },
@@ -230,123 +93,182 @@
         "ko": "곡물 및 씨앗류"
       },
       "icon": "🍡",
-      "visual_identity": {
-        "primary_color": "#FDFEFE",
-        "texture": "Chewy Elastic Solid"
-      },
-      "difficulty": "hard",
-      "dietary_tags": [
-        "vegan",
-        "gluten-free (usually)"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [
-        "조리 시간에 따라 식감이 급격히 변하므로 주의하세요.",
-        "밀가루 떡(mil-tteok)과 쌀떡(ssal-tteok)의 수분 흡수율이 다릅니다."
-      ],
-      "measurement_type": "weight",
-      "best_use_cases": [
-        "tteokbokki",
-        "soups",
-        "desserts"
-      ],
-      "avoid_use_cases": [
-        "raw-consumption"
-      ],
       "properties": {
-        "ph_level": 6.5,
-        "moisture_content": 45,
-        "sweetness_index": 5,
-        "viscosity": "solid",
-        "umami_intensity": 2
+        "spiciness": 0,
+        "salinity": 5,
+        "acidity": 5,
+        "umami_intensity": 25,
+        "sweetness_index": 15,
+        "viscosity": 100
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "carbohydrate-base",
-        "thickener (when dissolved)"
-      ],
-      "texture_profile": {
-        "state": "solid",
-        "elasticity": "high",
-        "mouthfeel": "chewy"
-      },
-      "regional_alias": {
-        "us": [
-          "Korean rice cake",
-          "Tteok"
-        ],
-        "jp": [
-          "トック"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Korea",
-          "China",
-          "Japan"
-        ],
-        "rare_in": [
-          "West"
-        ]
-      },
-      "cuisine_origin": [
-        "korean"
-      ],
-      "preparation_forms": [
-        "fresh",
-        "frozen",
-        "dried"
-      ],
-      "scientific_name": "N/A",
-      "schema_org_type": "Product",
       "description": {
-        "en": "",
-        "ko": ""
+        "en": "Chewy, elastic solid made from steamed rice flour.",
+        "ko": "쌀가루를 찌고 치대어 만든 쫄깃한 식감의 음식입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "gnocchi",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "weight"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "high",
-          "flavor_delta": {
-            "potato": 3,
-            "chewiness": -5
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Gnocchi is much softer and less chewy. It may break apart in long-simmered stews like tteokbokki.",
-            "ko": "뇨끼는 훨씬 부드럽고 쫄깃함이 부족합니다. 떡볶이처럼 오래 졸이는 요리에서는 퍼질 수 있습니다."
-          },
-          "compensation_action": {
-            "en": "Add gnocchi at the very end of cooking to maintain shape.",
-            "ko": "식감을 유지하기 위해 조리 가장 마지막 단계에 넣으세요."
-          },
-          "verification": {
-            "verified_by": "Chef Jinny Park",
-            "date": "2026-04-24",
-            "confidence_score": 60
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Tteokbokki",
+          "ko": "떡볶이"
+        },
+        {
+          "en": "Soup",
+          "ko": "떡국"
+        },
+        {
+          "en": "Skewers",
+          "ko": "꼬치"
+        }
+      ]
+    },
+    {
+      "id": "chia-seeds",
+      "name": {
+        "en": "Chia Seeds",
+        "ko": "치아씨드"
+      },
+      "category": {
+        "en": "Grains & Seeds",
+        "ko": "곡물 및 씨앗류"
+      },
+      "icon": "🌱",
+      "properties": {
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 0,
+        "umami_intensity": 10,
+        "sweetness_index": 5,
+        "viscosity": 100
+      },
+      "description": {
+        "en": "Tiny seeds that swell in liquid, rich in omega-3.",
+        "ko": "액체에 불려 먹는 오메가-3가 풍부한 작은 씨앗입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Pudding",
+          "ko": "푸딩"
+        },
+        {
+          "en": "Smoothies",
+          "ko": "스무디"
+        },
+        {
+          "en": "Baking",
+          "ko": "베이킹"
+        }
+      ]
+    },
+    {
+      "id": "flax-seeds",
+      "name": {
+        "en": "Flax Seeds",
+        "ko": "아마씨"
+      },
+      "category": {
+        "en": "Grains & Seeds",
+        "ko": "곡물 및 씨앗류"
+      },
+      "icon": "🌿",
+      "properties": {
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 0,
+        "umami_intensity": 15,
+        "sweetness_index": 10,
+        "viscosity": 100
+      },
+      "description": {
+        "en": "Nutty seeds high in fiber and healthy fats.",
+        "ko": "식이섬유와 유익한 지방이 풍부한 고소한 씨앗입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Smoothies",
+          "ko": "스무디"
+        },
+        {
+          "en": "Baking",
+          "ko": "베이킹"
+        },
+        {
+          "en": "Cereal",
+          "ko": "시리얼"
+        }
+      ]
+    },
+    {
+      "id": "rice-white",
+      "name": {
+        "en": "White Rice",
+        "ko": "백미"
+      },
+      "category": {
+        "en": "Grains & Seeds",
+        "ko": "곡물 및 씨앗류"
+      },
+      "icon": "🍚",
+      "properties": {
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 0,
+        "umami_intensity": 15,
+        "sweetness_index": 20,
+        "viscosity": 100
+      },
+      "description": {
+        "en": "Polished short-grain or long-grain rice, a staple food.",
+        "ko": "껍질을 도정하여 부드럽고 전분기가 있는 주식 곡물입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Rice Dishes",
+          "ko": "밥"
+        },
+        {
+          "en": "Sushi",
+          "ko": "초밥"
+        },
+        {
+          "en": "Risotto",
+          "ko": "리조또"
+        }
+      ]
+    },
+    {
+      "id": "rice-brown",
+      "name": {
+        "en": "Brown Rice",
+        "ko": "현미"
+      },
+      "category": {
+        "en": "Grains & Seeds",
+        "ko": "곡물 및 씨앗류"
+      },
+      "icon": "🌾",
+      "properties": {
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 0,
+        "umami_intensity": 25,
+        "sweetness_index": 15,
+        "viscosity": 100
+      },
+      "description": {
+        "en": "Whole grain rice with the bran layer intact.",
+        "ko": "쌀의 겨층이 살아있어 영양가가 높고 구수한 통곡물입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Healthy Rice",
+          "ko": "현미밥"
+        },
+        {
+          "en": "Salad",
+          "ko": "샐러드"
+        },
+        {
+          "en": "Bowls",
+          "ko": "볼"
         }
       ]
     }

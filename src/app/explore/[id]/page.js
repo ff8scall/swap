@@ -9,8 +9,8 @@ export async function generateMetadata({ params }) {
 
   if (!ingredient) return {};
 
-  const title = `How to Substitute ${ingredient.name.en} | Global Ingredient Swap`;
-  const description = ingredient.description.en;
+  const title = `How to Substitute ${ingredient.name?.en || id} | Global Ingredient Swap`;
+  const description = ingredient.description?.en || "";
   const ogImage = `/api/og?id=${id}`;
 
   return {
@@ -53,6 +53,9 @@ export default async function IngredientDetailPage({ params }) {
   }
 
   const bestSubstitute = ingredient.substitutes?.[0];
+  const substituteFullInfo = bestSubstitute 
+    ? ingredientsData.ingredients.find(ing => ing.id === bestSubstitute.id)
+    : null;
 
   // Defensive SEO JSON-LD generation
   const safeEn = (obj, fallback = "") => obj?.en || fallback;
@@ -80,10 +83,10 @@ export default async function IngredientDetailPage({ params }) {
     "@type": "FAQPage",
     "mainEntity": ingredient.faq.map(item => ({
       "@type": "Question",
-      "name": item.question.en,
+      "name": item.question?.en || "",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": item.answer.en
+        "text": item.answer?.en || ""
       }
     }))
   } : null;
@@ -100,7 +103,11 @@ export default async function IngredientDetailPage({ params }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
         />
       )}
-      <IngredientDetailView ingredient={ingredient} bestSubstitute={bestSubstitute} />
+      <IngredientDetailView 
+        ingredient={ingredient} 
+        bestSubstitute={bestSubstitute} 
+        substituteFullInfo={substituteFullInfo}
+      />
     </>
   );
 }

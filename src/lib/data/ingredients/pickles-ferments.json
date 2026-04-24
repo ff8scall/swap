@@ -2,115 +2,311 @@
   "meta": {
     "category_en": "Pickles & Ferments",
     "category_ko": "절임 및 발효 식품",
-    "count": 5,
-    "generated_at": "2026-04-24T05:26:15.978Z"
+    "count": 12,
+    "generated_at": "2026-04-24T07:01:11Z"
   },
   "ingredients": [
     {
+      "id": "kimchi-cabbage",
+      "name": {
+        "en": "Napa Cabbage Kimchi",
+        "ko": "배추김치"
+      },
+      "category": {
+        "en": "Pickles & Ferments",
+        "ko": "절임 및 발효 식품"
+      },
+      "icon": "🥬",
+      "properties": {
+        "spiciness": 65,
+        "salinity": 60,
+        "acidity": 55,
+        "umami_intensity": 85,
+        "sweetness_index": 20,
+        "viscosity": 30
+      },
+      "description": {
+        "en": "Traditional Korean fermented cabbage with chili, garlic, and ginger.",
+        "ko": "고춧가루, 마늘, 생강 등으로 발효시킨 한국의 전통 배추김치입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Stew",
+          "ko": "찌개"
+        },
+        {
+          "en": "Fried Rice",
+          "ko": "볶음밥"
+        },
+        {
+          "en": "Side Dish",
+          "ko": "반찬"
+        }
+      ]
+    },
+    {
+      "id": "kimchi-radish",
+      "name": {
+        "en": "Radish Kimchi (Kkakdugi)",
+        "ko": "깍두기"
+      },
+      "category": {
+        "en": "Pickles & Ferments",
+        "ko": "절임 및 발효 식품"
+      },
+      "icon": "🍱",
+      "properties": {
+        "spiciness": 60,
+        "salinity": 55,
+        "acidity": 50,
+        "umami_intensity": 75,
+        "sweetness_index": 25,
+        "viscosity": 25
+      },
+      "description": {
+        "en": "Cubed radish kimchi with a crunchy texture and sweet-spicy profile.",
+        "ko": "무를 깍둑썰기하여 담근 아삭하고 매콤달콤한 김치입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Side Dish",
+          "ko": "반찬"
+        },
+        {
+          "en": "Stew",
+          "ko": "찌개"
+        },
+        {
+          "en": "Noodle Topping",
+          "ko": "국수 고명"
+        }
+      ]
+    },
+    {
+      "id": "sauerkraut",
+      "name": {
+        "en": "Sauerkraut",
+        "ko": "사워크라우트"
+      },
+      "category": {
+        "en": "Pickles & Ferments",
+        "ko": "절임 및 발효 식품"
+      },
+      "icon": "🥗",
+      "properties": {
+        "spiciness": 0,
+        "salinity": 40,
+        "acidity": 80,
+        "umami_intensity": 35,
+        "sweetness_index": 5,
+        "viscosity": 20
+      },
+      "description": {
+        "en": "Finely cut raw cabbage fermented by various lactic acid bacteria.",
+        "ko": "잘게 썬 양배추를 유산균으로 발효시킨 독일의 전통 절임 식품입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Sausages",
+          "ko": "소시지"
+        },
+        {
+          "en": "Sandwiches",
+          "ko": "샌드위치"
+        },
+        {
+          "en": "Sides",
+          "ko": "사이드"
+        }
+      ]
+    },
+    {
+      "id": "pickles-dill",
+      "name": {
+        "en": "Dill Pickles",
+        "ko": "오이 피클 (딜)"
+      },
+      "category": {
+        "en": "Pickles & Ferments",
+        "ko": "절임 및 발효 식품"
+      },
+      "icon": "🥒",
+      "properties": {
+        "spiciness": 5,
+        "salinity": 55,
+        "acidity": 75,
+        "umami_intensity": 20,
+        "sweetness_index": 5,
+        "viscosity": 15
+      },
+      "description": {
+        "en": "Cucumbers pickled in brine or vinegar with dill and garlic.",
+        "ko": "허브 딜과 마늘을 넣어 식초나 소금물에 절인 오이 피클입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Burgers",
+          "ko": "버거"
+        },
+        {
+          "en": "Sandwiches",
+          "ko": "샌드위치"
+        },
+        {
+          "en": "Snacks",
+          "ko": "스낵"
+        }
+      ]
+    },
+    {
+      "id": "pickled-ginger",
+      "name": {
+        "en": "Pickled Ginger (Gari)",
+        "ko": "초생강"
+      },
+      "category": {
+        "en": "Pickles & Ferments",
+        "ko": "절임 및 발효 식품"
+      },
+      "icon": "🍣",
+      "properties": {
+        "spiciness": 30,
+        "salinity": 20,
+        "acidity": 65,
+        "umami_intensity": 15,
+        "sweetness_index": 45,
+        "viscosity": 10
+      },
+      "description": {
+        "en": "Thinly sliced ginger pickled in sugar and vinegar, often served with sushi.",
+        "ko": "얇게 썬 생강을 식초와 설탕에 절인 것으로, 초밥과 함께 주로 제공됩니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Sushi",
+          "ko": "초밥"
+        },
+        {
+          "en": "Donburi",
+          "ko": "일식 덮밥"
+        },
+        {
+          "en": "Palate Cleanser",
+          "ko": "입가심"
+        }
+      ]
+    },
+    {
+      "id": "miso-white",
+      "name": {
+        "en": "White Miso (Shiro Miso)",
+        "ko": "백미소"
+      },
+      "category": {
+        "en": "Pickles & Ferments",
+        "ko": "절임 및 발효 식품"
+      },
+      "icon": "🍲",
+      "properties": {
+        "spiciness": 0,
+        "salinity": 50,
+        "acidity": 15,
+        "umami_intensity": 85,
+        "sweetness_index": 35,
+        "viscosity": 80
+      },
+      "description": {
+        "en": "Mild, slightly sweet fermented soybean paste with a short aging period.",
+        "ko": "숙성 기간이 짧아 맛이 순하고 단맛이 감도는 일본식 된장입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Soups",
+          "ko": "미소된장국"
+        },
+        {
+          "en": "Dressing",
+          "ko": "드레싱"
+        },
+        {
+          "en": "Marinade",
+          "ko": "마리네이드"
+        }
+      ]
+    },
+    {
+      "id": "miso-red",
+      "name": {
+        "en": "Red Miso (Aka Miso)",
+        "ko": "적미소"
+      },
+      "category": {
+        "en": "Pickles & Ferments",
+        "ko": "절임 및 발효 식품"
+      },
+      "icon": "🥘",
+      "properties": {
+        "spiciness": 0,
+        "salinity": 65,
+        "acidity": 20,
+        "umami_intensity": 95,
+        "sweetness_index": 15,
+        "viscosity": 85
+      },
+      "description": {
+        "en": "Robust, salty fermented soybean paste with a long aging period.",
+        "ko": "장기간 숙성하여 맛이 진하고 짭조름한 일본식 된장입니다."
+      },
+      "best_use_cases": [
+        {
+          "en": "Soups",
+          "ko": "진한 수프"
+        },
+        {
+          "en": "Ramen",
+          "ko": "라멘"
+        },
+        {
+          "en": "Braised Meat",
+          "ko": "고기 조림"
+        }
+      ]
+    },
+    {
       "id": "fenugreek-leaves",
       "name": {
-        "en": "Fenugreek Leaves (Kasuri Methi)",
+        "en": "Fenugreek Leaves",
         "ko": "페누그릭 잎"
       },
       "category": {
         "en": "Pickles & Ferments",
         "ko": "절임 및 발효 식품"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#E0E0E0",
-        "texture": "Standard"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegetarian"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🌿",
       "properties": {
-        "ph_level": 6.5,
-        "moisture_content": 85,
-        "sweetness_index": 0,
-        "viscosity": "low",
-        "umami_intensity": 4
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 5,
+        "umami_intensity": 40,
+        "sweetness_index": 5,
+        "viscosity": 5
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "flavor-enhancer",
-        "aromatic"
-      ],
-      "texture_profile": {
-        "state": "solid",
-        "elasticity": "none",
-        "mouthfeel": "leafy-soft"
-      },
-      "regional_alias": {},
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "indian",
-        "middle-eastern"
-      ],
-      "preparation_forms": [
-        "fresh",
-        "dried"
-      ],
-      "scientific_name": "Trigonella foenum-graecum",
-      "schema_org_type": "Product",
       "description": {
-        "en": "Dried or fresh leaves with a distinct nutty, slightly bitter, and maple-like aroma.",
-        "ko": "고소하고 약간 쌉싸름하며 메이플 시럽 같은 향이 나는 건조 또는 신선한 잎입니다."
+        "en": "Bitter, nutty leaves with a maple-like aroma.",
+        "ko": "쌉싸름하고 고소하며 메이플 향이 나는 잎입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "celery-leaves-maple",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "tbsp"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {},
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Celery leaves provide the bitter herbal note; maple syrup adds the specific sotolon aroma found in fenugreek.",
-            "ko": "셀러리 잎이 쌉쌀한 허브 노트를 주고, 메이플 시럽이 페누그릭의 핵심 향인 소톨론(sotolon) 향을 더해줍니다."
-          },
-          "compensation_action": {
-            "en": "Use chopped celery leaves and add a tiny drop of maple syrup. Don't overdo the syrup.",
-            "ko": "다진 셀러리 잎을 쓰고 메이플 시럽은 아주 소량만 넣으세요. 시럽을 너무 많이 넣지 않도록 주의하세요."
-          },
-          "verification": {
-            "verified_by": "System",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Curries",
+          "ko": "커리"
+        },
+        {
+          "en": "Naan",
+          "ko": "인도 빵"
+        },
+        {
+          "en": "Veg",
+          "ko": "채소 요리"
         }
       ]
     },
@@ -118,107 +314,37 @@
       "id": "preserved-lemon",
       "name": {
         "en": "Preserved Lemon",
-        "ko": "염장 레몬 (프리저브드 레몬)"
+        "ko": "염장 레몬"
       },
       "category": {
         "en": "Pickles & Ferments",
         "ko": "절임 및 발효 식품"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#E0E0E0",
-        "texture": "Standard"
-      },
-      "difficulty": "medium",
-      "dietary_tags": [
-        "vegetarian"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🍋",
       "properties": {
-        "ph_level": 2.5,
-        "moisture_content": 70,
-        "sweetness_index": 10,
-        "viscosity": "medium",
-        "umami_intensity": 3
+        "spiciness": 0,
+        "salinity": 85,
+        "acidity": 90,
+        "umami_intensity": 30,
+        "sweetness_index": 5,
+        "viscosity": 40
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": true,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "flavor-enhancer",
-        "acidifier",
-        "seasoning"
-      ],
-      "texture_profile": {
-        "state": "solid",
-        "elasticity": "none",
-        "mouthfeel": "soft-chewy"
-      },
-      "regional_alias": {},
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "moroccan",
-        "middle-eastern"
-      ],
-      "preparation_forms": [
-        "pickled"
-      ],
-      "scientific_name": "Citrus limon (pickled)",
-      "schema_org_type": "Product",
       "description": {
-        "en": "Lemons that have been pickled in salt and their own juice, essential in North African cuisine.",
-        "ko": "레몬을 소금과 레몬즙에 절여 만든 것으로, 북아프리카 요리의 핵심 재료입니다."
+        "en": "Lemons pickled in salt and juice, essential for Moroccan cuisine.",
+        "ko": "소금에 절여 강렬한 산미와 짠맛을 내는 모로코 요리의 필수 재료입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "lemon-zest-salt-hack",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "tsp"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {},
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Lacks the fermented funk but provides the sharp salty-acidic punch.",
-            "ko": "발효된 풍미는 부족하지만 날카로운 단짠-산미의 펀치는 제공합니다."
-          },
-          "compensation_action": {
-            "en": "Mince lemon rind and let it sit with salt for 1 hour. Use the rind only, not the flesh.",
-            "ko": "레몬 껍질을 다져 소금에 1시간 동안 절여두세요. 과육은 버리고 껍질만 사용하세요."
-          },
-          "verification": {
-            "verified_by": "System",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Tagine",
+          "ko": "모로코 타진"
+        },
+        {
+          "en": "Salad",
+          "ko": "샐러드"
+        },
+        {
+          "en": "Fish",
+          "ko": "생선 요리"
         }
       ]
     },
@@ -226,107 +352,37 @@
       "id": "koji",
       "name": {
         "en": "Koji",
-        "ko": "코지 (누룩)"
+        "ko": "누룩 (코지)"
       },
       "category": {
         "en": "Pickles & Ferments",
         "ko": "절임 및 발효 식품"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#FFFFFF",
-        "texture": "Moldy Rice"
-      },
-      "difficulty": "hard",
-      "dietary_tags": [
-        "vegan",
-        "probiotic"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [],
-      "measurement_type": "weight",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🌾",
       "properties": {
-        "ph_level": 6,
-        "moisture_content": 15,
-        "sweetness_index": 20,
-        "viscosity": "solid",
-        "umami_intensity": 5
+        "spiciness": 0,
+        "salinity": 0,
+        "acidity": 10,
+        "umami_intensity": 50,
+        "sweetness_index": 30,
+        "viscosity": 20
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": true,
-        "maillard_reaction": true
-      },
-      "functional_properties": [
-        "fermentation-agent",
-        "tenderizer",
-        "flavor-enhancer"
-      ],
-      "texture_profile": {
-        "state": "solid",
-        "elasticity": "none",
-        "mouthfeel": "grainy-soft"
-      },
-      "regional_alias": {},
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "japanese"
-      ],
-      "preparation_forms": [
-        "grain"
-      ],
-      "scientific_name": "Aspergillus oryzae on rice",
-      "schema_org_type": "Product",
       "description": {
-        "en": "Rice or barley inoculated with a fermentation culture used as a starter.",
-        "ko": "발효를 위해 쌀이나 보리에 균을 배양한 천연 발효제입니다."
+        "en": "Rice or barley inoculated with fermentation culture.",
+        "ko": "발효를 위해 균을 배양한 쌀이나 보리 누룩입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "miso-water-hack",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "tbsp"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {},
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Provides the finished fermented flavors but lacks the active enzymes to transform other foods.",
-            "ko": "완성된 발효 풍미를 제공하지만, 다른 식재료를 변화시키는 활성 효소는 부족합니다."
-          },
-          "compensation_action": {
-            "en": "Mix 1 tbsp Miso with 1 tbsp water. Use only for flavor, not for tenderizing meat.",
-            "ko": "미소 1큰술과 물 1큰술을 섞으세요. 고기 연화용이 아닌 맛을 내는 용도로만 쓰세요."
-          },
-          "verification": {
-            "verified_by": "System",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Fermentation",
+          "ko": "발효 음식"
+        },
+        {
+          "en": "Marinade",
+          "ko": "마리네이드"
+        },
+        {
+          "en": "Brewing",
+          "ko": "술 제조"
         }
       ]
     },
@@ -334,106 +390,37 @@
       "id": "umeboshi",
       "name": {
         "en": "Umeboshi",
-        "ko": "우메보시 (매실 절임)"
+        "ko": "우메보시"
       },
       "category": {
         "en": "Pickles & Ferments",
         "ko": "절임 및 발효 식품"
       },
-      "icon": "🧂",
-      "visual_identity": {
-        "primary_color": "#D2691E",
-        "texture": "Pickled Plum"
-      },
-      "difficulty": "hard",
-      "dietary_tags": [
-        "vegan"
-      ],
-      "allergens": [
-        "none"
-      ],
-      "swap_warnings": [],
-      "measurement_type": "unit",
-      "best_use_cases": [],
-      "avoid_use_cases": [],
+      "icon": "🌸",
       "properties": {
-        "ph_level": 2,
-        "moisture_content": 65,
+        "spiciness": 0,
+        "salinity": 90,
+        "acidity": 95,
+        "umami_intensity": 40,
         "sweetness_index": 5,
-        "viscosity": "medium",
-        "umami_intensity": 4
+        "viscosity": 50
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": false
-      },
-      "functional_properties": [
-        "acidifier",
-        "flavor-enhancer",
-        "preservative"
-      ],
-      "texture_profile": {
-        "state": "paste",
-        "elasticity": "none",
-        "mouthfeel": "soft-mushy"
-      },
-      "regional_alias": {},
-      "regional_availability": {
-        "common_in": [
-          "Global"
-        ],
-        "rare_in": [
-          "none"
-        ]
-      },
-      "cuisine_origin": [
-        "japanese"
-      ],
-      "preparation_forms": [
-        "pickled"
-      ],
-      "scientific_name": "Prunus mume (pickled)",
-      "schema_org_type": "Product",
       "description": {
-        "en": "Salty and tangy pickled plums from Japan, often eaten with rice.",
-        "ko": "일본의 짜고 신 매실 절임으로, 주로 밥과 함께 먹습니다."
+        "en": "Extremely salty and sour pickled plums from Japan.",
+        "ko": "매우 짜고 신맛이 강렬한 일본식 매실 절임입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "lemon-juice-salt-paste",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1,
-            "unit": "tsp"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {},
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Captures the mouth-puckering sourness but lacks the specific fermented complexity of umeboshi.",
-            "ko": "입안이 얼얼할 정도의 신맛은 잡을 수 있지만 우메보시 특유의 발효된 복합미는 부족합니다."
-          },
-          "compensation_action": {
-            "en": "Mix lemon juice and plenty of salt. No perfect substitute for the unique fermented profile.",
-            "ko": "레몬즙에 소금을 넉넉히 섞으세요. 이 독특한 발효 풍미를 완벽히 대체할 재료는 드뭅니다."
-          },
-          "verification": {
-            "verified_by": "System",
-            "date": "2026-04-24",
-            "confidence_score": 80
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Rice Balls",
+          "ko": "오니기리"
+        },
+        {
+          "en": "Sushi",
+          "ko": "초밥"
+        },
+        {
+          "en": "Dressing",
+          "ko": "드레싱"
         }
       ]
     },
@@ -448,121 +435,30 @@
         "ko": "절임 및 발효 식품"
       },
       "icon": "🦐",
-      "visual_identity": {
-        "primary_color": "#FADBD8",
-        "texture": "Brined Tiny Shrimp"
-      },
-      "difficulty": "hard",
-      "dietary_tags": [
-        "keto",
-        "gluten-free"
-      ],
-      "allergens": [
-        "crustaceans"
-      ],
-      "swap_warnings": [
-        "염도가 매우 높으므로 소금 대용으로 사용 시 주의가 필요합니다.",
-        "갑각류 알레르기 유발 물질입니다."
-      ],
-      "measurement_type": "weight",
-      "best_use_cases": [
-        "kimchi",
-        "stews",
-        "seasoning-pork"
-      ],
-      "avoid_use_cases": [
-        "desserts",
-        "sweet-sauces"
-      ],
       "properties": {
-        "ph_level": 6,
-        "moisture_content": 60,
-        "sweetness_index": 10,
-        "viscosity": "thick",
-        "umami_intensity": 10
+        "spiciness": 0,
+        "salinity": 100,
+        "acidity": 10,
+        "umami_intensity": 100,
+        "sweetness_index": 5,
+        "viscosity": 60
       },
-      "thermal_behavior": {
-        "smoke_point_c": null,
-        "melting_point_c": null,
-        "caramelization": false,
-        "maillard_reaction": true
-      },
-      "functional_properties": [
-        "umami-booster",
-        "flavor-enhancer",
-        "preservative"
-      ],
-      "texture_profile": {
-        "state": "solid",
-        "elasticity": "none",
-        "mouthfeel": "grainy"
-      },
-      "regional_alias": {
-        "us": [
-          "Korean salted shrimp",
-          "Fermented shrimp"
-        ]
-      },
-      "regional_availability": {
-        "common_in": [
-          "Korea",
-          "Vietnam",
-          "Thailand"
-        ],
-        "rare_in": [
-          "Europe",
-          "US"
-        ]
-      },
-      "cuisine_origin": [
-        "korean"
-      ],
-      "preparation_forms": [
-        "paste"
-      ],
-      "scientific_name": "Acetes japonicus (Mainly)",
-      "schema_org_type": "Product",
       "description": {
-        "en": "",
-        "ko": ""
+        "en": "Brined tiny shrimp, key for kimchi fermentation.",
+        "ko": "소금물에 절인 작은 새우로, 김치 발효와 감칠맛의 핵심입니다."
       },
-      "substitutes": [
+      "best_use_cases": [
         {
-          "id": "fish-sauce",
-          "ratio": {
-            "source": 1,
-            "target_min": 1,
-            "target_max": 1.2,
-            "unit": "tbsp"
-          },
-          "substitution_logic": "linear_scaling",
-          "failure_risk": "low",
-          "flavor_delta": {
-            "salt": 1,
-            "umami": -1
-          },
-          "texture_impact": "",
-          "chemical_impact": {
-            "en": "Fish sauce provides salinity and umami but lacks the solid texture and protease enzymes of saeu-jeot.",
-            "ko": "액젓은 염도와 감칠맛은 제공하지만, 새우젓 특유의 식감과 단백질 분해 효소(리파아제 등)가 부족합니다."
-          },
-          "compensation_action": {
-            "en": "Add a pinch of salt to match the salinity and use for liquid seasoning only.",
-            "ko": "염도를 맞추기 위해 소금을 약간 추가하고, 주로 액체 조미료 용도로만 사용하세요."
-          },
-          "verification": {
-            "verified_by": "Chef Jinny Park",
-            "date": "2026-04-24",
-            "confidence_score": 92
-          },
-          "name": {
-            "en": "Alternative",
-            "ko": "대안 재료"
-          },
-          "why_it_works": {
-            "en": "Chemical similarity.",
-            "ko": "화학적 유사성."
-          }
+          "en": "Kimchi",
+          "ko": "김치"
+        },
+        {
+          "en": "Stew",
+          "ko": "찌개"
+        },
+        {
+          "en": "Steamed Eggs",
+          "ko": "계란찜"
         }
       ]
     }
