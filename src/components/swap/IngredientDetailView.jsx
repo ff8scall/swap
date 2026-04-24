@@ -40,7 +40,7 @@ export default function IngredientDetailView({ ingredient, bestSubstitute, subst
   const displaySubName = useMemo(() => {
     const name = substituteFullInfo?.name?.[lang] || bestSubstitute?.name?.[lang];
     // 만약 이름이 너무 일반적이면 ID를 활용
-    if (name && name !== 'Alternative' && name !== '대안 재료') return name;
+    if (name && name !== 'Alternative' && name !== '대안 재료' && name !== 'General Alt') return name;
     
     if (bestSubstitute?.id) {
       return bestSubstitute.id.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
