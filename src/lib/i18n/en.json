@@ -62,7 +62,20 @@
     "fish": "fish",
     "shellfish": "shellfish",
     "peanut": "peanut",
-    "sesame": "sesame"
+    "sesame": "sesame",
+    "mollusks": "mollusks",
+    "molluscs": "molluscs",
+    "mustard": "mustard",
+    "sulfites": "sulfites",
+    "crustaceans": "crustaceans",
+    "barley": "barley",
+    "peanuts (often)": "peanuts (often)",
+    "gluten (often used as carrier)": "gluten (often used as carrier)"
+  },
+  "difficulty": {
+    "easy": "Difficulty: Easy",
+    "medium": "Difficulty: Medium",
+    "hard": "Difficulty: Hard"
   },
   "roles": {
     "base": "base",

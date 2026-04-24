@@ -77,7 +77,7 @@ export default function IngredientDetailView({ ingredient, bestSubstitute }) {
               <span className="category-tag">{ingredient.category[lang]}</span>
               {ingredient.difficulty && (
                 <span className={`difficulty-tag difficulty-${ingredient.difficulty}`}>
-                  {lang === 'ko' ? `난이도: ${ingredient.difficulty === 'easy' ? '쉬움' : ingredient.difficulty === 'medium' ? '보통' : '어려움'}` : `Difficulty: ${ingredient.difficulty}`}
+                  {t(`difficulty.${ingredient.difficulty}`)}
                 </span>
               )}
             </div>
@@ -448,14 +448,16 @@ export default function IngredientDetailView({ ingredient, bestSubstitute }) {
           margin-bottom: 60px;
         }
         .category-tag {
-          display: inline-block;
+          display: flex;
+          align-items: center;
           background: rgba(245, 158, 11, 0.1);
           color: var(--brand-primary);
-          padding: 4px 12px;
+          padding: 6px 12px;
           border-radius: 4px;
-          font-size: 12px;
-          font-weight: 600;
-          margin-bottom: 16px;
+          font-size: 11px;
+          font-weight: 700;
+          height: 24px;
+          text-transform: uppercase;
         }
         .detail-title-area h1 {
           font-size: 48px;
@@ -473,12 +475,15 @@ export default function IngredientDetailView({ ingredient, bestSubstitute }) {
           align-items: center;
         }
         .difficulty-tag {
+          display: flex;
+          align-items: center;
           font-size: 11px;
           font-weight: 700;
           text-transform: uppercase;
-          padding: 4px 10px;
+          padding: 6px 10px;
           border-radius: 4px;
           border: 1px solid var(--glass-border);
+          height: 24px;
         }
         .difficulty-easy { color: #10b981; background: rgba(16, 185, 129, 0.1); }
         .difficulty-medium { color: #f59e0b; background: rgba(245, 158, 11, 0.1); }

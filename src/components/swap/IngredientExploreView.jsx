@@ -101,7 +101,7 @@ export default function IngredientExploreView({ ingredients }) {
                     <span className="category-badge">{ing.category[lang]}</span>
                     {ing.difficulty && (
                       <span className={`diff-badge diff-${ing.difficulty}`}>
-                        {ing.difficulty === 'easy' ? '★☆☆' : ing.difficulty === 'medium' ? '★★☆' : '★★★'}
+                        {t(`difficulty.${ing.difficulty}`)}
                       </span>
                     )}
                     {ing.allergens && ing.allergens.length > 0 && ing.allergens[0] !== 'none' && (
@@ -288,13 +288,16 @@ export default function IngredientExploreView({ ingredients }) {
         }
         
         .category-badge {
-          font-size: 10px;
+          display: flex;
+          align-items: center;
+          font-size: 9px;
           font-weight: 700;
           text-transform: uppercase;
           color: var(--brand-primary);
           background: rgba(245, 158, 11, 0.1);
-          padding: 4px 10px;
-          border-radius: 100px;
+          padding: 0 8px;
+          border-radius: 4px;
+          height: 20px;
           letter-spacing: 0.1em;
         }
         
@@ -305,12 +308,15 @@ export default function IngredientExploreView({ ingredients }) {
         }
         
         .diff-badge {
+          display: flex;
+          align-items: center;
           font-size: 9px;
           font-weight: 800;
           color: var(--text-muted);
           background: rgba(255, 255, 255, 0.05);
-          padding: 2px 8px;
+          padding: 0 8px;
           border-radius: 4px;
+          height: 20px;
           letter-spacing: 0.05em;
         }
         
@@ -319,12 +325,15 @@ export default function IngredientExploreView({ ingredients }) {
         .diff-hard { color: #ef4444; }
 
         .allergen-badge {
+          display: flex;
+          align-items: center;
           font-size: 9px;
           font-weight: 800;
           color: #fff;
           background: #ef4444;
-          padding: 2px 8px;
+          padding: 0 8px;
           border-radius: 4px;
+          height: 20px;
           letter-spacing: 0.05em;
         }
 
